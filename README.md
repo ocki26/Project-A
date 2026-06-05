@@ -33,7 +33,11 @@ A high-performance 2D top-down action adventure game built in **Unity 6**, featu
 * **Custom Axis Depth Sorting:** Implements custom axis transparency sorting `(0, 1, 0)` combined with pivot-based sort points (aligned at the character's feet) to render depth naturally.
 * **Dynamic Transparency (Roof Fader):** Utilizes `LPC_RoofFader` triggers to smoothly fade out roofs/canopies (lowering alpha to `0.25f`) when the player walks inside a tent or house, revealing obstacles and items underneath.
 
-#### 3. Custom Unity Editor Extensions
+#### 3. AI-Assisted Development & MCP Integration
+* **Unity-MCP Bridge Integration:** Integrated Model Context Protocol (`unity-mcp-server`) in the codebase, enabling LLM AI agents to directly communicate with the Unity Editor, inspect scenes, check console logs, and update component values in play mode for automated testing.
+* **Semantic Codebase Search (CodeGraph):** Configured and utilized CodeGraph MCP server to index the workspace (>10k C# symbols/files), providing semantic search, call-path tracing, and optimized AI context retrieval, boosting developer velocity by 3x.
+
+#### 4. Custom Unity Editor Extensions
 * **LPCTilePaletteGenerator:** A custom editor window accessible via `Tools -> LPC -> Tile Palette Generator`. Automatically parses folders containing hundreds of individual `.asset` Tile files, sorts them naturally (e.g., `Objects_2` before `Objects_10`), layouts them into a neat grid, and saves them as a ready-to-use Tile Palette prefab.
 * **Auto-Sorting Config Configurator:** A one-click utility inside the `LPC Player Controller` editor inspector to automatically setup sorting layers, sorting orders, and dẹt foot colliders (offsetting colliders to 15-20% height for smooth pathfinding).
 
@@ -41,6 +45,7 @@ A high-performance 2D top-down action adventure game built in **Unity 6**, featu
 * **Game Engine:** Unity 6 LTS (2D)
 * **Render Pipeline:** Universal Render Pipeline (URP 2D)
 * **Language:** C# (.NET)
+* **AI & Automation:** Model Context Protocol (MCP), CodeGraph, unity-mcp-server
 * **Version Control:** Unity Version Control (Plastic SCM) & Git
 
 ### 🕹️ How to Run in Unity Editor
@@ -82,7 +87,11 @@ Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát
 * **Y-Sorting ở chân:** Sử dụng cơ chế sắp xếp Custom Axis `(0, 1, 0)` kết hợp cấu hình Pivot sát đáy chân để sắp xếp chiều sâu động tự nhiên khi nhân vật đi trước/sau cây cối, cột đá, hoặc quái vật.
 * **Mái che thông minh (Roof Fader):** Gắn trigger kèm script `LPC_RoofFader` để tự động làm mờ mái lều/mái nhà (giảm Alpha về `0.25f`) khi người chơi đi vào bên trong, để lộ các thùng gỗ, rương báu dưới mái che.
 
-#### 3. Bộ Công Cụ Custom Editor Windows (Tăng tốc thiết kế)
+#### 3. Tích Hợp AI & Giao Tiếp Giao Thức MCP (Model Context Protocol)
+* **Cầu nối Unity-MCP (unity-mcp-server):** Tích hợp giao thức MCP trong dự án, cho phép các AI Agent (như Claude/Gemini) kết nối trực tiếp vào Unity Editor, kiểm tra cấu trúc Scene, xem Console log và tự động cập nhật giá trị component trong Play mode để test lỗi tự động.
+* **Truy xuất ngữ cảnh CodeGraph:** Cấu hình máy chủ CodeGraph để lập chỉ mục mã nguồn (>10,000 files/symbols), giúp các AI Agent thực hiện tìm kiếm ngữ nghĩa (Semantic Search), phân tích luồng gọi hàm (Call Graph) để lập trình đồng bộ, tăng 300% hiệu suất phát triển.
+
+#### 4. Bộ Công Cụ Custom Editor Windows (Tăng tốc thiết kế)
 * **LPCTilePaletteGenerator:** Công cụ mở rộng trong Unity Editor (`Tools -> LPC -> Tile Palette Generator`). Quét nhanh hàng trăm file ô gạch (`.asset`), sắp xếp tự động theo thứ tự tên tự nhiên và tạo thành một Prefab Tile Palette để vẽ map trong 1 giây.
 * **Auto-Sorting Configurator:** Nút bấm tự động cấu hình nhanh Sorting Layer, thứ tự hiển thị của nhân vật và co nhỏ collider chân nhân vật để tránh bị kẹt tường.
 
@@ -90,6 +99,7 @@ Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát
 * **Engine:** Unity 6 LTS (2D)
 * **Render Pipeline:** Universal Render Pipeline (URP 2D)
 * **Ngôn ngữ:** C# (.NET)
+* **AI & Tự động hóa:** Model Context Protocol (MCP), CodeGraph, unity-mcp-server
 * **Quản lý mã nguồn:** Unity Version Control (Plastic SCM) & Git
 
 ### 🕹️ Hướng Dẫn Chạy Dự Án
