@@ -1,4 +1,4 @@
-# 🎮 Unity 2D Top-Down Procedural Dungeon Game & Editor Tools
+# 🎮 Unity 6 - 2D Top-Down Procedural Dungeon Game & Editor Tools
 
 🌐 **[English](#english) | [Tiếng Việt](#tiếng-việt)**
 
@@ -7,24 +7,25 @@
 <a name="english"></a>
 ## 🇺🇸 English Version
 
-A high-performance 2D top-down action adventure game built in Unity, featuring procedural dungeon generation, a custom 2D Y-Sorting depth system for modular characters, and custom editor tools designed to accelerate level design workflows.
+A high-performance 2D top-down action adventure game built in **Unity 6**, featuring procedural dungeon generation, a custom 2D Y-Sorting depth system for modular characters, and custom editor tools designed to accelerate level design workflows.
 
 ### 🚀 Gameplay & Editor Showcase
 
 > [!TIP]
-> **HOW TO ADD YOUR GIFS/IMAGES:** 
-> 1. Record short GIFs of your game (using tools like ScreenToGif or OBS).
-> 2. Name them `gameplay.gif`, `dungeon_gen.gif`, and `editor_tool.gif`.
-> 3. Create a folder named `Showcase/` in your project root, put the GIFs inside.
-> 4. Once pushed, the links below will automatically load and display your images on GitHub!
+> **HOW TO ADD YOUR IMAGES & GIF:** 
+> 1. Place your character walking animation GIF in the `Showcase/` folder and name it **`gameplay.gif`** (or `animation.gif`).
+> 2. Place your static render images in the `Showcase/` folder and name them **`dungeon_gen.png`** and **`editor_tool.png`**.
+> 3. Push the `Showcase/` folder to GitHub. The files will automatically render below!
 
-| 🏃 Dynamic Y-Sorting & Modular Character | 🏰 Procedural Dungeon Generation |
-| --- | --- |
-| ![Y-Sorting Showcase](Showcase/gameplay.gif) | ![Dungeon Gen Showcase](Showcase/dungeon_gen.gif) |
-
-| 🎨 LPCTilePaletteGenerator (Custom Editor Tool) |
+| 🏃 Modular Character Equipment walking in Dungeon (GIF) |
 | --- |
-| ![Custom Editor Tool Showcase](Showcase/editor_tool.gif) |
+| ![Modular Character Equipment Showcase](Showcase/gameplay.gif) |
+
+| 🏰 Procedural Dungeon Generation (Render Image) | 🎨 LPCTilePaletteGenerator Tool (Render Image) |
+| --- | --- |
+| ![Dungeon Gen Render](Showcase/dungeon_gen.png) | ![Custom Editor Tool Render](Showcase/editor_tool.png) |
+
+---
 
 ### 🛠️ Technical Implementation Details
 
@@ -43,7 +44,7 @@ A high-performance 2D top-down action adventure game built in Unity, featuring p
 * **Auto-Sorting Config Configurator:** A one-click utility inside the `LPC Player Controller` editor inspector to automatically setup sorting layers, sorting orders, and dẹt foot colliders (offsetting colliders to 15-20% height for smooth pathfinding).
 
 ### ⚙️ Tech Stack & Architecture
-* **Game Engine:** Unity 2022.3 LTS (2D)
+* **Game Engine:** Unity 6 LTS (2D)
 * **Render Pipeline:** Universal Render Pipeline (URP 2D)
 * **Language:** C# (.NET)
 * **Version Control:** Unity Version Control (Plastic SCM) & Git
@@ -61,7 +62,19 @@ A high-performance 2D top-down action adventure game built in Unity, featuring p
 <a name="tiếng-việt"></a>
 ## 🇻🇳 Phiên Bản Tiếng Việt
 
-Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát triển trên Unity, tích hợp các thuật toán sinh ngục tối ngẫu nhiên, hệ thống hiển thị độ sâu hình ảnh (Y-sorting) cho nhân vật modular ghép mảnh, và các công cụ Custom Editor giúp tăng tốc quy trình thiết kế màn chơi.
+Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát triển trên **Unity 6**, tích hợp các thuật toán sinh ngục tối ngẫu nhiên, hệ thống hiển thị độ sâu hình ảnh (Y-sorting) cho nhân vật modular ghép mảnh, và các công cụ Custom Editor giúp tăng tốc quy trình thiết kế màn chơi.
+
+### 🚀 Giao Diện & Hoạt Ảnh Showcase
+
+| 🏃 Ảnh Động (GIF) Nhân Vật Trang Bị Di Chuyển Trong Hầm Ngục |
+| --- |
+| ![Modular Character Equipment Showcase](Showcase/gameplay.gif) |
+
+| 🏰 Sinh Dungeon Tự Động (Ảnh Render Tĩnh) | 🎨 Công Cụ LPCTilePaletteGenerator (Ảnh Render Tĩnh) |
+| --- | --- |
+| ![Dungeon Gen Render](Showcase/dungeon_gen.png) | ![Custom Editor Tool Render](Showcase/editor_tool.png) |
+
+---
 
 ### 🛠️ Các Tính Năng Kỹ Thuật Chi Tiết
 
@@ -80,7 +93,7 @@ Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát
 * **Auto-Sorting Configurator:** Nút bấm tự động cấu hình nhanh Sorting Layer, thứ tự hiển thị của nhân vật và co nhỏ collider chân nhân vật để tránh bị kẹt tường.
 
 ### ⚙️ Công Nghệ Sử Dụng
-* **Engine:** Unity 2022.3 LTS (2D)
+* **Engine:** Unity 6 LTS (2D)
 * **Render Pipeline:** Universal Render Pipeline (URP 2D)
 * **Ngôn ngữ:** C# (.NET)
 * **Quản lý mã nguồn:** Unity Version Control (Plastic SCM) & Git
