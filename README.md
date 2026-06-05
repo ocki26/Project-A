@@ -11,13 +11,13 @@ A high-performance 2D top-down action adventure game built in **Unity 6**, featu
 
 ### 🚀 Gameplay & Editor Showcase
 
-| 🏃 Modular Character Equipment walking in Dungeon (GIF) | 🏰 Dungeon Gameplay & Features (GIF) |
+| 🏃 Character Movement & Equipment Test (GIF) | 🏰 Procedural Dungeon Generation (GIF) |
 | --- | --- |
-| ![Modular Character Equipment Showcase](Showcase/Animation.gif) | ![Dungeon Gameplay Showcase](Showcase/Animation2.gif) |
+| ![Character Movement & Equipment Showcase](Showcase/Animation.gif) | ![Procedural Dungeon Gen Showcase](Showcase/Animation2.gif) |
 
-| 🏰 Procedural Dungeon Generation (Render Image) | 🎨 LPCTilePaletteGenerator Tool (Render Image) |
-| --- | --- |
-| ![Dungeon Gen Render](Showcase/dungeon_gen.png) | ![Custom Editor Tool Render](Showcase/editor_tool.png) |
+| 🎨 LPCTilePaletteGenerator Tool (Render Image) |
+| --- |
+| ![Custom Editor Tool Render](Showcase/editor_tool.png) |
 
 ---
 
@@ -60,13 +60,13 @@ Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát
 
 ### 🚀 Giao Diện & Hoạt Ảnh Showcase
 
-| 🏃 Ảnh Động (GIF) Nhân Vật Trang Bị Di Chuyển Trong Hầm Ngục | 🏰 Ảnh Động (GIF) Lối Chơi Hầm Ngục |
+| 🏃 Di Chuyển & Thử Nghiệm Trang Bị Nhân Vật (GIF) | 🏰 Sinh Hoạt Ảnh Hầm Ngục Tự Động (GIF) |
 | --- | --- |
-| ![Modular Character Equipment Showcase](Showcase/Animation.gif) | ![Dungeon Gameplay Showcase](Showcase/Animation2.gif) |
+| ![Character Movement & Equipment Showcase](Showcase/Animation.gif) | ![Procedural Dungeon Gen Showcase](Showcase/Animation2.gif) |
 
-| 🏰 Sinh Dungeon Tự Động (Ảnh Render Tĩnh) | 🎨 Công Cụ LPCTilePaletteGenerator (Ảnh Render Tĩnh) |
-| --- | --- |
-| ![Dungeon Gen Render](Showcase/dungeon_gen.png) | ![Custom Editor Tool Render](Showcase/editor_tool.png) |
+| 🎨 Giao Diện Công Cụ LPCTilePaletteGenerator (Ảnh Render Tĩnh) |
+| --- |
+| ![Custom Editor Tool Render](Showcase/editor_tool.png) |
 
 ---
 
