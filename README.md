@@ -11,15 +11,9 @@ A high-performance 2D top-down action adventure game built in **Unity 6**, featu
 
 ### 🚀 Gameplay & Editor Showcase
 
-> [!TIP]
-> **HOW TO ADD YOUR IMAGES & GIF:** 
-> 1. Place your character walking animation GIF in the `Showcase/` folder and name it **`gameplay.gif`** (or `animation.gif`).
-> 2. Place your static render images in the `Showcase/` folder and name them **`dungeon_gen.png`** and **`editor_tool.png`**.
-> 3. Push the `Showcase/` folder to GitHub. The files will automatically render below!
-
-| 🏃 Modular Character Equipment walking in Dungeon (GIF) |
-| --- |
-| ![Modular Character Equipment Showcase](Showcase/gameplay.gif) |
+| 🏃 Modular Character Equipment walking in Dungeon (GIF) | 🏰 Dungeon Gameplay & Features (GIF) |
+| --- | --- |
+| ![Modular Character Equipment Showcase](Showcase/Animation.gif) | ![Dungeon Gameplay Showcase](Showcase/Animation2.gif) |
 
 | 🏰 Procedural Dungeon Generation (Render Image) | 🎨 LPCTilePaletteGenerator Tool (Render Image) |
 | --- | --- |
@@ -66,9 +60,9 @@ Dự án game nhập vai phiêu lưu 2D Top-Down hiệu năng cao được phát
 
 ### 🚀 Giao Diện & Hoạt Ảnh Showcase
 
-| 🏃 Ảnh Động (GIF) Nhân Vật Trang Bị Di Chuyển Trong Hầm Ngục |
-| --- |
-| ![Modular Character Equipment Showcase](Showcase/gameplay.gif) |
+| 🏃 Ảnh Động (GIF) Nhân Vật Trang Bị Di Chuyển Trong Hầm Ngục | 🏰 Ảnh Động (GIF) Lối Chơi Hầm Ngục |
+| --- | --- |
+| ![Modular Character Equipment Showcase](Showcase/Animation.gif) | ![Dungeon Gameplay Showcase](Showcase/Animation2.gif) |
 
 | 🏰 Sinh Dungeon Tự Động (Ảnh Render Tĩnh) | 🎨 Công Cụ LPCTilePaletteGenerator (Ảnh Render Tĩnh) |
 | --- | --- |
