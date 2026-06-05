@@ -1,0 +1,13 @@
+Hi bro! 
+
+Hãy bỏ 3 file ảnh động GIF bạn quay vào thư mục này và đặt đúng tên như sau nhé:
+1. gameplay.gif (Quay cảnh nhân vật di chuyển trước/sau cột lều và mái lều)
+2. dungeon_gen.gif (Quay cảnh sinh Dungeon tự động khi bấm Play game)
+3. editor_tool.gif (Quay cảnh sử dụng công cụ LPCTilePaletteGenerator tự động tạo Palette)
+
+Sau khi bỏ file vào đây, bạn chỉ cần mở terminal chạy:
+git add Showcase/
+git commit -m "design: add project showcase gifs"
+git push
+
+Xong! GitHub sẽ tự động hiển thị các ảnh này lên trang README.md.
