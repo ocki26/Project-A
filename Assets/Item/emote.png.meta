@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: d2a7d0fd042fe7e4f8651172b061197d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9169771922218017640
+    second: emote_0
+  - first:
+      213: -3214663757980261814
+    second: emote_1
+  - first:
+      213: -915140180008566091
+    second: emote_2
+  - first:
+      213: 1148795214054778964
+    second: emote_3
+  - first:
+      213: 5343497033303140011
+    second: emote_4
+  - first:
+      213: 1424305593880766395
+    second: emote_5
+  - first:
+      213: 8222977103552866094
+    second: emote_6
+  - first:
+      213: 7976174012191644307
+    second: emote_7
+  - first:
+      213: -804832018594815637
+    second: emote_8
+  - first:
+      213: -3522186338513903206
+    second: emote_9
+  - first:
+      213: 3991727812138563859
+    second: emote_10
+  - first:
+      213: 1352633666102089524
+    second: emote_11
+  - first:
+      213: 9195396390044964288
+    second: Emote_r0_c0
+  - first:
+      213: 1895228804997670103
+    second: Emote_r0_c1
+  - first:
+      213: -2481498439512758307
+    second: Emote_r0_c2
+  - first:
+      213: 3707486732113906327
+    second: Emote_r0_c3
+  - first:
+      213: -8498677447764737614
+    second: Emote_r0_c4
+  - first:
+      213: 3215101202437270331
+    second: Emote_r0_c5
+  - first:
+      213: -51324294478813581
+    second: Emote_r0_c6
+  - first:
+      213: 3792238749600441100
+    second: Emote_r0_c7
+  - first:
+      213: 2589419538811964642
+    second: Emote_r0_c8
+  - first:
+      213: -923962959569434822
+    second: Emote_r0_c9
+  - first:
+      213: -7377527904840625977
+    second: Emote_r0_c10
+  - first:
+      213: -5309477828754559720
+    second: Emote_r0_c11
+  - first:
+      213: 8361526555199576906
+    second: Emote_r0_c12
+  - first:
+      213: -2343335667252469106
+    second: Emote_r1_c0
+  - first:
+      213: 2631681061662976233
+    second: Emote_r1_c1
+  - first:
+      213: 661527814680683320
+    second: Emote_r1_c2
+  - first:
+      213: -4569277642060879369
+    second: Emote_r1_c3
+  - first:
+      213: 5509337536725428477
+    second: Emote_r1_c4
+  - first:
+      213: 4860916249849677288
+    second: Emote_r1_c5
+  - first:
+      213: -2403933224926440407
+    second: Emote_r1_c6
+  - first:
+      213: -3674483532381671835
+    second: Emote_r1_c7
+  - first:
+      213: 3723278037085607530
+    second: Emote_r1_c8
+  - first:
+      213: 1500481939466903124
+    second: Emote_r1_c9
+  - first:
+      213: -8865930245076461908
+    second: Emote_r1_c10
+  - first:
+      213: 5707763292240736788
+    second: Emote_r1_c11
+  - first:
+      213: 7939308534434488186
+    second: Emote_r1_c12
+  - first:
+      213: 248637686015055178
+    second: Emote_r2_c0
+  - first:
+      213: 50513673874283195
+    second: Emote_r2_c1
+  - first:
+      213: 4597560252491495884
+    second: Emote_r2_c2
+  - first:
+      213: -8228189445784921797
+    second: Emote_r2_c3
+  - first:
+      213: -7727232890102942222
+    second: Emote_r2_c4
+  - first:
+      213: 8965947364746280257
+    second: Emote_r2_c5
+  - first:
+      213: 3862917036604623856
+    second: Emote_r2_c6
+  - first:
+      213: 4937451482797682232
+    second: Emote_r2_c7
+  - first:
+      213: -8667808758184993011
+    second: Emote_r2_c8
+  - first:
+      213: -5465749594016817873
+    second: Emote_r2_c9
+  - first:
+      213: 4606270416893105745
+    second: Emote_r2_c10
+  - first:
+      213: -6872756373407388142
+    second: Emote_r2_c11
+  - first:
+      213: 2679486667232993747
+    second: Emote_r2_c12
+  - first:
+      213: -2624117218876110895
+    second: Emote_r3_c0
+  - first:
+      213: 4186922732055343138
+    second: Emote_r3_c1
+  - first:
+      213: 5523292206207162707
+    second: Emote_r3_c2
+  - first:
+      213: 4952657071947383147
+    second: Emote_r3_c3
+  - first:
+      213: 610521610972450033
+    second: Emote_r3_c4
+  - first:
+      213: -1112433559437976920
+    second: Emote_r3_c5
+  - first:
+      213: 858428715162129538
+    second: Emote_r3_c6
+  - first:
+      213: -7823041991552027717
+    second: Emote_r3_c7
+  - first:
+      213: -1162804383910182743
+    second: Emote_r3_c8
+  - first:
+      213: 7829624128013198364
+    second: Emote_r3_c9
+  - first:
+      213: 2542514572424229804
+    second: Emote_r3_c10
+  - first:
+      213: 1566297739910064551
+    second: Emote_r3_c11
+  - first:
+      213: -4947816159580610448
+    second: Emote_r3_c12
+  - first:
+      213: 3027765943347918067
+    second: quan_Emote_r0_c0
+  - first:
+      213: 7820417302050421912
+    second: quan_Emote_r0_c1
+  - first:
+      213: -3144355556481041559
+    second: quan_Emote_r0_c2
+  - first:
+      213: 1589156354139873580
+    second: quan_Emote_r1_c0
+  - first:
+      213: -4077890291629956366
+    second: quan_Emote_r1_c1
+  - first:
+      213: 5743437843122891352
+    second: quan_Emote_r1_c2
+  - first:
+      213: 5169111600528389779
+    second: quan_Emote_r2_c0
+  - first:
+      213: -2570836635139331580
+    second: quan_Emote_r2_c1
+  - first:
+      213: 3629614962784699006
+    second: quan_Emote_r2_c2
+  - first:
+      213: -7583125225800306499
+    second: quan_Emote_r3_c0
+  - first:
+      213: -9185582791013587562
+    second: quan_Emote_r3_c1
+  - first:
+      213: 8908003027852208434
+    second: quan_Emote_r3_c2
+  - first:
+      213: -7068718318594124901
+    second: Legs_Emote_r0_c0
+  - first:
+      213: 3695093005467398290
+    second: Legs_Emote_r0_c1
+  - first:
+      213: -7441882665629519989
+    second: Legs_Emote_r0_c2
+  - first:
+      213: 7876213820287786434
+    second: Legs_Emote_r1_c0
+  - first:
+      213: -7848230808525491790
+    second: Legs_Emote_r1_c1
+  - first:
+      213: -512157075908176131
+    second: Legs_Emote_r1_c2
+  - first:
+      213: -5155265230138210121
+    second: Legs_Emote_r2_c0
+  - first:
+      213: 2334745930098789637
+    second: Legs_Emote_r2_c1
+  - first:
+      213: -7711227028333664791
+    second: Legs_Emote_r2_c2
+  - first:
+      213: -7433186146858271940
+    second: Legs_Emote_r3_c0
+  - first:
+      213: 6056762529431371184
+    second: Legs_Emote_r3_c1
+  - first:
+      213: 6543404026018079843
+    second: Legs_Emote_r3_c2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Emote_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9396e2142ed6ed90800000000000000
+      internalID: -7068718318594124901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2903ae2d28b974330800000000000000
+      internalID: 3695093005467398290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fe307f42f19b890800000000000000
+      internalID: -7441882665629519989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd96455dbeed4d60800000000000000
+      internalID: 7876213820287786434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1bf8e49ab751390800000000000000
+      internalID: -7848230808525491790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df65a4d5ad374e8f0800000000000000
+      internalID: -512157075908176131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b880b24691d478b0800000000000000
+      internalID: -5155265230138210121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dc35cad0fa66020800000000000000
+      internalID: 2334745930098789637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5e7c1afd73cf490800000000000000
+      internalID: -7711227028333664791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b7827059408d890800000000000000
+      internalID: -7433186146858271940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd37af2e61fd0450800000000000000
+      internalID: 6056762529431371184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Emote_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3642ba01b47deca50800000000000000
+      internalID: 6543404026018079843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Emote_r0_c0: 9195396390044964288
+      Emote_r0_c1: 1895228804997670103
+      Emote_r0_c10: -7377527904840625977
+      Emote_r0_c11: -5309477828754559720
+      Emote_r0_c12: 8361526555199576906
+      Emote_r0_c2: -2481498439512758307
+      Emote_r0_c3: 3707486732113906327
+      Emote_r0_c4: -8498677447764737614
+      Emote_r0_c5: 3215101202437270331
+      Emote_r0_c6: -51324294478813581
+      Emote_r0_c7: 3792238749600441100
+      Emote_r0_c8: 2589419538811964642
+      Emote_r0_c9: -923962959569434822
+      Emote_r1_c0: -2343335667252469106
+      Emote_r1_c1: 2631681061662976233
+      Emote_r1_c10: -8865930245076461908
+      Emote_r1_c11: 5707763292240736788
+      Emote_r1_c12: 7939308534434488186
+      Emote_r1_c2: 661527814680683320
+      Emote_r1_c3: -4569277642060879369
+      Emote_r1_c4: 5509337536725428477
+      Emote_r1_c5: 4860916249849677288
+      Emote_r1_c6: -2403933224926440407
+      Emote_r1_c7: -3674483532381671835
+      Emote_r1_c8: 3723278037085607530
+      Emote_r1_c9: 1500481939466903124
+      Emote_r2_c0: 248637686015055178
+      Emote_r2_c1: 50513673874283195
+      Emote_r2_c10: 4606270416893105745
+      Emote_r2_c11: -6872756373407388142
+      Emote_r2_c12: 2679486667232993747
+      Emote_r2_c2: 4597560252491495884
+      Emote_r2_c3: -8228189445784921797
+      Emote_r2_c4: -7727232890102942222
+      Emote_r2_c5: 8965947364746280257
+      Emote_r2_c6: 3862917036604623856
+      Emote_r2_c7: 4937451482797682232
+      Emote_r2_c8: -8667808758184993011
+      Emote_r2_c9: -5465749594016817873
+      Emote_r3_c0: -2624117218876110895
+      Emote_r3_c1: 4186922732055343138
+      Emote_r3_c10: 2542514572424229804
+      Emote_r3_c11: 1566297739910064551
+      Emote_r3_c12: -4947816159580610448
+      Emote_r3_c2: 5523292206207162707
+      Emote_r3_c3: 4952657071947383147
+      Emote_r3_c4: 610521610972450033
+      Emote_r3_c5: -1112433559437976920
+      Emote_r3_c6: 858428715162129538
+      Emote_r3_c7: -7823041991552027717
+      Emote_r3_c8: -1162804383910182743
+      Emote_r3_c9: 7829624128013198364
+      Legs_Emote_r0_c0: -7068718318594124901
+      Legs_Emote_r0_c1: 3695093005467398290
+      Legs_Emote_r0_c2: -7441882665629519989
+      Legs_Emote_r1_c0: 7876213820287786434
+      Legs_Emote_r1_c1: -7848230808525491790
+      Legs_Emote_r1_c2: -512157075908176131
+      Legs_Emote_r2_c0: -5155265230138210121
+      Legs_Emote_r2_c1: 2334745930098789637
+      Legs_Emote_r2_c2: -7711227028333664791
+      Legs_Emote_r3_c0: -7433186146858271940
+      Legs_Emote_r3_c1: 6056762529431371184
+      Legs_Emote_r3_c2: 6543404026018079843
+      emote_0: 9169771922218017640
+      emote_1: -3214663757980261814
+      emote_10: 3991727812138563859
+      emote_11: 1352633666102089524
+      emote_2: -915140180008566091
+      emote_3: 1148795214054778964
+      emote_4: 5343497033303140011
+      emote_5: 1424305593880766395
+      emote_6: 8222977103552866094
+      emote_7: 7976174012191644307
+      emote_8: -804832018594815637
+      emote_9: -3522186338513903206
+      quan_Emote_r0_c0: 3027765943347918067
+      quan_Emote_r0_c1: 7820417302050421912
+      quan_Emote_r0_c2: -3144355556481041559
+      quan_Emote_r1_c0: 1589156354139873580
+      quan_Emote_r1_c1: -4077890291629956366
+      quan_Emote_r1_c2: 5743437843122891352
+      quan_Emote_r2_c0: 5169111600528389779
+      quan_Emote_r2_c1: -2570836635139331580
+      quan_Emote_r2_c2: 3629614962784699006
+      quan_Emote_r3_c0: -7583125225800306499
+      quan_Emote_r3_c1: -9185582791013587562
+      quan_Emote_r3_c2: 8908003027852208434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

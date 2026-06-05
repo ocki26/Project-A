@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: b99f53eca346b0d44a040da0f5969de9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1780346783942680854
+    second: sit_0
+  - first:
+      213: -5835926142609931317
+    second: sit_1
+  - first:
+      213: -6548175957524531438
+    second: sit_2
+  - first:
+      213: 1056712624508818636
+    second: sit_3
+  - first:
+      213: -3289999227947949178
+    second: sit_4
+  - first:
+      213: 3408377101938051098
+    second: sit_5
+  - first:
+      213: 5518955271013388159
+    second: sit_6
+  - first:
+      213: 1618981678213280874
+    second: sit_7
+  - first:
+      213: -3147318851508016046
+    second: sit_8
+  - first:
+      213: -3458129221894129197
+    second: sit_9
+  - first:
+      213: 4800913220708429
+    second: sit_10
+  - first:
+      213: -8536158468205361833
+    second: sit_11
+  - first:
+      213: -2934022735267529637
+    second: Sit_r0_c0
+  - first:
+      213: -8823330697520487113
+    second: Sit_r0_c1
+  - first:
+      213: -3422115450762680954
+    second: Sit_r0_c2
+  - first:
+      213: -3291034324718462078
+    second: Sit_r0_c3
+  - first:
+      213: 438686409633003329
+    second: Sit_r0_c4
+  - first:
+      213: -8919229128463486444
+    second: Sit_r0_c5
+  - first:
+      213: -8354399590306352721
+    second: Sit_r0_c6
+  - first:
+      213: -4143746400468289232
+    second: Sit_r0_c7
+  - first:
+      213: 4107422965781734839
+    second: Sit_r0_c8
+  - first:
+      213: 8718037648902242759
+    second: Sit_r0_c9
+  - first:
+      213: -9063477285497561297
+    second: Sit_r0_c10
+  - first:
+      213: -4131833087129500867
+    second: Sit_r0_c11
+  - first:
+      213: 5341425987348573502
+    second: Sit_r0_c12
+  - first:
+      213: 1749488984404493195
+    second: Sit_r1_c0
+  - first:
+      213: -5907078607927307246
+    second: Sit_r1_c1
+  - first:
+      213: -661511455077348235
+    second: Sit_r1_c2
+  - first:
+      213: -4114764534280952885
+    second: Sit_r1_c3
+  - first:
+      213: 3653278721921726309
+    second: Sit_r1_c4
+  - first:
+      213: -8227118879906657878
+    second: Sit_r1_c5
+  - first:
+      213: 8619002706193534318
+    second: Sit_r1_c6
+  - first:
+      213: -158527850359753650
+    second: Sit_r1_c7
+  - first:
+      213: -351659189151557863
+    second: Sit_r1_c8
+  - first:
+      213: 4969238956031653940
+    second: Sit_r1_c9
+  - first:
+      213: 4774175517553186351
+    second: Sit_r1_c10
+  - first:
+      213: 5706883602396102740
+    second: Sit_r1_c11
+  - first:
+      213: 3468830389026837850
+    second: Sit_r1_c12
+  - first:
+      213: -461362488137409280
+    second: Sit_r2_c0
+  - first:
+      213: -3242711364893448206
+    second: Sit_r2_c1
+  - first:
+      213: 6311012665376476799
+    second: Sit_r2_c2
+  - first:
+      213: 1588683250832136898
+    second: Sit_r2_c3
+  - first:
+      213: -5102584426311787251
+    second: Sit_r2_c4
+  - first:
+      213: 6110353670323118669
+    second: Sit_r2_c5
+  - first:
+      213: -3133987841950641138
+    second: Sit_r2_c6
+  - first:
+      213: 4679752515563692165
+    second: Sit_r2_c7
+  - first:
+      213: -7122158852737676035
+    second: Sit_r2_c8
+  - first:
+      213: -6394680863861582570
+    second: Sit_r2_c9
+  - first:
+      213: -4434346573202899173
+    second: Sit_r2_c10
+  - first:
+      213: -7995185036162631616
+    second: Sit_r2_c11
+  - first:
+      213: 1836024586496443131
+    second: Sit_r2_c12
+  - first:
+      213: 5330899304151673706
+    second: Sit_r3_c0
+  - first:
+      213: 4338451483223138302
+    second: Sit_r3_c1
+  - first:
+      213: 6073027068686130326
+    second: Sit_r3_c2
+  - first:
+      213: 7619544105618026514
+    second: Sit_r3_c3
+  - first:
+      213: -4037922140751192569
+    second: Sit_r3_c4
+  - first:
+      213: 1530011492750003281
+    second: Sit_r3_c5
+  - first:
+      213: 4079850163393652463
+    second: Sit_r3_c6
+  - first:
+      213: -6093777343507891513
+    second: Sit_r3_c7
+  - first:
+      213: -3249766131762998808
+    second: Sit_r3_c8
+  - first:
+      213: -7954205419906270653
+    second: Sit_r3_c9
+  - first:
+      213: -2909812909177926093
+    second: Sit_r3_c10
+  - first:
+      213: 5865649343029561207
+    second: Sit_r3_c11
+  - first:
+      213: -3541665556003936622
+    second: Sit_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sit_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c757d0ed14847d0800000000000000
+      internalID: -2934022735267529637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735ed768a7b3d8580800000000000000
+      internalID: -8823330697520487113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6852ae0f0243280d0800000000000000
+      internalID: -3422115450762680954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8383ed46fe674810800000000000000
+      internalID: 1749488984404493195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2141f2a9d47d50ea0800000000000000
+      internalID: -5907078607927307246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c434126d6d1d6f0800000000000000
+      internalID: -661511455077348235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d11ede249e899f0800000000000000
+      internalID: -461362488137409280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7676ab1339ff2d0800000000000000
+      internalID: -3242711364893448206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e81ccf498359750800000000000000
+      internalID: 6311012665376476799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b665d3ca82bf940800000000000000
+      internalID: 5330899304151673706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff18cc43a6453c30800000000000000
+      internalID: 4338451483223138302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sit_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c5e5451f9b74450800000000000000
+      internalID: 6073027068686130326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1de1c1f776d587049ae89cf7d1fe6a4f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ArmorStell_Sit_r0_c0: -1127430955
+      ArmorStell_Sit_r1_c0: -853291508
+      ArmorStell_Sit_r2_c0: -790910696
+      ArmorStell_Sit_r3_c0: -1037203716
+      IronArrmor_Sit_r0_c0: -1780713825
+      IronArrmor_Sit_r0_c1: 1619821082
+      IronArrmor_Sit_r0_c10: -788336173
+      IronArrmor_Sit_r0_c11: 1703506840
+      IronArrmor_Sit_r0_c12: 899849000
+      IronArrmor_Sit_r0_c2: -1199972961
+      IronArrmor_Sit_r0_c3: -1917507672
+      IronArrmor_Sit_r0_c4: 221835273
+      IronArrmor_Sit_r0_c5: 843828330
+      IronArrmor_Sit_r0_c6: 1258433634
+      IronArrmor_Sit_r0_c7: -1853522517
+      IronArrmor_Sit_r0_c8: -158999688
+      IronArrmor_Sit_r0_c9: 1517354589
+      IronArrmor_Sit_r1_c0: -796275574
+      IronArrmor_Sit_r1_c1: 109338154
+      IronArrmor_Sit_r1_c10: -586462844
+      IronArrmor_Sit_r1_c11: 1678852578
+      IronArrmor_Sit_r1_c12: -102079763
+      IronArrmor_Sit_r1_c2: -39017764
+      IronArrmor_Sit_r1_c3: 1601501705
+      IronArrmor_Sit_r1_c4: -64308473
+      IronArrmor_Sit_r1_c5: -647035304
+      IronArrmor_Sit_r1_c6: -1649327742
+      IronArrmor_Sit_r1_c7: 50760247
+      IronArrmor_Sit_r1_c8: -463623118
+      IronArrmor_Sit_r1_c9: -1536107607
+      IronArrmor_Sit_r2_c0: 1154179433
+      IronArrmor_Sit_r2_c1: 523680311
+      IronArrmor_Sit_r2_c10: -908762158
+      IronArrmor_Sit_r2_c11: -749969984
+      IronArrmor_Sit_r2_c12: 496257884
+      IronArrmor_Sit_r2_c2: -1183137478
+      IronArrmor_Sit_r2_c3: -1715717709
+      IronArrmor_Sit_r2_c4: -1078341231
+      IronArrmor_Sit_r2_c5: -729770333
+      IronArrmor_Sit_r2_c6: -1574996777
+      IronArrmor_Sit_r2_c7: 1953423997
+      IronArrmor_Sit_r2_c8: -1939395570
+      IronArrmor_Sit_r2_c9: 1080038670
+      IronArrmor_Sit_r3_c0: 1991615403
+      IronArrmor_Sit_r3_c1: -1564838229
+      IronArrmor_Sit_r3_c10: 1077431607
+      IronArrmor_Sit_r3_c11: 14841357
+      IronArrmor_Sit_r3_c12: 2017551853
+      IronArrmor_Sit_r3_c2: -2051477838
+      IronArrmor_Sit_r3_c3: 962388958
+      IronArrmor_Sit_r3_c4: -1079113992
+      IronArrmor_Sit_r3_c5: -337182284
+      IronArrmor_Sit_r3_c6: 1626510653
+      IronArrmor_Sit_r3_c7: 1305158526
+      IronArrmor_Sit_r3_c8: -1053465995
+      IronArrmor_Sit_r3_c9: -1493799510
+      MyItem_Sit_r0_c0: -1957529508
+      MyItem_Sit_r1_c0: -1010936217
+      MyItem_Sit_r2_c0: 1153315448
+      MyItem_Sit_r3_c0: -1227253080
+      Sit_r0_c0: -2934022735267529637
+      Sit_r0_c1: -8823330697520487113
+      Sit_r0_c10: -9063477285497561297
+      Sit_r0_c11: -4131833087129500867
+      Sit_r0_c12: 5341425987348573502
+      Sit_r0_c2: -3422115450762680954
+      Sit_r0_c3: -3291034324718462078
+      Sit_r0_c4: 438686409633003329
+      Sit_r0_c5: -8919229128463486444
+      Sit_r0_c6: -8354399590306352721
+      Sit_r0_c7: -4143746400468289232
+      Sit_r0_c8: 4107422965781734839
+      Sit_r0_c9: 8718037648902242759
+      Sit_r1_c0: 1749488984404493195
+      Sit_r1_c1: -5907078607927307246
+      Sit_r1_c10: 4774175517553186351
+      Sit_r1_c11: 5706883602396102740
+      Sit_r1_c12: 3468830389026837850
+      Sit_r1_c2: -661511455077348235
+      Sit_r1_c3: -4114764534280952885
+      Sit_r1_c4: 3653278721921726309
+      Sit_r1_c5: -8227118879906657878
+      Sit_r1_c6: 8619002706193534318
+      Sit_r1_c7: -158527850359753650
+      Sit_r1_c8: -351659189151557863
+      Sit_r1_c9: 4969238956031653940
+      Sit_r2_c0: -461362488137409280
+      Sit_r2_c1: -3242711364893448206
+      Sit_r2_c10: -4434346573202899173
+      Sit_r2_c11: -7995185036162631616
+      Sit_r2_c12: 1836024586496443131
+      Sit_r2_c2: 6311012665376476799
+      Sit_r2_c3: 1588683250832136898
+      Sit_r2_c4: -5102584426311787251
+      Sit_r2_c5: 6110353670323118669
+      Sit_r2_c6: -3133987841950641138
+      Sit_r2_c7: 4679752515563692165
+      Sit_r2_c8: -7122158852737676035
+      Sit_r2_c9: -6394680863861582570
+      Sit_r3_c0: 5330899304151673706
+      Sit_r3_c1: 4338451483223138302
+      Sit_r3_c10: -2909812909177926093
+      Sit_r3_c11: 5865649343029561207
+      Sit_r3_c12: -3541665556003936622
+      Sit_r3_c2: 6073027068686130326
+      Sit_r3_c3: 7619544105618026514
+      Sit_r3_c4: -4037922140751192569
+      Sit_r3_c5: 1530011492750003281
+      Sit_r3_c6: 4079850163393652463
+      Sit_r3_c7: -6093777343507891513
+      Sit_r3_c8: -3249766131762998808
+      Sit_r3_c9: -7954205419906270653
+      SteelArmor_Sit_r0_c0: -1019158589
+      SteelArmor_Sit_r0_c1: 937011737
+      SteelArmor_Sit_r0_c2: -644220537
+      SteelArmor_Sit_r1_c0: -1346636727
+      SteelArmor_Sit_r1_c1: -812040962
+      SteelArmor_Sit_r1_c2: -1604396440
+      SteelArmor_Sit_r2_c0: -1783920846
+      SteelArmor_Sit_r2_c1: 1551683568
+      SteelArmor_Sit_r2_c2: -1551059471
+      SteelArmor_Sit_r3_c0: 2123846147
+      SteelArmor_Sit_r3_c1: 939826729
+      SteelArmor_Sit_r3_c2: -681986324
+      sit_0: -1780346783942680854
+      sit_1: -5835926142609931317
+      sit_10: 4800913220708429
+      sit_11: -8536158468205361833
+      sit_2: -6548175957524531438
+      sit_3: 1056712624508818636
+      sit_4: -3289999227947949178
+      sit_5: 3408377101938051098
+      sit_6: 5518955271013388159
+      sit_7: 1618981678213280874
+      sit_8: -3147318851508016046
+      sit_9: -3458129221894129197
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

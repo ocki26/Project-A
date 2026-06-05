@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: c3fcc40cc6b3e7e49a24f707e6a62fb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1684304223175151964
+    second: climb_0
+  - first:
+      213: -7106077621363497131
+    second: climb_1
+  - first:
+      213: 8991690321404396714
+    second: climb_2
+  - first:
+      213: 3380753689235674462
+    second: climb_3
+  - first:
+      213: -6694415359266328066
+    second: climb_4
+  - first:
+      213: 4270178884741702851
+    second: climb_5
+  - first:
+      213: -8454043881774754886
+    second: Climb_r0_c0
+  - first:
+      213: 8614887859589364129
+    second: Climb_r0_c1
+  - first:
+      213: 5506329343066565698
+    second: Climb_r0_c2
+  - first:
+      213: -5875488735431971849
+    second: Climb_r0_c3
+  - first:
+      213: 6647831967874801335
+    second: Climb_r0_c4
+  - first:
+      213: 1458309750927633100
+    second: Climb_r0_c5
+  - first:
+      213: 6524356216670103134
+    second: Climb_r0_c6
+  - first:
+      213: 5914634656330479583
+    second: Climb_r0_c7
+  - first:
+      213: 2782861897779358877
+    second: Climb_r0_c8
+  - first:
+      213: -1906513942015411587
+    second: Climb_r0_c9
+  - first:
+      213: -7936896578926848418
+    second: Climb_r0_c10
+  - first:
+      213: -3046536635551701425
+    second: Climb_r0_c11
+  - first:
+      213: -330654637920951106
+    second: Climb_r0_c12
+  - first:
+      213: -5394875724842295525
+    second: Climb_r0_c13
+  - first:
+      213: -44574647526029621
+    second: Climb_r0_c14
+  - first:
+      213: 2838781426462696203
+    second: Climb_r0_c15
+  - first:
+      213: 3571982964883923658
+    second: Climb_r0_c16
+  - first:
+      213: 6490420427835408783
+    second: Climb_r0_c17
+  - first:
+      213: 5425744314527838326
+    second: Climb_r0_c18
+  - first:
+      213: 3007155764477275730
+    second: Climb_r0_c19
+  - first:
+      213: -2842473086248844275
+    second: Climb_r1_c0
+  - first:
+      213: -3649961793751138798
+    second: Climb_r1_c1
+  - first:
+      213: -2023426242362877573
+    second: Climb_r1_c2
+  - first:
+      213: -104673330326573648
+    second: Climb_r1_c3
+  - first:
+      213: 389550726807919919
+    second: Climb_r1_c4
+  - first:
+      213: 7250332202439907053
+    second: Climb_r1_c5
+  - first:
+      213: -7006302361380171930
+    second: Climb_r1_c6
+  - first:
+      213: 722890062877920930
+    second: Climb_r1_c7
+  - first:
+      213: -2728573499830791807
+    second: Climb_r1_c8
+  - first:
+      213: 4312872466617463720
+    second: Climb_r1_c9
+  - first:
+      213: -6466481217634094712
+    second: Climb_r1_c10
+  - first:
+      213: -8657452809608441562
+    second: Climb_r1_c11
+  - first:
+      213: -3881778660161867817
+    second: Climb_r1_c12
+  - first:
+      213: 1662806583927534044
+    second: Climb_r1_c13
+  - first:
+      213: 5356541730833705729
+    second: Climb_r1_c14
+  - first:
+      213: 4443277349440746100
+    second: Climb_r1_c15
+  - first:
+      213: -8100377521200081188
+    second: Climb_r1_c16
+  - first:
+      213: -5283777564440077654
+    second: Climb_r1_c17
+  - first:
+      213: 6210837293824328075
+    second: Climb_r1_c18
+  - first:
+      213: -5910187236808820831
+    second: Climb_r1_c19
+  - first:
+      213: -2910897020050681201
+    second: climb_r0_c0
+  - first:
+      213: -3190031887357233819
+    second: climb_r0_c1
+  - first:
+      213: 7915840590228082019
+    second: climb_r0_c2
+  - first:
+      213: 4869153252765901633
+    second: climb_r0_c3
+  - first:
+      213: 4143527990023604186
+    second: climb_r0_c4
+  - first:
+      213: -9132303014553162121
+    second: climb_r0_c5
+  - first:
+      213: -7257702284572169412
+    second: climb_r0_c6
+  - first:
+      213: -5252960622370374582
+    second: climb_r0_c7
+  - first:
+      213: -8411854556323956111
+    second: climb_r0_c8
+  - first:
+      213: 8235065206260212526
+    second: climb_r0_c9
+  - first:
+      213: -6215802380967539839
+    second: climb_r0_c10
+  - first:
+      213: -7875546378743289595
+    second: climb_r0_c11
+  - first:
+      213: -5160537490499605293
+    second: climb_r0_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Climb_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3504781e33daa80800000000000000
+      internalID: -8454043881774754886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a936aa5dda3e8770800000000000000
+      internalID: 8614887859589364129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ceacd1d596a6c40800000000000000
+      internalID: 5506329343066565698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba4c2ff12167ea0800000000000000
+      internalID: -5875488735431971849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed9abf3f7d14c50800000000000000
+      internalID: 6647831967874801335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaa784fdf4fc3410800000000000000
+      internalID: 1458309750927633100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Climb_r0_c0: -8454043881774754886
+      Climb_r0_c1: 8614887859589364129
+      Climb_r0_c10: -7936896578926848418
+      Climb_r0_c11: -3046536635551701425
+      Climb_r0_c12: -330654637920951106
+      Climb_r0_c13: -5394875724842295525
+      Climb_r0_c14: -44574647526029621
+      Climb_r0_c15: 2838781426462696203
+      Climb_r0_c16: 3571982964883923658
+      Climb_r0_c17: 6490420427835408783
+      Climb_r0_c18: 5425744314527838326
+      Climb_r0_c19: 3007155764477275730
+      Climb_r0_c2: 5506329343066565698
+      Climb_r0_c3: -5875488735431971849
+      Climb_r0_c4: 6647831967874801335
+      Climb_r0_c5: 1458309750927633100
+      Climb_r0_c6: 6524356216670103134
+      Climb_r0_c7: 5914634656330479583
+      Climb_r0_c8: 2782861897779358877
+      Climb_r0_c9: -1906513942015411587
+      Climb_r1_c0: -2842473086248844275
+      Climb_r1_c1: -3649961793751138798
+      Climb_r1_c10: -6466481217634094712
+      Climb_r1_c11: -8657452809608441562
+      Climb_r1_c12: -3881778660161867817
+      Climb_r1_c13: 1662806583927534044
+      Climb_r1_c14: 5356541730833705729
+      Climb_r1_c15: 4443277349440746100
+      Climb_r1_c16: -8100377521200081188
+      Climb_r1_c17: -5283777564440077654
+      Climb_r1_c18: 6210837293824328075
+      Climb_r1_c19: -5910187236808820831
+      Climb_r1_c2: -2023426242362877573
+      Climb_r1_c3: -104673330326573648
+      Climb_r1_c4: 389550726807919919
+      Climb_r1_c5: 7250332202439907053
+      Climb_r1_c6: -7006302361380171930
+      Climb_r1_c7: 722890062877920930
+      Climb_r1_c8: -2728573499830791807
+      Climb_r1_c9: 4312872466617463720
+      climb_0: 1684304223175151964
+      climb_1: -7106077621363497131
+      climb_2: 8991690321404396714
+      climb_3: 3380753689235674462
+      climb_4: -6694415359266328066
+      climb_5: 4270178884741702851
+      climb_r0_c0: -2910897020050681201
+      climb_r0_c1: -3190031887357233819
+      climb_r0_c10: -6215802380967539839
+      climb_r0_c11: -7875546378743289595
+      climb_r0_c12: -5160537490499605293
+      climb_r0_c2: 7915840590228082019
+      climb_r0_c3: 4869153252765901633
+      climb_r0_c4: 4143527990023604186
+      climb_r0_c5: -9132303014553162121
+      climb_r0_c6: -7257702284572169412
+      climb_r0_c7: -5252960622370374582
+      climb_r0_c8: -8411854556323956111
+      climb_r0_c9: 8235065206260212526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c005757cb4055fb4da2e1c5e9b675305, type: 3}
+  m_Name: Iron Ore Rule Spawn
+  m_EditorClassIdentifier: DungeonSystem.Runtime::DungeonSystem.Spawning.SpawnRule
+  developerNotes: 
+  prefab: {fileID: 5081364898830268548, guid: d75a71dec748b714ca9ea2d8319c0868, type: 3}
+  prefabVariants:
+  - prefab: {fileID: 5081364898830268548, guid: d75a71dec748b714ca9ea2d8319c0868, type: 3}
+    weight: 0
+  spawnWeight: 1
+  minSpawnCount: 2
+  maxSpawnCount: 5
+  minDistanceBetween: 1
+  spawnChance: 0.702
+  randomRotation: 0
+  scaleRange: {x: 0.8, y: 1.2}
+  heightOffset: 0
+  allowOverlap: 0
+  allowEdgeSpawn: 0
+  allowWallNearSpawn: 0
+  wallSafetyMargin: 1
+  doorSafetyMargin: 2

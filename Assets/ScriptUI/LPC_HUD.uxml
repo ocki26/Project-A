@@ -1,0 +1,118 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/ScriptUI/LPC_HUD_Additions.uss?fileID=7433441132597879392&amp;guid=1d4b20244ae26c64cb28d402d4105164&amp;type=3#LPC_HUD_Additions" />
+    <Style src="project://database/Assets/ScriptUI/LPC_HUD.uss?fileID=7433441132597879392&amp;guid=291d1f6973d52134880aa04ff2c4b783&amp;type=3#LPC_HUD" />
+    
+    <!-- 1. GÓC DƯỚI BÊN TRÁI: Thanh máu, Mana, Stamina & Sinh tồn -->
+    <ui:VisualElement name="HUD_StatsRoot" class="hud-stats-root">
+        <!-- Khay hiển thị Buff/Debuff động -->
+        <ui:VisualElement name="HUD_BuffContainer" class="hud-buff-container" style="margin-top: 0; margin-bottom: 12px;" />
+        
+        <!-- Thanh Máu (HP) -->
+        <ui:VisualElement class="hud-stat-row">
+            <ui:VisualElement class="hud-stat-icon-bg">
+                <ui:Label name="HUD_HPIcon" text="❤️" class="hud-stat-icon" style="color: #FF2B2B;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-stat-bar-bg">
+                <ui:VisualElement name="HUD_ShieldFill" class="hud-stat-bar-fill fill-shield" style="position: absolute; height: 100%; top: 0; left: 0;" />
+                <ui:VisualElement name="HUD_HPFill" class="hud-stat-bar-fill fill-health" />
+                <ui:Label name="HUD_HPText" text="100 / 100" class="hud-stat-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Thanh Năng Lượng (MP) -->
+        <ui:VisualElement class="hud-stat-row">
+            <ui:VisualElement class="hud-stat-icon-bg">
+                <ui:Label name="HUD_MPIcon" text="✨" class="hud-stat-icon" style="color: #4C9ADE;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-stat-bar-bg">
+                <ui:VisualElement name="HUD_MPFill" class="hud-stat-bar-fill fill-mana" />
+                <ui:Label name="HUD_MPText" text="50 / 50" class="hud-stat-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Thanh Thể Lực (Stamina) -->
+        <ui:VisualElement class="hud-stat-row">
+            <ui:VisualElement class="hud-stat-icon-bg">
+                <ui:Label name="HUD_STAIcon" text="⚡" class="hud-stat-icon" style="color: #58C458;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="hud-stat-bar-bg">
+                <ui:VisualElement name="HUD_STALauFill" class="hud-stat-bar-fill fill-stamina-lau" style="position: absolute; height: 100%; top: 0; left: 0;" />
+                <ui:VisualElement name="HUD_STAFill" class="hud-stat-bar-fill fill-stamina" />
+                <ui:Label name="HUD_STAText" text="50 / 50" class="hud-stat-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Nhóm sinh tồn: Đói & Nước đặt cạnh nhau để tiết kiệm diện tích -->
+        <ui:VisualElement class="hud-survival-row">
+            <!-- Thanh Đói (Hunger) -->
+            <ui:VisualElement class="hud-stat-row hud-survival-item">
+                <ui:VisualElement class="hud-stat-icon-bg">
+                    <ui:Label name="HUD_HungerIcon" text="🍖" class="hud-stat-icon" style="color: #E67E22;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="hud-stat-bar-bg hud-survival-bar">
+                    <ui:VisualElement name="HUD_HungerFill" class="hud-stat-bar-fill fill-hunger" />
+                    <ui:Label name="HUD_HungerText" text="100 / 100" class="hud-stat-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <!-- Thanh Nước (Thirst) -->
+            <ui:VisualElement class="hud-stat-row hud-survival-item" style="margin-left: 12px;">
+                <ui:VisualElement class="hud-stat-icon-bg">
+                    <ui:Label name="HUD_ThirstIcon" text="💧" class="hud-stat-icon" style="color: #1ABC9C;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="hud-stat-bar-bg hud-survival-bar">
+                    <ui:VisualElement name="HUD_ThirstFill" class="hud-stat-bar-fill fill-thirst" />
+                    <ui:Label name="HUD_ThirstText" text="100 / 100" class="hud-stat-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+    <!-- 2. GÓC DƯỚI BÊN PHẢI: Tiền & Balo (Giữ nguyên) -->
+    <ui:VisualElement name="HUD_Root" class="hud-root">
+        <ui:VisualElement name="HUD_GoldRow" class="hud-gold-row">
+            <ui:Label name="HUD_GoldIcon" text="G" class="hud-gold-icon" />
+            <ui:Label name="HUD_GoldLabel" text="4,280" class="hud-gold-value" />
+        </ui:VisualElement>
+        <ui:VisualElement class="hud-btn-wrap">
+            <ui:Label text="[I]" class="hud-hotkey-hint" />
+            <ui:Button name="HUD_InventoryBtn" class="hud-inv-btn">
+                <ui:Label text="BAG" class="hud-inv-btn-text" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- 3. CHÍNH GIỮA CẠNH DƯỚI: Thanh kỹ năng (Skill Hotbar) -->
+    <ui:VisualElement name="HUD_SkillHotbar" class="hud-skill-hotbar">
+        <!-- Ô kỹ năng Q -->
+        <ui:VisualElement class="hud-skill-slot">
+            <ui:Label text="Q" class="hud-skill-key" />
+            <ui:Label name="SkillIcon_Q" text="⚔" class="hud-skill-icon" style="color: #E8DCC8;" />
+            <ui:VisualElement name="SkillCooldown_Q" class="hud-skill-cooldown" />
+            <ui:Label name="SkillCDText_Q" text="" class="hud-skill-cd-text" />
+        </ui:VisualElement>
+        <!-- Ô kỹ năng F -->
+        <ui:VisualElement class="hud-skill-slot">
+            <ui:Label text="F" class="hud-skill-key" />
+            <ui:Label name="SkillIcon_F" text="🗡" class="hud-skill-icon" style="color: #E8DCC8;" />
+            <ui:VisualElement name="SkillCooldown_F" class="hud-skill-cooldown" />
+            <ui:Label name="SkillCDText_F" text="" class="hud-skill-cd-text" />
+        </ui:VisualElement>
+        <!-- Ô kỹ năng E -->
+        <ui:VisualElement class="hud-skill-slot">
+            <ui:Label text="E" class="hud-skill-key" />
+            <ui:Label name="SkillIcon_E" text="🔥" class="hud-skill-icon" />
+            <ui:VisualElement name="SkillCooldown_E" class="hud-skill-cooldown" />
+            <ui:Label name="SkillCDText_E" text="" class="hud-skill-cd-text" />
+        </ui:VisualElement>
+        <!-- Ô kỹ năng R -->
+        <ui:VisualElement class="hud-skill-slot">
+            <ui:Label text="R" class="hud-skill-key" />
+            <ui:Label name="SkillIcon_R" text="🛡" class="hud-skill-icon" style="color: #F0CC6B;" />
+            <ui:VisualElement name="SkillCooldown_R" class="hud-skill-cooldown" />
+            <ui:Label name="SkillCDText_R" text="" class="hud-skill-cd-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>

@@ -1,0 +1,1389 @@
+fileFormatVersion: 2
+guid: b1ed77c6006d5c84ea9093d355ea802e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5807125210076102400
+    second: spellcast_0
+  - first:
+      213: -3286529404008807512
+    second: spellcast_1
+  - first:
+      213: -7089004269969660582
+    second: spellcast_2
+  - first:
+      213: -3493187042504057909
+    second: spellcast_3
+  - first:
+      213: 1259685234195277828
+    second: spellcast_4
+  - first:
+      213: 6953092085122916617
+    second: spellcast_5
+  - first:
+      213: -7082872806229666545
+    second: spellcast_6
+  - first:
+      213: -1774754750907557111
+    second: spellcast_7
+  - first:
+      213: -6020276060499972284
+    second: spellcast_8
+  - first:
+      213: 3732506813703068223
+    second: spellcast_9
+  - first:
+      213: 5894144742965938634
+    second: spellcast_10
+  - first:
+      213: -5130845419819639515
+    second: spellcast_11
+  - first:
+      213: -2857955713124209819
+    second: spellcast_12
+  - first:
+      213: 4910005905319963032
+    second: spellcast_13
+  - first:
+      213: 9107608138016119202
+    second: spellcast_14
+  - first:
+      213: -7446464195490487524
+    second: spellcast_15
+  - first:
+      213: -5531025340587695674
+    second: spellcast_16
+  - first:
+      213: 548732641713645888
+    second: spellcast_17
+  - first:
+      213: -7353558545725913605
+    second: spellcast_18
+  - first:
+      213: -3366656298103379094
+    second: spellcast_19
+  - first:
+      213: 4860100076872561787
+    second: spellcast_20
+  - first:
+      213: -9216687709183860496
+    second: spellcast_21
+  - first:
+      213: 5365937541179512453
+    second: spellcast_22
+  - first:
+      213: -7196338051484444824
+    second: spellcast_23
+  - first:
+      213: -1142120023519077481
+    second: spellcast_24
+  - first:
+      213: -6199654407713946016
+    second: spellcast_25
+  - first:
+      213: 4070391422725484234
+    second: spellcast_26
+  - first:
+      213: 4647979899385413402
+    second: spellcast_27
+  - first:
+      213: -5872563027311551000
+    second: Spellcast_0_0
+  - first:
+      213: 7286675882568931053
+    second: Spellcast_0_1
+  - first:
+      213: -1899986984445273254
+    second: Spellcast_0_2
+  - first:
+      213: -3900247157595227455
+    second: Spellcast_0_3
+  - first:
+      213: 3494763405358054048
+    second: Spellcast_0_4
+  - first:
+      213: -6550105297183404627
+    second: Spellcast_0_5
+  - first:
+      213: 6897922393356583663
+    second: Spellcast_0_6
+  - first:
+      213: 7987366997930706148
+    second: Spellcast_1_0
+  - first:
+      213: 8484080651204925534
+    second: Spellcast_1_1
+  - first:
+      213: 6030238997408687987
+    second: Spellcast_1_2
+  - first:
+      213: 620372097251730543
+    second: Spellcast_1_3
+  - first:
+      213: 6039438576423695986
+    second: Spellcast_1_4
+  - first:
+      213: 4224513372691636340
+    second: Spellcast_1_5
+  - first:
+      213: -6565360647047099292
+    second: Spellcast_1_6
+  - first:
+      213: -5925042737949828822
+    second: Spellcast_2_0
+  - first:
+      213: -8629129826837207271
+    second: Spellcast_2_1
+  - first:
+      213: -904260501660100153
+    second: Spellcast_2_2
+  - first:
+      213: -7635948465689325474
+    second: Spellcast_2_3
+  - first:
+      213: -1468057440215009800
+    second: Spellcast_2_4
+  - first:
+      213: -8452830487060998203
+    second: Spellcast_2_5
+  - first:
+      213: 6129643903172860967
+    second: Spellcast_2_6
+  - first:
+      213: 5152026446116874475
+    second: Spellcast_3_0
+  - first:
+      213: -7655452070189574104
+    second: Spellcast_3_1
+  - first:
+      213: -3502034648285536385
+    second: Spellcast_3_2
+  - first:
+      213: 1524333036075834123
+    second: Spellcast_3_3
+  - first:
+      213: -1781035382671224302
+    second: Spellcast_3_4
+  - first:
+      213: -3507651731348174328
+    second: Spellcast_3_5
+  - first:
+      213: 2144292950661257757
+    second: Spellcast_3_6
+  - first:
+      213: -4949736223880554811
+    second: Spellcast_r0_c0
+  - first:
+      213: -1079633280724562457
+    second: Spellcast_r0_c1
+  - first:
+      213: 5575910837324961557
+    second: Spellcast_r0_c2
+  - first:
+      213: -652528049587502106
+    second: Spellcast_r0_c3
+  - first:
+      213: 3854542599508144112
+    second: Spellcast_r0_c4
+  - first:
+      213: 7995558176695878373
+    second: Spellcast_r0_c5
+  - first:
+      213: -9198451373599686293
+    second: Spellcast_r0_c6
+  - first:
+      213: -7351823593975168838
+    second: Spellcast_r0_c7
+  - first:
+      213: 2599049491389555592
+    second: Spellcast_r0_c8
+  - first:
+      213: 3697853929057825388
+    second: Spellcast_r0_c9
+  - first:
+      213: 6993037145670001846
+    second: Spellcast_r0_c10
+  - first:
+      213: -1400861213368106500
+    second: Spellcast_r0_c11
+  - first:
+      213: -7520714536134335106
+    second: Spellcast_r0_c12
+  - first:
+      213: 6698780993684656536
+    second: Spellcast_r1_c0
+  - first:
+      213: 3929559253819329716
+    second: Spellcast_r1_c1
+  - first:
+      213: -6101622008614378511
+    second: Spellcast_r1_c2
+  - first:
+      213: 3949002393559009362
+    second: Spellcast_r1_c3
+  - first:
+      213: -1469478324718081660
+    second: Spellcast_r1_c4
+  - first:
+      213: -1525751947269117216
+    second: Spellcast_r1_c5
+  - first:
+      213: -8550541699577674251
+    second: Spellcast_r1_c6
+  - first:
+      213: 8271297196063404698
+    second: Spellcast_r1_c7
+  - first:
+      213: -7207143239673110776
+    second: Spellcast_r1_c8
+  - first:
+      213: 9032849316621743535
+    second: Spellcast_r1_c9
+  - first:
+      213: -1707516530964938182
+    second: Spellcast_r1_c10
+  - first:
+      213: 9195925549859562354
+    second: Spellcast_r1_c11
+  - first:
+      213: -2398693220890381124
+    second: Spellcast_r1_c12
+  - first:
+      213: -3038282917906752868
+    second: Spellcast_r2_c0
+  - first:
+      213: -5816483590260703387
+    second: Spellcast_r2_c1
+  - first:
+      213: -5472952440334707894
+    second: Spellcast_r2_c2
+  - first:
+      213: 7516033232175956917
+    second: Spellcast_r2_c3
+  - first:
+      213: 6266451710167440445
+    second: Spellcast_r2_c4
+  - first:
+      213: -7072683054706474186
+    second: Spellcast_r2_c5
+  - first:
+      213: -6792981994447349884
+    second: Spellcast_r2_c6
+  - first:
+      213: -6211876071438447880
+    second: Spellcast_r2_c7
+  - first:
+      213: -5580851338264228495
+    second: Spellcast_r2_c8
+  - first:
+      213: -3740822253788981810
+    second: Spellcast_r2_c9
+  - first:
+      213: 5299837563002429343
+    second: Spellcast_r2_c10
+  - first:
+      213: -5586088800025262921
+    second: Spellcast_r2_c11
+  - first:
+      213: 3804609427089327409
+    second: Spellcast_r2_c12
+  - first:
+      213: -6487463482100940903
+    second: Spellcast_r3_c0
+  - first:
+      213: 1935657619763791632
+    second: Spellcast_r3_c1
+  - first:
+      213: 3348530093979011195
+    second: Spellcast_r3_c2
+  - first:
+      213: 2508601068707809074
+    second: Spellcast_r3_c3
+  - first:
+      213: -5881271692586998178
+    second: Spellcast_r3_c4
+  - first:
+      213: -4345518928568901598
+    second: Spellcast_r3_c5
+  - first:
+      213: -1615156085635763852
+    second: Spellcast_r3_c6
+  - first:
+      213: -8372895968768587467
+    second: Spellcast_r3_c7
+  - first:
+      213: 4901777199459207853
+    second: Spellcast_r3_c8
+  - first:
+      213: -443836523243769920
+    second: Spellcast_r3_c9
+  - first:
+      213: 3990081445234761533
+    second: Spellcast_r3_c10
+  - first:
+      213: 1648417786209931858
+    second: Spellcast_r3_c11
+  - first:
+      213: -5765058219255729217
+    second: Spellcast_r3_c12
+  - first:
+      213: -7810502820723316327
+    second: quan_Spellcast_r0_c0
+  - first:
+      213: 5034783610486470006
+    second: quan_Spellcast_r0_c1
+  - first:
+      213: -5454024464212909695
+    second: quan_Spellcast_r0_c2
+  - first:
+      213: -3130689022600862766
+    second: quan_Spellcast_r0_c3
+  - first:
+      213: -2200936663601582131
+    second: quan_Spellcast_r0_c4
+  - first:
+      213: 4343863987892630262
+    second: quan_Spellcast_r0_c5
+  - first:
+      213: 4727003968245592870
+    second: quan_Spellcast_r0_c6
+  - first:
+      213: 6901339219189279844
+    second: quan_Spellcast_r1_c0
+  - first:
+      213: 4763842065097079992
+    second: quan_Spellcast_r1_c1
+  - first:
+      213: 1098202812928281921
+    second: quan_Spellcast_r1_c2
+  - first:
+      213: 649900816869710145
+    second: quan_Spellcast_r1_c3
+  - first:
+      213: 7305406902015635930
+    second: quan_Spellcast_r1_c4
+  - first:
+      213: -5093975734144540559
+    second: quan_Spellcast_r1_c5
+  - first:
+      213: -3776177281314860066
+    second: quan_Spellcast_r1_c6
+  - first:
+      213: -3550422734937361811
+    second: quan_Spellcast_r2_c0
+  - first:
+      213: -6547229752555780370
+    second: quan_Spellcast_r2_c1
+  - first:
+      213: -2895890273591121888
+    second: quan_Spellcast_r2_c2
+  - first:
+      213: 4372043573060621586
+    second: quan_Spellcast_r2_c3
+  - first:
+      213: 7834322633198700739
+    second: quan_Spellcast_r2_c4
+  - first:
+      213: 613023559798734034
+    second: quan_Spellcast_r2_c5
+  - first:
+      213: 4378368767201123646
+    second: quan_Spellcast_r2_c6
+  - first:
+      213: 8707846166329044638
+    second: quan_Spellcast_r3_c0
+  - first:
+      213: -3942639937628723121
+    second: quan_Spellcast_r3_c1
+  - first:
+      213: -2528765466058750897
+    second: quan_Spellcast_r3_c2
+  - first:
+      213: -3380003003089335078
+    second: quan_Spellcast_r3_c3
+  - first:
+      213: 3412278704829187485
+    second: quan_Spellcast_r3_c4
+  - first:
+      213: 7731736223286994132
+    second: quan_Spellcast_r3_c5
+  - first:
+      213: -1842132662216466696
+    second: quan_Spellcast_r3_c6
+  - first:
+      213: -5013278858159334963
+    second: Legs_Spellcast_r0_c0
+  - first:
+      213: -8292662853552730260
+    second: Legs_Spellcast_r0_c1
+  - first:
+      213: 5379692113080278122
+    second: Legs_Spellcast_r0_c2
+  - first:
+      213: 6994285413387509379
+    second: Legs_Spellcast_r0_c3
+  - first:
+      213: 3180286599881495241
+    second: Legs_Spellcast_r0_c4
+  - first:
+      213: -2845996099157141528
+    second: Legs_Spellcast_r0_c5
+  - first:
+      213: 4563558626566913054
+    second: Legs_Spellcast_r0_c6
+  - first:
+      213: 2893217374477882191
+    second: Legs_Spellcast_r1_c0
+  - first:
+      213: 4736003005089975654
+    second: Legs_Spellcast_r1_c1
+  - first:
+      213: 2407329992786307356
+    second: Legs_Spellcast_r1_c2
+  - first:
+      213: 6919447925246702980
+    second: Legs_Spellcast_r1_c3
+  - first:
+      213: 1297048659979434867
+    second: Legs_Spellcast_r1_c4
+  - first:
+      213: -4165549175435605616
+    second: Legs_Spellcast_r1_c5
+  - first:
+      213: 8440399508581033927
+    second: Legs_Spellcast_r1_c6
+  - first:
+      213: 1982220799990345261
+    second: Legs_Spellcast_r2_c0
+  - first:
+      213: 1527113755658299260
+    second: Legs_Spellcast_r2_c1
+  - first:
+      213: -9045207490407918703
+    second: Legs_Spellcast_r2_c2
+  - first:
+      213: 5026285859408610606
+    second: Legs_Spellcast_r2_c3
+  - first:
+      213: -7044169747305688537
+    second: Legs_Spellcast_r2_c4
+  - first:
+      213: -1268550835783222304
+    second: Legs_Spellcast_r2_c5
+  - first:
+      213: 3042580948256947772
+    second: Legs_Spellcast_r2_c6
+  - first:
+      213: 2286333934350606688
+    second: Legs_Spellcast_r3_c0
+  - first:
+      213: 6275827517734337129
+    second: Legs_Spellcast_r3_c1
+  - first:
+      213: 376862302338767695
+    second: Legs_Spellcast_r3_c2
+  - first:
+      213: 4116531682192338519
+    second: Legs_Spellcast_r3_c3
+  - first:
+      213: -81026507879026094
+    second: Legs_Spellcast_r3_c4
+  - first:
+      213: 3436541234386579815
+    second: Legs_Spellcast_r3_c5
+  - first:
+      213: 1236098114424569698
+    second: Legs_Spellcast_r3_c6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9df63a0714d6ab0800000000000000
+      internalID: -5013278858159334963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f89e3321b8aec80800000000000000
+      internalID: -8292662853552730260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cde19597188aa40800000000000000
+      internalID: 5379692113080278122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e98a2b681b01160800000000000000
+      internalID: 6994285413387509379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c21fdd00d5a22c20800000000000000
+      internalID: 3180286599881495241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7579560adf088d0800000000000000
+      internalID: -2845996099157141528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cb0306464055f30800000000000000
+      internalID: 4563558626566913054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f431eb78fd5c62820800000000000000
+      internalID: 2893217374477882191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d029504a9a9b140800000000000000
+      internalID: 4736003005089975654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19eb25bfdd886120800000000000000
+      internalID: 2407329992786307356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b42a2a31d60060800000000000000
+      internalID: 6919447925246702980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b787a52ea000210800000000000000
+      internalID: 1297048659979434867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0994dbf481ff036c0800000000000000
+      internalID: -4165549175435605616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7aa5742a2522570800000000000000
+      internalID: 8440399508581033927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ea0d9b053428b10800000000000000
+      internalID: 1982220799990345261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7720a9aed5613510800000000000000
+      internalID: 1527113755658299260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193988606b7f87280800000000000000
+      internalID: -9045207490407918703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e258e95db54f0c540800000000000000
+      internalID: 5026285859408610606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7229a4abfe41e3e90800000000000000
+      internalID: -7044169747305688537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebbd956cb3356ee0800000000000000
+      internalID: -1268550835783222304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ef93d804b693a20800000000000000
+      internalID: 3042580948256947772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061a3ea8990babf10800000000000000
+      internalID: 2286333934350606688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a3d2a60e7381750800000000000000
+      internalID: 6275827517734337129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b532c6442ea3500800000000000000
+      internalID: 376862302338767695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e27bf21cbd02930800000000000000
+      internalID: 4116531682192338519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252fa7402d220eef0800000000000000
+      internalID: -81026507879026094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761389b8b0c01bf20800000000000000
+      internalID: 3436541234386579815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Spellcast_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f7ec99fa0872110800000000000000
+      internalID: 1236098114424569698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Legs_Spellcast_r0_c0: -5013278858159334963
+      Legs_Spellcast_r0_c1: -8292662853552730260
+      Legs_Spellcast_r0_c2: 5379692113080278122
+      Legs_Spellcast_r0_c3: 6994285413387509379
+      Legs_Spellcast_r0_c4: 3180286599881495241
+      Legs_Spellcast_r0_c5: -2845996099157141528
+      Legs_Spellcast_r0_c6: 4563558626566913054
+      Legs_Spellcast_r1_c0: 2893217374477882191
+      Legs_Spellcast_r1_c1: 4736003005089975654
+      Legs_Spellcast_r1_c2: 2407329992786307356
+      Legs_Spellcast_r1_c3: 6919447925246702980
+      Legs_Spellcast_r1_c4: 1297048659979434867
+      Legs_Spellcast_r1_c5: -4165549175435605616
+      Legs_Spellcast_r1_c6: 8440399508581033927
+      Legs_Spellcast_r2_c0: 1982220799990345261
+      Legs_Spellcast_r2_c1: 1527113755658299260
+      Legs_Spellcast_r2_c2: -9045207490407918703
+      Legs_Spellcast_r2_c3: 5026285859408610606
+      Legs_Spellcast_r2_c4: -7044169747305688537
+      Legs_Spellcast_r2_c5: -1268550835783222304
+      Legs_Spellcast_r2_c6: 3042580948256947772
+      Legs_Spellcast_r3_c0: 2286333934350606688
+      Legs_Spellcast_r3_c1: 6275827517734337129
+      Legs_Spellcast_r3_c2: 376862302338767695
+      Legs_Spellcast_r3_c3: 4116531682192338519
+      Legs_Spellcast_r3_c4: -81026507879026094
+      Legs_Spellcast_r3_c5: 3436541234386579815
+      Legs_Spellcast_r3_c6: 1236098114424569698
+      Spellcast_0_0: -5872563027311551000
+      Spellcast_0_1: 7286675882568931053
+      Spellcast_0_2: -1899986984445273254
+      Spellcast_0_3: -3900247157595227455
+      Spellcast_0_4: 3494763405358054048
+      Spellcast_0_5: -6550105297183404627
+      Spellcast_0_6: 6897922393356583663
+      Spellcast_1_0: 7987366997930706148
+      Spellcast_1_1: 8484080651204925534
+      Spellcast_1_2: 6030238997408687987
+      Spellcast_1_3: 620372097251730543
+      Spellcast_1_4: 6039438576423695986
+      Spellcast_1_5: 4224513372691636340
+      Spellcast_1_6: -6565360647047099292
+      Spellcast_2_0: -5925042737949828822
+      Spellcast_2_1: -8629129826837207271
+      Spellcast_2_2: -904260501660100153
+      Spellcast_2_3: -7635948465689325474
+      Spellcast_2_4: -1468057440215009800
+      Spellcast_2_5: -8452830487060998203
+      Spellcast_2_6: 6129643903172860967
+      Spellcast_3_0: 5152026446116874475
+      Spellcast_3_1: -7655452070189574104
+      Spellcast_3_2: -3502034648285536385
+      Spellcast_3_3: 1524333036075834123
+      Spellcast_3_4: -1781035382671224302
+      Spellcast_3_5: -3507651731348174328
+      Spellcast_3_6: 2144292950661257757
+      Spellcast_r0_c0: -4949736223880554811
+      Spellcast_r0_c1: -1079633280724562457
+      Spellcast_r0_c10: 6993037145670001846
+      Spellcast_r0_c11: -1400861213368106500
+      Spellcast_r0_c12: -7520714536134335106
+      Spellcast_r0_c2: 5575910837324961557
+      Spellcast_r0_c3: -652528049587502106
+      Spellcast_r0_c4: 3854542599508144112
+      Spellcast_r0_c5: 7995558176695878373
+      Spellcast_r0_c6: -9198451373599686293
+      Spellcast_r0_c7: -7351823593975168838
+      Spellcast_r0_c8: 2599049491389555592
+      Spellcast_r0_c9: 3697853929057825388
+      Spellcast_r1_c0: 6698780993684656536
+      Spellcast_r1_c1: 3929559253819329716
+      Spellcast_r1_c10: -1707516530964938182
+      Spellcast_r1_c11: 9195925549859562354
+      Spellcast_r1_c12: -2398693220890381124
+      Spellcast_r1_c2: -6101622008614378511
+      Spellcast_r1_c3: 3949002393559009362
+      Spellcast_r1_c4: -1469478324718081660
+      Spellcast_r1_c5: -1525751947269117216
+      Spellcast_r1_c6: -8550541699577674251
+      Spellcast_r1_c7: 8271297196063404698
+      Spellcast_r1_c8: -7207143239673110776
+      Spellcast_r1_c9: 9032849316621743535
+      Spellcast_r2_c0: -3038282917906752868
+      Spellcast_r2_c1: -5816483590260703387
+      Spellcast_r2_c10: 5299837563002429343
+      Spellcast_r2_c11: -5586088800025262921
+      Spellcast_r2_c12: 3804609427089327409
+      Spellcast_r2_c2: -5472952440334707894
+      Spellcast_r2_c3: 7516033232175956917
+      Spellcast_r2_c4: 6266451710167440445
+      Spellcast_r2_c5: -7072683054706474186
+      Spellcast_r2_c6: -6792981994447349884
+      Spellcast_r2_c7: -6211876071438447880
+      Spellcast_r2_c8: -5580851338264228495
+      Spellcast_r2_c9: -3740822253788981810
+      Spellcast_r3_c0: -6487463482100940903
+      Spellcast_r3_c1: 1935657619763791632
+      Spellcast_r3_c10: 3990081445234761533
+      Spellcast_r3_c11: 1648417786209931858
+      Spellcast_r3_c12: -5765058219255729217
+      Spellcast_r3_c2: 3348530093979011195
+      Spellcast_r3_c3: 2508601068707809074
+      Spellcast_r3_c4: -5881271692586998178
+      Spellcast_r3_c5: -4345518928568901598
+      Spellcast_r3_c6: -1615156085635763852
+      Spellcast_r3_c7: -8372895968768587467
+      Spellcast_r3_c8: 4901777199459207853
+      Spellcast_r3_c9: -443836523243769920
+      quan_Spellcast_r0_c0: -7810502820723316327
+      quan_Spellcast_r0_c1: 5034783610486470006
+      quan_Spellcast_r0_c2: -5454024464212909695
+      quan_Spellcast_r0_c3: -3130689022600862766
+      quan_Spellcast_r0_c4: -2200936663601582131
+      quan_Spellcast_r0_c5: 4343863987892630262
+      quan_Spellcast_r0_c6: 4727003968245592870
+      quan_Spellcast_r1_c0: 6901339219189279844
+      quan_Spellcast_r1_c1: 4763842065097079992
+      quan_Spellcast_r1_c2: 1098202812928281921
+      quan_Spellcast_r1_c3: 649900816869710145
+      quan_Spellcast_r1_c4: 7305406902015635930
+      quan_Spellcast_r1_c5: -5093975734144540559
+      quan_Spellcast_r1_c6: -3776177281314860066
+      quan_Spellcast_r2_c0: -3550422734937361811
+      quan_Spellcast_r2_c1: -6547229752555780370
+      quan_Spellcast_r2_c2: -2895890273591121888
+      quan_Spellcast_r2_c3: 4372043573060621586
+      quan_Spellcast_r2_c4: 7834322633198700739
+      quan_Spellcast_r2_c5: 613023559798734034
+      quan_Spellcast_r2_c6: 4378368767201123646
+      quan_Spellcast_r3_c0: 8707846166329044638
+      quan_Spellcast_r3_c1: -3942639937628723121
+      quan_Spellcast_r3_c2: -2528765466058750897
+      quan_Spellcast_r3_c3: -3380003003089335078
+      quan_Spellcast_r3_c4: 3412278704829187485
+      quan_Spellcast_r3_c5: 7731736223286994132
+      quan_Spellcast_r3_c6: -1842132662216466696
+      spellcast_0: 5807125210076102400
+      spellcast_1: -3286529404008807512
+      spellcast_10: 5894144742965938634
+      spellcast_11: -5130845419819639515
+      spellcast_12: -2857955713124209819
+      spellcast_13: 4910005905319963032
+      spellcast_14: 9107608138016119202
+      spellcast_15: -7446464195490487524
+      spellcast_16: -5531025340587695674
+      spellcast_17: 548732641713645888
+      spellcast_18: -7353558545725913605
+      spellcast_19: -3366656298103379094
+      spellcast_2: -7089004269969660582
+      spellcast_20: 4860100076872561787
+      spellcast_21: -9216687709183860496
+      spellcast_22: 5365937541179512453
+      spellcast_23: -7196338051484444824
+      spellcast_24: -1142120023519077481
+      spellcast_25: -6199654407713946016
+      spellcast_26: 4070391422725484234
+      spellcast_27: 4647979899385413402
+      spellcast_3: -3493187042504057909
+      spellcast_4: 1259685234195277828
+      spellcast_5: 6953092085122916617
+      spellcast_6: -7082872806229666545
+      spellcast_7: -1774754750907557111
+      spellcast_8: -6020276060499972284
+      spellcast_9: 3732506813703068223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

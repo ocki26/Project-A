@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d92a8eabb75346943dea78c0a8fe4, type: 3}
+  m_Name: ChestDUngenon
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.RoomCreateScript.ChestConfig
+  availableChests:
+  - chestPrefab: {fileID: 6931689577933406875, guid: 97699f63aefa2ee4fb9989d92fa60c81, type: 3}
+    rarityWeight: 1

@@ -1,0 +1,1005 @@
+fileFormatVersion: 2
+guid: 45c2cc157625a0347bbc3daf1b5fa397
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4281637774074219296
+    second: jump_0
+  - first:
+      213: -7862396843884538191
+    second: jump_1
+  - first:
+      213: 8276514422256456541
+    second: jump_2
+  - first:
+      213: -3697937850672776721
+    second: jump_3
+  - first:
+      213: 4987614716155920338
+    second: jump_4
+  - first:
+      213: -1184746109927277663
+    second: jump_5
+  - first:
+      213: -4845626741048118468
+    second: jump_6
+  - first:
+      213: 7014594740173477433
+    second: jump_7
+  - first:
+      213: 1578323387413840467
+    second: jump_8
+  - first:
+      213: 7655840988501763603
+    second: jump_9
+  - first:
+      213: -9197958414588387290
+    second: jump_10
+  - first:
+      213: -5086767228222736262
+    second: jump_11
+  - first:
+      213: 6181903233876262169
+    second: jump_12
+  - first:
+      213: 6085027727657474495
+    second: jump_13
+  - first:
+      213: -7558048255918937315
+    second: jump_14
+  - first:
+      213: 1978480726327293745
+    second: jump_15
+  - first:
+      213: -6132592246010354800
+    second: jump_16
+  - first:
+      213: -418148235218303146
+    second: jump_17
+  - first:
+      213: 4014067163673467108
+    second: jump_18
+  - first:
+      213: 1506671210523702264
+    second: jump_19
+  - first:
+      213: -123086553944163037
+    second: Jump_r0_c0
+  - first:
+      213: -1319532570507763032
+    second: Jump_r0_c1
+  - first:
+      213: -6719106860159317049
+    second: Jump_r0_c2
+  - first:
+      213: -4582650917143096266
+    second: Jump_r0_c3
+  - first:
+      213: -8941448852074937618
+    second: Jump_r0_c4
+  - first:
+      213: 6304776921866781021
+    second: Jump_r0_c5
+  - first:
+      213: 1857952663773909600
+    second: Jump_r0_c6
+  - first:
+      213: -5546332818354832345
+    second: Jump_r0_c7
+  - first:
+      213: -3832229826475326609
+    second: Jump_r0_c8
+  - first:
+      213: 6842593849756380457
+    second: Jump_r0_c9
+  - first:
+      213: -1150176277863976708
+    second: Jump_r0_c10
+  - first:
+      213: 8079054644424495966
+    second: Jump_r0_c11
+  - first:
+      213: -101083082381697742
+    second: Jump_r0_c12
+  - first:
+      213: 1884746617962338897
+    second: Jump_r1_c0
+  - first:
+      213: 2721497053218523370
+    second: Jump_r1_c1
+  - first:
+      213: -5037377309795514780
+    second: Jump_r1_c2
+  - first:
+      213: 6906321295362417291
+    second: Jump_r1_c3
+  - first:
+      213: -6557080126295846217
+    second: Jump_r1_c4
+  - first:
+      213: 1316064017731859191
+    second: Jump_r1_c5
+  - first:
+      213: 4882871573422565718
+    second: Jump_r1_c6
+  - first:
+      213: 4304484953805374670
+    second: Jump_r1_c7
+  - first:
+      213: -3816764544198365596
+    second: Jump_r1_c8
+  - first:
+      213: -1756567822164817297
+    second: Jump_r1_c9
+  - first:
+      213: 6802552216611740588
+    second: Jump_r1_c10
+  - first:
+      213: 5544743203423699041
+    second: Jump_r1_c11
+  - first:
+      213: -7457975956281236473
+    second: Jump_r1_c12
+  - first:
+      213: 606578526814987624
+    second: Jump_r2_c0
+  - first:
+      213: -699208280242948177
+    second: Jump_r2_c1
+  - first:
+      213: -1183834134467303816
+    second: Jump_r2_c2
+  - first:
+      213: -3824952857142772782
+    second: Jump_r2_c3
+  - first:
+      213: -2705106692217788342
+    second: Jump_r2_c4
+  - first:
+      213: 4597981063222985251
+    second: Jump_r2_c5
+  - first:
+      213: 4467979888808308360
+    second: Jump_r2_c6
+  - first:
+      213: 7504966338292935147
+    second: Jump_r2_c7
+  - first:
+      213: -5223158128189177609
+    second: Jump_r2_c8
+  - first:
+      213: 94506546933640783
+    second: Jump_r2_c9
+  - first:
+      213: 1004891396649385280
+    second: Jump_r2_c10
+  - first:
+      213: -8675012429805062417
+    second: Jump_r2_c11
+  - first:
+      213: -4055700329266103182
+    second: Jump_r2_c12
+  - first:
+      213: 7082342526914643339
+    second: Jump_r3_c0
+  - first:
+      213: 1307294062255516047
+    second: Jump_r3_c1
+  - first:
+      213: 3779071477347536007
+    second: Jump_r3_c2
+  - first:
+      213: 6007369763145104202
+    second: Jump_r3_c3
+  - first:
+      213: 2819257730297695484
+    second: Jump_r3_c4
+  - first:
+      213: -27559949676043580
+    second: Jump_r3_c5
+  - first:
+      213: -3195574070113476988
+    second: Jump_r3_c6
+  - first:
+      213: 3360970537184131939
+    second: Jump_r3_c7
+  - first:
+      213: 5824005241962483022
+    second: Jump_r3_c8
+  - first:
+      213: 1283516582449301215
+    second: Jump_r3_c9
+  - first:
+      213: -5002191394298282950
+    second: Jump_r3_c10
+  - first:
+      213: 3538539418874150657
+    second: Jump_r3_c11
+  - first:
+      213: -7973784986479274619
+    second: Jump_r3_c12
+  - first:
+      213: 8145287485126874501
+    second: quan_Jump_r0_c0
+  - first:
+      213: 897210105405787171
+    second: quan_Jump_r0_c1
+  - first:
+      213: 6813409747978926331
+    second: quan_Jump_r0_c2
+  - first:
+      213: -1707779843454061731
+    second: quan_Jump_r0_c3
+  - first:
+      213: -2078226084839062545
+    second: quan_Jump_r0_c4
+  - first:
+      213: 3098871800537604766
+    second: quan_Jump_r1_c0
+  - first:
+      213: 1159131717695933994
+    second: quan_Jump_r1_c1
+  - first:
+      213: 5109236989797405599
+    second: quan_Jump_r1_c2
+  - first:
+      213: -3107098945871605234
+    second: quan_Jump_r1_c3
+  - first:
+      213: 7224651463055373944
+    second: quan_Jump_r1_c4
+  - first:
+      213: 7148596837660967410
+    second: quan_Jump_r2_c0
+  - first:
+      213: 5065267839141263766
+    second: quan_Jump_r2_c1
+  - first:
+      213: 6852683413016200728
+    second: quan_Jump_r2_c2
+  - first:
+      213: -2277003456053252471
+    second: quan_Jump_r2_c3
+  - first:
+      213: -6208311386451488799
+    second: quan_Jump_r2_c4
+  - first:
+      213: 8683283114190916619
+    second: quan_Jump_r3_c0
+  - first:
+      213: 4345016920146572696
+    second: quan_Jump_r3_c1
+  - first:
+      213: 2708052249114743355
+    second: quan_Jump_r3_c2
+  - first:
+      213: 6784719995030247266
+    second: quan_Jump_r3_c3
+  - first:
+      213: 6307969383856304126
+    second: quan_Jump_r3_c4
+  - first:
+      213: 2956068052759812908
+    second: Legs_Jump_r0_c0
+  - first:
+      213: 4346546442743993424
+    second: Legs_Jump_r0_c1
+  - first:
+      213: -1065321740301958085
+    second: Legs_Jump_r0_c2
+  - first:
+      213: -7799588427451134608
+    second: Legs_Jump_r0_c3
+  - first:
+      213: -4559238635756069961
+    second: Legs_Jump_r0_c4
+  - first:
+      213: 2859497907347583208
+    second: Legs_Jump_r1_c0
+  - first:
+      213: 6139011431923645305
+    second: Legs_Jump_r1_c1
+  - first:
+      213: 4770391072312713061
+    second: Legs_Jump_r1_c2
+  - first:
+      213: -7837142403337916094
+    second: Legs_Jump_r1_c3
+  - first:
+      213: 1045394047571435124
+    second: Legs_Jump_r1_c4
+  - first:
+      213: -1834800969344184877
+    second: Legs_Jump_r2_c0
+  - first:
+      213: 4693671977998235154
+    second: Legs_Jump_r2_c1
+  - first:
+      213: 4523505321128477292
+    second: Legs_Jump_r2_c2
+  - first:
+      213: -2360544112823123163
+    second: Legs_Jump_r2_c3
+  - first:
+      213: -2401176570533500874
+    second: Legs_Jump_r2_c4
+  - first:
+      213: -2978196558471343945
+    second: Legs_Jump_r3_c0
+  - first:
+      213: -8831136251548115098
+    second: Legs_Jump_r3_c1
+  - first:
+      213: 5835334802309238647
+    second: Legs_Jump_r3_c2
+  - first:
+      213: 5200278609275461735
+    second: Legs_Jump_r3_c3
+  - first:
+      213: -3946563882994928654
+    second: Legs_Jump_r3_c4
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Jump_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b11a86b30160920800000000000000
+      internalID: 2956068052759812908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0545e7fe5f8025c30800000000000000
+      internalID: 4346546442743993424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b340dc185873731f0800000000000000
+      internalID: -1065321740301958085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d078336ab42c390800000000000000
+      internalID: -7799588427451134608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbd58ddd945ab0c0800000000000000
+      internalID: -4559238635756069961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0fc6b423afea720800000000000000
+      internalID: 2859497907347583208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bfed71f56223550800000000000000
+      internalID: 6139011431923645305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fd4e8d765d33240800000000000000
+      internalID: 4770391072312713061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24174e2d180ec3390800000000000000
+      internalID: -7837142403337916094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e9dc7f85cf18e00800000000000000
+      internalID: 1045394047571435124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd82b45d3a7986e0800000000000000
+      internalID: -1834800969344184877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2163accbbc5432140800000000000000
+      internalID: 4693671977998235154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62c37d7f18b6ce30800000000000000
+      internalID: 4523505321128477292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523c986d2a9ad3fd0800000000000000
+      internalID: -2360544112823123163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6382c5e81ae4daed0800000000000000
+      internalID: -2401176570533500874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0560d52025ba6d0800000000000000
+      internalID: -2978196558471343945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f566b5e50817580800000000000000
+      internalID: -8831136251548115098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fcd15f5164bf050800000000000000
+      internalID: 5835334802309238647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7602de6c7d91b2840800000000000000
+      internalID: 5200278609275461735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Jump_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f373b6ee0dfa39c0800000000000000
+      internalID: -3946563882994928654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jump_r0_c0: -123086553944163037
+      Jump_r0_c1: -1319532570507763032
+      Jump_r0_c10: -1150176277863976708
+      Jump_r0_c11: 8079054644424495966
+      Jump_r0_c12: -101083082381697742
+      Jump_r0_c2: -6719106860159317049
+      Jump_r0_c3: -4582650917143096266
+      Jump_r0_c4: -8941448852074937618
+      Jump_r0_c5: 6304776921866781021
+      Jump_r0_c6: 1857952663773909600
+      Jump_r0_c7: -5546332818354832345
+      Jump_r0_c8: -3832229826475326609
+      Jump_r0_c9: 6842593849756380457
+      Jump_r1_c0: 1884746617962338897
+      Jump_r1_c1: 2721497053218523370
+      Jump_r1_c10: 6802552216611740588
+      Jump_r1_c11: 5544743203423699041
+      Jump_r1_c12: -7457975956281236473
+      Jump_r1_c2: -5037377309795514780
+      Jump_r1_c3: 6906321295362417291
+      Jump_r1_c4: -6557080126295846217
+      Jump_r1_c5: 1316064017731859191
+      Jump_r1_c6: 4882871573422565718
+      Jump_r1_c7: 4304484953805374670
+      Jump_r1_c8: -3816764544198365596
+      Jump_r1_c9: -1756567822164817297
+      Jump_r2_c0: 606578526814987624
+      Jump_r2_c1: -699208280242948177
+      Jump_r2_c10: 1004891396649385280
+      Jump_r2_c11: -8675012429805062417
+      Jump_r2_c12: -4055700329266103182
+      Jump_r2_c2: -1183834134467303816
+      Jump_r2_c3: -3824952857142772782
+      Jump_r2_c4: -2705106692217788342
+      Jump_r2_c5: 4597981063222985251
+      Jump_r2_c6: 4467979888808308360
+      Jump_r2_c7: 7504966338292935147
+      Jump_r2_c8: -5223158128189177609
+      Jump_r2_c9: 94506546933640783
+      Jump_r3_c0: 7082342526914643339
+      Jump_r3_c1: 1307294062255516047
+      Jump_r3_c10: -5002191394298282950
+      Jump_r3_c11: 3538539418874150657
+      Jump_r3_c12: -7973784986479274619
+      Jump_r3_c2: 3779071477347536007
+      Jump_r3_c3: 6007369763145104202
+      Jump_r3_c4: 2819257730297695484
+      Jump_r3_c5: -27559949676043580
+      Jump_r3_c6: -3195574070113476988
+      Jump_r3_c7: 3360970537184131939
+      Jump_r3_c8: 5824005241962483022
+      Jump_r3_c9: 1283516582449301215
+      Legs_Jump_r0_c0: 2956068052759812908
+      Legs_Jump_r0_c1: 4346546442743993424
+      Legs_Jump_r0_c2: -1065321740301958085
+      Legs_Jump_r0_c3: -7799588427451134608
+      Legs_Jump_r0_c4: -4559238635756069961
+      Legs_Jump_r1_c0: 2859497907347583208
+      Legs_Jump_r1_c1: 6139011431923645305
+      Legs_Jump_r1_c2: 4770391072312713061
+      Legs_Jump_r1_c3: -7837142403337916094
+      Legs_Jump_r1_c4: 1045394047571435124
+      Legs_Jump_r2_c0: -1834800969344184877
+      Legs_Jump_r2_c1: 4693671977998235154
+      Legs_Jump_r2_c2: 4523505321128477292
+      Legs_Jump_r2_c3: -2360544112823123163
+      Legs_Jump_r2_c4: -2401176570533500874
+      Legs_Jump_r3_c0: -2978196558471343945
+      Legs_Jump_r3_c1: -8831136251548115098
+      Legs_Jump_r3_c2: 5835334802309238647
+      Legs_Jump_r3_c3: 5200278609275461735
+      Legs_Jump_r3_c4: -3946563882994928654
+      jump_0: 4281637774074219296
+      jump_1: -7862396843884538191
+      jump_10: -9197958414588387290
+      jump_11: -5086767228222736262
+      jump_12: 6181903233876262169
+      jump_13: 6085027727657474495
+      jump_14: -7558048255918937315
+      jump_15: 1978480726327293745
+      jump_16: -6132592246010354800
+      jump_17: -418148235218303146
+      jump_18: 4014067163673467108
+      jump_19: 1506671210523702264
+      jump_2: 8276514422256456541
+      jump_3: -3697937850672776721
+      jump_4: 4987614716155920338
+      jump_5: -1184746109927277663
+      jump_6: -4845626741048118468
+      jump_7: 7014594740173477433
+      jump_8: 1578323387413840467
+      jump_9: 7655840988501763603
+      quan_Jump_r0_c0: 8145287485126874501
+      quan_Jump_r0_c1: 897210105405787171
+      quan_Jump_r0_c2: 6813409747978926331
+      quan_Jump_r0_c3: -1707779843454061731
+      quan_Jump_r0_c4: -2078226084839062545
+      quan_Jump_r1_c0: 3098871800537604766
+      quan_Jump_r1_c1: 1159131717695933994
+      quan_Jump_r1_c2: 5109236989797405599
+      quan_Jump_r1_c3: -3107098945871605234
+      quan_Jump_r1_c4: 7224651463055373944
+      quan_Jump_r2_c0: 7148596837660967410
+      quan_Jump_r2_c1: 5065267839141263766
+      quan_Jump_r2_c2: 6852683413016200728
+      quan_Jump_r2_c3: -2277003456053252471
+      quan_Jump_r2_c4: -6208311386451488799
+      quan_Jump_r3_c0: 8683283114190916619
+      quan_Jump_r3_c1: 4345016920146572696
+      quan_Jump_r3_c2: 2708052249114743355
+      quan_Jump_r3_c3: 6784719995030247266
+      quan_Jump_r3_c4: 6307969383856304126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

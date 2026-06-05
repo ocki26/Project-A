@@ -1,0 +1,2317 @@
+fileFormatVersion: 2
+guid: cfd490afb9178d64791d7e4d43ca3374
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3296362929794034626
+    second: shoot_0
+  - first:
+      213: 7554319563551622173
+    second: shoot_1
+  - first:
+      213: 629617002330759104
+    second: shoot_2
+  - first:
+      213: -5054808157803969943
+    second: shoot_3
+  - first:
+      213: -3979974936146175033
+    second: shoot_4
+  - first:
+      213: -6689487139077109850
+    second: shoot_5
+  - first:
+      213: -5908579569834704231
+    second: shoot_6
+  - first:
+      213: 6570672788727949510
+    second: shoot_7
+  - first:
+      213: 116391925304029247
+    second: shoot_8
+  - first:
+      213: -5523511898997690223
+    second: shoot_9
+  - first:
+      213: -7604382215612274497
+    second: shoot_10
+  - first:
+      213: -5956963183003792458
+    second: shoot_11
+  - first:
+      213: -613150242343351474
+    second: shoot_12
+  - first:
+      213: -1608150636897246497
+    second: shoot_13
+  - first:
+      213: -7950066730809791955
+    second: shoot_14
+  - first:
+      213: 8426916682155963778
+    second: shoot_15
+  - first:
+      213: -3355498583709281046
+    second: shoot_16
+  - first:
+      213: -6570990598565607859
+    second: shoot_17
+  - first:
+      213: 4940045639833099080
+    second: shoot_18
+  - first:
+      213: -8125058647381886948
+    second: shoot_19
+  - first:
+      213: 2450195538211468907
+    second: shoot_20
+  - first:
+      213: 8825249114564312867
+    second: shoot_21
+  - first:
+      213: -912025504303237119
+    second: shoot_22
+  - first:
+      213: -1758881787823082533
+    second: shoot_23
+  - first:
+      213: 3403112674027730772
+    second: shoot_24
+  - first:
+      213: -5381259031128239186
+    second: shoot_25
+  - first:
+      213: 7029100385523618543
+    second: shoot_26
+  - first:
+      213: -3524676559187781098
+    second: shoot_27
+  - first:
+      213: 5969747409069951129
+    second: shoot_28
+  - first:
+      213: -5086863260656532416
+    second: shoot_29
+  - first:
+      213: -6532056232459963297
+    second: shoot_30
+  - first:
+      213: 76233431621424231
+    second: shoot_31
+  - first:
+      213: -278660301677108270
+    second: shoot_32
+  - first:
+      213: 1177183112970369384
+    second: shoot_33
+  - first:
+      213: 4026545348101945803
+    second: shoot_34
+  - first:
+      213: -4574730258268525316
+    second: shoot_35
+  - first:
+      213: 1695229189853926580
+    second: shoot_36
+  - first:
+      213: 794193400180426327
+    second: shoot_37
+  - first:
+      213: 1433168532336855542
+    second: shoot_38
+  - first:
+      213: 1701207024249364948
+    second: shoot_39
+  - first:
+      213: -8784806493067437991
+    second: shoot_40
+  - first:
+      213: 4766585007142727217
+    second: shoot_41
+  - first:
+      213: -8124944519308190690
+    second: shoot_42
+  - first:
+      213: 4179179872964657111
+    second: shoot_43
+  - first:
+      213: 2139503882075938004
+    second: shoot_44
+  - first:
+      213: -3479996000575513017
+    second: shoot_45
+  - first:
+      213: -6548583569874286856
+    second: shoot_46
+  - first:
+      213: -770602438110083115
+    second: shoot_47
+  - first:
+      213: -2327155075920537572
+    second: shoot_48
+  - first:
+      213: -5365768446121105271
+    second: shoot_49
+  - first:
+      213: 5579029847478343168
+    second: shoot_50
+  - first:
+      213: 7263238447192175129
+    second: shoot_51
+  - first:
+      213: -2468697115777411647
+    second: Shoot_r0_c0
+  - first:
+      213: 8878398022194859091
+    second: Shoot_r0_c1
+  - first:
+      213: -2243778823403246806
+    second: Shoot_r0_c2
+  - first:
+      213: -1123422031494698043
+    second: Shoot_r0_c3
+  - first:
+      213: -7613041056676868961
+    second: Shoot_r0_c4
+  - first:
+      213: 3095091302032195480
+    second: Shoot_r0_c5
+  - first:
+      213: 2807257807401039874
+    second: Shoot_r0_c6
+  - first:
+      213: -4443893807768006884
+    second: Shoot_r0_c7
+  - first:
+      213: -6137888854300300988
+    second: Shoot_r0_c8
+  - first:
+      213: -5502954912790996610
+    second: Shoot_r0_c9
+  - first:
+      213: -5383277887550957851
+    second: Shoot_r0_c10
+  - first:
+      213: -646875538334814134
+    second: Shoot_r0_c11
+  - first:
+      213: -8090527178660484539
+    second: Shoot_r0_c12
+  - first:
+      213: 9136078201670057526
+    second: Shoot_r1_c0
+  - first:
+      213: 7523149625183871637
+    second: Shoot_r1_c1
+  - first:
+      213: -7834147070822795353
+    second: Shoot_r1_c2
+  - first:
+      213: -8245682623731722589
+    second: Shoot_r1_c3
+  - first:
+      213: -246646478308877364
+    second: Shoot_r1_c4
+  - first:
+      213: -8744052961402215942
+    second: Shoot_r1_c5
+  - first:
+      213: -4651211682678780067
+    second: Shoot_r1_c6
+  - first:
+      213: 8179188718753943052
+    second: Shoot_r1_c7
+  - first:
+      213: -5443384632839470439
+    second: Shoot_r1_c8
+  - first:
+      213: 2195720403705098033
+    second: Shoot_r1_c9
+  - first:
+      213: 5011067367901703035
+    second: Shoot_r1_c10
+  - first:
+      213: 121208626528564157
+    second: Shoot_r1_c11
+  - first:
+      213: 1505744820778054538
+    second: Shoot_r1_c12
+  - first:
+      213: 150434725218616873
+    second: Shoot_r2_c0
+  - first:
+      213: -4435694242572159185
+    second: Shoot_r2_c1
+  - first:
+      213: 5841298993152496113
+    second: Shoot_r2_c2
+  - first:
+      213: 6555770186190133827
+    second: Shoot_r2_c3
+  - first:
+      213: 5127446854250238669
+    second: Shoot_r2_c4
+  - first:
+      213: 80984308709148748
+    second: Shoot_r2_c5
+  - first:
+      213: 8599035528054915880
+    second: Shoot_r2_c6
+  - first:
+      213: 2614904014331785956
+    second: Shoot_r2_c7
+  - first:
+      213: 4641512985828528881
+    second: Shoot_r2_c8
+  - first:
+      213: 281844049640850240
+    second: Shoot_r2_c9
+  - first:
+      213: -3540256372959415836
+    second: Shoot_r2_c10
+  - first:
+      213: 6314320532008892755
+    second: Shoot_r2_c11
+  - first:
+      213: -4159968932615587899
+    second: Shoot_r2_c12
+  - first:
+      213: -8499630672882019297
+    second: Shoot_r3_c0
+  - first:
+      213: -914915949007801785
+    second: Shoot_r3_c1
+  - first:
+      213: 6151120803595555637
+    second: Shoot_r3_c2
+  - first:
+      213: -3383065193594782649
+    second: Shoot_r3_c3
+  - first:
+      213: 1344580195076349569
+    second: Shoot_r3_c4
+  - first:
+      213: 6726492496273324778
+    second: Shoot_r3_c5
+  - first:
+      213: 4947242776006254126
+    second: Shoot_r3_c6
+  - first:
+      213: 3630728433623269022
+    second: Shoot_r3_c7
+  - first:
+      213: -1901069848632974738
+    second: Shoot_r3_c8
+  - first:
+      213: -7135231113443046652
+    second: Shoot_r3_c9
+  - first:
+      213: 4116308742753350626
+    second: Shoot_r3_c10
+  - first:
+      213: -7468106043570595979
+    second: Shoot_r3_c11
+  - first:
+      213: 4229830332013134414
+    second: Shoot_r3_c12
+  - first:
+      213: 8944592645923690800
+    second: Shoot_r0_c13
+  - first:
+      213: -6053673773146057790
+    second: Shoot_r0_c14
+  - first:
+      213: 3450614707854116699
+    second: Shoot_r0_c15
+  - first:
+      213: 8621257403527351172
+    second: Shoot_r0_c16
+  - first:
+      213: 2285955866026666709
+    second: Shoot_r0_c17
+  - first:
+      213: -7786173982008078630
+    second: Shoot_r0_c18
+  - first:
+      213: -2298664504018916639
+    second: Shoot_r0_c19
+  - first:
+      213: -8710851997976191368
+    second: Shoot_r1_c13
+  - first:
+      213: -920484151488370990
+    second: Shoot_r1_c14
+  - first:
+      213: 7196862839826295578
+    second: Shoot_r1_c15
+  - first:
+      213: -7616866656878330741
+    second: Shoot_r1_c16
+  - first:
+      213: 4769172751350533473
+    second: Shoot_r1_c17
+  - first:
+      213: 1403778442841278267
+    second: Shoot_r1_c18
+  - first:
+      213: -4462863889955426831
+    second: Shoot_r1_c19
+  - first:
+      213: -9198993206911695271
+    second: Shoot_r2_c13
+  - first:
+      213: -2054157885019229594
+    second: Shoot_r2_c14
+  - first:
+      213: -8991314588719730427
+    second: Shoot_r2_c15
+  - first:
+      213: 1570966413456620098
+    second: Shoot_r2_c16
+  - first:
+      213: 1884126324877564878
+    second: Shoot_r2_c17
+  - first:
+      213: 7383740919387544732
+    second: Shoot_r2_c18
+  - first:
+      213: 6790664521996600984
+    second: Shoot_r2_c19
+  - first:
+      213: 6845187709488506229
+    second: Shoot_r3_c13
+  - first:
+      213: 8345772301249139394
+    second: Shoot_r3_c14
+  - first:
+      213: -5953469099065544134
+    second: Shoot_r3_c15
+  - first:
+      213: -4363141358030813630
+    second: Shoot_r3_c16
+  - first:
+      213: -4944152013767167836
+    second: Shoot_r3_c17
+  - first:
+      213: 2143515751218464208
+    second: Shoot_r3_c18
+  - first:
+      213: -3199164829688494025
+    second: Shoot_r3_c19
+  - first:
+      213: -7859590505196380804
+    second: Shoot_r4_c0
+  - first:
+      213: 6580247634362171007
+    second: Shoot_r4_c1
+  - first:
+      213: -4189091171642743521
+    second: Shoot_r4_c2
+  - first:
+      213: 2105892256247060452
+    second: Shoot_r4_c3
+  - first:
+      213: -7411501461827257386
+    second: Shoot_r4_c4
+  - first:
+      213: -9138205221150688502
+    second: Shoot_r4_c5
+  - first:
+      213: -328523108147850508
+    second: Shoot_r4_c6
+  - first:
+      213: 241004983170574977
+    second: Shoot_r4_c7
+  - first:
+      213: -2481483952537348188
+    second: Shoot_r4_c8
+  - first:
+      213: 2163651054571485178
+    second: Shoot_r4_c9
+  - first:
+      213: -4058589345044580357
+    second: Shoot_r4_c10
+  - first:
+      213: 6896035029437280988
+    second: Shoot_r4_c11
+  - first:
+      213: 6553736341922012238
+    second: Shoot_r4_c12
+  - first:
+      213: -6303436514046963061
+    second: Shoot_r4_c13
+  - first:
+      213: -3717621943039227243
+    second: Shoot_r4_c14
+  - first:
+      213: 4564546425939543544
+    second: Shoot_r4_c15
+  - first:
+      213: -1612709545504812972
+    second: Shoot_r4_c16
+  - first:
+      213: -6720867692684423363
+    second: Shoot_r4_c17
+  - first:
+      213: 4365993123943664366
+    second: Shoot_r4_c18
+  - first:
+      213: -2921901961053253493
+    second: Shoot_r4_c19
+  - first:
+      213: 2365270060737609329
+    second: Shoot_r5_c0
+  - first:
+      213: 1085686781117788243
+    second: Shoot_r5_c1
+  - first:
+      213: 320007828907821263
+    second: Shoot_r5_c2
+  - first:
+      213: 4201060009808670598
+    second: Shoot_r5_c3
+  - first:
+      213: 1739282218479768660
+    second: Shoot_r5_c4
+  - first:
+      213: -17547474359853180
+    second: Shoot_r5_c5
+  - first:
+      213: -4764196225931782220
+    second: Shoot_r5_c6
+  - first:
+      213: 7998468766058491057
+    second: Shoot_r5_c7
+  - first:
+      213: -5134816307507952491
+    second: Shoot_r5_c8
+  - first:
+      213: -1081835940736484041
+    second: Shoot_r5_c9
+  - first:
+      213: 7902837071917166826
+    second: Shoot_r5_c10
+  - first:
+      213: -2845582510071304134
+    second: Shoot_r5_c11
+  - first:
+      213: 9217011909702742471
+    second: Shoot_r5_c12
+  - first:
+      213: 8647774902460339327
+    second: Shoot_r5_c13
+  - first:
+      213: 7150750606637314231
+    second: Shoot_r5_c14
+  - first:
+      213: -2452847150876396231
+    second: Shoot_r5_c15
+  - first:
+      213: 1985919719382099477
+    second: Shoot_r5_c16
+  - first:
+      213: 5739136739837939161
+    second: Shoot_r5_c17
+  - first:
+      213: -6920899789115213591
+    second: Shoot_r5_c18
+  - first:
+      213: -8466731622507049951
+    second: Shoot_r5_c19
+  - first:
+      213: 6028782004388101247
+    second: Shoot_r6_c0
+  - first:
+      213: 3074549053174294171
+    second: Shoot_r6_c1
+  - first:
+      213: 8956808456325483412
+    second: Shoot_r6_c2
+  - first:
+      213: 1546886705032980071
+    second: Shoot_r6_c3
+  - first:
+      213: -8854576749770557457
+    second: Shoot_r6_c4
+  - first:
+      213: 6590956359997211900
+    second: Shoot_r6_c5
+  - first:
+      213: 2244562654704011885
+    second: Shoot_r6_c6
+  - first:
+      213: 8234731136848685573
+    second: Shoot_r6_c7
+  - first:
+      213: 6580118951696820651
+    second: Shoot_r6_c8
+  - first:
+      213: 6662430400134257643
+    second: Shoot_r6_c9
+  - first:
+      213: -979997114571435774
+    second: Shoot_r6_c10
+  - first:
+      213: 786642251314480182
+    second: Shoot_r6_c11
+  - first:
+      213: -8803319089822912095
+    second: Shoot_r6_c12
+  - first:
+      213: -3794820547934997402
+    second: Shoot_r6_c13
+  - first:
+      213: 1210231681081139579
+    second: Shoot_r6_c14
+  - first:
+      213: 4375864941815598358
+    second: Shoot_r6_c15
+  - first:
+      213: -6886905868552895541
+    second: Shoot_r6_c16
+  - first:
+      213: -5332598168920367813
+    second: Shoot_r6_c17
+  - first:
+      213: -3250697913570788881
+    second: Shoot_r6_c18
+  - first:
+      213: 946585103824881035
+    second: Shoot_r6_c19
+  - first:
+      213: -7339757989962415370
+    second: Shoot_r7_c0
+  - first:
+      213: -2630507262650011393
+    second: Shoot_r7_c1
+  - first:
+      213: 4168816015893801346
+    second: Shoot_r7_c2
+  - first:
+      213: 2001128269464604262
+    second: Shoot_r7_c3
+  - first:
+      213: -3960410763984094371
+    second: Shoot_r7_c4
+  - first:
+      213: 5860351287444265563
+    second: Shoot_r7_c5
+  - first:
+      213: -8119198230165259530
+    second: Shoot_r7_c6
+  - first:
+      213: -8634831291240228400
+    second: Shoot_r7_c7
+  - first:
+      213: -117796466112429228
+    second: Shoot_r7_c8
+  - first:
+      213: -165866999368343195
+    second: Shoot_r7_c9
+  - first:
+      213: 1586542437795483981
+    second: Shoot_r7_c10
+  - first:
+      213: -3800324829961954549
+    second: Shoot_r7_c11
+  - first:
+      213: 6964903864594705986
+    second: Shoot_r7_c12
+  - first:
+      213: -2195915812713127878
+    second: Shoot_r7_c13
+  - first:
+      213: 1098546114034666371
+    second: Shoot_r7_c14
+  - first:
+      213: -922673965647424584
+    second: Shoot_r7_c15
+  - first:
+      213: 1856485148021068554
+    second: Shoot_r7_c16
+  - first:
+      213: 5558218277783467020
+    second: Shoot_r7_c17
+  - first:
+      213: 3625708541112046868
+    second: Shoot_r7_c18
+  - first:
+      213: 7924196659218366856
+    second: Shoot_r7_c19
+  - first:
+      213: 6477914466836758001
+    second: shoot_r0_c0
+  - first:
+      213: -2484398175808099045
+    second: shoot_r0_c1
+  - first:
+      213: 336199974763714497
+    second: shoot_r0_c2
+  - first:
+      213: -8636285218554461776
+    second: shoot_r0_c3
+  - first:
+      213: 6881284079989264545
+    second: shoot_r0_c4
+  - first:
+      213: -2727366018832406935
+    second: shoot_r0_c5
+  - first:
+      213: -3989792360025439822
+    second: shoot_r0_c6
+  - first:
+      213: 7817077551719962192
+    second: shoot_r0_c7
+  - first:
+      213: -890830432054560837
+    second: shoot_r0_c8
+  - first:
+      213: 4332199230405015740
+    second: shoot_r0_c9
+  - first:
+      213: 929924995659985289
+    second: shoot_r0_c10
+  - first:
+      213: -5318254309145567459
+    second: shoot_r0_c11
+  - first:
+      213: -4464101112808666586
+    second: shoot_r0_c12
+  - first:
+      213: 1267461748687408443
+    second: shoot_r1_c0
+  - first:
+      213: 1791440919593313883
+    second: shoot_r1_c1
+  - first:
+      213: -9035222858858278881
+    second: shoot_r1_c2
+  - first:
+      213: -3717482043702438277
+    second: shoot_r1_c3
+  - first:
+      213: 9217236665163464559
+    second: shoot_r1_c4
+  - first:
+      213: -603723096403368991
+    second: shoot_r1_c5
+  - first:
+      213: 3331666228198603839
+    second: shoot_r1_c6
+  - first:
+      213: 8569316026743977937
+    second: shoot_r1_c7
+  - first:
+      213: -564559113358228979
+    second: shoot_r1_c8
+  - first:
+      213: 1600911707334532257
+    second: shoot_r1_c9
+  - first:
+      213: 4670525828538323852
+    second: shoot_r1_c10
+  - first:
+      213: -6951935547070873793
+    second: shoot_r1_c11
+  - first:
+      213: -2963528557923498361
+    second: shoot_r1_c12
+  - first:
+      213: -370037455754176823
+    second: shoot_r2_c0
+  - first:
+      213: 5297944749470482125
+    second: shoot_r2_c1
+  - first:
+      213: 5097295719334834408
+    second: shoot_r2_c2
+  - first:
+      213: -7900177261924622193
+    second: shoot_r2_c3
+  - first:
+      213: -4466854206760235240
+    second: shoot_r2_c4
+  - first:
+      213: 2145285147303128507
+    second: shoot_r2_c5
+  - first:
+      213: -597355344007347566
+    second: shoot_r2_c6
+  - first:
+      213: 824595017413611352
+    second: shoot_r2_c7
+  - first:
+      213: 5398257243313169679
+    second: shoot_r2_c8
+  - first:
+      213: 4967736385751875451
+    second: shoot_r2_c9
+  - first:
+      213: 4339669061832782440
+    second: shoot_r2_c10
+  - first:
+      213: -4883078207619557344
+    second: shoot_r2_c11
+  - first:
+      213: 3785749398844852545
+    second: shoot_r2_c12
+  - first:
+      213: -6046330003152718659
+    second: shoot_r3_c0
+  - first:
+      213: -751411942545650089
+    second: shoot_r3_c1
+  - first:
+      213: -90217228400787297
+    second: shoot_r3_c2
+  - first:
+      213: -5077964398515412152
+    second: shoot_r3_c3
+  - first:
+      213: -8836621440233768375
+    second: shoot_r3_c4
+  - first:
+      213: -8514633616372872388
+    second: shoot_r3_c5
+  - first:
+      213: 2623700558425405742
+    second: shoot_r3_c6
+  - first:
+      213: -2531506818239595374
+    second: shoot_r3_c7
+  - first:
+      213: -3152246115276472993
+    second: shoot_r3_c8
+  - first:
+      213: -1177692040394719763
+    second: shoot_r3_c9
+  - first:
+      213: 2979188636033304645
+    second: shoot_r3_c10
+  - first:
+      213: 6315822038351691879
+    second: shoot_r3_c11
+  - first:
+      213: 9090528531418843018
+    second: shoot_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoot_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c55e0c8d0d6dbdd0800000000000000
+      internalID: -2468697115777411647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c847f16f7663b70800000000000000
+      internalID: 8878398022194859091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b61845c0f7cd0e0800000000000000
+      internalID: -2243778823403246806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb29ef4d9dc860f0800000000000000
+      internalID: -1123422031494698043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c8f4c9e7b095690800000000000000
+      internalID: -7613041056676868961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fb7050429f3fa20800000000000000
+      internalID: 3095091302032195480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208b4133a1265f620800000000000000
+      internalID: 2807257807401039874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f0e68602e1452c0800000000000000
+      internalID: -4443893807768006884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449e9906b96d1daa0800000000000000
+      internalID: -6137888854300300988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791a18a9a391a3b0800000000000000
+      internalID: -5502954912790996610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e65f497841ca45b0800000000000000
+      internalID: -5383277887550957851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40f9ab0026d507f0800000000000000
+      internalID: -646875538334814134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r0_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a6c4e756ca8bf80800000000000000
+      internalID: -8090527178660484539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ebbba28bed9ce70800000000000000
+      internalID: 9136078201670057526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592a23989b8976860800000000000000
+      internalID: 7523149625183871637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7b0750fb4874390800000000000000
+      internalID: -7834147070822795353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a61cd95753719d80800000000000000
+      internalID: -8245682623731722589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb5c43b55cb39cf0800000000000000
+      internalID: -246646478308877364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af12b6ad822e6a680800000000000000
+      internalID: -8744052961402215942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fc8c62e93937fb0800000000000000
+      internalID: -4651211682678780067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e0634fdc0528170800000000000000
+      internalID: 8179188718753943052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99288c744863574b0800000000000000
+      internalID: -5443384632839470439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f6be0e214c87e10800000000000000
+      internalID: 2195720403705098033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b2559a833ea8540800000000000000
+      internalID: 5011067367901703035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3b2f78a9e9ea100800000000000000
+      internalID: 121208626528564157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r1_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a833cdccfea75e410800000000000000
+      internalID: 1505744820778054538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9260a86e593761200800000000000000
+      internalID: 150434725218616873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27bd33769f3172c0800000000000000
+      internalID: -4435694242572159185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f193b95c76701150800000000000000
+      internalID: 5841298993152496113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a95f81046cafa50800000000000000
+      internalID: 6555770186190133827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc297406fb9582740800000000000000
+      internalID: 5127446854250238669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c484df8bcc6bf1100800000000000000
+      internalID: 80984308709148748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8234dacc049e55770800000000000000
+      internalID: 8599035528054915880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e23dffb8510a4420800000000000000
+      internalID: 2614904014331785956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f21ca40877f96040800000000000000
+      internalID: 4641512985828528881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04386ec7baf49e300800000000000000
+      internalID: 281844049640850240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1f0fbf59b7edec0800000000000000
+      internalID: -3540256372959415836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3597854b119f0a750800000000000000
+      internalID: 6314320532008892755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r2_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c779c6db42d446c0800000000000000
+      internalID: -4159968932615587899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f145adc9fee3b0a80800000000000000
+      internalID: -8499630672882019297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fc04bac09d43f0800000000000000
+      internalID: -914915949007801785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53314d4e7cb2d5550800000000000000
+      internalID: 6151120803595555637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c7bc37120fc01d0800000000000000
+      internalID: -3383065193594782649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e1d834098e8a210800000000000000
+      internalID: 1344580195076349569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeab3b0794d495d50800000000000000
+      internalID: 6726492496273324778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e5879d71328a440800000000000000
+      internalID: 4947242776006254126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e76022640f26230800000000000000
+      internalID: 3630728433623269022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62a6038b0b0e95e0800000000000000
+      internalID: -1901069848632974738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b89ec3b119afc90800000000000000
+      internalID: -7135231113443046652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3f5ad0ef0102930800000000000000
+      internalID: 4116308742753350626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d6000f15fb5890800000000000000
+      internalID: -7468106043570595979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoot_r3_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42c0dfb64063ba30800000000000000
+      internalID: 4229830332013134414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shoot_r0_c0: -2468697115777411647
+      Shoot_r0_c1: 8878398022194859091
+      Shoot_r0_c10: -5383277887550957851
+      Shoot_r0_c11: -646875538334814134
+      Shoot_r0_c12: -8090527178660484539
+      Shoot_r0_c13: 8944592645923690800
+      Shoot_r0_c14: -6053673773146057790
+      Shoot_r0_c15: 3450614707854116699
+      Shoot_r0_c16: 8621257403527351172
+      Shoot_r0_c17: 2285955866026666709
+      Shoot_r0_c18: -7786173982008078630
+      Shoot_r0_c19: -2298664504018916639
+      Shoot_r0_c2: -2243778823403246806
+      Shoot_r0_c3: -1123422031494698043
+      Shoot_r0_c4: -7613041056676868961
+      Shoot_r0_c5: 3095091302032195480
+      Shoot_r0_c6: 2807257807401039874
+      Shoot_r0_c7: -4443893807768006884
+      Shoot_r0_c8: -6137888854300300988
+      Shoot_r0_c9: -5502954912790996610
+      Shoot_r1_c0: 9136078201670057526
+      Shoot_r1_c1: 7523149625183871637
+      Shoot_r1_c10: 5011067367901703035
+      Shoot_r1_c11: 121208626528564157
+      Shoot_r1_c12: 1505744820778054538
+      Shoot_r1_c13: -8710851997976191368
+      Shoot_r1_c14: -920484151488370990
+      Shoot_r1_c15: 7196862839826295578
+      Shoot_r1_c16: -7616866656878330741
+      Shoot_r1_c17: 4769172751350533473
+      Shoot_r1_c18: 1403778442841278267
+      Shoot_r1_c19: -4462863889955426831
+      Shoot_r1_c2: -7834147070822795353
+      Shoot_r1_c3: -8245682623731722589
+      Shoot_r1_c4: -246646478308877364
+      Shoot_r1_c5: -8744052961402215942
+      Shoot_r1_c6: -4651211682678780067
+      Shoot_r1_c7: 8179188718753943052
+      Shoot_r1_c8: -5443384632839470439
+      Shoot_r1_c9: 2195720403705098033
+      Shoot_r2_c0: 150434725218616873
+      Shoot_r2_c1: -4435694242572159185
+      Shoot_r2_c10: -3540256372959415836
+      Shoot_r2_c11: 6314320532008892755
+      Shoot_r2_c12: -4159968932615587899
+      Shoot_r2_c13: -9198993206911695271
+      Shoot_r2_c14: -2054157885019229594
+      Shoot_r2_c15: -8991314588719730427
+      Shoot_r2_c16: 1570966413456620098
+      Shoot_r2_c17: 1884126324877564878
+      Shoot_r2_c18: 7383740919387544732
+      Shoot_r2_c19: 6790664521996600984
+      Shoot_r2_c2: 5841298993152496113
+      Shoot_r2_c3: 6555770186190133827
+      Shoot_r2_c4: 5127446854250238669
+      Shoot_r2_c5: 80984308709148748
+      Shoot_r2_c6: 8599035528054915880
+      Shoot_r2_c7: 2614904014331785956
+      Shoot_r2_c8: 4641512985828528881
+      Shoot_r2_c9: 281844049640850240
+      Shoot_r3_c0: -8499630672882019297
+      Shoot_r3_c1: -914915949007801785
+      Shoot_r3_c10: 4116308742753350626
+      Shoot_r3_c11: -7468106043570595979
+      Shoot_r3_c12: 4229830332013134414
+      Shoot_r3_c13: 6845187709488506229
+      Shoot_r3_c14: 8345772301249139394
+      Shoot_r3_c15: -5953469099065544134
+      Shoot_r3_c16: -4363141358030813630
+      Shoot_r3_c17: -4944152013767167836
+      Shoot_r3_c18: 2143515751218464208
+      Shoot_r3_c19: -3199164829688494025
+      Shoot_r3_c2: 6151120803595555637
+      Shoot_r3_c3: -3383065193594782649
+      Shoot_r3_c4: 1344580195076349569
+      Shoot_r3_c5: 6726492496273324778
+      Shoot_r3_c6: 4947242776006254126
+      Shoot_r3_c7: 3630728433623269022
+      Shoot_r3_c8: -1901069848632974738
+      Shoot_r3_c9: -7135231113443046652
+      Shoot_r4_c0: -7859590505196380804
+      Shoot_r4_c1: 6580247634362171007
+      Shoot_r4_c10: -4058589345044580357
+      Shoot_r4_c11: 6896035029437280988
+      Shoot_r4_c12: 6553736341922012238
+      Shoot_r4_c13: -6303436514046963061
+      Shoot_r4_c14: -3717621943039227243
+      Shoot_r4_c15: 4564546425939543544
+      Shoot_r4_c16: -1612709545504812972
+      Shoot_r4_c17: -6720867692684423363
+      Shoot_r4_c18: 4365993123943664366
+      Shoot_r4_c19: -2921901961053253493
+      Shoot_r4_c2: -4189091171642743521
+      Shoot_r4_c3: 2105892256247060452
+      Shoot_r4_c4: -7411501461827257386
+      Shoot_r4_c5: -9138205221150688502
+      Shoot_r4_c6: -328523108147850508
+      Shoot_r4_c7: 241004983170574977
+      Shoot_r4_c8: -2481483952537348188
+      Shoot_r4_c9: 2163651054571485178
+      Shoot_r5_c0: 2365270060737609329
+      Shoot_r5_c1: 1085686781117788243
+      Shoot_r5_c10: 7902837071917166826
+      Shoot_r5_c11: -2845582510071304134
+      Shoot_r5_c12: 9217011909702742471
+      Shoot_r5_c13: 8647774902460339327
+      Shoot_r5_c14: 7150750606637314231
+      Shoot_r5_c15: -2452847150876396231
+      Shoot_r5_c16: 1985919719382099477
+      Shoot_r5_c17: 5739136739837939161
+      Shoot_r5_c18: -6920899789115213591
+      Shoot_r5_c19: -8466731622507049951
+      Shoot_r5_c2: 320007828907821263
+      Shoot_r5_c3: 4201060009808670598
+      Shoot_r5_c4: 1739282218479768660
+      Shoot_r5_c5: -17547474359853180
+      Shoot_r5_c6: -4764196225931782220
+      Shoot_r5_c7: 7998468766058491057
+      Shoot_r5_c8: -5134816307507952491
+      Shoot_r5_c9: -1081835940736484041
+      Shoot_r6_c0: 6028782004388101247
+      Shoot_r6_c1: 3074549053174294171
+      Shoot_r6_c10: -979997114571435774
+      Shoot_r6_c11: 786642251314480182
+      Shoot_r6_c12: -8803319089822912095
+      Shoot_r6_c13: -3794820547934997402
+      Shoot_r6_c14: 1210231681081139579
+      Shoot_r6_c15: 4375864941815598358
+      Shoot_r6_c16: -6886905868552895541
+      Shoot_r6_c17: -5332598168920367813
+      Shoot_r6_c18: -3250697913570788881
+      Shoot_r6_c19: 946585103824881035
+      Shoot_r6_c2: 8956808456325483412
+      Shoot_r6_c3: 1546886705032980071
+      Shoot_r6_c4: -8854576749770557457
+      Shoot_r6_c5: 6590956359997211900
+      Shoot_r6_c6: 2244562654704011885
+      Shoot_r6_c7: 8234731136848685573
+      Shoot_r6_c8: 6580118951696820651
+      Shoot_r6_c9: 6662430400134257643
+      Shoot_r7_c0: -7339757989962415370
+      Shoot_r7_c1: -2630507262650011393
+      Shoot_r7_c10: 1586542437795483981
+      Shoot_r7_c11: -3800324829961954549
+      Shoot_r7_c12: 6964903864594705986
+      Shoot_r7_c13: -2195915812713127878
+      Shoot_r7_c14: 1098546114034666371
+      Shoot_r7_c15: -922673965647424584
+      Shoot_r7_c16: 1856485148021068554
+      Shoot_r7_c17: 5558218277783467020
+      Shoot_r7_c18: 3625708541112046868
+      Shoot_r7_c19: 7924196659218366856
+      Shoot_r7_c2: 4168816015893801346
+      Shoot_r7_c3: 2001128269464604262
+      Shoot_r7_c4: -3960410763984094371
+      Shoot_r7_c5: 5860351287444265563
+      Shoot_r7_c6: -8119198230165259530
+      Shoot_r7_c7: -8634831291240228400
+      Shoot_r7_c8: -117796466112429228
+      Shoot_r7_c9: -165866999368343195
+      shoot_0: -3296362929794034626
+      shoot_1: 7554319563551622173
+      shoot_10: -7604382215612274497
+      shoot_11: -5956963183003792458
+      shoot_12: -613150242343351474
+      shoot_13: -1608150636897246497
+      shoot_14: -7950066730809791955
+      shoot_15: 8426916682155963778
+      shoot_16: -3355498583709281046
+      shoot_17: -6570990598565607859
+      shoot_18: 4940045639833099080
+      shoot_19: -8125058647381886948
+      shoot_2: 629617002330759104
+      shoot_20: 2450195538211468907
+      shoot_21: 8825249114564312867
+      shoot_22: -912025504303237119
+      shoot_23: -1758881787823082533
+      shoot_24: 3403112674027730772
+      shoot_25: -5381259031128239186
+      shoot_26: 7029100385523618543
+      shoot_27: -3524676559187781098
+      shoot_28: 5969747409069951129
+      shoot_29: -5086863260656532416
+      shoot_3: -5054808157803969943
+      shoot_30: -6532056232459963297
+      shoot_31: 76233431621424231
+      shoot_32: -278660301677108270
+      shoot_33: 1177183112970369384
+      shoot_34: 4026545348101945803
+      shoot_35: -4574730258268525316
+      shoot_36: 1695229189853926580
+      shoot_37: 794193400180426327
+      shoot_38: 1433168532336855542
+      shoot_39: 1701207024249364948
+      shoot_4: -3979974936146175033
+      shoot_40: -8784806493067437991
+      shoot_41: 4766585007142727217
+      shoot_42: -8124944519308190690
+      shoot_43: 4179179872964657111
+      shoot_44: 2139503882075938004
+      shoot_45: -3479996000575513017
+      shoot_46: -6548583569874286856
+      shoot_47: -770602438110083115
+      shoot_48: -2327155075920537572
+      shoot_49: -5365768446121105271
+      shoot_5: -6689487139077109850
+      shoot_50: 5579029847478343168
+      shoot_51: 7263238447192175129
+      shoot_6: -5908579569834704231
+      shoot_7: 6570672788727949510
+      shoot_8: 116391925304029247
+      shoot_9: -5523511898997690223
+      shoot_r0_c0: 6477914466836758001
+      shoot_r0_c1: -2484398175808099045
+      shoot_r0_c10: 929924995659985289
+      shoot_r0_c11: -5318254309145567459
+      shoot_r0_c12: -4464101112808666586
+      shoot_r0_c2: 336199974763714497
+      shoot_r0_c3: -8636285218554461776
+      shoot_r0_c4: 6881284079989264545
+      shoot_r0_c5: -2727366018832406935
+      shoot_r0_c6: -3989792360025439822
+      shoot_r0_c7: 7817077551719962192
+      shoot_r0_c8: -890830432054560837
+      shoot_r0_c9: 4332199230405015740
+      shoot_r1_c0: 1267461748687408443
+      shoot_r1_c1: 1791440919593313883
+      shoot_r1_c10: 4670525828538323852
+      shoot_r1_c11: -6951935547070873793
+      shoot_r1_c12: -2963528557923498361
+      shoot_r1_c2: -9035222858858278881
+      shoot_r1_c3: -3717482043702438277
+      shoot_r1_c4: 9217236665163464559
+      shoot_r1_c5: -603723096403368991
+      shoot_r1_c6: 3331666228198603839
+      shoot_r1_c7: 8569316026743977937
+      shoot_r1_c8: -564559113358228979
+      shoot_r1_c9: 1600911707334532257
+      shoot_r2_c0: -370037455754176823
+      shoot_r2_c1: 5297944749470482125
+      shoot_r2_c10: 4339669061832782440
+      shoot_r2_c11: -4883078207619557344
+      shoot_r2_c12: 3785749398844852545
+      shoot_r2_c2: 5097295719334834408
+      shoot_r2_c3: -7900177261924622193
+      shoot_r2_c4: -4466854206760235240
+      shoot_r2_c5: 2145285147303128507
+      shoot_r2_c6: -597355344007347566
+      shoot_r2_c7: 824595017413611352
+      shoot_r2_c8: 5398257243313169679
+      shoot_r2_c9: 4967736385751875451
+      shoot_r3_c0: -6046330003152718659
+      shoot_r3_c1: -751411942545650089
+      shoot_r3_c10: 2979188636033304645
+      shoot_r3_c11: 6315822038351691879
+      shoot_r3_c12: 9090528531418843018
+      shoot_r3_c2: -90217228400787297
+      shoot_r3_c3: -5077964398515412152
+      shoot_r3_c4: -8836621440233768375
+      shoot_r3_c5: -8514633616372872388
+      shoot_r3_c6: 2623700558425405742
+      shoot_r3_c7: -2531506818239595374
+      shoot_r3_c8: -3152246115276472993
+      shoot_r3_c9: -1177692040394719763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a9a771ecb4df18a851a7a3cbe4d89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Editor::UnityEditor.Tilemaps.TileSet
+  m_TextureSources:
+  - m_Texture: {fileID: 2800000, guid: e436beb0a654af14785df38c79d6940a, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: d85158c7e4fe56c4badd72d0e0fb0f4f, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: e9d036831bc6c814c870beb097342f80, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 109d20ce8a772c94aa4a80fbf40baf07, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 066901ab2629ef74da4268b916fd79e4, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 6b9465744ca10cb47834d856427fab2c, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 02854fddc4d36c242998ac358cdaf075, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 9cecc06f1b66add4790f026b519a0225, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 2a8531db301440e489b6a3d1a2c637be, type: 3}
+    m_TileTemplate: {fileID: 0}
+  - m_Texture: {fileID: 2800000, guid: 2f19192e18284634880ceacef8e0d522, type: 3}
+    m_TileTemplate: {fileID: 0}
+  m_CreateAtlas: 1
+  m_ScriptablePacker: {fileID: 0}
+  m_CellLayout: 0
+  m_HexagonLayout: 0
+  m_CellSize: {x: 1, y: 1, z: 1}
+  m_CellSizing: 0
+  m_TransparencySortMode: 0
+  m_TransparencySortAxis: {x: 0, y: 0, z: 1}
+  m_GeneratedSpritesList: []
+--- !u!687078895 &2
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e436beb0a654af14785df38c79d6940a, type: 3}
+    - {fileID: 2800000, guid: d85158c7e4fe56c4badd72d0e0fb0f4f, type: 3}
+    - {fileID: 2800000, guid: e9d036831bc6c814c870beb097342f80, type: 3}
+    - {fileID: 2800000, guid: 109d20ce8a772c94aa4a80fbf40baf07, type: 3}
+    - {fileID: 2800000, guid: 066901ab2629ef74da4268b916fd79e4, type: 3}
+    - {fileID: 2800000, guid: 6b9465744ca10cb47834d856427fab2c, type: 3}
+    - {fileID: 2800000, guid: 02854fddc4d36c242998ac358cdaf075, type: 3}
+    - {fileID: 2800000, guid: 9cecc06f1b66add4790f026b519a0225, type: 3}
+    - {fileID: 2800000, guid: 2a8531db301440e489b6a3d1a2c637be, type: 3}
+    - {fileID: 2800000, guid: 2f19192e18284634880ceacef8e0d522, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 1
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys: []
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_RenderDataMap: {}
+  m_Tag: 
+  m_IsVariant: 0

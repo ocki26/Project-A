@@ -1,0 +1,18 @@
+{
+    "name": "DungeonSystem.Editor",
+    "rootNamespace": "DungeonSystem.Editor",
+    "references": [
+        "DungeonSystem.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "unity-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Unity Editor Integration in Antigravity IDE",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}

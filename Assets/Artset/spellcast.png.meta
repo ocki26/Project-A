@@ -1,0 +1,1693 @@
+fileFormatVersion: 2
+guid: 0c5513afbb68ea44297727c252c29d55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5807125210076102400
+    second: spellcast_0
+  - first:
+      213: -3286529404008807512
+    second: spellcast_1
+  - first:
+      213: -7089004269969660582
+    second: spellcast_2
+  - first:
+      213: -3493187042504057909
+    second: spellcast_3
+  - first:
+      213: 1259685234195277828
+    second: spellcast_4
+  - first:
+      213: 6953092085122916617
+    second: spellcast_5
+  - first:
+      213: -7082872806229666545
+    second: spellcast_6
+  - first:
+      213: -1774754750907557111
+    second: spellcast_7
+  - first:
+      213: -6020276060499972284
+    second: spellcast_8
+  - first:
+      213: 3732506813703068223
+    second: spellcast_9
+  - first:
+      213: 5894144742965938634
+    second: spellcast_10
+  - first:
+      213: -5130845419819639515
+    second: spellcast_11
+  - first:
+      213: -2857955713124209819
+    second: spellcast_12
+  - first:
+      213: 4910005905319963032
+    second: spellcast_13
+  - first:
+      213: 9107608138016119202
+    second: spellcast_14
+  - first:
+      213: -7446464195490487524
+    second: spellcast_15
+  - first:
+      213: -5531025340587695674
+    second: spellcast_16
+  - first:
+      213: 548732641713645888
+    second: spellcast_17
+  - first:
+      213: -7353558545725913605
+    second: spellcast_18
+  - first:
+      213: -3366656298103379094
+    second: spellcast_19
+  - first:
+      213: 4860100076872561787
+    second: spellcast_20
+  - first:
+      213: -9216687709183860496
+    second: spellcast_21
+  - first:
+      213: 5365937541179512453
+    second: spellcast_22
+  - first:
+      213: -7196338051484444824
+    second: spellcast_23
+  - first:
+      213: -1142120023519077481
+    second: spellcast_24
+  - first:
+      213: -6199654407713946016
+    second: spellcast_25
+  - first:
+      213: 4070391422725484234
+    second: spellcast_26
+  - first:
+      213: 4647979899385413402
+    second: spellcast_27
+  - first:
+      213: -4949736223880554811
+    second: Spellcast_r0_c0
+  - first:
+      213: -1079633280724562457
+    second: Spellcast_r0_c1
+  - first:
+      213: 5575910837324961557
+    second: Spellcast_r0_c2
+  - first:
+      213: -652528049587502106
+    second: Spellcast_r0_c3
+  - first:
+      213: 3854542599508144112
+    second: Spellcast_r0_c4
+  - first:
+      213: 7995558176695878373
+    second: Spellcast_r0_c5
+  - first:
+      213: -9198451373599686293
+    second: Spellcast_r0_c6
+  - first:
+      213: 6698780993684656536
+    second: Spellcast_r1_c0
+  - first:
+      213: 3929559253819329716
+    second: Spellcast_r1_c1
+  - first:
+      213: -6101622008614378511
+    second: Spellcast_r1_c2
+  - first:
+      213: 3949002393559009362
+    second: Spellcast_r1_c3
+  - first:
+      213: -1469478324718081660
+    second: Spellcast_r1_c4
+  - first:
+      213: -1525751947269117216
+    second: Spellcast_r1_c5
+  - first:
+      213: -8550541699577674251
+    second: Spellcast_r1_c6
+  - first:
+      213: -3038282917906752868
+    second: Spellcast_r2_c0
+  - first:
+      213: -5816483590260703387
+    second: Spellcast_r2_c1
+  - first:
+      213: -5472952440334707894
+    second: Spellcast_r2_c2
+  - first:
+      213: 7516033232175956917
+    second: Spellcast_r2_c3
+  - first:
+      213: 6266451710167440445
+    second: Spellcast_r2_c4
+  - first:
+      213: -7072683054706474186
+    second: Spellcast_r2_c5
+  - first:
+      213: -6792981994447349884
+    second: Spellcast_r2_c6
+  - first:
+      213: -6487463482100940903
+    second: Spellcast_r3_c0
+  - first:
+      213: 1935657619763791632
+    second: Spellcast_r3_c1
+  - first:
+      213: 3348530093979011195
+    second: Spellcast_r3_c2
+  - first:
+      213: 2508601068707809074
+    second: Spellcast_r3_c3
+  - first:
+      213: -5881271692586998178
+    second: Spellcast_r3_c4
+  - first:
+      213: -4345518928568901598
+    second: Spellcast_r3_c5
+  - first:
+      213: -1615156085635763852
+    second: Spellcast_r3_c6
+  - first:
+      213: -7351823593975168838
+    second: Spellcast_r0_c7
+  - first:
+      213: 2599049491389555592
+    second: Spellcast_r0_c8
+  - first:
+      213: 3697853929057825388
+    second: Spellcast_r0_c9
+  - first:
+      213: 6993037145670001846
+    second: Spellcast_r0_c10
+  - first:
+      213: -1400861213368106500
+    second: Spellcast_r0_c11
+  - first:
+      213: -7520714536134335106
+    second: Spellcast_r0_c12
+  - first:
+      213: 4051120983561578588
+    second: Spellcast_r0_c13
+  - first:
+      213: -1781730058822564113
+    second: Spellcast_r0_c14
+  - first:
+      213: 9011019027760614360
+    second: Spellcast_r0_c15
+  - first:
+      213: -7137373724032792826
+    second: Spellcast_r0_c16
+  - first:
+      213: 1468565990683488783
+    second: Spellcast_r0_c17
+  - first:
+      213: -2100261036692293782
+    second: Spellcast_r0_c18
+  - first:
+      213: -1251168563821597780
+    second: Spellcast_r0_c19
+  - first:
+      213: 8271297196063404698
+    second: Spellcast_r1_c7
+  - first:
+      213: -7207143239673110776
+    second: Spellcast_r1_c8
+  - first:
+      213: 9032849316621743535
+    second: Spellcast_r1_c9
+  - first:
+      213: -1707516530964938182
+    second: Spellcast_r1_c10
+  - first:
+      213: 9195925549859562354
+    second: Spellcast_r1_c11
+  - first:
+      213: -2398693220890381124
+    second: Spellcast_r1_c12
+  - first:
+      213: -970902312207762541
+    second: Spellcast_r1_c13
+  - first:
+      213: 3395514415277155887
+    second: Spellcast_r1_c14
+  - first:
+      213: -1785321008196705594
+    second: Spellcast_r1_c15
+  - first:
+      213: -1963791537738057711
+    second: Spellcast_r1_c16
+  - first:
+      213: 6212096495897508638
+    second: Spellcast_r1_c17
+  - first:
+      213: -5793758104044832879
+    second: Spellcast_r1_c18
+  - first:
+      213: 6523871687611855431
+    second: Spellcast_r1_c19
+  - first:
+      213: -6211876071438447880
+    second: Spellcast_r2_c7
+  - first:
+      213: -5580851338264228495
+    second: Spellcast_r2_c8
+  - first:
+      213: -3740822253788981810
+    second: Spellcast_r2_c9
+  - first:
+      213: 5299837563002429343
+    second: Spellcast_r2_c10
+  - first:
+      213: -5586088800025262921
+    second: Spellcast_r2_c11
+  - first:
+      213: 3804609427089327409
+    second: Spellcast_r2_c12
+  - first:
+      213: 3641536728735742493
+    second: Spellcast_r2_c13
+  - first:
+      213: 2693750151563139099
+    second: Spellcast_r2_c14
+  - first:
+      213: -4265357293834560113
+    second: Spellcast_r2_c15
+  - first:
+      213: -1037937046634549976
+    second: Spellcast_r2_c16
+  - first:
+      213: 4666165529637865839
+    second: Spellcast_r2_c17
+  - first:
+      213: -4679658423765247476
+    second: Spellcast_r2_c18
+  - first:
+      213: -749350270343624655
+    second: Spellcast_r2_c19
+  - first:
+      213: -8372895968768587467
+    second: Spellcast_r3_c7
+  - first:
+      213: 4901777199459207853
+    second: Spellcast_r3_c8
+  - first:
+      213: -443836523243769920
+    second: Spellcast_r3_c9
+  - first:
+      213: 3990081445234761533
+    second: Spellcast_r3_c10
+  - first:
+      213: 1648417786209931858
+    second: Spellcast_r3_c11
+  - first:
+      213: -5765058219255729217
+    second: Spellcast_r3_c12
+  - first:
+      213: -5944612933552999929
+    second: Spellcast_r3_c13
+  - first:
+      213: 222834617642172697
+    second: Spellcast_r3_c14
+  - first:
+      213: -666270006478035650
+    second: Spellcast_r3_c15
+  - first:
+      213: -5811365058815938242
+    second: Spellcast_r3_c16
+  - first:
+      213: 5874528160326053080
+    second: Spellcast_r3_c17
+  - first:
+      213: 8180783645113237520
+    second: Spellcast_r3_c18
+  - first:
+      213: 3047350783501292406
+    second: Spellcast_r3_c19
+  - first:
+      213: -2643985024686285452
+    second: Spellcast_r4_c0
+  - first:
+      213: -1109162396715159729
+    second: Spellcast_r4_c1
+  - first:
+      213: -7074042176776688719
+    second: Spellcast_r4_c2
+  - first:
+      213: -4777025836308899563
+    second: Spellcast_r4_c3
+  - first:
+      213: 7684652442540794533
+    second: Spellcast_r4_c4
+  - first:
+      213: 4838412097611105451
+    second: Spellcast_r4_c5
+  - first:
+      213: 3235617295876426261
+    second: Spellcast_r4_c6
+  - first:
+      213: 5573697408595231903
+    second: Spellcast_r4_c7
+  - first:
+      213: -8318050858681115990
+    second: Spellcast_r4_c8
+  - first:
+      213: -4352386789758367553
+    second: Spellcast_r4_c9
+  - first:
+      213: 7434852665321476878
+    second: Spellcast_r4_c10
+  - first:
+      213: -419803462921149364
+    second: Spellcast_r4_c11
+  - first:
+      213: -993135663709117826
+    second: Spellcast_r4_c12
+  - first:
+      213: 7312170788444441618
+    second: Spellcast_r4_c13
+  - first:
+      213: 9071866202603107272
+    second: Spellcast_r4_c14
+  - first:
+      213: -7496914153322413997
+    second: Spellcast_r4_c15
+  - first:
+      213: -3690738136004809423
+    second: Spellcast_r4_c16
+  - first:
+      213: 4269795510304130483
+    second: Spellcast_r4_c17
+  - first:
+      213: -6556894180721633356
+    second: Spellcast_r4_c18
+  - first:
+      213: -4986848032562403873
+    second: Spellcast_r4_c19
+  - first:
+      213: -6936516483506859290
+    second: Spellcast_r5_c0
+  - first:
+      213: -6114362988871305384
+    second: Spellcast_r5_c1
+  - first:
+      213: -7691750418234641335
+    second: Spellcast_r5_c2
+  - first:
+      213: 6688495276495240877
+    second: Spellcast_r5_c3
+  - first:
+      213: -3406344200909508306
+    second: Spellcast_r5_c4
+  - first:
+      213: 5456086456427995101
+    second: Spellcast_r5_c5
+  - first:
+      213: 438553354257869363
+    second: Spellcast_r5_c6
+  - first:
+      213: -3187256249365078964
+    second: Spellcast_r5_c7
+  - first:
+      213: -6847826961429805194
+    second: Spellcast_r5_c8
+  - first:
+      213: -2657042093097667589
+    second: Spellcast_r5_c9
+  - first:
+      213: 3938011806492452317
+    second: Spellcast_r5_c10
+  - first:
+      213: -7207392495709983938
+    second: Spellcast_r5_c11
+  - first:
+      213: -2228995708027338289
+    second: Spellcast_r5_c12
+  - first:
+      213: -5468865672828117425
+    second: Spellcast_r5_c13
+  - first:
+      213: 3989231540605944267
+    second: Spellcast_r5_c14
+  - first:
+      213: -4712312131500604973
+    second: Spellcast_r5_c15
+  - first:
+      213: -5681898310831700203
+    second: Spellcast_r5_c16
+  - first:
+      213: 5854568226141900277
+    second: Spellcast_r5_c17
+  - first:
+      213: 3469756155154982130
+    second: Spellcast_r5_c18
+  - first:
+      213: 281572320156830448
+    second: Spellcast_r5_c19
+  - first:
+      213: 51822773654963226
+    second: Spellcast_r6_c0
+  - first:
+      213: -7375860291334306341
+    second: Spellcast_r6_c1
+  - first:
+      213: 5268617785475776687
+    second: Spellcast_r6_c2
+  - first:
+      213: 4880012483890292730
+    second: Spellcast_r6_c3
+  - first:
+      213: -1150997242798419219
+    second: Spellcast_r6_c4
+  - first:
+      213: 1382155533479242256
+    second: Spellcast_r6_c5
+  - first:
+      213: -3698084938796492138
+    second: Spellcast_r6_c6
+  - first:
+      213: -1690202285336935078
+    second: Spellcast_r6_c7
+  - first:
+      213: 5187013812192807645
+    second: Spellcast_r6_c8
+  - first:
+      213: -493625423342156963
+    second: Spellcast_r6_c9
+  - first:
+      213: -3024013818833973885
+    second: Spellcast_r6_c10
+  - first:
+      213: -1648888494825915433
+    second: Spellcast_r6_c11
+  - first:
+      213: 373435465495092217
+    second: Spellcast_r6_c12
+  - first:
+      213: 2283722381132891538
+    second: Spellcast_r6_c13
+  - first:
+      213: -6187201342557408394
+    second: Spellcast_r6_c14
+  - first:
+      213: 344739558899941113
+    second: Spellcast_r6_c15
+  - first:
+      213: -7829314744223355796
+    second: Spellcast_r6_c16
+  - first:
+      213: 3692760615469019189
+    second: Spellcast_r6_c17
+  - first:
+      213: 7040039533177619474
+    second: Spellcast_r6_c18
+  - first:
+      213: -987754452340974534
+    second: Spellcast_r6_c19
+  - first:
+      213: -8814523016593765793
+    second: Spellcast_r7_c0
+  - first:
+      213: -236354523002343262
+    second: Spellcast_r7_c1
+  - first:
+      213: -3526672523123093036
+    second: Spellcast_r7_c2
+  - first:
+      213: -2877734990593997316
+    second: Spellcast_r7_c3
+  - first:
+      213: 1403905387590240684
+    second: Spellcast_r7_c4
+  - first:
+      213: 5448749114083152549
+    second: Spellcast_r7_c5
+  - first:
+      213: -2387101231128453118
+    second: Spellcast_r7_c6
+  - first:
+      213: 4135621111790981772
+    second: Spellcast_r7_c7
+  - first:
+      213: -955913619981609323
+    second: Spellcast_r7_c8
+  - first:
+      213: 7803231689997536142
+    second: Spellcast_r7_c9
+  - first:
+      213: 7617431410754365272
+    second: Spellcast_r7_c10
+  - first:
+      213: -2167491411041172531
+    second: Spellcast_r7_c11
+  - first:
+      213: 2216571373796087308
+    second: Spellcast_r7_c12
+  - first:
+      213: -8791918594393545351
+    second: Spellcast_r7_c13
+  - first:
+      213: -5836787397163466388
+    second: Spellcast_r7_c14
+  - first:
+      213: 315168646802049775
+    second: Spellcast_r7_c15
+  - first:
+      213: -8132608889099992603
+    second: Spellcast_r7_c16
+  - first:
+      213: -7399033511773172599
+    second: Spellcast_r7_c17
+  - first:
+      213: 232385918573904832
+    second: Spellcast_r7_c18
+  - first:
+      213: 4907247354317223310
+    second: Spellcast_r7_c19
+  - first:
+      213: -8640035476336236728
+    second: spellcast_r0_c0
+  - first:
+      213: -8747575150143358942
+    second: spellcast_r0_c1
+  - first:
+      213: -4064673682707287377
+    second: spellcast_r0_c2
+  - first:
+      213: 808326920829381829
+    second: spellcast_r0_c3
+  - first:
+      213: 4889492401235135161
+    second: spellcast_r0_c4
+  - first:
+      213: -1574305100854306
+    second: spellcast_r0_c5
+  - first:
+      213: 3858407256471074196
+    second: spellcast_r0_c6
+  - first:
+      213: 2523903089094417384
+    second: spellcast_r0_c7
+  - first:
+      213: 6936279972215473165
+    second: spellcast_r0_c8
+  - first:
+      213: 845045115072929799
+    second: spellcast_r0_c9
+  - first:
+      213: -2011731312161630781
+    second: spellcast_r0_c10
+  - first:
+      213: 9007331300433230869
+    second: spellcast_r0_c11
+  - first:
+      213: -2252321329157608051
+    second: spellcast_r0_c12
+  - first:
+      213: 6808222306953674115
+    second: spellcast_r1_c0
+  - first:
+      213: 448918862671156322
+    second: spellcast_r1_c1
+  - first:
+      213: -4942032306657147228
+    second: spellcast_r1_c2
+  - first:
+      213: -6260094913535053305
+    second: spellcast_r1_c3
+  - first:
+      213: 1096487057452937552
+    second: spellcast_r1_c4
+  - first:
+      213: -8470758255153185014
+    second: spellcast_r1_c5
+  - first:
+      213: -6953612645932639314
+    second: spellcast_r1_c6
+  - first:
+      213: 2994115395750301974
+    second: spellcast_r1_c7
+  - first:
+      213: -4478913934633561826
+    second: spellcast_r1_c8
+  - first:
+      213: -4012580129652085341
+    second: spellcast_r1_c9
+  - first:
+      213: -4621393548797298151
+    second: spellcast_r1_c10
+  - first:
+      213: 6495558005357016402
+    second: spellcast_r1_c11
+  - first:
+      213: 2672988347995749496
+    second: spellcast_r1_c12
+  - first:
+      213: 9204986957042459123
+    second: spellcast_r2_c0
+  - first:
+      213: -7814505456820741977
+    second: spellcast_r2_c1
+  - first:
+      213: -3414500146968084030
+    second: spellcast_r2_c2
+  - first:
+      213: -9185099429874843493
+    second: spellcast_r2_c3
+  - first:
+      213: -5156195772131188254
+    second: spellcast_r2_c4
+  - first:
+      213: 7972511305115647622
+    second: spellcast_r2_c5
+  - first:
+      213: -5212987032885598416
+    second: spellcast_r2_c6
+  - first:
+      213: -5588176892120530923
+    second: spellcast_r2_c7
+  - first:
+      213: -4203399498246826791
+    second: spellcast_r2_c8
+  - first:
+      213: -3447303310833712051
+    second: spellcast_r2_c9
+  - first:
+      213: 1865924301153104147
+    second: spellcast_r2_c10
+  - first:
+      213: -4298126333860373865
+    second: spellcast_r2_c11
+  - first:
+      213: -4840108309423383421
+    second: spellcast_r2_c12
+  - first:
+      213: 4402702071175947352
+    second: spellcast_r3_c0
+  - first:
+      213: 759242448612525719
+    second: spellcast_r3_c1
+  - first:
+      213: -5645322050242116264
+    second: spellcast_r3_c2
+  - first:
+      213: -4681275494187881580
+    second: spellcast_r3_c3
+  - first:
+      213: -3747156184504989209
+    second: spellcast_r3_c4
+  - first:
+      213: -7618797914187143280
+    second: spellcast_r3_c5
+  - first:
+      213: 3811778840555076772
+    second: spellcast_r3_c6
+  - first:
+      213: -8482397272507422006
+    second: spellcast_r3_c7
+  - first:
+      213: -3657758138155879412
+    second: spellcast_r3_c8
+  - first:
+      213: 1143780002914144715
+    second: spellcast_r3_c9
+  - first:
+      213: 2648246536734609833
+    second: spellcast_r3_c10
+  - first:
+      213: 6829203008562513179
+    second: spellcast_r3_c11
+  - first:
+      213: -4713268534201434246
+    second: spellcast_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spellcast_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c657b311210f4bb0800000000000000
+      internalID: -4949736223880554811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed09b6504f5401f0800000000000000
+      internalID: -1079633280724562457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51751063d5d916d40800000000000000
+      internalID: 5575910837324961557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3cb563231c1f6f0800000000000000
+      internalID: -652528049587502106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff2b4f62161e7530800000000000000
+      internalID: 3854542599508144112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e28de6accde5fe60800000000000000
+      internalID: 7995558176695878373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6103e01639885080800000000000000
+      internalID: -9198451373599686293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89156b472d9d6fc50800000000000000
+      internalID: 6698780993684656536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc00c75259988630800000000000000
+      internalID: 3929559253819329716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3a5d66c1fa25ba0800000000000000
+      internalID: -6101622008614378511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258804511ccadc630800000000000000
+      internalID: 3949002393559009362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489ea02df3d5b9be0800000000000000
+      internalID: -1469478324718081660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eae9af00b073dae0800000000000000
+      internalID: -1525751947269117216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5028f70af565980800000000000000
+      internalID: -8550541699577674251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ad70f98c9d5d5d0800000000000000
+      internalID: -3038282917906752868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f3f90edf2b74fa0800000000000000
+      internalID: -5816483590260703387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a431e31a0ca2c04b0800000000000000
+      internalID: -5472952440334707894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b301eb27605e4860800000000000000
+      internalID: 7516033232175956917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c5baa11a8e6f650800000000000000
+      internalID: 6266451710167440445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633cb430c38c8dd90800000000000000
+      internalID: -7072683054706474186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4875757edda7ab1a0800000000000000
+      internalID: -6792981994447349884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ffd08c556e7f5a0800000000000000
+      internalID: -6487463482100940903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0178cc08956dcda10800000000000000
+      internalID: 1935657619763791632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b780353116e587e20800000000000000
+      internalID: 3348530093979011195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2378e7f716750d220800000000000000
+      internalID: 2508601068707809074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56aacf4e86816ea0800000000000000
+      internalID: -5881271692586998178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2202ae9de8d91b3c0800000000000000
+      internalID: -4345518928568901598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spellcast_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471bedaf810d599e0800000000000000
+      internalID: -1615156085635763852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spellcast_r0_c0: -4949736223880554811
+      Spellcast_r0_c1: -1079633280724562457
+      Spellcast_r0_c10: 6993037145670001846
+      Spellcast_r0_c11: -1400861213368106500
+      Spellcast_r0_c12: -7520714536134335106
+      Spellcast_r0_c13: 4051120983561578588
+      Spellcast_r0_c14: -1781730058822564113
+      Spellcast_r0_c15: 9011019027760614360
+      Spellcast_r0_c16: -7137373724032792826
+      Spellcast_r0_c17: 1468565990683488783
+      Spellcast_r0_c18: -2100261036692293782
+      Spellcast_r0_c19: -1251168563821597780
+      Spellcast_r0_c2: 5575910837324961557
+      Spellcast_r0_c3: -652528049587502106
+      Spellcast_r0_c4: 3854542599508144112
+      Spellcast_r0_c5: 7995558176695878373
+      Spellcast_r0_c6: -9198451373599686293
+      Spellcast_r0_c7: -7351823593975168838
+      Spellcast_r0_c8: 2599049491389555592
+      Spellcast_r0_c9: 3697853929057825388
+      Spellcast_r1_c0: 6698780993684656536
+      Spellcast_r1_c1: 3929559253819329716
+      Spellcast_r1_c10: -1707516530964938182
+      Spellcast_r1_c11: 9195925549859562354
+      Spellcast_r1_c12: -2398693220890381124
+      Spellcast_r1_c13: -970902312207762541
+      Spellcast_r1_c14: 3395514415277155887
+      Spellcast_r1_c15: -1785321008196705594
+      Spellcast_r1_c16: -1963791537738057711
+      Spellcast_r1_c17: 6212096495897508638
+      Spellcast_r1_c18: -5793758104044832879
+      Spellcast_r1_c19: 6523871687611855431
+      Spellcast_r1_c2: -6101622008614378511
+      Spellcast_r1_c3: 3949002393559009362
+      Spellcast_r1_c4: -1469478324718081660
+      Spellcast_r1_c5: -1525751947269117216
+      Spellcast_r1_c6: -8550541699577674251
+      Spellcast_r1_c7: 8271297196063404698
+      Spellcast_r1_c8: -7207143239673110776
+      Spellcast_r1_c9: 9032849316621743535
+      Spellcast_r2_c0: -3038282917906752868
+      Spellcast_r2_c1: -5816483590260703387
+      Spellcast_r2_c10: 5299837563002429343
+      Spellcast_r2_c11: -5586088800025262921
+      Spellcast_r2_c12: 3804609427089327409
+      Spellcast_r2_c13: 3641536728735742493
+      Spellcast_r2_c14: 2693750151563139099
+      Spellcast_r2_c15: -4265357293834560113
+      Spellcast_r2_c16: -1037937046634549976
+      Spellcast_r2_c17: 4666165529637865839
+      Spellcast_r2_c18: -4679658423765247476
+      Spellcast_r2_c19: -749350270343624655
+      Spellcast_r2_c2: -5472952440334707894
+      Spellcast_r2_c3: 7516033232175956917
+      Spellcast_r2_c4: 6266451710167440445
+      Spellcast_r2_c5: -7072683054706474186
+      Spellcast_r2_c6: -6792981994447349884
+      Spellcast_r2_c7: -6211876071438447880
+      Spellcast_r2_c8: -5580851338264228495
+      Spellcast_r2_c9: -3740822253788981810
+      Spellcast_r3_c0: -6487463482100940903
+      Spellcast_r3_c1: 1935657619763791632
+      Spellcast_r3_c10: 3990081445234761533
+      Spellcast_r3_c11: 1648417786209931858
+      Spellcast_r3_c12: -5765058219255729217
+      Spellcast_r3_c13: -5944612933552999929
+      Spellcast_r3_c14: 222834617642172697
+      Spellcast_r3_c15: -666270006478035650
+      Spellcast_r3_c16: -5811365058815938242
+      Spellcast_r3_c17: 5874528160326053080
+      Spellcast_r3_c18: 8180783645113237520
+      Spellcast_r3_c19: 3047350783501292406
+      Spellcast_r3_c2: 3348530093979011195
+      Spellcast_r3_c3: 2508601068707809074
+      Spellcast_r3_c4: -5881271692586998178
+      Spellcast_r3_c5: -4345518928568901598
+      Spellcast_r3_c6: -1615156085635763852
+      Spellcast_r3_c7: -8372895968768587467
+      Spellcast_r3_c8: 4901777199459207853
+      Spellcast_r3_c9: -443836523243769920
+      Spellcast_r4_c0: -2643985024686285452
+      Spellcast_r4_c1: -1109162396715159729
+      Spellcast_r4_c10: 7434852665321476878
+      Spellcast_r4_c11: -419803462921149364
+      Spellcast_r4_c12: -993135663709117826
+      Spellcast_r4_c13: 7312170788444441618
+      Spellcast_r4_c14: 9071866202603107272
+      Spellcast_r4_c15: -7496914153322413997
+      Spellcast_r4_c16: -3690738136004809423
+      Spellcast_r4_c17: 4269795510304130483
+      Spellcast_r4_c18: -6556894180721633356
+      Spellcast_r4_c19: -4986848032562403873
+      Spellcast_r4_c2: -7074042176776688719
+      Spellcast_r4_c3: -4777025836308899563
+      Spellcast_r4_c4: 7684652442540794533
+      Spellcast_r4_c5: 4838412097611105451
+      Spellcast_r4_c6: 3235617295876426261
+      Spellcast_r4_c7: 5573697408595231903
+      Spellcast_r4_c8: -8318050858681115990
+      Spellcast_r4_c9: -4352386789758367553
+      Spellcast_r5_c0: -6936516483506859290
+      Spellcast_r5_c1: -6114362988871305384
+      Spellcast_r5_c10: 3938011806492452317
+      Spellcast_r5_c11: -7207392495709983938
+      Spellcast_r5_c12: -2228995708027338289
+      Spellcast_r5_c13: -5468865672828117425
+      Spellcast_r5_c14: 3989231540605944267
+      Spellcast_r5_c15: -4712312131500604973
+      Spellcast_r5_c16: -5681898310831700203
+      Spellcast_r5_c17: 5854568226141900277
+      Spellcast_r5_c18: 3469756155154982130
+      Spellcast_r5_c19: 281572320156830448
+      Spellcast_r5_c2: -7691750418234641335
+      Spellcast_r5_c3: 6688495276495240877
+      Spellcast_r5_c4: -3406344200909508306
+      Spellcast_r5_c5: 5456086456427995101
+      Spellcast_r5_c6: 438553354257869363
+      Spellcast_r5_c7: -3187256249365078964
+      Spellcast_r5_c8: -6847826961429805194
+      Spellcast_r5_c9: -2657042093097667589
+      Spellcast_r6_c0: 51822773654963226
+      Spellcast_r6_c1: -7375860291334306341
+      Spellcast_r6_c10: -3024013818833973885
+      Spellcast_r6_c11: -1648888494825915433
+      Spellcast_r6_c12: 373435465495092217
+      Spellcast_r6_c13: 2283722381132891538
+      Spellcast_r6_c14: -6187201342557408394
+      Spellcast_r6_c15: 344739558899941113
+      Spellcast_r6_c16: -7829314744223355796
+      Spellcast_r6_c17: 3692760615469019189
+      Spellcast_r6_c18: 7040039533177619474
+      Spellcast_r6_c19: -987754452340974534
+      Spellcast_r6_c2: 5268617785475776687
+      Spellcast_r6_c3: 4880012483890292730
+      Spellcast_r6_c4: -1150997242798419219
+      Spellcast_r6_c5: 1382155533479242256
+      Spellcast_r6_c6: -3698084938796492138
+      Spellcast_r6_c7: -1690202285336935078
+      Spellcast_r6_c8: 5187013812192807645
+      Spellcast_r6_c9: -493625423342156963
+      Spellcast_r7_c0: -8814523016593765793
+      Spellcast_r7_c1: -236354523002343262
+      Spellcast_r7_c10: 7617431410754365272
+      Spellcast_r7_c11: -2167491411041172531
+      Spellcast_r7_c12: 2216571373796087308
+      Spellcast_r7_c13: -8791918594393545351
+      Spellcast_r7_c14: -5836787397163466388
+      Spellcast_r7_c15: 315168646802049775
+      Spellcast_r7_c16: -8132608889099992603
+      Spellcast_r7_c17: -7399033511773172599
+      Spellcast_r7_c18: 232385918573904832
+      Spellcast_r7_c19: 4907247354317223310
+      Spellcast_r7_c2: -3526672523123093036
+      Spellcast_r7_c3: -2877734990593997316
+      Spellcast_r7_c4: 1403905387590240684
+      Spellcast_r7_c5: 5448749114083152549
+      Spellcast_r7_c6: -2387101231128453118
+      Spellcast_r7_c7: 4135621111790981772
+      Spellcast_r7_c8: -955913619981609323
+      Spellcast_r7_c9: 7803231689997536142
+      spellcast_0: 5807125210076102400
+      spellcast_1: -3286529404008807512
+      spellcast_10: 5894144742965938634
+      spellcast_11: -5130845419819639515
+      spellcast_12: -2857955713124209819
+      spellcast_13: 4910005905319963032
+      spellcast_14: 9107608138016119202
+      spellcast_15: -7446464195490487524
+      spellcast_16: -5531025340587695674
+      spellcast_17: 548732641713645888
+      spellcast_18: -7353558545725913605
+      spellcast_19: -3366656298103379094
+      spellcast_2: -7089004269969660582
+      spellcast_20: 4860100076872561787
+      spellcast_21: -9216687709183860496
+      spellcast_22: 5365937541179512453
+      spellcast_23: -7196338051484444824
+      spellcast_24: -1142120023519077481
+      spellcast_25: -6199654407713946016
+      spellcast_26: 4070391422725484234
+      spellcast_27: 4647979899385413402
+      spellcast_3: -3493187042504057909
+      spellcast_4: 1259685234195277828
+      spellcast_5: 6953092085122916617
+      spellcast_6: -7082872806229666545
+      spellcast_7: -1774754750907557111
+      spellcast_8: -6020276060499972284
+      spellcast_9: 3732506813703068223
+      spellcast_r0_c0: -8640035476336236728
+      spellcast_r0_c1: -8747575150143358942
+      spellcast_r0_c10: -2011731312161630781
+      spellcast_r0_c11: 9007331300433230869
+      spellcast_r0_c12: -2252321329157608051
+      spellcast_r0_c2: -4064673682707287377
+      spellcast_r0_c3: 808326920829381829
+      spellcast_r0_c4: 4889492401235135161
+      spellcast_r0_c5: -1574305100854306
+      spellcast_r0_c6: 3858407256471074196
+      spellcast_r0_c7: 2523903089094417384
+      spellcast_r0_c8: 6936279972215473165
+      spellcast_r0_c9: 845045115072929799
+      spellcast_r1_c0: 6808222306953674115
+      spellcast_r1_c1: 448918862671156322
+      spellcast_r1_c10: -4621393548797298151
+      spellcast_r1_c11: 6495558005357016402
+      spellcast_r1_c12: 2672988347995749496
+      spellcast_r1_c2: -4942032306657147228
+      spellcast_r1_c3: -6260094913535053305
+      spellcast_r1_c4: 1096487057452937552
+      spellcast_r1_c5: -8470758255153185014
+      spellcast_r1_c6: -6953612645932639314
+      spellcast_r1_c7: 2994115395750301974
+      spellcast_r1_c8: -4478913934633561826
+      spellcast_r1_c9: -4012580129652085341
+      spellcast_r2_c0: 9204986957042459123
+      spellcast_r2_c1: -7814505456820741977
+      spellcast_r2_c10: 1865924301153104147
+      spellcast_r2_c11: -4298126333860373865
+      spellcast_r2_c12: -4840108309423383421
+      spellcast_r2_c2: -3414500146968084030
+      spellcast_r2_c3: -9185099429874843493
+      spellcast_r2_c4: -5156195772131188254
+      spellcast_r2_c5: 7972511305115647622
+      spellcast_r2_c6: -5212987032885598416
+      spellcast_r2_c7: -5588176892120530923
+      spellcast_r2_c8: -4203399498246826791
+      spellcast_r2_c9: -3447303310833712051
+      spellcast_r3_c0: 4402702071175947352
+      spellcast_r3_c1: 759242448612525719
+      spellcast_r3_c10: 2648246536734609833
+      spellcast_r3_c11: 6829203008562513179
+      spellcast_r3_c12: -4713268534201434246
+      spellcast_r3_c2: -5645322050242116264
+      spellcast_r3_c3: -4681275494187881580
+      spellcast_r3_c4: -3747156184504989209
+      spellcast_r3_c5: -7618797914187143280
+      spellcast_r3_c6: 3811778840555076772
+      spellcast_r3_c7: -8482397272507422006
+      spellcast_r3_c8: -3657758138155879412
+      spellcast_r3_c9: 1143780002914144715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

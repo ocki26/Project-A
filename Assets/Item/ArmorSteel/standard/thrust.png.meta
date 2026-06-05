@@ -1,0 +1,1257 @@
+fileFormatVersion: 2
+guid: c04f1a464e0c8cd498dce95ef29dd05f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6024834609794013129
+    second: thrust_0
+  - first:
+      213: 842935541475254895
+    second: thrust_1
+  - first:
+      213: -1500890808946319869
+    second: thrust_2
+  - first:
+      213: -8776900218254125438
+    second: thrust_3
+  - first:
+      213: -7743025233815364557
+    second: thrust_4
+  - first:
+      213: -5274923518125664051
+    second: thrust_5
+  - first:
+      213: -3653835692655616969
+    second: thrust_6
+  - first:
+      213: 847603136818878844
+    second: thrust_7
+  - first:
+      213: 3915201478215544234
+    second: thrust_8
+  - first:
+      213: 6503953365219666222
+    second: thrust_9
+  - first:
+      213: 8619093209050915832
+    second: thrust_10
+  - first:
+      213: 6091729292899121584
+    second: thrust_11
+  - first:
+      213: 8138761284509775087
+    second: thrust_12
+  - first:
+      213: 1044244476953785180
+    second: thrust_13
+  - first:
+      213: -2701374599998122806
+    second: thrust_14
+  - first:
+      213: -3000237758432340626
+    second: thrust_15
+  - first:
+      213: 1306634325229355613
+    second: thrust_16
+  - first:
+      213: -8365760928736721436
+    second: thrust_17
+  - first:
+      213: -5762834701889743255
+    second: thrust_18
+  - first:
+      213: 8160629940614707108
+    second: thrust_19
+  - first:
+      213: 1060689356783593651
+    second: thrust_20
+  - first:
+      213: -2533954904959675739
+    second: thrust_21
+  - first:
+      213: -5708767402680537251
+    second: thrust_22
+  - first:
+      213: 5950423598683987459
+    second: thrust_23
+  - first:
+      213: -1223559618023075008
+    second: thrust_24
+  - first:
+      213: 7397050380192539624
+    second: thrust_25
+  - first:
+      213: 4851412910256607684
+    second: thrust_26
+  - first:
+      213: 7347298963767462788
+    second: thrust_27
+  - first:
+      213: 122844913587908118
+    second: thrust_28
+  - first:
+      213: -98597257551966918
+    second: thrust_29
+  - first:
+      213: -3280891658003242529
+    second: thrust_30
+  - first:
+      213: 6794031663104073358
+    second: thrust_31
+  - first:
+      213: -3888074447357534224
+    second: thrust_32
+  - first:
+      213: 5658096076893948764
+    second: thrust_33
+  - first:
+      213: 6565323999450237208
+    second: thrust_34
+  - first:
+      213: 7543996856600301481
+    second: thrust_35
+  - first:
+      213: -1511323240559143343
+    second: thrust_36
+  - first:
+      213: -4549965562891760302
+    second: thrust_37
+  - first:
+      213: 6718276295853732718
+    second: Thrust_r0_c0
+  - first:
+      213: -7469915913083733889
+    second: Thrust_r0_c1
+  - first:
+      213: 6227946762480489494
+    second: Thrust_r0_c2
+  - first:
+      213: -7177256983800693046
+    second: Thrust_r0_c3
+  - first:
+      213: -6487382636999403405
+    second: Thrust_r0_c4
+  - first:
+      213: 2012473543537146730
+    second: Thrust_r0_c5
+  - first:
+      213: 2188020420102792919
+    second: Thrust_r0_c6
+  - first:
+      213: 6651157687533670950
+    second: Thrust_r0_c7
+  - first:
+      213: 2220369848009890401
+    second: Thrust_r0_c8
+  - first:
+      213: 633876574451362329
+    second: Thrust_r0_c9
+  - first:
+      213: -1735531388121963126
+    second: Thrust_r0_c10
+  - first:
+      213: 4767060070905997984
+    second: Thrust_r0_c11
+  - first:
+      213: 7178274358828658502
+    second: Thrust_r0_c12
+  - first:
+      213: -2114371556028956803
+    second: Thrust_r1_c0
+  - first:
+      213: -7777529603507758228
+    second: Thrust_r1_c1
+  - first:
+      213: -4962308097378934771
+    second: Thrust_r1_c2
+  - first:
+      213: -9213751692480731070
+    second: Thrust_r1_c3
+  - first:
+      213: 8839671465904007948
+    second: Thrust_r1_c4
+  - first:
+      213: -4047786577085035928
+    second: Thrust_r1_c5
+  - first:
+      213: -1070563503197746983
+    second: Thrust_r1_c6
+  - first:
+      213: -7516730236747460717
+    second: Thrust_r1_c7
+  - first:
+      213: -5819933918832644949
+    second: Thrust_r1_c8
+  - first:
+      213: 9053132197708555940
+    second: Thrust_r1_c9
+  - first:
+      213: -2981931492515233052
+    second: Thrust_r1_c10
+  - first:
+      213: -5405321166589059342
+    second: Thrust_r1_c11
+  - first:
+      213: -2793333136692840700
+    second: Thrust_r1_c12
+  - first:
+      213: -77558842075429174
+    second: Thrust_r2_c0
+  - first:
+      213: 7828340588054128286
+    second: Thrust_r2_c1
+  - first:
+      213: 4086346852107759060
+    second: Thrust_r2_c2
+  - first:
+      213: 9194077664046421315
+    second: Thrust_r2_c3
+  - first:
+      213: 8454735931792453573
+    second: Thrust_r2_c4
+  - first:
+      213: 4316770595137470996
+    second: Thrust_r2_c5
+  - first:
+      213: -6140588535386126852
+    second: Thrust_r2_c6
+  - first:
+      213: 2651811380139860020
+    second: Thrust_r2_c7
+  - first:
+      213: 4178084763527410133
+    second: Thrust_r2_c8
+  - first:
+      213: -8514923922740982295
+    second: Thrust_r2_c9
+  - first:
+      213: 8986992812126140399
+    second: Thrust_r2_c10
+  - first:
+      213: 4053887373118884193
+    second: Thrust_r2_c11
+  - first:
+      213: 7076028806138772882
+    second: Thrust_r2_c12
+  - first:
+      213: -3439313738349185613
+    second: Thrust_r3_c0
+  - first:
+      213: -6819025392915040537
+    second: Thrust_r3_c1
+  - first:
+      213: 1775114912611103994
+    second: Thrust_r3_c2
+  - first:
+      213: -2656976715507630876
+    second: Thrust_r3_c3
+  - first:
+      213: -7368156357114658356
+    second: Thrust_r3_c4
+  - first:
+      213: -8792537540793071936
+    second: Thrust_r3_c5
+  - first:
+      213: 1064579008734949407
+    second: Thrust_r3_c6
+  - first:
+      213: -5871175247139048674
+    second: Thrust_r3_c7
+  - first:
+      213: 7137587314846674153
+    second: Thrust_r3_c8
+  - first:
+      213: -7605564966351600225
+    second: Thrust_r3_c9
+  - first:
+      213: 5784902951393178843
+    second: Thrust_r3_c10
+  - first:
+      213: 2547382505258965137
+    second: Thrust_r3_c11
+  - first:
+      213: -1393084839891758389
+    second: Thrust_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thrust_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63f94532bc1c3d50800000000000000
+      internalID: 6718276295853732718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f783b9aed07855890800000000000000
+      internalID: -7469915913083733889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61491b9559c1e6650800000000000000
+      internalID: 6227946762480489494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace3edaccc2456c90800000000000000
+      internalID: -7177256983800693046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3781d9ffcdf28f5a0800000000000000
+      internalID: -6487382636999403405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b376a760ebdeb10800000000000000
+      internalID: 2012473543537146730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6278dbaf86d5e10800000000000000
+      internalID: 2188020420102792919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r0_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6229d8e6da8ad4c50800000000000000
+      internalID: 6651157687533670950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f34bfa54e38a2e0800000000000000
+      internalID: -2114371556028956803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bd5d0680aa01490800000000000000
+      internalID: -7777529603507758228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d002fada317522bb0800000000000000
+      internalID: -4962308097378934771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2482809f6ad222080800000000000000
+      internalID: -9213751692480731070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b6d581d52dcaa70800000000000000
+      internalID: 8839671465904007948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a8042ed8f53d7c0800000000000000
+      internalID: -4047786577085035928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8866a7a289421f0800000000000000
+      internalID: -1070563503197746983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r1_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fca3ecca53fa790800000000000000
+      internalID: -7516730236747460717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac647e0e4a47ceef0800000000000000
+      internalID: -77558842075429174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962dbbd94ad3ac60800000000000000
+      internalID: 7828340588054128286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd2be4cfce95b830800000000000000
+      internalID: 4086346852107759060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34517d25cece79f70800000000000000
+      internalID: 9194077664046421315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf683ce881455570800000000000000
+      internalID: 8454735931792453573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412450c2cff38eb30800000000000000
+      internalID: 4316770595137470996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf54974e24f38caa0800000000000000
+      internalID: -6140588535386126852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r2_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430239c76602dc420800000000000000
+      internalID: 2651811380139860020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b57392906a1540d0800000000000000
+      internalID: -3439313738349185613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e63eeca884fd51a0800000000000000
+      internalID: -6819025392915040537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4fea9ab9972a810800000000000000
+      internalID: 1775114912611103994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecfea721c5802bd0800000000000000
+      internalID: -2656976715507630876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc105a4d4dc0fb990800000000000000
+      internalID: -7368156357114658356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60eb601b1aaf580800000000000000
+      internalID: -8792537540793071936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10fbf2d7f426ce00800000000000000
+      internalID: 1064579008734949407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thrust_r3_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13f5343835658ea0800000000000000
+      internalID: -5871175247139048674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 34da02f500dac51408d7dbca7e3792dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ArmorStell_Thrust_r0_c0: -1305082299
+      ArmorStell_Thrust_r1_c0: -705387347
+      ArmorStell_Thrust_r2_c0: -86450066
+      ArmorStell_Thrust_r3_c0: -2035454027
+      IronArrmor_Thrust_r0_c0: 256445039
+      IronArrmor_Thrust_r0_c1: 2035446848
+      IronArrmor_Thrust_r0_c10: -1332895115
+      IronArrmor_Thrust_r0_c11: -1073791015
+      IronArrmor_Thrust_r0_c12: -257708169
+      IronArrmor_Thrust_r0_c2: 703471289
+      IronArrmor_Thrust_r0_c3: 1801082943
+      IronArrmor_Thrust_r0_c4: -117891047
+      IronArrmor_Thrust_r0_c5: 1024133917
+      IronArrmor_Thrust_r0_c6: 1854733673
+      IronArrmor_Thrust_r0_c7: -1926441818
+      IronArrmor_Thrust_r0_c8: 1410665152
+      IronArrmor_Thrust_r0_c9: 357625093
+      IronArrmor_Thrust_r1_c0: 1070521938
+      IronArrmor_Thrust_r1_c1: -1565138355
+      IronArrmor_Thrust_r1_c10: -841076971
+      IronArrmor_Thrust_r1_c11: -1386464734
+      IronArrmor_Thrust_r1_c12: -761229853
+      IronArrmor_Thrust_r1_c2: 782492201
+      IronArrmor_Thrust_r1_c3: 1024259817
+      IronArrmor_Thrust_r1_c4: -903337821
+      IronArrmor_Thrust_r1_c5: -1555319135
+      IronArrmor_Thrust_r1_c6: 214014050
+      IronArrmor_Thrust_r1_c7: -954381196
+      IronArrmor_Thrust_r1_c8: -1912048799
+      IronArrmor_Thrust_r1_c9: -1412312024
+      IronArrmor_Thrust_r2_c0: 385656769
+      IronArrmor_Thrust_r2_c1: -969938754
+      IronArrmor_Thrust_r2_c10: -1399459448
+      IronArrmor_Thrust_r2_c11: 233408588
+      IronArrmor_Thrust_r2_c12: 1207128518
+      IronArrmor_Thrust_r2_c2: -1083713748
+      IronArrmor_Thrust_r2_c3: -1190338496
+      IronArrmor_Thrust_r2_c4: 1350237124
+      IronArrmor_Thrust_r2_c5: -682794274
+      IronArrmor_Thrust_r2_c6: 631630011
+      IronArrmor_Thrust_r2_c7: -1293123790
+      IronArrmor_Thrust_r2_c8: 515831101
+      IronArrmor_Thrust_r2_c9: 1047756367
+      IronArrmor_Thrust_r3_c0: -504139940
+      IronArrmor_Thrust_r3_c1: -787184439
+      IronArrmor_Thrust_r3_c10: 495051199
+      IronArrmor_Thrust_r3_c11: 1788958957
+      IronArrmor_Thrust_r3_c12: -700014000
+      IronArrmor_Thrust_r3_c2: -276090410
+      IronArrmor_Thrust_r3_c3: 1960720239
+      IronArrmor_Thrust_r3_c4: -334256509
+      IronArrmor_Thrust_r3_c5: 1409138667
+      IronArrmor_Thrust_r3_c6: -1361445143
+      IronArrmor_Thrust_r3_c7: 594222359
+      IronArrmor_Thrust_r3_c8: 722292582
+      IronArrmor_Thrust_r3_c9: -1159234174
+      MyItem_Thrust_r0_c0: -1160284696
+      MyItem_Thrust_r1_c0: 591768230
+      MyItem_Thrust_r2_c0: -1365409517
+      MyItem_Thrust_r3_c0: 1097509273
+      SteelArmor_Thrust_r0_c0: -76974625
+      SteelArmor_Thrust_r0_c1: -460469650
+      SteelArmor_Thrust_r0_c2: -333091005
+      SteelArmor_Thrust_r0_c3: -507681026
+      SteelArmor_Thrust_r1_c0: 1805135380
+      SteelArmor_Thrust_r1_c1: -1884618188
+      SteelArmor_Thrust_r1_c2: -991292931
+      SteelArmor_Thrust_r1_c3: 62611037
+      SteelArmor_Thrust_r2_c0: -1423690088
+      SteelArmor_Thrust_r2_c1: 1330503686
+      SteelArmor_Thrust_r2_c2: -2015498184
+      SteelArmor_Thrust_r2_c3: 227093918
+      SteelArmor_Thrust_r3_c0: -1283774362
+      SteelArmor_Thrust_r3_c1: -942895933
+      SteelArmor_Thrust_r3_c2: 453936933
+      SteelArmor_Thrust_r3_c3: -1546096615
+      Thrust_r0_c0: 6718276295853732718
+      Thrust_r0_c1: -7469915913083733889
+      Thrust_r0_c10: -1735531388121963126
+      Thrust_r0_c11: 4767060070905997984
+      Thrust_r0_c12: 7178274358828658502
+      Thrust_r0_c2: 6227946762480489494
+      Thrust_r0_c3: -7177256983800693046
+      Thrust_r0_c4: -6487382636999403405
+      Thrust_r0_c5: 2012473543537146730
+      Thrust_r0_c6: 2188020420102792919
+      Thrust_r0_c7: 6651157687533670950
+      Thrust_r0_c8: 2220369848009890401
+      Thrust_r0_c9: 633876574451362329
+      Thrust_r1_c0: -2114371556028956803
+      Thrust_r1_c1: -7777529603507758228
+      Thrust_r1_c10: -2981931492515233052
+      Thrust_r1_c11: -5405321166589059342
+      Thrust_r1_c12: -2793333136692840700
+      Thrust_r1_c2: -4962308097378934771
+      Thrust_r1_c3: -9213751692480731070
+      Thrust_r1_c4: 8839671465904007948
+      Thrust_r1_c5: -4047786577085035928
+      Thrust_r1_c6: -1070563503197746983
+      Thrust_r1_c7: -7516730236747460717
+      Thrust_r1_c8: -5819933918832644949
+      Thrust_r1_c9: 9053132197708555940
+      Thrust_r2_c0: -77558842075429174
+      Thrust_r2_c1: 7828340588054128286
+      Thrust_r2_c10: 8986992812126140399
+      Thrust_r2_c11: 4053887373118884193
+      Thrust_r2_c12: 7076028806138772882
+      Thrust_r2_c2: 4086346852107759060
+      Thrust_r2_c3: 9194077664046421315
+      Thrust_r2_c4: 8454735931792453573
+      Thrust_r2_c5: 4316770595137470996
+      Thrust_r2_c6: -6140588535386126852
+      Thrust_r2_c7: 2651811380139860020
+      Thrust_r2_c8: 4178084763527410133
+      Thrust_r2_c9: -8514923922740982295
+      Thrust_r3_c0: -3439313738349185613
+      Thrust_r3_c1: -6819025392915040537
+      Thrust_r3_c10: 5784902951393178843
+      Thrust_r3_c11: 2547382505258965137
+      Thrust_r3_c12: -1393084839891758389
+      Thrust_r3_c2: 1775114912611103994
+      Thrust_r3_c3: -2656976715507630876
+      Thrust_r3_c4: -7368156357114658356
+      Thrust_r3_c5: -8792537540793071936
+      Thrust_r3_c6: 1064579008734949407
+      Thrust_r3_c7: -5871175247139048674
+      Thrust_r3_c8: 7137587314846674153
+      Thrust_r3_c9: -7605564966351600225
+      thrust_0: 6024834609794013129
+      thrust_1: 842935541475254895
+      thrust_10: 8619093209050915832
+      thrust_11: 6091729292899121584
+      thrust_12: 8138761284509775087
+      thrust_13: 1044244476953785180
+      thrust_14: -2701374599998122806
+      thrust_15: -3000237758432340626
+      thrust_16: 1306634325229355613
+      thrust_17: -8365760928736721436
+      thrust_18: -5762834701889743255
+      thrust_19: 8160629940614707108
+      thrust_2: -1500890808946319869
+      thrust_20: 1060689356783593651
+      thrust_21: -2533954904959675739
+      thrust_22: -5708767402680537251
+      thrust_23: 5950423598683987459
+      thrust_24: -1223559618023075008
+      thrust_25: 7397050380192539624
+      thrust_26: 4851412910256607684
+      thrust_27: 7347298963767462788
+      thrust_28: 122844913587908118
+      thrust_29: -98597257551966918
+      thrust_3: -8776900218254125438
+      thrust_30: -3280891658003242529
+      thrust_31: 6794031663104073358
+      thrust_32: -3888074447357534224
+      thrust_33: 5658096076893948764
+      thrust_34: 6565323999450237208
+      thrust_35: 7543996856600301481
+      thrust_36: -1511323240559143343
+      thrust_37: -4549965562891760302
+      thrust_4: -7743025233815364557
+      thrust_5: -5274923518125664051
+      thrust_6: -3653835692655616969
+      thrust_7: 847603136818878844
+      thrust_8: 3915201478215544234
+      thrust_9: 6503953365219666222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

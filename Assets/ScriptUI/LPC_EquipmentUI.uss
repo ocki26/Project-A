@@ -1,0 +1,629 @@
+/* =========================================================================
+   LPC_EquipmentUI.uss  —  Gothic Dark Dungeon Skin (Diablo / Darkest Dungeon)
+   ========================================================================= */
+
+/* ─── RESET ─────────────────────────────────────────────────────── */
+* {
+    -unity-font-style: normal;
+    -unity-text-align: middle-left;
+    padding: 0;
+    margin: 0;
+}
+
+/* ─── BACKDROP ──────────────────────────────────────────────────── */
+.backdrop {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background-color: rgba(6, 7, 9, 0.90); /* Tông đen kịt ngục tối */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ─── MAIN WINDOW ───────────────────────────────────────────────── */
+.main-window {
+    flex-direction: column;
+    width: 820px;
+    max-width: 95%;
+    height: 560px;
+    max-height: 95%;
+    overflow: hidden;
+    background-color: #0E0F12; /* Hộp đá Obsidian nguyên khối */
+    border-width: 4px; /* Viền sắt dày dặn */
+    border-color: #3D4148; /* Viền xám sắt nguội */
+    border-radius: 0; /* Sắc cạnh góc vuông pixel */
+    -unity-overflow-clip-box: padding-box;
+}
+
+/* ─── TITLE BAR ─────────────────────────────────────────────────── */
+.title-bar {
+    flex-direction: row;
+    align-items: center;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #101216; /* Thép đúc đen của hầm ngục */
+    border-bottom-width: 3px;
+    border-bottom-color: #3D4148;
+    padding: 0 14px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.title-icon {
+    width: 22px; height: 22px;
+    background-color: #A30000; /* Khuy đính hồng ngọc huyết tinh */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    margin-right: 10px;
+}
+.title-text {
+    color: #C5A059; /* Vàng đồng cổ kính hoen rỉ */
+    font-size: 15px;
+    -unity-font-style: bold;
+    letter-spacing: 2.5px;
+    margin-right: 10px;
+}
+.title-divider {
+    width: 2px; height: 18px;
+    background-color: #272A30;
+    margin: 0 12px;
+}
+.char-name {
+    color: #A5B8D0; /* Màu thép xám bạc lạnh */
+    font-size: 12px;
+    letter-spacing: 1px;
+    flex-grow: 1;
+}
+.close-btn {
+    width: 28px; height: 28px;
+    background-color: #5C1D1D; /* Nút đỏ gạch tối màu máu khô */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.1s;
+}
+.close-btn:hover  { background-color: #A30000; border-color: #3D4148; }
+.close-btn:active { background-color: #300000; }
+.close-icon {
+    color: #FFF3E0;
+    font-size: 13px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+.close-btn:hover .close-icon { color: white; }
+
+/* ─── CONTENT ROW ───────────────────────────────────────────────── */
+.content-row {
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+    padding: 14px;
+    padding-bottom: 8px;
+}
+
+/* ─── CORNER ACCENTS ────────────────────────────────────────────── */
+.corner {
+    position: absolute;
+    width: 10px; height: 10px;
+    border-color: #A30000; /* Góc bọc thép đỏ máu Gothic */
+    border-width: 0;
+}
+.corner-tl { left: 4px;  top: 4px;    border-left-width: 3px; border-top-width: 3px;    }
+.corner-tr { right: 4px; top: 4px;    border-right-width: 3px; border-top-width: 3px;   }
+.corner-bl { left: 4px;  bottom: 4px; border-left-width: 3px; border-bottom-width: 3px; }
+.corner-br { right: 4px; bottom: 4px; border-right-width: 3px; border-bottom-width: 3px;}
+
+/* ─── PANEL HEADER ──────────────────────────────────────────────── */
+.panel-header {
+    color: #C5A059;
+    font-size: 11px;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+    width: 100%;
+}
+
+/* ─── LEFT: CHARACTER PANEL ────────────────────────────────────── */
+.char-panel {
+    width: 220px;
+    background-color: #181A1F; /* Bảng đá phiến xám tối */
+    border-width: 3px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 12px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    min-height: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Avatar preview */
+.char-preview {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    position: relative;
+    flex-shrink: 0;
+}
+.char-sprite {
+    width: 44px; height: 44px;
+    background-color: #101216; /* Hộp sắt lõm tối kịt */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+}
+.char-placeholder-icon {
+    font-size: 16px;
+    -unity-text-align: middle-center;
+    color: #A30000;
+}
+.level-badge {
+    position: absolute;
+    right: 78px;
+    bottom: -4px;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #A30000;
+    border-width: 1.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 1px 5px;
+}
+.level-lbl-small { font-size: 7px; color: #FFF3E0; -unity-font-style: bold; margin-right: 2px; }
+.level-value      { font-size: 10px; color: #FFF3E0; -unity-font-style: bold; }
+
+.paper-doll-container {
+    flex-grow: 1;
+    min-height: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.paper-doll-container #unity-content-container {
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+/* Scrollbar thép */
+.paper-doll-container .unity-scroller {
+    width: 6px;
+    background-color: transparent;
+}
+.paper-doll-container .unity-slider__tracker {
+    background-color: transparent;
+}
+.paper-doll-container .unity-slider__dragger {
+    background-color: #A30000;
+    border-radius: 0;
+    width: 4px;
+}
+
+/* Rows & Spacers */
+.pd-row {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.pd-spacer {
+    width: 52px;
+    height: 52px;
+    margin: 0 5px;
+    flex-shrink: 0;
+}
+
+/* ─── APPEARANCE PLACEHOLDER ────────────────────────────────────── */
+.appearance-placeholder {
+    flex-grow: 1;
+    color: #4D535E;
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    letter-spacing: 1px;
+    white-space: normal;
+    padding: 20px 10px;
+}
+
+/* ─── EQUIPMENT SLOT SQUARE ─────────────────────────────────────── */
+.equip-slot-square {
+    width: 52px;
+    height: 52px;
+    background-color: #101216; /* Rãnh sắt tối kịt */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    margin: 0 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+    transition-duration: 0.12s;
+}
+.equip-slot-square:hover {
+    background-color: #1F2228;
+    border-color: #A30000; /* Bùng sáng đỏ ngục tối khi hover */
+    box-shadow: 0 0 6px rgba(163, 0, 0, 0.5);
+}
+
+/* Slot label */
+.slot-label {
+    font-size: 7px;
+    color: #8C95A5; /* Nhãn chữ màu xám thép */
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    letter-spacing: 0.5px;
+    margin-top: 3px;
+    width: 52px;
+}
+
+/* Icon bên trong slot */
+.slot-bg-icon {
+    -unity-text-align: middle-center;
+    font-size: 0;
+    color: transparent;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+/* Tên item nhỏ */
+.slot-name-tiny {
+    display: none;
+    font-size: 6px;
+    color: #C5A059;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    padding: 0 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Rarity bar đáy ô */
+.rarity-bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 4px; right: 4px;
+    height: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: transparent;
+}
+
+/* Trạng thái đã trang bị đầy đủ */
+.equip-slot-square.equip-slot--filled {
+    background-color: #1F2228;
+    border-color: #A30000;
+    border-width: 2px;
+}
+.equip-slot-square.equip-slot--filled:hover {
+    border-color: #FF4D4D;
+}
+.equip-slot-square.equip-slot--filled .slot-name-tiny {
+    display: flex;
+}
+.equip-slot-square.equip-slot--filled .slot-label {
+    color: #A30000;
+}
+
+/* Drag over highlight */
+.equip-slot--drag-over {
+    background-color: #2D1414;
+    border-color: #FF4D4D;
+    border-width: 2.5px;
+    scale: 1.08;
+}
+
+/* Rarity colors */
+.rarity-common  { background-color: #8FA0B0; }
+.rarity-rare    { background-color: #4A90E2; }
+.rarity-epic    { background-color: #9B59B6; }
+.rarity-legend  { background-color: #A30000; }
+
+/* ─── STATS ROW ─────────────────────────────────────────────────── */
+.stats-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    background-color: #101216; /* Khung sắt chỉ số */
+    border-radius: 0;
+    padding: 5px 4px;
+    border-width: 2px;
+    border-color: #3D4148;
+    flex-shrink: 0;
+}
+.stat-chip   { flex-direction: column; align-items: center; flex-grow: 1; }
+.stat-label  { color: #8C95A5; font-size: 7px; letter-spacing: 1.5px; -unity-font-style: bold; -unity-text-align: middle-center; }
+.stat-value  { font-size: 12px; -unity-font-style: bold; -unity-text-align: middle-center; }
+.atk { color: #FF4D4D; }
+.def { color: #4EA8DE; }
+.spd { color: #10B981; }
+.stat-divider { width: 2px; height: 16px; background-color: #3D4148; }
+
+/* ─── RIGHT: INVENTORY PANEL ────────────────────────────────────── */
+.inv-panel {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+    background-color: #181A1F; /* Bảng đá phiến */
+    border-width: 3px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 14px;
+    flex-direction: column;
+}
+.inv-header-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+.inv-header-row .panel-header {
+    width: auto;
+    flex-grow: 0;
+    margin-right: 16px;
+    margin-bottom: 0;
+}
+
+/* Filter Tabs */
+.filter-tabs { flex-direction: row; flex-grow: 1; margin-bottom: 10px; }
+.filter-tab {
+    background-color: transparent;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: transparent;
+    color: #4D535E;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-right: 2px;
+    border-radius: 0;
+    transition-duration: 0.12s;
+    transition-property: color, border-bottom-color;
+}
+.filter-tab:hover { color: #A30000; }
+.filter-active    { color: #A30000; border-bottom-color: #A30000; -unity-font-style: bold; }
+
+/* Gold + Weight */
+.gold-row {
+    flex-direction: row;
+    align-items: center;
+    background-color: #101216; /* Hộp tiền sắt đen */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+.gold-icon  { font-size: 13px; margin-right: 4px; }
+.gold-value { color: #C5A059; font-size: 13px; -unity-font-style: bold; margin-right: 16px; flex-grow: 1; }
+.weight-label { color: #8C95A5; font-size: 10px; margin-right: 6px; }
+.weight-bar-bg {
+    width: 80px; height: 8px;
+    background-color: #101216; /* Rãnh sắt rỗng */
+    border-width: 1px;
+    border-color: #3D4148;
+    border-radius: 0;
+    margin-right: 6px;
+    overflow: hidden;
+}
+.weight-bar-fill {
+    height: 100%; width: 0%;
+    background-color: #5C626D; /* Thanh thép xám */
+    border-radius: 0;
+    transition-duration: 0.3s;
+    transition-property: width;
+}
+.weight-text { color: #A5B8D0; font-size: 10px; }
+.weight-warn {
+    font-size: 9px;
+    -unity-font-style: bold;
+    margin-left: 8px;
+    padding: 2px 6px;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #3D4148;
+    background-color: #A30000;
+    color: white;
+}
+
+/* ─── INVENTORY GRID (Dark Crypt Floor!) ───────────────────────── */
+.inventory-grid {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+    background-color: #111215; /* Sàn hầm ngục đá đen */
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: #3D4148;
+    margin-bottom: 10px;
+    --unity-metrics-single-line-height: 1;
+}
+.inventory-grid #unity-content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+.inventory-grid .unity-scroller {
+    width: 8px;
+    background-color: #101216;
+}
+.inventory-grid .unity-slider__tracker {
+    background-color: #1F2228;
+    border-radius: 0;
+}
+.inventory-grid .unity-slider__dragger {
+    background-color: #A30000;
+    border-radius: 0;
+    width: 6px;
+    box-shadow: 0 0 4px #A30000;
+}
+
+/* Inventory Item Cell (Grimy charcoal cells) */
+.inv-item {
+    width: 64px; height: 64px;
+    background-color: #1D1F24; /* Ô sắt tối */
+    border-width: 2px;
+    border-color: #2D3139; /* Viền thép tối */
+    border-radius: 0;
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.12s;
+    transition-property: background-color, border-color, scale;
+    position: relative;
+    flex-shrink: 0;
+}
+.inv-item:hover         { background-color: #262B34; border-color: #A30000; scale: 1.06; }
+.inv-item--selected     { background-color: #2D1414; border-color: #A30000; border-width: 2.5px; box-shadow: inset 0 0 8px rgba(163,0,0,0.6); }
+.inv-item-icon          { font-size: 22px; -unity-text-align: middle-center; }
+.inv-item-name {
+    font-size: 7px;
+    color: #A5B8D0; /* Chữ xám thép trên nền đen */
+    -unity-text-align: middle-center;
+    overflow: hidden;
+    max-width: 58px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+}
+.inv-item-rarity-dot {
+    position: absolute;
+    right: 3px; top: 3px;
+    width: 6px; height: 6px;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #3D4148;
+}
+.inv-item-weight {
+    position: absolute;
+    left: 2px; bottom: 2px;
+    font-size: 6px;
+    color: #5C626D;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+}
+.inv-item-equipped-badge {
+    position: absolute;
+    left: 2px; bottom: 2px;
+    width: 13px; height: 13px;
+    background-color: #A30000;
+    border-width: 1px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+}
+.inv-item-equipped-badge-text {
+    font-size: 8px;
+    color: white;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+/* ─── DETAIL PREVIEW PANEL (Charred dark scroll) ────────────────── */
+.detail-panel {
+    flex-direction: row;
+    align-items: center;
+    background-color: #16181F; /* Bản khế ước da cháy tối màu */
+    border-radius: 0;
+    border-width: 2.5px;
+    border-color: #3D4148;
+    padding: 4px 10px; /* Tiết giảm padding chiều dọc cực lớn */
+    min-height: 48px; /* Giảm đáng kể từ 64px giúp lưới đồ rộng hơn */
+    flex-shrink: 0;
+}
+.detail-portrait-col { flex-direction: column; align-items: center; margin-right: 8px; flex-shrink: 0; }
+.detail-portrait {
+    width: 32px; height: 32px; /* Thu nhỏ bọc chân dung từ 42px thành 32px */
+    background-color: #101216;
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.detail-portrait-icon { font-size: 15px; -unity-text-align: middle-center; color: #A5B8D0; }
+.rarity-stars         { font-size: 8px; color: #A30000; -unity-text-align: middle-center; }
+.detail-info-col      { flex-grow: 1; flex-direction: column; justify-content: center; margin-right: 12px; }
+.detail-item-name     { color: #FF4D4D; font-size: 11px; -unity-font-style: bold; margin-bottom: 1px; } /* Giảm cỡ chữ tiêu đề */
+.detail-category      { color: #8C95A5; font-size: 7px; letter-spacing: 0.5px; -unity-font-style: bold; margin-bottom: 1px; }
+.detail-weight        { font-size: 8px; color: #8C95A5; margin-bottom: 1px; }
+.detail-desc          { color: #A5B8D0; font-size: 8px; white-space: normal; } /* Thu nhỏ font mô tả */
+.stat-diff-row        { flex-direction: row; margin-top: 2px; }
+.diff-badge           { font-size: 8px; -unity-font-style: bold; margin-right: 4px; border-radius: 0; padding: 1px 4px; border-width: 1px; border-color: #3D4148; background-color: rgba(0,0,0,0.3); }
+.diff-positive        { color: #10B981; } /* Xanh độc lục */
+.diff-negative        { color: #EF4444; } /* Đỏ máu hiểm họa */
+
+/* Action Buttons — ĐƯA RA HÀNG NGANG RÚT GỌN DIỆN TÍCH DỌC 100% */
+.detail-action-col { 
+    flex-direction: row; /* Thay đổi từ cột thành hàng ngang cực thông minh */
+    justify-content: flex-end; 
+    align-items: center;
+    width: auto; 
+    flex-shrink: 0; 
+}
+.action-btn {
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #3D4148;
+    color: #FFF3E0;
+    font-size: 8.5px;
+    -unity-font-style: bold;
+    padding: 3px 8px; /* Tối ưu padding nút gọn gàng */
+    margin-left: 6px; /* Cách nhau hàng ngang */
+    margin-bottom: 0; /* Bỏ margin dọc */
+    -unity-text-align: middle-center;
+    transition-duration: 0.1s;
+    transition-property: background-color, scale;
+}
+.action-btn:hover  { scale: 1.03; }
+.action-btn:active { scale: 0.97; }
+.equip-btn   { background-color: #1B4D3E; border-bottom-width: 3px; border-bottom-color: #0E3025; }
+.equip-btn:hover   { background-color: #276E59; }
+.remove-btn  { background-color: #1F3A52; border-bottom-width: 3px; border-bottom-color: #0F2333; }
+.remove-btn:hover  { background-color: #2B5273; }
+.drop-btn    { background-color: #5C1D1D; border-bottom-width: 3px; border-bottom-color: #300C0C; color: #FFF3E0; margin-bottom: 0; }
+.drop-btn:hover    { background-color: #8A2D2D; }
+
+/* ─── BOTTOM BAR ────────────────────────────────────────────────── */
+.bottom-bar {
+    flex-direction: row;
+    align-items: center;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #101216; /* Thanh sắt tối */
+    border-top-width: 2.5px;
+    border-top-color: #3D4148;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0 14px;
+}
+.bottom-credit { color: #8C95A5; font-size: 9px; flex-grow: 1; }
+.bottom-btn {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    color: #8C95A5;
+    font-size: 10px;
+    padding: 4px 12px;
+    margin-left: 8px;
+    transition-duration: 0.12s;
+    transition-property: background-color, color, border-color;
+    flex-shrink: 0;
+}
+.bottom-btn:hover { background-color: #181A1F; color: #A30000; border-color: #A30000; }

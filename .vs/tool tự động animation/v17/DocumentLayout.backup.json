@@ -1,0 +1,838 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\roombehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\roombehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\roomnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\roomnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\stairsinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\stairsinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\roomtypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\roomtypeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\roomshapetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\roomshapetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\dungeonroomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\dungeonroomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|e:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\resources\\roomcreatescript\\dungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\roomcreatescript\\dungeongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomTypeConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\RoomTypeConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcitemcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcitemcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcanimationimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcanimationimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcautoassignslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcautoassignslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcsetupfixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcsetupfixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcslotdefinitiongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcslotdefinitiongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpccharactercomposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpccharactercomposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcplayerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcplayerbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\SetLayerOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\SetLayerOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpcitemcreatorspritelib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpcitemcreatorspritelib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\files (4)\\EquipmentSlotDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_equipmentui.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_equipmentui.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_equipmentui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_equipmentui.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_hud.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_hud.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_hud_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_hud_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_hud.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_hud.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\scriptui\\lpc_hud_additions.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{254823AB-FA2B-D182-291C-5D87D4CD7C8C}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptui\\lpc_hud_additions.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\assets\\editor\\lpclayerdebugger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B6AB34-7BCB-4A5B-EDF0-2068630E1739}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\lpclayerdebugger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCSpriteSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCSpriteSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SetLayerOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SetLayerOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\CharacterLoadout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CharacterLoadout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCCompositeCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCCompositeCharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\ItemData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCItemData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCItemData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCPlayerController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPC_UI_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPC_UI_Manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCEquipSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SpriteResolverSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpriteResolverSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\EquipmentSlotDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EquipmentSlotDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\OutfitScheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OutfitScheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCPlayerController2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\InventoryUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventoryUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCEquipmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCAppearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LPCAppearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomShapeTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\RoomShapeTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonRoomType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\DungeonRoomType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\RoomBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\StairsInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\StairsInteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\DungeonGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RoomCreateScript\\RoomNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StairsInteract.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\StairsInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\StairsInteract.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\StairsInteract.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\StairsInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:29:20.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomTypeConfig.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomTypeConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\RoomTypeConfig.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomTypeConfig.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\RoomTypeConfig.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:29:14.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomShapeTemplate.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:29:09.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomNode.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\RoomNode.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomNode.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\RoomNode.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:29:04.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DungeonRoomType.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\DungeonRoomType.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\DungeonRoomType.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\DungeonRoomType.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\DungeonRoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:28:52.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomBehavior.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\RoomBehavior.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\RoomBehavior.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\RoomBehavior.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:28:51.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DungeonGenerator.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\DungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\RoomCreateScript\\DungeonGenerator.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Resources\\RoomCreateScript\\DungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\Resources\\RoomCreateScript\\DungeonGenerator.cs",
+              "ViewState": "AgIAADECAAAAAAAAAAAowFICAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:27:27.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomTypeConfig.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomTypeConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\RoomTypeConfig.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomTypeConfig.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\RoomTypeConfig.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:08:33.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RoomShapeTemplate.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\RoomShapeTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:07:07.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DungeonRoomType.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonRoomType.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\DungeonRoomType.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonRoomType.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\DungeonRoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:06:15.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TileDragAndDrop.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\TileDragAndDrop.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAawN0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:48:29.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LPCSpriteSync.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCSpriteSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCSpriteSync.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCSpriteSync.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCSpriteSync.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAQwA8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T16:06:32.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LPCSlotDefinitionGenerator.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCSlotDefinitionGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCSlotDefinitionGenerator.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCSlotDefinitionGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCSlotDefinitionGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T09:17:51.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SetLayerOrder.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SetLayerOrder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SetLayerOrder.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SetLayerOrder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SetLayerOrder.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:50:38.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SetLayerOrder.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\SetLayerOrder.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\SetLayerOrder.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\SetLayerOrder.cs",
+              "RelativeToolTip": "Assets\\Editor\\SetLayerOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:49:18.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RoomBehavior.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\RoomBehavior.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomBehavior.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\RoomBehavior.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:13:01.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StairsInteract.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\StairsInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\StairsInteract.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\StairsInteract.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\StairsInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:11:50.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DungeonGenerator.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\DungeonGenerator.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\DungeonGenerator.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\DungeonGenerator.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAA1wNAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:11:01.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RoomNode.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomNode.cs",
+              "RelativeDocumentMoniker": "Assets\\RoomCreateScript\\RoomNode.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\RoomCreateScript\\RoomNode.cs",
+              "RelativeToolTip": "Assets\\RoomCreateScript\\RoomNode.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:05:48.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GridEditorUtility.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tilemap@0b99f08c0204\\Editor\\GridEditorUtility.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T13:31:25.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EquipmentSlotDefinition.cs",
+              "DocumentMoniker": "E:\\files (4)\\EquipmentSlotDefinition.cs",
+              "RelativeDocumentMoniker": "..\\..\\files (4)\\EquipmentSlotDefinition.cs",
+              "ToolTip": "E:\\files (4)\\EquipmentSlotDefinition.cs",
+              "RelativeToolTip": "..\\..\\files (4)\\EquipmentSlotDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T13:29:51.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LPCAnimationImporter.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCAnimationImporter.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCAnimationImporter.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCAnimationImporter.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCAnimationImporter.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwKcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:02:29.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CharacterLoadout.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\CharacterLoadout.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterLoadout.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\CharacterLoadout.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterLoadout.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T02:51:52.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LPCCompositeCharacter.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCCompositeCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCCompositeCharacter.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCCompositeCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCCompositeCharacter.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAuwAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T13:59:47.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LPC_HUD_Additions.uss",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD_Additions.uss",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_HUD_Additions.uss",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD_Additions.uss",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_HUD_Additions.uss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-01T13:46:19.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\ItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T13:07:03.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LPCItemData.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCItemData.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCItemData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCItemData.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAcwO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:43:36.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LPCPlayerController1.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCPlayerController1.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCPlayerController1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:40:40.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LPC_UI_Manager.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPC_UI_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPC_UI_Manager.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPC_UI_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPC_UI_Manager.cs",
+              "ViewState": "AgIAAIwCAAAAAAAAAAAIwKgCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:34:13.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LPCEquipSync.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCEquipSync.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipSync.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCEquipSync.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:34:06.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LPC_HUD.uxml",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD.uxml",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_HUD.uxml",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD.uxml",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_HUD.uxml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-30T13:36:53.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LPC_HUD.uss",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD.uss",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_HUD.uss",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD.uss",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_HUD.uss",
+              "ViewState": "AgIAAMwAAAAAAAAAAAArwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-30T13:36:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LPC_HUD_Manager.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_HUD_Manager.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_HUD_Manager.cs",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_HUD_Manager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:35:44.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SpriteResolverSync.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SpriteResolverSync.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteResolverSync.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\SpriteResolverSync.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpriteResolverSync.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwEoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:35:16.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EquipmentSlotDefinition.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\EquipmentSlotDefinition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EquipmentSlotDefinition.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\EquipmentSlotDefinition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EquipmentSlotDefinition.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:15:47.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OutfitScheduler.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\OutfitScheduler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OutfitScheduler.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\OutfitScheduler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OutfitScheduler.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:15:45.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LPCPlayerController2.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCPlayerController2.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCPlayerController2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCPlayerController2.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAiwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:15:44.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryUI.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\InventoryUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryUI.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAUwAMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:15:43.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LPC_EquipmentUI.uxml",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_EquipmentUI.uxml",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_EquipmentUI.uxml",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_EquipmentUI.uxml",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_EquipmentUI.uxml",
+              "ViewState": "AgIAACABAAAAAAAAAAAUwEIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-29T13:15:13.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LPC_EquipmentUI.uss",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_EquipmentUI.uss",
+              "RelativeDocumentMoniker": "Assets\\ScriptUI\\LPC_EquipmentUI.uss",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\ScriptUI\\LPC_EquipmentUI.uss",
+              "RelativeToolTip": "Assets\\ScriptUI\\LPC_EquipmentUI.uss",
+              "ViewState": "AgIAAEECAAAAAAAAAAAUwGMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-27T12:47:15.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LPCEquipmentManager.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipmentManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCEquipmentManager.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCEquipmentManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCEquipmentManager.cs",
+              "ViewState": "AgIAAAACAAAAAAAAAAA3wBICAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T12:37:07.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LPCAppearance.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCAppearance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LPCAppearance.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Scripts\\LPCAppearance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LPCAppearance.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAgwKQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T06:57:40.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LPCPlayerBuilder.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCPlayerBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCPlayerBuilder.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCPlayerBuilder.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCPlayerBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:30:27.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LPCAutoAssignSlots.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCAutoAssignSlots.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCAutoAssignSlots.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCAutoAssignSlots.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCAutoAssignSlots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:30:26.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LPCItemCreator.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCItemCreator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCItemCreator.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCItemCreator.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCItemCreator.cs",
+              "ViewState": "AgIAAJcDAAAAAAAAAAAgwKEDAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:30:25.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LPCItemCreatorSpriteLib.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCItemCreatorSpriteLib.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCItemCreatorSpriteLib.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCItemCreatorSpriteLib.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCItemCreatorSpriteLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:08:33.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LPCSetupFixer.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCSetupFixer.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCSetupFixer.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCSetupFixer.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCSetupFixer.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:08:30.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LPCLayerDebugger.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCLayerDebugger.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCLayerDebugger.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCLayerDebugger.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCLayerDebugger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:08:30.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LPCCharacterComposer.cs",
+              "DocumentMoniker": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCCharacterComposer.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LPCCharacterComposer.cs",
+              "ToolTip": "E:\\project game\\tool t\u1EF1 \u0111\u1ED9ng animation\\Assets\\Editor\\LPCCharacterComposer.cs",
+              "RelativeToolTip": "Assets\\Editor\\LPCCharacterComposer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYCAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:08:28.571Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 316,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

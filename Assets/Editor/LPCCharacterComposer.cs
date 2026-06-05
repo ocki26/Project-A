@@ -1,0 +1,955 @@
+using UnityEngine;
+using UnityEditor;
+using UnityEditor.Animations;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+/// <summary>
+/// LPC Character Composer — Tool 2
+///
+/// Gắn các LPCItemData (tạo từ Tool 1) vào đúng layer của player.
+/// Có 2 chế độ:
+///
+///   A) BAKE MODE: Inject sprite curves vào clips của body → 1 Animator Controller duy nhất.
+///      Ưu điểm: đơn giản, hiệu năng cao. Nhược: cần re-bake khi đổi item.
+///
+///   B) CHILD ANIMATOR MODE: Mỗi item là child với Animator riêng, sync với parent.
+///      Ưu điểm: equip/unequip tại runtime. Nhược: cần LPCEquipSync script.
+///
+/// Menu: Tools → LPC Character Composer
+/// </summary>
+public class LPCCharacterComposer : EditorWindow
+{
+    // ═══════════════════════════════════════════════════════════════════════
+    // DATA — equip slot
+    // ═══════════════════════════════════════════════════════════════════════
+
+    [System.Serializable]
+    public class EquipSlot
+    {
+        public LPCItemData item;
+        public bool        enabled = true;
+        public bool        expanded = true;
+
+        // Runtime: if item is null but user wants a manual slot
+        public string overrideChildPath = "";
+
+        public EquipSlot() { }
+        public EquipSlot(LPCItemData item) { this.item = item; }
+    }
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // STATE
+    // ═══════════════════════════════════════════════════════════════════════
+
+    [SerializeField]
+    private List<EquipSlot> equipSlots = new List<EquipSlot>();
+
+    // Target character (from Tool 1 body)
+    private string bodyAnimFolder  = "Assets/Animations/Character";
+    private string characterName   = "Character";
+    private string outputFolder    = "Assets/Animations";
+
+    // Compose mode
+    private enum ComposeMode { BakeIntoBodyClips, ChildAnimatorMode }
+    private ComposeMode mode = ComposeMode.BakeIntoBodyClips;
+
+    private bool overwriteExisting = true;
+    private bool createPrefab      = true;
+    private bool showHelp          = false;
+    private bool showSettings      = true;
+    private Vector2 scroll;
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // PREVIEWER STATE
+    // ═══════════════════════════════════════════════════════════════════════
+    private bool isPlaying = false;
+    private float playbackSpeed = 1f;
+    private string selectedClipName = "Walk";
+    private int selectedDirectionIdx = 2; // Default Down (Index 2)
+    private int previewFrameRate = 8;
+    private float previewTime = 0f;
+    private double lastTime = 0;
+    private Texture2D checkerboardTex;
+
+    private readonly string[] standardClips = {
+        "Walk", "Run", "Idle", "Slash", "Thrust", "Shoot", "Spellcast",
+        "1h_Slash", "1h_Backslash", "1h_Halfslash", "Combat"
+    };
+
+    private readonly string[] directions = { "Up", "Left", "Down", "Right" };
+    private readonly string[] directionLabels = { "⬆ Up", "⬅ Left", "⬇ Down", "➡ Right" };
+
+    private class RenderLayer
+    {
+        public Sprite sprite;
+        public int sortingOrder;
+        public string name;
+    }
+
+    private GUIStyle titleStyle;
+    private GUIStyle cardStyle;
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // WINDOW
+    // ═══════════════════════════════════════════════════════════════════════
+
+    [MenuItem("Tools/LPC Character Composer")]
+    public static void ShowWindow()
+    {
+        var w = GetWindow<LPCCharacterComposer>("LPC Composer");
+        w.titleContent = new GUIContent("LPC Composer", EditorGUIUtility.IconContent("d_SpriteRenderer Icon").image);
+        w.minSize = new Vector2(600, 520);
+    }
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // UPDATE LOOPS
+    // ═══════════════════════════════════════════════════════════════════════
+
+    private void OnEnable()
+    {
+        EditorApplication.update -= UpdatePreviewAnimation;
+        EditorApplication.update += UpdatePreviewAnimation;
+        lastTime = EditorApplication.timeSinceStartup;
+    }
+
+    private void OnDisable()
+    {
+        EditorApplication.update -= UpdatePreviewAnimation;
+    }
+
+    private void UpdatePreviewAnimation()
+    {
+        if (!isPlaying) return;
+
+        double current = EditorApplication.timeSinceStartup;
+        double delta = current - lastTime;
+        lastTime = current;
+
+        previewTime += (float)delta * playbackSpeed;
+        Repaint();
+    }
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // GUI
+    // ═══════════════════════════════════════════════════════════════════════
+
+    private void OnGUI()
+    {
+        titleStyle = new GUIStyle(EditorStyles.boldLabel) { fontSize = 12 };
+        cardStyle = new GUIStyle(EditorStyles.helpBox) { padding = new RectOffset(8, 8, 8, 8) };
+
+        EditorGUILayout.BeginHorizontal();
+
+        // Cột trái: Cấu hình và trang bị (~58% width)
+        float leftWidth = position.width * 0.58f;
+        if (leftWidth < 300) leftWidth = 300;
+
+        EditorGUILayout.BeginVertical(GUILayout.Width(leftWidth));
+        scroll = EditorGUILayout.BeginScrollView(scroll);
+        DrawHeader();
+        DrawHelp();
+        DrawSettings();
+        DrawEquipSlots();
+        DrawComposeButton();
+        EditorGUILayout.EndScrollView();
+        EditorGUILayout.EndVertical();
+
+        // Đường kẻ phân cách dọc giữa 2 cột
+        Rect separatorRect = EditorGUILayout.GetControlRect(false, GUILayout.Width(2), GUILayout.ExpandHeight(true));
+        GUI.Box(separatorRect, "", new GUIStyle("box"));
+
+        // Cột phải: Trình xem trước hoạt ảnh (Right Column)
+        EditorGUILayout.BeginVertical(GUILayout.ExpandWidth(true));
+        DrawPreviewerPanel();
+        EditorGUILayout.EndVertical();
+
+        EditorGUILayout.EndHorizontal();
+    }
+
+    // ─── Header ──────────────────────────────────────────────────────────────
+
+    private void DrawHeader()
+    {
+        EditorGUILayout.Space(10);
+        var big = new GUIStyle(EditorStyles.boldLabel) { fontSize = 16, alignment = TextAnchor.MiddleCenter };
+        EditorGUILayout.LabelField("👤  LPC Character Composer", big);
+        EditorGUILayout.LabelField("Ghép items vào player character", new GUIStyle(EditorStyles.centeredGreyMiniLabel));
+        EditorGUILayout.Space(8);
+    }
+
+    // ─── Help ────────────────────────────────────────────────────────────────
+
+    private void DrawHelp()
+    {
+        showHelp = EditorGUILayout.Foldout(showHelp, "📖 Hướng dẫn", true);
+        if (!showHelp) return;
+
+        EditorGUILayout.HelpBox(
+            "WORKFLOW:\n" +
+            "1. Dùng Tool 1 (LPC Item Creator) tạo các item → xuất ra LPCItemData assets.\n" +
+            "2. Mở Tool 2 này, kéo các LPCItemData vào các 'Equip Slots'.\n" +
+            "3. Chọn mode:\n" +
+            "   • Bake Mode: Inject sprites vào body clips → 1 Animator. Đơn giản nhất.\n" +
+            "   • Child Animator: Mỗi item có Animator riêng, sync runtime. Linh hoạt hơn.\n" +
+            "4. Click 'Compose Character'.\n\n" +
+            "BAKE MODE:\n" +
+            "• Body clips cần tồn tại trước (từ Tool 1 body hoặc body LPC Importer).\n" +
+            "• Item sprites được inject vào đúng clip Walk_Up, Slash_Down, v.v.\n" +
+            "• Child path của item = path trong Animator hierarchy.\n\n" +
+            "CHILD ANIMATOR MODE:\n" +
+            "• Mỗi item là child GO với Animator riêng.\n" +
+            "• Thêm LPCEquipSync component vào item child để sync với parent.\n" +
+            "• Phù hợp cho equip/unequip động tại runtime.", MessageType.Info);
+        EditorGUILayout.Space(5);
+    }
+
+    // ─── Settings ────────────────────────────────────────────────────────────
+
+    private void DrawSettings()
+    {
+        showSettings = EditorGUILayout.Foldout(showSettings, "⚙️ Settings", true);
+        if (!showSettings) return;
+
+        EditorGUILayout.BeginVertical(EditorStyles.helpBox);
+
+        characterName  = EditorGUILayout.TextField("Character Name", characterName);
+        bodyAnimFolder = EditorGUILayout.TextField("Body Anim Folder", bodyAnimFolder);
+        outputFolder   = EditorGUILayout.TextField("Output Folder", outputFolder);
+
+        EditorGUILayout.Space(5);
+
+        EditorGUILayout.LabelField("Compose Mode", EditorStyles.boldLabel);
+        mode = (ComposeMode)EditorGUILayout.EnumPopup(mode);
+
+        if (mode == ComposeMode.BakeIntoBodyClips)
+        {
+            EditorGUILayout.HelpBox(
+                "Bake Mode: Sprites của item được inject trực tiếp vào các .anim clips của body.\n" +
+                "Yêu cầu: Body clips đã tồn tại trong Body Anim Folder.",
+                MessageType.None);
+        }
+        else
+        {
+            EditorGUILayout.HelpBox(
+                "Child Animator Mode: Mỗi item có Animator Controller riêng trên child GO.\n" +
+                "Runtime: Dùng LPCEquipSync.cs để sync state với player Animator.",
+                MessageType.None);
+        }
+
+        EditorGUILayout.Space(4);
+        overwriteExisting = EditorGUILayout.Toggle("Overwrite Existing", overwriteExisting);
+        createPrefab      = EditorGUILayout.Toggle("Create / Update Prefab", createPrefab);
+
+        EditorGUILayout.EndVertical();
+        EditorGUILayout.Space(8);
+    }
+
+    // ─── Equip Slots ─────────────────────────────────────────────────────────
+
+    private void DrawEquipSlots()
+    {
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("🎒  Equip Slots", EditorStyles.boldLabel);
+        GUILayout.FlexibleSpace();
+        if (GUILayout.Button("➕ Add Slot", EditorStyles.miniButton))
+            equipSlots.Add(new EquipSlot());
+        if (GUILayout.Button("🗑️ Clear All", EditorStyles.miniButton))
+            equipSlots.Clear();
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.Space(4);
+
+        // Drop area for LPCItemData
+        var dropRect = EditorGUILayout.GetControlRect(false, 40);
+        GUI.Box(dropRect, "⬇  Kéo LPCItemData files vào đây để thêm nhanh", new GUIStyle(EditorStyles.helpBox)
+            { alignment = TextAnchor.MiddleCenter, fontSize = 11 });
+
+        if (dropRect.Contains(Event.current.mousePosition))
+        {
+            if (Event.current.type == EventType.DragUpdated)
+            {
+                DragAndDrop.visualMode = DragAndDropVisualMode.Copy;
+                Event.current.Use();
+            }
+            else if (Event.current.type == EventType.DragPerform)
+            {
+                DragAndDrop.AcceptDrag();
+                foreach (var obj in DragAndDrop.objectReferences)
+                {
+                    if (obj is LPCItemData data)
+                        equipSlots.Add(new EquipSlot(data));
+                    else if (obj is GameObject go)
+                    {
+                        // Try to find LPCItemData in same folder
+                        string goPath = AssetDatabase.GetAssetPath(go);
+                        string dir    = Path.GetDirectoryName(goPath);
+                        var    found  = AssetDatabase.FindAssets("t:LPCItemData", new[] { dir })
+                            .Select(g => AssetDatabase.LoadAssetAtPath<LPCItemData>(AssetDatabase.GUIDToAssetPath(g)))
+                            .FirstOrDefault();
+                        if (found != null) equipSlots.Add(new EquipSlot(found));
+                    }
+                }
+                Event.current.Use();
+            }
+        }
+
+        EditorGUILayout.Space(6);
+
+        for (int i = equipSlots.Count - 1; i >= 0; i--)
+            DrawEquipSlot(i);
+    }
+
+    private void DrawEquipSlot(int idx)
+    {
+        var slot = equipSlots[idx];
+
+        EditorGUILayout.BeginVertical(EditorStyles.helpBox);
+        EditorGUILayout.BeginHorizontal();
+
+        // Enable toggle
+        slot.enabled = GUILayout.Toggle(slot.enabled, GUIContent.none, GUILayout.Width(16));
+
+        // Status dot
+        GUI.color = slot.item != null ? Color.green : new Color(0.6f, 0.6f, 0.6f);
+        EditorGUILayout.LabelField("●", GUILayout.Width(14));
+        GUI.color = Color.white;
+
+        GUI.enabled = slot.enabled;
+
+        // Item data field
+        var newItem = (LPCItemData)EditorGUILayout.ObjectField(
+            slot.item, typeof(LPCItemData), false, GUILayout.Height(48), GUILayout.Width(48));
+        if (newItem != slot.item) slot.item = newItem;
+
+        // Info
+        EditorGUILayout.BeginVertical();
+        if (slot.item != null)
+        {
+            EditorGUILayout.LabelField(slot.item.itemName, EditorStyles.boldLabel);
+
+            GUI.color = new Color(0.7f, 0.9f, 1f);
+            EditorGUILayout.LabelField(
+                $"Path: '{slot.item.childPath}'  |  Order: {slot.item.sortingOrder}  |  {slot.item.category}",
+                EditorStyles.miniLabel);
+            GUI.color = Color.green;
+            EditorGUILayout.LabelField(
+                $"✔ {slot.item.clips.Count} clips  |  {(slot.item.itemController != null ? "Has Controller" : "No Controller")}",
+                EditorStyles.miniLabel);
+            GUI.color = Color.white;
+        }
+        else
+        {
+            EditorGUILayout.LabelField("Kéo LPCItemData vào đây", EditorStyles.miniLabel);
+            GUI.color = new Color(0.6f, 0.6f, 0.6f);
+            EditorGUILayout.LabelField("Child Path override:", EditorStyles.miniLabel);
+            GUI.color = Color.white;
+            slot.overrideChildPath = EditorGUILayout.TextField(slot.overrideChildPath, GUILayout.Width(120));
+        }
+        EditorGUILayout.EndVertical();
+
+        GUI.enabled = true;
+
+        // Delete
+        GUI.backgroundColor = new Color(1f, 0.4f, 0.4f);
+        if (GUILayout.Button("✕", GUILayout.Width(24), GUILayout.Height(48)))
+        {
+            equipSlots.RemoveAt(idx);
+            EditorGUILayout.EndHorizontal();
+            EditorGUILayout.EndVertical();
+            return;
+        }
+        GUI.backgroundColor = Color.white;
+
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.EndVertical();
+        EditorGUILayout.Space(2);
+    }
+
+    // ─── Compose Button ───────────────────────────────────────────────────────
+
+    private void DrawComposeButton()
+    {
+        EditorGUILayout.Space(12);
+
+        int ready = equipSlots.Count(s => s.enabled && s.item != null);
+        EditorGUILayout.HelpBox(
+            ready == 0
+                ? "⚠ Chưa có item nào được gán."
+                : $"✔ {ready} item(s) sẵn sàng — Mode: {mode}",
+            ready > 0 ? MessageType.None : MessageType.Warning);
+
+        GUI.enabled = ready > 0;
+        GUI.backgroundColor = new Color(0.15f, 0.6f, 1f);
+        if (GUILayout.Button("👤  Compose Character", GUILayout.Height(55)))
+            ComposeCharacter();
+        GUI.backgroundColor = Color.white;
+        GUI.enabled = true;
+        EditorGUILayout.Space(10);
+    }
+
+    // ─── Animation Previewer (Right Column) ──────────────────────────────────
+
+    private void DrawPreviewerPanel()
+    {
+        EditorGUILayout.Space(10);
+        EditorGUILayout.LabelField("🔍 Trình Xem Trước Hoạt Ảnh (Previewer)", titleStyle);
+        EditorGUILayout.Space(5);
+
+        EditorGUILayout.BeginVertical(cardStyle);
+
+        // Clip selector
+        int clipIdx = System.Array.IndexOf(standardClips, selectedClipName);
+        int newClipIdx = EditorGUILayout.Popup("Hoạt ảnh", clipIdx >= 0 ? clipIdx : 0, standardClips);
+        if (newClipIdx != clipIdx)
+        {
+            selectedClipName = standardClips[newClipIdx];
+            previewTime = 0f;
+        }
+
+        // Direction selector
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Hướng", GUILayout.Width(50));
+        int newDirIdx = GUILayout.Toolbar(selectedDirectionIdx, directionLabels, GUILayout.ExpandWidth(true));
+        if (newDirIdx != selectedDirectionIdx)
+        {
+            selectedDirectionIdx = newDirIdx;
+            previewTime = 0f;
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.Space(5);
+
+        // Control buttons
+        EditorGUILayout.BeginHorizontal();
+        string playLabel = isPlaying ? "⏸ Tạm Dừng" : "▶ Phát Hoạt Ảnh";
+        if (GUILayout.Button(playLabel, GUILayout.Width(130)))
+        {
+            isPlaying = !isPlaying;
+            lastTime = EditorApplication.timeSinceStartup;
+        }
+
+        if (GUILayout.Button("■ Reset", GUILayout.Width(70)))
+        {
+            previewTime = 0f;
+            isPlaying = false;
+        }
+        EditorGUILayout.EndHorizontal();
+
+        // Speed & Framerate Sliders
+        playbackSpeed = EditorGUILayout.Slider("Tốc độ phát", playbackSpeed, 0.1f, 3.0f);
+        previewFrameRate = EditorGUILayout.IntSlider("Khung hình/s (fps)", previewFrameRate, 1, 24);
+
+        EditorGUILayout.EndVertical();
+
+        EditorGUILayout.Space(10);
+
+        // Canvas Area
+        CreateCheckerboard();
+
+        float canvasSize = position.width * 0.40f - 30;
+        if (canvasSize > 320) canvasSize = 320;
+        if (canvasSize < 160) canvasSize = 160;
+
+        Rect canvasRect = EditorGUILayout.GetControlRect(false, canvasSize);
+        // Center the canvas horizontally in the allocated column width
+        float xOffset = (canvasRect.width - canvasSize) / 2f;
+        canvasRect.x += xOffset;
+        canvasRect.width = canvasSize;
+
+        // Draw Checkerboard Background
+        Rect bgTexCoords = new Rect(0, 0, canvasRect.width / 16f, canvasRect.height / 16f);
+        GUI.DrawTextureWithTexCoords(canvasRect, checkerboardTex, bgTexCoords, false);
+
+        // Gather all sprites for current time
+        List<RenderLayer> drawLayers = new List<RenderLayer>();
+
+        string dirSuffix = directions[selectedDirectionIdx];
+        string bodyClipName = $"{selectedClipName}_{dirSuffix}";
+
+        // Try finding matching body clip in bodyAnimFolder
+        AnimationClip bodyClip = AssetDatabase.LoadAssetAtPath<AnimationClip>($"{bodyAnimFolder}/{bodyClipName}.anim");
+        if (bodyClip == null)
+        {
+            // Try directionless
+            bodyClip = AssetDatabase.LoadAssetAtPath<AnimationClip>($"{bodyAnimFolder}/{selectedClipName}.anim");
+        }
+
+        if (bodyClip != null)
+        {
+            AddBodySprites(bodyClip, previewTime, drawLayers);
+        }
+
+        // Add equipped items sprites
+        foreach (var slot in equipSlots)
+        {
+            if (!slot.enabled || slot.item == null) continue;
+
+            AnimationClip itemClip = GetItemClip(slot.item, selectedClipName, "_" + dirSuffix);
+            if (itemClip != null)
+            {
+                Sprite s = GetSpriteAtTime(itemClip, previewTime);
+                if (s != null)
+                {
+                    // Directional weapon visibility override
+                    int order = slot.item.sortingOrder;
+                    if (selectedDirectionIdx == 0) // Up
+                    {
+                        if (slot.item.childPath == "Weapon") order = -5; // WeaponBehind
+                        else if (slot.item.childPath == "Shield") order = -4; // ShieldBehind
+                    }
+
+                    drawLayers.Add(new RenderLayer
+                    {
+                        sprite = s,
+                        sortingOrder = order,
+                        name = slot.item.itemName
+                    });
+                }
+            }
+        }
+
+        // Render sorted layers
+        var sortedLayers = drawLayers.OrderBy(l => l.sortingOrder).ToList();
+        if (sortedLayers.Count > 0)
+        {
+            foreach (var layer in sortedLayers)
+            {
+                DrawSpriteInRect(canvasRect, layer.sprite);
+            }
+        }
+        else
+        {
+            GUI.color = Color.gray;
+            var textStyle = new GUIStyle(EditorStyles.label) { alignment = TextAnchor.MiddleCenter };
+            GUI.Label(canvasRect, "Không có sprite nào.\nHãy kiểm tra 'Thư mục Body Anim'\nhoặc gán trang bị hợp lệ.", textStyle);
+            GUI.color = Color.white;
+        }
+
+        // Status Line
+        float duration = bodyClip != null ? bodyClip.length : 1f;
+        float currentClipTime = previewTime % duration;
+        int frameIndex = Mathf.FloorToInt(currentClipTime * previewFrameRate);
+        EditorGUILayout.LabelField($"Thời gian: {currentClipTime:F2}s / {duration:F2}s  |  Frame: {frameIndex}", EditorStyles.centeredGreyMiniLabel);
+    }
+
+    private void CreateCheckerboard()
+    {
+        if (checkerboardTex != null) return;
+        checkerboardTex = new Texture2D(2, 2);
+        checkerboardTex.filterMode = FilterMode.Point;
+        checkerboardTex.wrapMode = TextureWrapMode.Repeat;
+        Color c1 = new Color(0.18f, 0.18f, 0.18f, 1f);
+        Color c2 = new Color(0.24f, 0.24f, 0.24f, 1f);
+        checkerboardTex.SetPixels(new Color[] { c1, c2, c2, c1 });
+        checkerboardTex.Apply();
+    }
+
+    private Sprite GetSpriteAtTime(AnimationClip clip, float time)
+    {
+        if (clip == null) return null;
+        var bindings = AnimationUtility.GetObjectReferenceCurveBindings(clip);
+        var spriteBinding = bindings.FirstOrDefault(b => b.propertyName == "m_Sprite" || b.propertyName.StartsWith("m_Sprite"));
+        if (spriteBinding.Equals(default(EditorCurveBinding)))
+        {
+            spriteBinding = bindings.FirstOrDefault(b => b.propertyName.Contains("Sprite"));
+            if (spriteBinding.Equals(default(EditorCurveBinding))) return null;
+        }
+
+        var keys = AnimationUtility.GetObjectReferenceCurve(clip, spriteBinding);
+        if (keys == null || keys.Length == 0) return null;
+
+        float duration = clip.length;
+        float evalTime = time % duration;
+
+        ObjectReferenceKeyframe bestKey = keys[0];
+        foreach (var key in keys)
+        {
+            if (key.time <= evalTime)
+                bestKey = key;
+            else
+                break;
+        }
+        return bestKey.value as Sprite;
+    }
+
+    private Sprite GetSpriteFromClipForPath(AnimationClip clip, string path, float time)
+    {
+        if (clip == null) return null;
+        var bindings = AnimationUtility.GetObjectReferenceCurveBindings(clip);
+        var binding = bindings.FirstOrDefault(b => b.path == path && (b.propertyName == "m_Sprite" || b.propertyName.StartsWith("m_Sprite")));
+        if (binding.Equals(default(EditorCurveBinding)))
+        {
+            binding = bindings.FirstOrDefault(b => b.path == path && b.propertyName.Contains("Sprite"));
+            if (binding.Equals(default(EditorCurveBinding))) return null;
+        }
+
+        var keys = AnimationUtility.GetObjectReferenceCurve(clip, binding);
+        if (keys == null || keys.Length == 0) return null;
+
+        float duration = clip.length;
+        float evalTime = time % duration;
+
+        var sortedKeys = keys.OrderBy(k => k.time).ToArray();
+
+        ObjectReferenceKeyframe bestKey = sortedKeys[0];
+        foreach (var key in sortedKeys)
+        {
+            if (key.time <= evalTime)
+                bestKey = key;
+            else
+                break;
+        }
+        return bestKey.value as Sprite;
+    }
+
+    private AnimationClip GetItemClip(LPCItemData item, string baseClipName, string dirSuffix)
+    {
+        if (item == null || item.clips == null) return null;
+
+        string targetName = baseClipName + dirSuffix;
+        var clip = item.clips.FirstOrDefault(c => c != null && c.name == targetName);
+        if (clip != null) return clip;
+
+        clip = item.clips.FirstOrDefault(c => c != null && c.name == baseClipName);
+        return clip;
+    }
+
+    private void AddBodySprites(AnimationClip bodyClip, float time, List<RenderLayer> layers)
+    {
+        if (bodyClip == null) return;
+
+        Sprite rootSprite = GetSpriteFromClipForPath(bodyClip, "", time);
+        if (rootSprite != null)
+        {
+            layers.Add(new RenderLayer { sprite = rootSprite, sortingOrder = 0, name = "Body (Root)" });
+        }
+
+        string[] standardPaths = { "Body", "Ears", "Eyes", "Underwear" };
+        int[] standardOrders = { 0, 1, 2, 10 };
+        for (int i = 0; i < standardPaths.Length; i++)
+        {
+            Sprite s = GetSpriteFromClipForPath(bodyClip, standardPaths[i], time);
+            if (s != null)
+            {
+                layers.Add(new RenderLayer { sprite = s, sortingOrder = standardOrders[i], name = standardPaths[i] });
+            }
+        }
+    }
+
+    private void DrawSpriteInRect(Rect drawRect, Sprite sprite)
+    {
+        if (sprite == null || sprite.texture == null) return;
+
+        Texture2D tex = sprite.texture;
+        Rect r = sprite.rect;
+
+        float tw = tex.width;
+        float th = tex.height;
+        Rect texCoords = new Rect(
+            r.x / tw,
+            r.y / th,
+            r.width / tw,
+            r.height / th
+        );
+
+        float spriteAspect = r.width / r.height;
+        float rectAspect = drawRect.width / drawRect.height;
+
+        Rect finalRect = drawRect;
+        if (spriteAspect > rectAspect)
+        {
+            float height = drawRect.width / spriteAspect;
+            finalRect.height = height;
+            finalRect.y += (drawRect.height - height) / 2f;
+        }
+        else
+        {
+            float width = drawRect.height * spriteAspect;
+            finalRect.width = width;
+            finalRect.x += (drawRect.width - width) / 2f;
+        }
+
+        GUI.DrawTextureWithTexCoords(finalRect, tex, texCoords, true);
+    }
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // COMPOSE
+    // ═══════════════════════════════════════════════════════════════════════
+
+    private void ComposeCharacter()
+    {
+        try
+        {
+            switch (mode)
+            {
+                case ComposeMode.BakeIntoBodyClips: BakeIntoBodyClips(); break;
+                case ComposeMode.ChildAnimatorMode:  SetupChildAnimators(); break;
+            }
+        }
+        catch (System.Exception e)
+        {
+            EditorUtility.ClearProgressBar();
+            Debug.LogError($"[Composer] {e}");
+            EditorUtility.DisplayDialog("Error", e.Message, "OK");
+        }
+    }
+
+    // ─── A) BAKE MODE ─────────────────────────────────────────────────────────
+
+    private void BakeIntoBodyClips()
+    {
+        EditorUtility.DisplayProgressBar("Composing", "Loading body clips…", 0f);
+
+        if (!AssetDatabase.IsValidFolder(bodyAnimFolder))
+        {
+            ShowError($"Body anim folder not found:\n{bodyAnimFolder}"); return;
+        }
+
+        // Load all body clips
+        var clipMap = new Dictionary<string, AnimationClip>();
+        foreach (string guid in AssetDatabase.FindAssets("t:AnimationClip", new[] { bodyAnimFolder }))
+        {
+            string p   = AssetDatabase.GUIDToAssetPath(guid);
+            var    clip = AssetDatabase.LoadAssetAtPath<AnimationClip>(p);
+            if (clip != null) clipMap[clip.name] = clip;
+        }
+
+        if (clipMap.Count == 0)
+        {
+            ShowError("No body clips found. Run the body importer first."); return;
+        }
+
+        int injected = 0;
+        int itemsDone = 0;
+        var activeSlots = equipSlots.Where(s => s.enabled && s.item != null).ToList();
+
+        foreach (var slot in activeSlots)
+        {
+            var item = slot.item;
+            string childPath = item.childPath;
+
+            EditorUtility.DisplayProgressBar("Composing",
+                $"Injecting '{item.itemName}'…",
+                (float)itemsDone / activeSlots.Count);
+
+            // Item clips: each clip is named e.g. "Walk_Up", "Slash_Down", or "Hurt" (directionless)
+            foreach (var itemClip in item.clips)
+            {
+                if (itemClip == null) continue;
+
+                string clipName = itemClip.name;  // e.g. "Walk_Up"
+
+                // Find matching body clip
+                if (!clipMap.ContainsKey(clipName))
+                {
+                    Debug.LogWarning($"[Composer] Body clip '{clipName}' not found. " +
+                                     "Directionless item clips may need matching body clips.");
+
+                    // For directionless (e.g. "Hurt"), inject into all direction variants
+                    string[] dirs = { "_Up", "_Left", "_Down", "_Right" };
+                    bool injectedAny = false;
+                    foreach (string d in dirs)
+                    {
+                        string key = clipName + d;
+                        if (clipMap.ContainsKey(key))
+                        {
+                            InjectSpriteBinding(clipMap[key], childPath, itemClip,
+                                                item.frameRate);
+                            injected++;
+                            injectedAny = true;
+                        }
+                    }
+                    if (!injectedAny)
+                        Debug.LogWarning($"[Composer] No body clip found for '{clipName}' (any direction).");
+                    continue;
+                }
+
+                InjectSpriteBinding(clipMap[clipName], childPath, itemClip, item.frameRate);
+                injected++;
+            }
+
+            itemsDone++;
+        }
+
+        // Create / update prefab with correct hierarchy
+        string animFolder = $"{outputFolder}/{characterName}";
+        EnsureFolder(outputFolder, characterName);
+        if (createPrefab) CreateCharacterPrefab(animFolder, activeSlots, ComposeMode.BakeIntoBodyClips);
+
+        EditorUtility.ClearProgressBar();
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        EditorUtility.DisplayDialog("✅ Done",
+            $"Bake complete!\n\n" +
+            $"Injected {injected} binding(s) across {itemsDone} item(s).\n\n" +
+            $"Output: {outputFolder}/{characterName}/", "OK");
+    }
+
+    /// <summary>
+    /// Injects the item clip's sprite keyframes as a new binding on childPath
+    /// into the body's targetClip.
+    /// </summary>
+    private void InjectSpriteBinding(AnimationClip targetClip, string childPath,
+                                      AnimationClip itemClip, int itemFrameRate)
+    {
+        // Read sprite keyframes from item clip (binding path="")
+        var itemBinding = AnimationUtility.GetObjectReferenceCurveBindings(itemClip)
+            .FirstOrDefault(b => b.propertyName == "m_Sprite");
+
+        if (itemBinding.Equals(default(EditorCurveBinding)))
+        {
+            Debug.LogWarning($"[Composer] Item clip '{itemClip.name}' has no m_Sprite binding.");
+            return;
+        }
+
+        var itemKeys = AnimationUtility.GetObjectReferenceCurve(itemClip, itemBinding);
+        if (itemKeys == null || itemKeys.Length == 0) return;
+
+        // Check if body has this child binding already
+        var existingBindings = AnimationUtility.GetObjectReferenceCurveBindings(targetClip);
+        bool exists = existingBindings.Any(b => b.path == childPath && b.propertyName == "m_Sprite");
+        if (exists && !overwriteExisting) return;
+
+        // Clamp to body frame count for sync
+        int bodyFrames = GetBodyFrameCount(targetClip);
+        int useFrames  = bodyFrames > 0
+            ? Mathf.Min(itemKeys.Length, bodyFrames)
+            : itemKeys.Length;
+
+        var newBinding = new EditorCurveBinding
+        {
+            type         = typeof(SpriteRenderer),
+            path         = childPath,
+            propertyName = "m_Sprite"
+        };
+
+        // Re-time keys to match body frame rate (in case they differ)
+        float bodyFR = targetClip.frameRate;
+        var   newKeys = new ObjectReferenceKeyframe[useFrames];
+        for (int i = 0; i < useFrames; i++)
+            newKeys[i] = new ObjectReferenceKeyframe
+            {
+                time  = i / bodyFR,
+                value = itemKeys[i].value
+            };
+
+        AnimationUtility.SetObjectReferenceCurve(targetClip, newBinding, newKeys);
+        EditorUtility.SetDirty(targetClip);
+    }
+
+    private int GetBodyFrameCount(AnimationClip clip)
+    {
+        foreach (var b in AnimationUtility.GetObjectReferenceCurveBindings(clip))
+            if (b.path == "" && b.propertyName == "m_Sprite")
+                return AnimationUtility.GetObjectReferenceCurve(clip, b)?.Length ?? 0;
+        return 0;
+    }
+
+    // ─── B) CHILD ANIMATOR MODE ───────────────────────────────────────────────
+
+    private void SetupChildAnimators()
+    {
+        string animFolder = $"{outputFolder}/{characterName}";
+        EnsureFolder(outputFolder, characterName);
+
+        if (createPrefab)
+            CreateCharacterPrefab(animFolder, equipSlots.Where(s => s.enabled && s.item != null).ToList(),
+                ComposeMode.ChildAnimatorMode);
+
+        EditorUtility.ClearProgressBar();
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        EditorUtility.DisplayDialog("✅ Done",
+            $"Child Animator Mode setup complete!\n\n" +
+            $"Prefab: {animFolder}/{characterName}.prefab\n\n" +
+            "Mỗi item child đã có Animator với Controller riêng.\n" +
+            "Thêm LPCEquipSync component vào mỗi child để sync state với player.", "OK");
+    }
+
+    // ─── Prefab Builder ───────────────────────────────────────────────────────
+
+    private void CreateCharacterPrefab(string animFolder, List<EquipSlot> activeSlots, ComposeMode mode)
+    {
+        string prefabPath = $"{animFolder}/{characterName}.prefab";
+        var    existing   = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+        bool   isEdit     = existing != null;
+
+        GameObject root = isEdit
+            ? PrefabUtility.LoadPrefabContents(prefabPath)
+            : new GameObject(characterName);
+
+        // Root: Animator + Body SpriteRenderer
+        EnsureComp<SpriteRenderer>(root);
+        var anim = EnsureComp<Animator>(root);
+
+        // Assign body controller
+        string ctrlPath = $"{bodyAnimFolder}/{characterName}_Controller.controller";
+        var ctrl = AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>(ctrlPath);
+        if (ctrl != null) anim.runtimeAnimatorController = ctrl;
+
+        // Children per item, sorted by sortingOrder
+        foreach (var slot in activeSlots.OrderBy(s => s.item.sortingOrder))
+        {
+            var item = slot.item;
+            string path = item.childPath;
+
+            Transform t     = root.transform.Find(path);
+            GameObject child = t != null ? t.gameObject : new GameObject(path);
+            child.transform.SetParent(root.transform, false);
+            child.transform.localPosition = Vector3.zero;
+
+            var sr           = EnsureComp<SpriteRenderer>(child);
+            sr.sortingOrder  = item.sortingOrder;
+            var rootSr       = root.GetComponent<SpriteRenderer>();
+            if (rootSr != null) sr.sortingLayerName = rootSr.sortingLayerName;
+
+            if (mode == ComposeMode.ChildAnimatorMode && item.itemController != null)
+            {
+                var childAnim = EnsureComp<Animator>(child);
+                childAnim.runtimeAnimatorController = item.itemController;
+                // LPCEquipSync should be added by user or via runtime system
+            }
+        }
+
+        if (isEdit)
+        {
+            PrefabUtility.SaveAsPrefabAsset(root, prefabPath);
+            PrefabUtility.UnloadPrefabContents(root);
+        }
+        else
+        {
+            PrefabUtility.SaveAsPrefabAsset(root, prefabPath);
+            DestroyImmediate(root);
+        }
+
+        Debug.Log($"[Composer] Prefab saved: {prefabPath}");
+    }
+
+    // ─── Helpers ─────────────────────────────────────────────────────────────
+
+    private static T EnsureComp<T>(GameObject go) where T : Component
+    {
+        var c = go.GetComponent<T>();
+        return c != null ? c : go.AddComponent<T>();
+    }
+
+    private static void EnsureFolder(string parent, string child)
+    {
+        string full = $"{parent}/{child}";
+        if (AssetDatabase.IsValidFolder(full)) return;
+        Directory.CreateDirectory(full);
+        AssetDatabase.Refresh();
+        if (!AssetDatabase.IsValidFolder(full))
+            AssetDatabase.CreateFolder(parent, child);
+    }
+
+    private static void ShowError(string msg)
+    {
+        EditorUtility.ClearProgressBar();
+        EditorUtility.DisplayDialog("Error", msg, "OK");
+    }
+}

@@ -1,0 +1,439 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="project://database/Assets/ScriptUI/LPC_EquipmentUI.uss?fileID=7433441132597879392&amp;guid=1716842d9345241468ad292f372d20fa&amp;type=3#LPC_EquipmentUI" />
+    <Style src="project://database/Assets/ScriptUI/LPC_HUD_Additions.uss?fileID=7433441132597879392&amp;guid=1d4b20244ae26c64cb28d402d4105164&amp;type=3#LPC_HUD_Additions" />
+
+    <ui:VisualElement name="Backdrop" class="backdrop">
+        <ui:VisualElement name="MainWindow" class="main-window">
+
+            <!-- ══ TITLE BAR ══ -->
+            <ui:VisualElement name="TitleBar" class="title-bar">
+                <ui:VisualElement name="TitleIcon" class="title-icon" />
+                <ui:Label text="EQUIPMENT" name="TitleText" class="title-text" />
+                <ui:VisualElement class="title-divider" />
+                <ui:Label name="CharacterName" text="Hero" class="char-name" />
+                <ui:Button name="Tab_Equipment"  text="⚔  EQUIP"  class="bottom-btn filter-active" />
+                <ui:Button name="Tab_Stats"      text="📊  STATS"  class="bottom-btn" />
+                <ui:VisualElement class="title-divider" />
+                <ui:Button name="CloseButton" class="close-btn">
+                    <ui:Label text="✕" class="close-icon" />
+                </ui:Button>
+            </ui:VisualElement>
+
+            <!-- ══ CONTENT ROW ══ -->
+            <ui:VisualElement name="ContentRow" class="content-row">
+
+                <!-- ══ LEFT: CHARACTER PANEL ══ -->
+                <ui:VisualElement name="CharPanel" class="char-panel">
+                    <ui:VisualElement class="corner corner-tl" />
+                    <ui:VisualElement class="corner corner-tr" />
+                    <ui:VisualElement class="corner corner-bl" />
+                    <ui:VisualElement class="corner corner-br" />
+
+                    <ui:Label text="CHARACTER" class="panel-header" />
+
+                    <!-- Avatar + Level -->
+                    <ui:VisualElement name="CharPreview" class="char-preview">
+                        <ui:VisualElement name="CharSprite" class="char-sprite">
+                            <ui:Label text="⚔" name="CharIcon" class="char-placeholder-icon" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="level-badge">
+                            <ui:Label text="Lv" class="level-lbl-small" />
+                            <ui:Label name="LevelValue" text="1" class="level-value" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- ══ PAPER DOLL — 17 equipment slots, cuộn dọc ══ -->
+                    <ui:ScrollView name="PaperDollScroll"
+                                   horizontal-scroller-visibility="Hidden"
+                                   vertical-scroller-visibility="Hidden"
+                                   class="paper-doll-container">
+
+                        <!-- ROW 1: Helmet | Mask | Neck -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Helmet" class="equip-slot-square">
+                                    <ui:Label name="Slot_Helmet_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Helmet_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Helmet_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="HELMET" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Mask" class="equip-slot-square">
+                                    <ui:Label name="Slot_Mask_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Mask_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Mask_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="MASK" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Neck" class="equip-slot-square">
+                                    <ui:Label name="Slot_Neck_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Neck_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Neck_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="NECK" class="slot-label" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- ROW 2: Shoulders -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement class="pd-spacer" />
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Shoulders" class="equip-slot-square">
+                                    <ui:Label name="Slot_Shoulders_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Shoulders_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Shoulders_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="SHLDR" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="pd-spacer" />
+                        </ui:VisualElement>
+
+                        <!-- ROW 3: Shield (L-Hand) | Armor | Weapon (R-Hand) -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Shield" class="equip-slot-square">
+                                    <ui:Label name="Slot_Shield_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Shield_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Shield_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="L-HAND" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Armor" class="equip-slot-square">
+                                    <ui:Label name="Slot_Armor_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Armor_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Armor_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="ARMOR" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Weapon" class="equip-slot-square">
+                                    <ui:Label name="Slot_Weapon_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Weapon_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Weapon_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="R-HAND" class="slot-label" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- ROW 4: Arms | Torso | Gloves -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Arms" class="equip-slot-square">
+                                    <ui:Label name="Slot_Arms_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Arms_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Arms_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="ARMS" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Torso" class="equip-slot-square">
+                                    <ui:Label name="Slot_Torso_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Torso_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Torso_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="TORSO" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Gloves" class="equip-slot-square">
+                                    <ui:Label name="Slot_Gloves_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Gloves_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Gloves_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="GLOVES" class="slot-label" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- ROW 5: CapeBehind | Belt | Quiver -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_CapeBehind" class="equip-slot-square">
+                                    <ui:Label name="Slot_CapeBehind_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_CapeBehind_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_CapeBehind_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="CAPE" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Belt" class="equip-slot-square">
+                                    <ui:Label name="Slot_Belt_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Belt_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Belt_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="BELT" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Quiver" class="equip-slot-square">
+                                    <ui:Label name="Slot_Quiver_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Quiver_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Quiver_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="QUIVER" class="slot-label" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <!-- ROW 6: [space] Legs [space] -->
+                        <ui:VisualElement class="pd-row">
+                            <ui:VisualElement class="pd-spacer" />
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Legs" class="equip-slot-square">
+                                    <ui:Label name="Slot_Legs_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Legs_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Legs_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="LEGS" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="pd-spacer" />
+                        </ui:VisualElement>
+
+                        <!-- ROW 7: [space] Feet [space] -->
+                        <ui:VisualElement class="pd-row" style="margin-bottom: 4px;">
+                            <ui:VisualElement class="pd-spacer" />
+                            <ui:VisualElement style="flex-direction: column; align-items: center;">
+                                <ui:VisualElement name="Slot_Feet" class="equip-slot-square">
+                                    <ui:Label name="Slot_Feet_Icon"  class="slot-bg-icon" />
+                                    <ui:Label name="Slot_Feet_Name"  class="slot-name-tiny" />
+                                    <ui:VisualElement name="Slot_Feet_Rarity" class="rarity-bottom-bar" />
+                                </ui:VisualElement>
+                                <ui:Label text="FEET" class="slot-label" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="pd-spacer" />
+                        </ui:VisualElement>
+
+                    </ui:ScrollView><!-- /PaperDollScroll -->
+
+                    <!-- STATS SCROLL — GIAO DIỆN RPG CHUYÊN NGHIỆP CHI TIẾT -->
+                    <ui:ScrollView name="StatsScroll" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" class="stats-scroll-container" style="display: none;">
+                        
+                        <ui:Label text="CHARACTER LEVEL" class="stats-group-header" />
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Level" class="stat-detail-name" />
+                            <ui:Label name="Stat_Level" text="1" class="stat-detail-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Experience" class="stat-detail-name" />
+                            <ui:Label name="Stat_Exp" text="0 / 2000" class="stat-detail-value" />
+                        </ui:VisualElement>
+
+                        <ui:Label text="CORE ATTRIBUTES" class="stats-group-header" style="margin-top: 8px;" />
+                        
+                        <ui:VisualElement name="StatPointsContainer" class="stat-points-container">
+                            <ui:Label text="Available Points:" class="stat-points-label" />
+                            <ui:Label name="StatPointsValue" text="0" class="stat-points-value" />
+                        </ui:VisualElement>
+
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="STR (Strength)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_STR" text="10" class="stat-detail-value str" />
+                                <ui:Button name="BtnAdd_STR" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="DEX (Dexterity)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_DEX" text="10" class="stat-detail-value dex" />
+                                <ui:Button name="BtnAdd_DEX" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="INT (Intelligence)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_INT" text="10" class="stat-detail-value int" />
+                                <ui:Button name="BtnAdd_INT" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="VIT (Vitality)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_VIT" text="10" class="stat-detail-value vit" />
+                                <ui:Button name="BtnAdd_VIT" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="AGI (Agility)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_AGI" text="10" class="stat-detail-value agi" />
+                                <ui:Button name="BtnAdd_AGI" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="LUK (Luck)" class="stat-detail-name" />
+                            <ui:VisualElement style="flex-direction: row; align-items: center;">
+                                <ui:Label name="Stat_LUK" text="10" class="stat-detail-value luk" />
+                                <ui:Button name="BtnAdd_LUK" text="+" class="stat-add-btn" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+                        <ui:Label text="COMBAT RATINGS" class="stats-group-header" style="margin-top: 8px;" />
+
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Physical ATK" class="stat-detail-name" />
+                            <ui:Label name="StatATK" text="100" class="stat-detail-value atk" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Magical ATK" class="stat-detail-name" />
+                            <ui:Label name="StatMATK" text="20" class="stat-detail-value matk" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Armor (DEF)" class="stat-detail-name" />
+                            <ui:Label name="StatDEF" text="60" class="stat-detail-value def" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Magic Resist" class="stat-detail-name" />
+                            <ui:Label name="StatMDEF" text="15" class="stat-detail-value mdef" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Movement SPD" class="stat-detail-name" />
+                            <ui:Label name="StatSPD" text="20" class="stat-detail-value spd" />
+                        </ui:VisualElement>
+                        
+                        <ui:Label text="ADVANCED RATINGS" class="stats-group-header" style="margin-top: 8px;" />
+
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Crit Rate" class="stat-detail-name" />
+                            <ui:Label name="StatCritRate" text="5%" class="stat-detail-value crit" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Crit Damage" class="stat-detail-name" />
+                            <ui:Label name="StatCritDmg" text="150%" class="stat-detail-value crit" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Armor Pen" class="stat-detail-name" />
+                            <ui:Label name="StatPhysPen" text="10" class="stat-detail-value pen" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Magic Pen" class="stat-detail-name" />
+                            <ui:Label name="StatMagicPen" text="5" class="stat-detail-value pen" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Lifesteal" class="stat-detail-name" />
+                            <ui:Label name="StatLifesteal" text="0%" class="stat-detail-value heal" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Spell Vamp" class="stat-detail-name" />
+                            <ui:Label name="StatSpellVamp" text="0%" class="stat-detail-value heal" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-detail-row">
+                            <ui:Label text="Dodge" class="stat-detail-name" />
+                            <ui:Label name="StatDodge" text="2%" class="stat-detail-value dodge" />
+                        </ui:VisualElement>
+
+                    </ui:ScrollView>
+
+                </ui:VisualElement><!-- /CharPanel -->
+
+                <!-- ══ RIGHT: INVENTORY PANEL ══ -->
+                <ui:VisualElement name="InvPanel" class="inv-panel">
+                    <ui:VisualElement class="corner corner-tl" />
+                    <ui:VisualElement class="corner corner-tr" />
+                    <ui:VisualElement class="corner corner-bl" />
+                    <ui:VisualElement class="corner corner-br" />
+
+                    <ui:VisualElement class="inv-header-row">
+                        <ui:Label text="INVENTORY" class="panel-header" />
+                        <ui:VisualElement name="FilterTabs" class="filter-tabs">
+                            <ui:Button name="Filter_All"      text="All"      class="filter-tab filter-active" />
+                            <ui:Button name="Filter_Weapon"   text="Weapon"   class="filter-tab" />
+                            <ui:Button name="Filter_Armor"    text="Armor"    class="filter-tab" />
+                            <ui:Button name="Filter_Clothing" text="Clothing" class="filter-tab" />
+                            <ui:Button name="Filter_Other"    text="Other"    class="filter-tab" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                    <!-- GOLD + WEIGHT -->
+                    <ui:VisualElement class="gold-row">
+                        <ui:Label text="🪙" class="gold-icon" />
+                        <ui:Label name="GoldCount" text="4,280" class="gold-value" />
+                        <ui:Label text="⚖" class="weight-label" />
+                        <ui:VisualElement class="weight-bar-bg">
+                            <ui:VisualElement name="WeightBar" class="weight-bar-fill" />
+                        </ui:VisualElement>
+                        <ui:Label name="WeightText" text="0/60kg" class="weight-text" />
+                        <ui:Label name="WeightWarn" text="" class="weight-warn" style="display: none;" />
+                    </ui:VisualElement>
+
+                    <ui:ScrollView name="InventoryGrid"
+                                   horizontal-scroller-visibility="Hidden"
+                                   vertical-scroller-visibility="Auto"
+                                   class="inventory-grid" />
+
+                    <!-- DETAIL PANEL -->
+                    <ui:VisualElement name="DetailPanel" class="detail-panel">
+                        <ui:VisualElement class="detail-portrait-col">
+                            <ui:VisualElement name="DetailPortrait" class="detail-portrait">
+                                <ui:Label name="DetailIcon" text="?" class="detail-portrait-icon" />
+                            </ui:VisualElement>
+                            <ui:Label name="RarityStars" text="☆☆☆☆☆" class="rarity-stars" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="detail-info-col">
+                            <ui:Label name="ItemName"     text="Select an item"            class="detail-item-name" />
+                            <ui:Label name="ItemCategory" text="—"                         class="detail-category" />
+                            <ui:Label name="ItemWeight"   text=""                          class="detail-weight" />
+                            <ui:Label name="ItemDesc"     text="Hover an item to preview." class="detail-desc" />
+                            <ui:VisualElement name="StatDiff" class="stat-diff-row">
+                                <ui:Label name="DiffATK" class="diff-badge" />
+                                <ui:Label name="DiffDEF" class="diff-badge" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="detail-action-col">
+                            <ui:Button name="EquipButton"   text="EQUIP"  class="action-btn equip-btn" />
+                            <ui:Button name="UnequipButton" text="REMOVE" class="action-btn remove-btn" />
+                            <ui:Button name="DropButton"    text="DROP"   class="action-btn drop-btn" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+
+                </ui:VisualElement><!-- /InvPanel -->
+            </ui:VisualElement><!-- /ContentRow -->
+
+            <!-- ══ BOTTOM BAR ══ -->
+            <ui:VisualElement name="BottomBar" class="bottom-bar">
+                <ui:Label text="LPC Equipment System  •  v5.0  •  26 Slots" class="bottom-credit" />
+                <ui:Button name="SaveBtn" text="💾  SAVE" class="bottom-btn" />
+                <ui:Button name="LoadBtn" text="📂  LOAD" class="bottom-btn" />
+                <ui:Button name="LoadoutBtn" text="📋  LOADOUTS" class="bottom-btn" />
+                <ui:Button name="SortBtn"    text="⇅  SORT"     class="bottom-btn" />
+            </ui:VisualElement>
+
+            <!-- ══ SAVE/LOAD SLOT POPUP ══ -->
+            <ui:VisualElement name="SaveSlotPopup" class="save-slot-popup" style="display: none;">
+                <ui:VisualElement class="save-slot-window">
+                    <ui:VisualElement class="corner corner-tl" />
+                    <ui:VisualElement class="corner corner-tr" />
+                    <ui:VisualElement class="corner corner-bl" />
+                    <ui:VisualElement class="corner corner-br" />
+                    
+                    <ui:Label name="PopupTitle" text="SELECT SAVE SLOT" class="panel-header" />
+                    
+                    <!-- Slot 1 -->
+                    <ui:Button name="BtnSlot_1" class="slot-btn">
+                        <ui:Label text="SLOT 1" class="slot-btn-title" />
+                        <ui:Label name="SlotInfo_1" text="Empty Slot" class="slot-btn-info" />
+                    </ui:Button>
+                    
+                    <!-- Slot 2 -->
+                    <ui:Button name="BtnSlot_2" class="slot-btn">
+                        <ui:Label text="SLOT 2" class="slot-btn-title" />
+                        <ui:Label name="SlotInfo_2" text="Empty Slot" class="slot-btn-info" />
+                    </ui:Button>
+                    
+                    <!-- Slot 3 -->
+                    <ui:Button name="BtnSlot_3" class="slot-btn">
+                        <ui:Label text="SLOT 3" class="slot-btn-title" />
+                        <ui:Label name="SlotInfo_3" text="Empty Slot" class="slot-btn-info" />
+                    </ui:Button>
+                    
+                    <!-- Cancel Button -->
+                    <ui:Button name="BtnSlotCancel" text="CANCEL" class="action-btn drop-btn" style="margin-top: 10px; width: 100px; align-self: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement><!-- /MainWindow -->
+    </ui:VisualElement><!-- /Backdrop -->
+</ui:UXML>

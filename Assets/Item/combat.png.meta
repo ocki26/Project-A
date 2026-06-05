@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: db53c43560b0e9148a8ba6b1ccb23c13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2179016324844787500
+    second: combat_0
+  - first:
+      213: 6794092464986476194
+    second: combat_1
+  - first:
+      213: 4483821676501566308
+    second: combat_2
+  - first:
+      213: 8221481819510253674
+    second: combat_3
+  - first:
+      213: 8566571242465862649
+    second: combat_4
+  - first:
+      213: -4962759579594993332
+    second: combat_5
+  - first:
+      213: 6643670926349633354
+    second: combat_6
+  - first:
+      213: 538338953163800132
+    second: combat_7
+  - first:
+      213: 5584034555648045113
+    second: Combat_r0_c0
+  - first:
+      213: 2189815656328113707
+    second: Combat_r0_c1
+  - first:
+      213: 1771561295377773710
+    second: Combat_r0_c2
+  - first:
+      213: -2903948167051989046
+    second: Combat_r0_c3
+  - first:
+      213: -6351444045875064365
+    second: Combat_r0_c4
+  - first:
+      213: 5983796463336291358
+    second: Combat_r0_c5
+  - first:
+      213: 919458676893165888
+    second: Combat_r0_c6
+  - first:
+      213: 38856742170842088
+    second: Combat_r0_c7
+  - first:
+      213: -4057063659783842204
+    second: Combat_r0_c8
+  - first:
+      213: -6063014974742832157
+    second: Combat_r0_c9
+  - first:
+      213: -889534457884798943
+    second: Combat_r0_c10
+  - first:
+      213: 4504585833536672035
+    second: Combat_r0_c11
+  - first:
+      213: 4051426178129707135
+    second: Combat_r0_c12
+  - first:
+      213: 2080117179364983008
+    second: Combat_r1_c0
+  - first:
+      213: 3377863128882221683
+    second: Combat_r1_c1
+  - first:
+      213: -5364001436805786664
+    second: Combat_r1_c2
+  - first:
+      213: 4088621950943046587
+    second: Combat_r1_c3
+  - first:
+      213: 4790765157792889961
+    second: Combat_r1_c4
+  - first:
+      213: 7211746550349138691
+    second: Combat_r1_c5
+  - first:
+      213: -7424439805845284316
+    second: Combat_r1_c6
+  - first:
+      213: -50370129379398678
+    second: Combat_r1_c7
+  - first:
+      213: 5629743974092154145
+    second: Combat_r1_c8
+  - first:
+      213: -1287119939991940884
+    second: Combat_r1_c9
+  - first:
+      213: -158425278657693811
+    second: Combat_r1_c10
+  - first:
+      213: 5464107227605755723
+    second: Combat_r1_c11
+  - first:
+      213: -180082694497083490
+    second: Combat_r1_c12
+  - first:
+      213: -2465084239112455509
+    second: Combat_r2_c0
+  - first:
+      213: -6009879529404372454
+    second: Combat_r2_c1
+  - first:
+      213: 2844765505066430547
+    second: Combat_r2_c2
+  - first:
+      213: -1266726983071661045
+    second: Combat_r2_c3
+  - first:
+      213: 2479579349621334137
+    second: Combat_r2_c4
+  - first:
+      213: 5969831830654832104
+    second: Combat_r2_c5
+  - first:
+      213: 5660989841149293854
+    second: Combat_r2_c6
+  - first:
+      213: -765262209359793375
+    second: Combat_r2_c7
+  - first:
+      213: -8547388515719199541
+    second: Combat_r2_c8
+  - first:
+      213: 5870756603233242815
+    second: Combat_r2_c9
+  - first:
+      213: -8481839729734848866
+    second: Combat_r2_c10
+  - first:
+      213: -474892344966178276
+    second: Combat_r2_c11
+  - first:
+      213: -6074868238107357512
+    second: Combat_r2_c12
+  - first:
+      213: -1397028502123143306
+    second: Combat_r3_c0
+  - first:
+      213: -3921000439344601376
+    second: Combat_r3_c1
+  - first:
+      213: -7381697537712368473
+    second: Combat_r3_c2
+  - first:
+      213: -6167904029673475380
+    second: Combat_r3_c3
+  - first:
+      213: -4615562162861421848
+    second: Combat_r3_c4
+  - first:
+      213: -4328433209950048223
+    second: Combat_r3_c5
+  - first:
+      213: -8828412758651372615
+    second: Combat_r3_c6
+  - first:
+      213: 6367564537195079897
+    second: Combat_r3_c7
+  - first:
+      213: -6711008232661499051
+    second: Combat_r3_c8
+  - first:
+      213: 2072092400319176742
+    second: Combat_r3_c9
+  - first:
+      213: 508256674221893670
+    second: Combat_r3_c10
+  - first:
+      213: 2227093578964310907
+    second: Combat_r3_c11
+  - first:
+      213: -3895250897124003708
+    second: Combat_r3_c12
+  - first:
+      213: 5506469823551923317
+    second: quan_Combat_r0_c0
+  - first:
+      213: 8220530310686431858
+    second: quan_Combat_r0_c1
+  - first:
+      213: -872116998227536059
+    second: quan_Combat_r1_c0
+  - first:
+      213: -8927184034259993796
+    second: quan_Combat_r1_c1
+  - first:
+      213: -2008114268325959152
+    second: quan_Combat_r2_c0
+  - first:
+      213: -4551556659810579848
+    second: quan_Combat_r2_c1
+  - first:
+      213: 6218315725860282927
+    second: quan_Combat_r3_c0
+  - first:
+      213: 8540888658920349660
+    second: quan_Combat_r3_c1
+  - first:
+      213: -4590113000534545010
+    second: Legs_Combat_r0_c0
+  - first:
+      213: -4629985799473714982
+    second: Legs_Combat_r0_c1
+  - first:
+      213: 5929867607687789571
+    second: Legs_Combat_r1_c0
+  - first:
+      213: 2932425414862691771
+    second: Legs_Combat_r1_c1
+  - first:
+      213: 8602329831433618192
+    second: Legs_Combat_r2_c0
+  - first:
+      213: -608075075808866617
+    second: Legs_Combat_r2_c1
+  - first:
+      213: -1565433840724878869
+    second: Legs_Combat_r3_c0
+  - first:
+      213: -5032081551433602411
+    second: Legs_Combat_r3_c1
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Combat_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d6c34ab84ac40c0800000000000000
+      internalID: -4590113000534545010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad82443327cfebfb0800000000000000
+      internalID: -4629985799473714982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c7351eb2f1b4250800000000000000
+      internalID: 5929867607687789571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdd73fc06112b820800000000000000
+      internalID: 2932425414862691771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013c853976d916770800000000000000
+      internalID: 8602329831433618192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec4a5b0feaf87f0800000000000000
+      internalID: -608075075808866617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9d7344736764ae0800000000000000
+      internalID: -1565433840724878869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Combat_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ae0067d747a2ab0800000000000000
+      internalID: -5032081551433602411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Combat_r0_c0: 5584034555648045113
+      Combat_r0_c1: 2189815656328113707
+      Combat_r0_c10: -889534457884798943
+      Combat_r0_c11: 4504585833536672035
+      Combat_r0_c12: 4051426178129707135
+      Combat_r0_c2: 1771561295377773710
+      Combat_r0_c3: -2903948167051989046
+      Combat_r0_c4: -6351444045875064365
+      Combat_r0_c5: 5983796463336291358
+      Combat_r0_c6: 919458676893165888
+      Combat_r0_c7: 38856742170842088
+      Combat_r0_c8: -4057063659783842204
+      Combat_r0_c9: -6063014974742832157
+      Combat_r1_c0: 2080117179364983008
+      Combat_r1_c1: 3377863128882221683
+      Combat_r1_c10: -158425278657693811
+      Combat_r1_c11: 5464107227605755723
+      Combat_r1_c12: -180082694497083490
+      Combat_r1_c2: -5364001436805786664
+      Combat_r1_c3: 4088621950943046587
+      Combat_r1_c4: 4790765157792889961
+      Combat_r1_c5: 7211746550349138691
+      Combat_r1_c6: -7424439805845284316
+      Combat_r1_c7: -50370129379398678
+      Combat_r1_c8: 5629743974092154145
+      Combat_r1_c9: -1287119939991940884
+      Combat_r2_c0: -2465084239112455509
+      Combat_r2_c1: -6009879529404372454
+      Combat_r2_c10: -8481839729734848866
+      Combat_r2_c11: -474892344966178276
+      Combat_r2_c12: -6074868238107357512
+      Combat_r2_c2: 2844765505066430547
+      Combat_r2_c3: -1266726983071661045
+      Combat_r2_c4: 2479579349621334137
+      Combat_r2_c5: 5969831830654832104
+      Combat_r2_c6: 5660989841149293854
+      Combat_r2_c7: -765262209359793375
+      Combat_r2_c8: -8547388515719199541
+      Combat_r2_c9: 5870756603233242815
+      Combat_r3_c0: -1397028502123143306
+      Combat_r3_c1: -3921000439344601376
+      Combat_r3_c10: 508256674221893670
+      Combat_r3_c11: 2227093578964310907
+      Combat_r3_c12: -3895250897124003708
+      Combat_r3_c2: -7381697537712368473
+      Combat_r3_c3: -6167904029673475380
+      Combat_r3_c4: -4615562162861421848
+      Combat_r3_c5: -4328433209950048223
+      Combat_r3_c6: -8828412758651372615
+      Combat_r3_c7: 6367564537195079897
+      Combat_r3_c8: -6711008232661499051
+      Combat_r3_c9: 2072092400319176742
+      Legs_Combat_r0_c0: -4590113000534545010
+      Legs_Combat_r0_c1: -4629985799473714982
+      Legs_Combat_r1_c0: 5929867607687789571
+      Legs_Combat_r1_c1: 2932425414862691771
+      Legs_Combat_r2_c0: 8602329831433618192
+      Legs_Combat_r2_c1: -608075075808866617
+      Legs_Combat_r3_c0: -1565433840724878869
+      Legs_Combat_r3_c1: -5032081551433602411
+      combat_0: 2179016324844787500
+      combat_1: 6794092464986476194
+      combat_2: 4483821676501566308
+      combat_3: 8221481819510253674
+      combat_4: 8566571242465862649
+      combat_5: -4962759579594993332
+      combat_6: 6643670926349633354
+      combat_7: 538338953163800132
+      quan_Combat_r0_c0: 5506469823551923317
+      quan_Combat_r0_c1: 8220530310686431858
+      quan_Combat_r1_c0: -872116998227536059
+      quan_Combat_r1_c1: -8927184034259993796
+      quan_Combat_r2_c0: -2008114268325959152
+      quan_Combat_r2_c1: -4551556659810579848
+      quan_Combat_r3_c0: 6218315725860282927
+      quan_Combat_r3_c1: 8540888658920349660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061463789ad53a147b72791f555350e1, type: 3}
+  m_Name: khu_rung
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.RoomCreateScript.BiomePlantConfig
+  biomeName: Forest Region
+  minPlantsPerCell: 10
+  maxPlantsPerCell: 15
+  availablePlants:
+  - plantPrefab: {fileID: 6855290890706593028, guid: f542a6b8068523a448bd09f7a522f39c, type: 3}
+    rarityWeight: 3
+  - plantPrefab: {fileID: 8906305067482743271, guid: 00aa76fd5187e38448a293b43f496f46, type: 3}
+    rarityWeight: 7

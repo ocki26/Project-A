@@ -1,0 +1,1241 @@
+fileFormatVersion: 2
+guid: 9fcf4c782ed56224e80dcd3f5510356b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6939695964637348897
+    second: slash_0
+  - first:
+      213: 4408985956767555964
+    second: slash_1
+  - first:
+      213: 2816895114182060562
+    second: slash_2
+  - first:
+      213: -2247918224548019269
+    second: slash_3
+  - first:
+      213: 6283147460232431772
+    second: slash_4
+  - first:
+      213: -2431866622470065252
+    second: slash_5
+  - first:
+      213: 9087734092316401669
+    second: slash_6
+  - first:
+      213: 8715441608282642310
+    second: slash_7
+  - first:
+      213: -1630923532363973546
+    second: slash_8
+  - first:
+      213: -6780360390325039658
+    second: slash_9
+  - first:
+      213: -7436737057886305554
+    second: slash_10
+  - first:
+      213: 3676732010241932855
+    second: slash_11
+  - first:
+      213: -2456138225634228066
+    second: slash_12
+  - first:
+      213: -3377195911980049257
+    second: slash_13
+  - first:
+      213: -4080306036332590020
+    second: slash_14
+  - first:
+      213: -9075176817609584010
+    second: slash_15
+  - first:
+      213: -5293189191046842065
+    second: slash_16
+  - first:
+      213: -6007861745274016299
+    second: slash_17
+  - first:
+      213: -9005690314154962295
+    second: slash_18
+  - first:
+      213: -3980888878710062537
+    second: slash_19
+  - first:
+      213: 658409185793840089
+    second: slash_20
+  - first:
+      213: 6353493238045033901
+    second: slash_21
+  - first:
+      213: -6791711555258386103
+    second: slash_22
+  - first:
+      213: 339011878478650101
+    second: slash_23
+  - first:
+      213: -7910885418903527043
+    second: slash_24
+  - first:
+      213: -7879977564194691485
+    second: Slash_0_0
+  - first:
+      213: -3494473939165461843
+    second: Slash_0_1
+  - first:
+      213: -8175270828059563301
+    second: Slash_0_2
+  - first:
+      213: 7488888631210702626
+    second: Slash_0_3
+  - first:
+      213: -8319563424969259320
+    second: Slash_0_4
+  - first:
+      213: 9014797421249655401
+    second: Slash_0_5
+  - first:
+      213: 7868005485719084555
+    second: Slash_1_0
+  - first:
+      213: 7128610218588070007
+    second: Slash_1_1
+  - first:
+      213: 4188324380649550891
+    second: Slash_1_2
+  - first:
+      213: 3568894220016899115
+    second: Slash_1_3
+  - first:
+      213: 7003297484179776329
+    second: Slash_1_4
+  - first:
+      213: 6746591855692882705
+    second: Slash_1_5
+  - first:
+      213: -2072925600502191786
+    second: Slash_2_0
+  - first:
+      213: 3200602436155497750
+    second: Slash_2_1
+  - first:
+      213: -3093574144218545812
+    second: Slash_2_2
+  - first:
+      213: 5276058400973628248
+    second: Slash_2_3
+  - first:
+      213: 101107989285278697
+    second: Slash_2_4
+  - first:
+      213: -6050076776441196790
+    second: Slash_2_5
+  - first:
+      213: -3507966598499190920
+    second: Slash_3_0
+  - first:
+      213: -2554627193518649140
+    second: Slash_3_1
+  - first:
+      213: 4312702108030244758
+    second: Slash_3_2
+  - first:
+      213: 4184462817107593740
+    second: Slash_3_3
+  - first:
+      213: -8717614062158183888
+    second: Slash_3_4
+  - first:
+      213: -8425638695840140790
+    second: Slash_3_5
+  - first:
+      213: -6714839789395429613
+    second: Slash_r0_c0
+  - first:
+      213: 8858445931528305539
+    second: Slash_r0_c1
+  - first:
+      213: -717277559094427975
+    second: Slash_r0_c2
+  - first:
+      213: -2315659922357443169
+    second: Slash_r0_c3
+  - first:
+      213: -8965084903169759213
+    second: Slash_r0_c4
+  - first:
+      213: 327918827074528034
+    second: Slash_r0_c5
+  - first:
+      213: -2261962252188820631
+    second: Slash_r0_c6
+  - first:
+      213: 8079893929410733343
+    second: Slash_r0_c7
+  - first:
+      213: -8900611324151259425
+    second: Slash_r0_c8
+  - first:
+      213: 5045935725088758498
+    second: Slash_r0_c9
+  - first:
+      213: 7039882136491638472
+    second: Slash_r0_c10
+  - first:
+      213: -3721703288112657539
+    second: Slash_r0_c11
+  - first:
+      213: 2873356189568164889
+    second: Slash_r0_c12
+  - first:
+      213: -3928325662760802013
+    second: Slash_r1_c0
+  - first:
+      213: -2245993592560593825
+    second: Slash_r1_c1
+  - first:
+      213: -6539315800200265158
+    second: Slash_r1_c2
+  - first:
+      213: 4594550421656598122
+    second: Slash_r1_c3
+  - first:
+      213: -30356545096411428
+    second: Slash_r1_c4
+  - first:
+      213: -2566152620002777590
+    second: Slash_r1_c5
+  - first:
+      213: -246184590673752821
+    second: Slash_r1_c6
+  - first:
+      213: 1616533530068245981
+    second: Slash_r1_c7
+  - first:
+      213: 7195783249013154770
+    second: Slash_r1_c8
+  - first:
+      213: -3485691283421560435
+    second: Slash_r1_c9
+  - first:
+      213: 3507676687607927889
+    second: Slash_r1_c10
+  - first:
+      213: 4394591718773327030
+    second: Slash_r1_c11
+  - first:
+      213: -8472630591862406391
+    second: Slash_r1_c12
+  - first:
+      213: 4762909812120390735
+    second: Slash_r2_c0
+  - first:
+      213: 6532106396091474011
+    second: Slash_r2_c1
+  - first:
+      213: -1994164929241279191
+    second: Slash_r2_c2
+  - first:
+      213: -1723678927209656891
+    second: Slash_r2_c3
+  - first:
+      213: 1619460241390240949
+    second: Slash_r2_c4
+  - first:
+      213: 7186851119727196711
+    second: Slash_r2_c5
+  - first:
+      213: 6986560494001341993
+    second: Slash_r2_c6
+  - first:
+      213: -5930550300829330316
+    second: Slash_r2_c7
+  - first:
+      213: -6870708773975284830
+    second: Slash_r2_c8
+  - first:
+      213: -8882863522330575576
+    second: Slash_r2_c9
+  - first:
+      213: -202988801289401137
+    second: Slash_r2_c10
+  - first:
+      213: -2600966151783728712
+    second: Slash_r2_c11
+  - first:
+      213: 9151023213525244871
+    second: Slash_r2_c12
+  - first:
+      213: -3997614199548332568
+    second: Slash_r3_c0
+  - first:
+      213: 1259716210798179338
+    second: Slash_r3_c1
+  - first:
+      213: -3578444163869302184
+    second: Slash_r3_c2
+  - first:
+      213: 4912683171314684677
+    second: Slash_r3_c3
+  - first:
+      213: -7820924941409869477
+    second: Slash_r3_c4
+  - first:
+      213: -552288188748566004
+    second: Slash_r3_c5
+  - first:
+      213: -5002224885051353334
+    second: Slash_r3_c6
+  - first:
+      213: 6390238283647578447
+    second: Slash_r3_c7
+  - first:
+      213: 4130070706834681123
+    second: Slash_r3_c8
+  - first:
+      213: 789609983061306361
+    second: Slash_r3_c9
+  - first:
+      213: 4146986240963641521
+    second: Slash_r3_c10
+  - first:
+      213: 8882883281781641507
+    second: Slash_r3_c11
+  - first:
+      213: 4649579497174871465
+    second: Slash_r3_c12
+  - first:
+      213: 383545690328476128
+    second: quan_Slash_r0_c0
+  - first:
+      213: 737789534984033585
+    second: quan_Slash_r0_c1
+  - first:
+      213: 3147512150080398677
+    second: quan_Slash_r0_c2
+  - first:
+      213: -8492422536547505335
+    second: quan_Slash_r0_c3
+  - first:
+      213: 967425290190802037
+    second: quan_Slash_r0_c4
+  - first:
+      213: -6304965717868627333
+    second: quan_Slash_r0_c5
+  - first:
+      213: -3505108921819158353
+    second: quan_Slash_r1_c0
+  - first:
+      213: 4700641202842447235
+    second: quan_Slash_r1_c1
+  - first:
+      213: -5788409658297793014
+    second: quan_Slash_r1_c2
+  - first:
+      213: 5595787516833959706
+    second: quan_Slash_r1_c3
+  - first:
+      213: -3259410163970477165
+    second: quan_Slash_r1_c4
+  - first:
+      213: 6470502881957044628
+    second: quan_Slash_r1_c5
+  - first:
+      213: -3157389380195349010
+    second: quan_Slash_r2_c0
+  - first:
+      213: -3359755883960067872
+    second: quan_Slash_r2_c1
+  - first:
+      213: 1870130948347123530
+    second: quan_Slash_r2_c2
+  - first:
+      213: 7656270884291247262
+    second: quan_Slash_r2_c3
+  - first:
+      213: 2037807843446235770
+    second: quan_Slash_r2_c4
+  - first:
+      213: 376749574477226188
+    second: quan_Slash_r2_c5
+  - first:
+      213: -2233662916332236868
+    second: quan_Slash_r3_c0
+  - first:
+      213: 5372258430342307388
+    second: quan_Slash_r3_c1
+  - first:
+      213: 2684170408305053678
+    second: quan_Slash_r3_c2
+  - first:
+      213: -4397900605004919280
+    second: quan_Slash_r3_c3
+  - first:
+      213: -1735459590264748338
+    second: quan_Slash_r3_c4
+  - first:
+      213: 170681448525426141
+    second: quan_Slash_r3_c5
+  - first:
+      213: -4099405105886460132
+    second: Legs_Slash_r0_c0
+  - first:
+      213: -5751351288889310514
+    second: Legs_Slash_r0_c1
+  - first:
+      213: 6457294676820241176
+    second: Legs_Slash_r0_c2
+  - first:
+      213: 2795892465096683692
+    second: Legs_Slash_r0_c3
+  - first:
+      213: -4313189022844075970
+    second: Legs_Slash_r0_c4
+  - first:
+      213: 7322235205243312624
+    second: Legs_Slash_r0_c5
+  - first:
+      213: 5445432811987119091
+    second: Legs_Slash_r1_c0
+  - first:
+      213: -7635342195566232792
+    second: Legs_Slash_r1_c1
+  - first:
+      213: -8857919476621186293
+    second: Legs_Slash_r1_c2
+  - first:
+      213: 1152799563284172653
+    second: Legs_Slash_r1_c3
+  - first:
+      213: 8904413559450095456
+    second: Legs_Slash_r1_c4
+  - first:
+      213: 669445035966339229
+    second: Legs_Slash_r1_c5
+  - first:
+      213: 6112886083386528582
+    second: Legs_Slash_r2_c0
+  - first:
+      213: -6440576162574131217
+    second: Legs_Slash_r2_c1
+  - first:
+      213: -5523554549453484338
+    second: Legs_Slash_r2_c2
+  - first:
+      213: 5257666569094019891
+    second: Legs_Slash_r2_c3
+  - first:
+      213: -1301877057473828182
+    second: Legs_Slash_r2_c4
+  - first:
+      213: -6782086440247840589
+    second: Legs_Slash_r2_c5
+  - first:
+      213: -2224853247187460052
+    second: Legs_Slash_r3_c0
+  - first:
+      213: -4808791010183194156
+    second: Legs_Slash_r3_c1
+  - first:
+      213: 2660612896449238011
+    second: Legs_Slash_r3_c2
+  - first:
+      213: -7960017081299861704
+    second: Legs_Slash_r3_c3
+  - first:
+      213: -2821772137677549508
+    second: Legs_Slash_r3_c4
+  - first:
+      213: 8760027809281328285
+    second: Legs_Slash_r3_c5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17073996ccfb17c0800000000000000
+      internalID: -4099405105886460132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2844789781f20b0800000000000000
+      internalID: -5751351288889310514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b24eddb4bec9950800000000000000
+      internalID: 6457294676820241176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0774c32610dc620800000000000000
+      internalID: 2795892465096683692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30c34c9f697424c0800000000000000
+      internalID: -4313189022844075970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91362df1ecd9560800000000000000
+      internalID: 7322235205243312624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbafb69a40129b40800000000000000
+      internalID: 5445432811987119091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b39b61ab0d90690800000000000000
+      internalID: -7635342195566232792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0beaf2da29521580800000000000000
+      internalID: -8857919476621186293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f47c258119fff00800000000000000
+      internalID: 1152799563284172653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fc13864f4d29b70800000000000000
+      internalID: 8904413559450095456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d981c6d96b85a4900800000000000000
+      internalID: 669445035966339229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643dea0618555d450800000000000000
+      internalID: 6112886083386528582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef9be09a1a7e96a0800000000000000
+      internalID: -6440576162574131217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece055ef6646853b0800000000000000
+      internalID: -5523554549453484338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bbb4663ebf6f840800000000000000
+      internalID: 5257666569094019891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaaa00c6bdceede0800000000000000
+      internalID: -1301877057473828182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0b80dc05031e1a0800000000000000
+      internalID: -6782086440247840589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20640c62cbbf11e0800000000000000
+      internalID: -2224853247187460052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d950f6ed0eb34db0800000000000000
+      internalID: -4808791010183194156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf31ea135556ce420800000000000000
+      internalID: 2660612896449238011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f741773a6588190800000000000000
+      internalID: -7960017081299861704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3092a0f03d07d8d0800000000000000
+      internalID: -2821772137677549508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Slash_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94c1c241eed19970800000000000000
+      internalID: 8760027809281328285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Legs_Slash_r0_c0: -4099405105886460132
+      Legs_Slash_r0_c1: -5751351288889310514
+      Legs_Slash_r0_c2: 6457294676820241176
+      Legs_Slash_r0_c3: 2795892465096683692
+      Legs_Slash_r0_c4: -4313189022844075970
+      Legs_Slash_r0_c5: 7322235205243312624
+      Legs_Slash_r1_c0: 5445432811987119091
+      Legs_Slash_r1_c1: -7635342195566232792
+      Legs_Slash_r1_c2: -8857919476621186293
+      Legs_Slash_r1_c3: 1152799563284172653
+      Legs_Slash_r1_c4: 8904413559450095456
+      Legs_Slash_r1_c5: 669445035966339229
+      Legs_Slash_r2_c0: 6112886083386528582
+      Legs_Slash_r2_c1: -6440576162574131217
+      Legs_Slash_r2_c2: -5523554549453484338
+      Legs_Slash_r2_c3: 5257666569094019891
+      Legs_Slash_r2_c4: -1301877057473828182
+      Legs_Slash_r2_c5: -6782086440247840589
+      Legs_Slash_r3_c0: -2224853247187460052
+      Legs_Slash_r3_c1: -4808791010183194156
+      Legs_Slash_r3_c2: 2660612896449238011
+      Legs_Slash_r3_c3: -7960017081299861704
+      Legs_Slash_r3_c4: -2821772137677549508
+      Legs_Slash_r3_c5: 8760027809281328285
+      Slash_0_0: -7879977564194691485
+      Slash_0_1: -3494473939165461843
+      Slash_0_2: -8175270828059563301
+      Slash_0_3: 7488888631210702626
+      Slash_0_4: -8319563424969259320
+      Slash_0_5: 9014797421249655401
+      Slash_1_0: 7868005485719084555
+      Slash_1_1: 7128610218588070007
+      Slash_1_2: 4188324380649550891
+      Slash_1_3: 3568894220016899115
+      Slash_1_4: 7003297484179776329
+      Slash_1_5: 6746591855692882705
+      Slash_2_0: -2072925600502191786
+      Slash_2_1: 3200602436155497750
+      Slash_2_2: -3093574144218545812
+      Slash_2_3: 5276058400973628248
+      Slash_2_4: 101107989285278697
+      Slash_2_5: -6050076776441196790
+      Slash_3_0: -3507966598499190920
+      Slash_3_1: -2554627193518649140
+      Slash_3_2: 4312702108030244758
+      Slash_3_3: 4184462817107593740
+      Slash_3_4: -8717614062158183888
+      Slash_3_5: -8425638695840140790
+      Slash_r0_c0: -6714839789395429613
+      Slash_r0_c1: 8858445931528305539
+      Slash_r0_c10: 7039882136491638472
+      Slash_r0_c11: -3721703288112657539
+      Slash_r0_c12: 2873356189568164889
+      Slash_r0_c2: -717277559094427975
+      Slash_r0_c3: -2315659922357443169
+      Slash_r0_c4: -8965084903169759213
+      Slash_r0_c5: 327918827074528034
+      Slash_r0_c6: -2261962252188820631
+      Slash_r0_c7: 8079893929410733343
+      Slash_r0_c8: -8900611324151259425
+      Slash_r0_c9: 5045935725088758498
+      Slash_r1_c0: -3928325662760802013
+      Slash_r1_c1: -2245993592560593825
+      Slash_r1_c10: 3507676687607927889
+      Slash_r1_c11: 4394591718773327030
+      Slash_r1_c12: -8472630591862406391
+      Slash_r1_c2: -6539315800200265158
+      Slash_r1_c3: 4594550421656598122
+      Slash_r1_c4: -30356545096411428
+      Slash_r1_c5: -2566152620002777590
+      Slash_r1_c6: -246184590673752821
+      Slash_r1_c7: 1616533530068245981
+      Slash_r1_c8: 7195783249013154770
+      Slash_r1_c9: -3485691283421560435
+      Slash_r2_c0: 4762909812120390735
+      Slash_r2_c1: 6532106396091474011
+      Slash_r2_c10: -202988801289401137
+      Slash_r2_c11: -2600966151783728712
+      Slash_r2_c12: 9151023213525244871
+      Slash_r2_c2: -1994164929241279191
+      Slash_r2_c3: -1723678927209656891
+      Slash_r2_c4: 1619460241390240949
+      Slash_r2_c5: 7186851119727196711
+      Slash_r2_c6: 6986560494001341993
+      Slash_r2_c7: -5930550300829330316
+      Slash_r2_c8: -6870708773975284830
+      Slash_r2_c9: -8882863522330575576
+      Slash_r3_c0: -3997614199548332568
+      Slash_r3_c1: 1259716210798179338
+      Slash_r3_c10: 4146986240963641521
+      Slash_r3_c11: 8882883281781641507
+      Slash_r3_c12: 4649579497174871465
+      Slash_r3_c2: -3578444163869302184
+      Slash_r3_c3: 4912683171314684677
+      Slash_r3_c4: -7820924941409869477
+      Slash_r3_c5: -552288188748566004
+      Slash_r3_c6: -5002224885051353334
+      Slash_r3_c7: 6390238283647578447
+      Slash_r3_c8: 4130070706834681123
+      Slash_r3_c9: 789609983061306361
+      quan_Slash_r0_c0: 383545690328476128
+      quan_Slash_r0_c1: 737789534984033585
+      quan_Slash_r0_c2: 3147512150080398677
+      quan_Slash_r0_c3: -8492422536547505335
+      quan_Slash_r0_c4: 967425290190802037
+      quan_Slash_r0_c5: -6304965717868627333
+      quan_Slash_r1_c0: -3505108921819158353
+      quan_Slash_r1_c1: 4700641202842447235
+      quan_Slash_r1_c2: -5788409658297793014
+      quan_Slash_r1_c3: 5595787516833959706
+      quan_Slash_r1_c4: -3259410163970477165
+      quan_Slash_r1_c5: 6470502881957044628
+      quan_Slash_r2_c0: -3157389380195349010
+      quan_Slash_r2_c1: -3359755883960067872
+      quan_Slash_r2_c2: 1870130948347123530
+      quan_Slash_r2_c3: 7656270884291247262
+      quan_Slash_r2_c4: 2037807843446235770
+      quan_Slash_r2_c5: 376749574477226188
+      quan_Slash_r3_c0: -2233662916332236868
+      quan_Slash_r3_c1: 5372258430342307388
+      quan_Slash_r3_c2: 2684170408305053678
+      quan_Slash_r3_c3: -4397900605004919280
+      quan_Slash_r3_c4: -1735459590264748338
+      quan_Slash_r3_c5: 170681448525426141
+      slash_0: -6939695964637348897
+      slash_1: 4408985956767555964
+      slash_10: -7436737057886305554
+      slash_11: 3676732010241932855
+      slash_12: -2456138225634228066
+      slash_13: -3377195911980049257
+      slash_14: -4080306036332590020
+      slash_15: -9075176817609584010
+      slash_16: -5293189191046842065
+      slash_17: -6007861745274016299
+      slash_18: -9005690314154962295
+      slash_19: -3980888878710062537
+      slash_2: 2816895114182060562
+      slash_20: 658409185793840089
+      slash_21: 6353493238045033901
+      slash_22: -6791711555258386103
+      slash_23: 339011878478650101
+      slash_24: -7910885418903527043
+      slash_3: -2247918224548019269
+      slash_4: 6283147460232431772
+      slash_5: -2431866622470065252
+      slash_6: 9087734092316401669
+      slash_7: 8715441608282642310
+      slash_8: -1630923532363973546
+      slash_9: -6780360390325039658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

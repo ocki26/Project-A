@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: bb0113fe4373ccb42afb1927f15706fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3582916166963785052
+    second: hurt_0
+  - first:
+      213: 1642290761556927327
+    second: hurt_1
+  - first:
+      213: 6819390902422994280
+    second: hurt_2
+  - first:
+      213: 6079887152930431857
+    second: hurt_3
+  - first:
+      213: 6351682349791027127
+    second: hurt_4
+  - first:
+      213: 2988431609061880149
+    second: hurt_5
+  - first:
+      213: 5358323396425395704
+    second: Hurt_r0_c0
+  - first:
+      213: 3854140964030242118
+    second: Hurt_r0_c1
+  - first:
+      213: 5115382195527513417
+    second: Hurt_r0_c2
+  - first:
+      213: -1806559437954956244
+    second: Hurt_r0_c3
+  - first:
+      213: 3230141933915081203
+    second: Hurt_r0_c4
+  - first:
+      213: -1817933785558979618
+    second: Hurt_r0_c5
+  - first:
+      213: 6856908332099703237
+    second: Hurt_r0_c6
+  - first:
+      213: 7100374748952760597
+    second: Hurt_r0_c7
+  - first:
+      213: -2348793346854703890
+    second: Hurt_r0_c8
+  - first:
+      213: 6094846067824358740
+    second: Hurt_r0_c9
+  - first:
+      213: 3756507163927201739
+    second: Hurt_r0_c10
+  - first:
+      213: -29363642307262150
+    second: Hurt_r0_c11
+  - first:
+      213: -4159129743997646721
+    second: Hurt_r0_c12
+  - first:
+      213: 6285636432775236793
+    second: Hurt_r0_c13
+  - first:
+      213: 7563261377621450903
+    second: Hurt_r0_c14
+  - first:
+      213: 7227837940185906668
+    second: Hurt_r0_c15
+  - first:
+      213: -8098881913099549974
+    second: Hurt_r0_c16
+  - first:
+      213: 43464267902275347
+    second: Hurt_r0_c17
+  - first:
+      213: -757324088368791183
+    second: Hurt_r0_c18
+  - first:
+      213: 2933307449834539837
+    second: Hurt_r0_c19
+  - first:
+      213: -4986136190407540779
+    second: Hurt_r1_c0
+  - first:
+      213: -6057940836344795087
+    second: Hurt_r1_c1
+  - first:
+      213: 1034658346001022891
+    second: Hurt_r1_c2
+  - first:
+      213: 1473441099791953726
+    second: Hurt_r1_c3
+  - first:
+      213: -8915227864695007057
+    second: Hurt_r1_c4
+  - first:
+      213: -6254996443687090538
+    second: Hurt_r1_c5
+  - first:
+      213: 7774692423213859952
+    second: Hurt_r1_c6
+  - first:
+      213: -4588136353882787170
+    second: Hurt_r1_c7
+  - first:
+      213: -3768543758572326902
+    second: Hurt_r1_c8
+  - first:
+      213: -2316297902214025375
+    second: Hurt_r1_c9
+  - first:
+      213: -2426032084908523662
+    second: Hurt_r1_c10
+  - first:
+      213: 983874000569206435
+    second: Hurt_r1_c11
+  - first:
+      213: -630750859575261452
+    second: Hurt_r1_c12
+  - first:
+      213: -7895888128906834730
+    second: Hurt_r1_c13
+  - first:
+      213: -5829485985476964660
+    second: Hurt_r1_c14
+  - first:
+      213: 3664988256452404978
+    second: Hurt_r1_c15
+  - first:
+      213: -2917295939821819534
+    second: Hurt_r1_c16
+  - first:
+      213: 3082517121921797585
+    second: Hurt_r1_c17
+  - first:
+      213: 2683830463593279703
+    second: Hurt_r1_c18
+  - first:
+      213: 8912923544220659676
+    second: Hurt_r1_c19
+  - first:
+      213: 6728434008631586834
+    second: hurt_r0_c0
+  - first:
+      213: 3138119645401677822
+    second: hurt_r0_c1
+  - first:
+      213: 6393935338474035583
+    second: hurt_r0_c2
+  - first:
+      213: 6325368160620459838
+    second: hurt_r0_c3
+  - first:
+      213: 4411819774452901367
+    second: hurt_r0_c4
+  - first:
+      213: -4893515122004651852
+    second: hurt_r0_c5
+  - first:
+      213: -4955225323367404755
+    second: hurt_r0_c6
+  - first:
+      213: -536347399255679757
+    second: hurt_r0_c7
+  - first:
+      213: 214322820333763556
+    second: hurt_r0_c8
+  - first:
+      213: -4600753420423146364
+    second: hurt_r0_c9
+  - first:
+      213: -982510410284514118
+    second: hurt_r0_c10
+  - first:
+      213: 461740958586125273
+    second: hurt_r0_c11
+  - first:
+      213: -4839241999906563778
+    second: hurt_r0_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hurt_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fda99b4db69c5a40800000000000000
+      internalID: 5358323396425395704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ddd4369c8ac7530800000000000000
+      internalID: 3854140964030242118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94576ce110d7df640800000000000000
+      internalID: 5115382195527513417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24c01343cfcde6e0800000000000000
+      internalID: -1806559437954956244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f90a1199f4c3dc20800000000000000
+      internalID: 3230141933915081203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb63969ad665c6e0800000000000000
+      internalID: -1817933785558979618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hurt_r0_c0: 5358323396425395704
+      Hurt_r0_c1: 3854140964030242118
+      Hurt_r0_c10: 3756507163927201739
+      Hurt_r0_c11: -29363642307262150
+      Hurt_r0_c12: -4159129743997646721
+      Hurt_r0_c13: 6285636432775236793
+      Hurt_r0_c14: 7563261377621450903
+      Hurt_r0_c15: 7227837940185906668
+      Hurt_r0_c16: -8098881913099549974
+      Hurt_r0_c17: 43464267902275347
+      Hurt_r0_c18: -757324088368791183
+      Hurt_r0_c19: 2933307449834539837
+      Hurt_r0_c2: 5115382195527513417
+      Hurt_r0_c3: -1806559437954956244
+      Hurt_r0_c4: 3230141933915081203
+      Hurt_r0_c5: -1817933785558979618
+      Hurt_r0_c6: 6856908332099703237
+      Hurt_r0_c7: 7100374748952760597
+      Hurt_r0_c8: -2348793346854703890
+      Hurt_r0_c9: 6094846067824358740
+      Hurt_r1_c0: -4986136190407540779
+      Hurt_r1_c1: -6057940836344795087
+      Hurt_r1_c10: -2426032084908523662
+      Hurt_r1_c11: 983874000569206435
+      Hurt_r1_c12: -630750859575261452
+      Hurt_r1_c13: -7895888128906834730
+      Hurt_r1_c14: -5829485985476964660
+      Hurt_r1_c15: 3664988256452404978
+      Hurt_r1_c16: -2917295939821819534
+      Hurt_r1_c17: 3082517121921797585
+      Hurt_r1_c18: 2683830463593279703
+      Hurt_r1_c19: 8912923544220659676
+      Hurt_r1_c2: 1034658346001022891
+      Hurt_r1_c3: 1473441099791953726
+      Hurt_r1_c4: -8915227864695007057
+      Hurt_r1_c5: -6254996443687090538
+      Hurt_r1_c6: 7774692423213859952
+      Hurt_r1_c7: -4588136353882787170
+      Hurt_r1_c8: -3768543758572326902
+      Hurt_r1_c9: -2316297902214025375
+      hurt_0: -3582916166963785052
+      hurt_1: 1642290761556927327
+      hurt_2: 6819390902422994280
+      hurt_3: 6079887152930431857
+      hurt_4: 6351682349791027127
+      hurt_5: 2988431609061880149
+      hurt_r0_c0: 6728434008631586834
+      hurt_r0_c1: 3138119645401677822
+      hurt_r0_c10: -982510410284514118
+      hurt_r0_c11: 461740958586125273
+      hurt_r0_c12: -4839241999906563778
+      hurt_r0_c2: 6393935338474035583
+      hurt_r0_c3: 6325368160620459838
+      hurt_r0_c4: 4411819774452901367
+      hurt_r0_c5: -4893515122004651852
+      hurt_r0_c6: -4955225323367404755
+      hurt_r0_c7: -536347399255679757
+      hurt_r0_c8: 214322820333763556
+      hurt_r0_c9: -4600753420423146364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

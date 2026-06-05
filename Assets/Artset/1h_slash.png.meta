@@ -1,0 +1,3261 @@
+fileFormatVersion: 2
+guid: 4d34fbf56c77ee14d8e7ead380cdae4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2976809424792804738
+    second: 1h_slash_0
+  - first:
+      213: -8549015514766193940
+    second: 1h_slash_1
+  - first:
+      213: 4097623633645533737
+    second: 1h_slash_2
+  - first:
+      213: 8699867919373242019
+    second: 1h_slash_3
+  - first:
+      213: -8788247942564379520
+    second: 1h_slash_4
+  - first:
+      213: -5176937538569838466
+    second: 1h_slash_5
+  - first:
+      213: -5081035946277562071
+    second: 1h_slash_6
+  - first:
+      213: -8836000149118356289
+    second: 1h_slash_7
+  - first:
+      213: 5436647338758782867
+    second: 1h_slash_8
+  - first:
+      213: -1774579422762394692
+    second: 1h_slash_9
+  - first:
+      213: -2503593402664738672
+    second: 1h_slash_10
+  - first:
+      213: 6148107967135007200
+    second: 1h_slash_11
+  - first:
+      213: -1088278059375063707
+    second: 1h_slash_12
+  - first:
+      213: 2096465970921280745
+    second: 1h_slash_13
+  - first:
+      213: -2791514409768476196
+    second: 1h_slash_14
+  - first:
+      213: -3887118715243638120
+    second: 1h_slash_15
+  - first:
+      213: -7833901053572105356
+    second: 1h_slash_16
+  - first:
+      213: 3749346760146695138
+    second: 1h_slash_17
+  - first:
+      213: -8283626442758754486
+    second: 1h_slash_18
+  - first:
+      213: 4093253554265516904
+    second: 1h_slash_19
+  - first:
+      213: 2198275625763195566
+    second: 1h_slash_20
+  - first:
+      213: 3459357178904074411
+    second: 1h_slash_21
+  - first:
+      213: -7517688053126318733
+    second: 1h_slash_22
+  - first:
+      213: 959607905271187648
+    second: 1h_slash_23
+  - first:
+      213: -2805865641183910863
+    second: 1h_slash_24
+  - first:
+      213: 2995072698915998371
+    second: 1h_slash_25
+  - first:
+      213: -2697283890196939392
+    second: 1h_slash_26
+  - first:
+      213: -2508415250802703922
+    second: 1h_slash_27
+  - first:
+      213: 7972414674777859550
+    second: 1h_slash_28
+  - first:
+      213: 6782821341168735608
+    second: 1h_slash_29
+  - first:
+      213: -4008126080607324020
+    second: 1h_slash_30
+  - first:
+      213: 3243260040531054866
+    second: 1h_slash_31
+  - first:
+      213: 5353520203357085478
+    second: 1h_slash_32
+  - first:
+      213: 6929464785824152399
+    second: 1h_slash_33
+  - first:
+      213: 4712389625578942751
+    second: 1h_slash_34
+  - first:
+      213: -5005647440119424498
+    second: 1h_slash_35
+  - first:
+      213: 8543397964561584022
+    second: 1h_slash_36
+  - first:
+      213: 6641169278886452616
+    second: 1h_slash_37
+  - first:
+      213: -6878181219817794480
+    second: 1h_slash_38
+  - first:
+      213: 6112432488751370540
+    second: 1h_slash_39
+  - first:
+      213: 6042165193790750961
+    second: 1h_slash_40
+  - first:
+      213: -2974242877788785514
+    second: 1h_slash_41
+  - first:
+      213: -8784601582737130024
+    second: 1h_slash_42
+  - first:
+      213: 4977564131697389199
+    second: 1h_slash_43
+  - first:
+      213: -4862916376220292116
+    second: 1h_slash_44
+  - first:
+      213: 5584087909890386351
+    second: 1h_slash_45
+  - first:
+      213: 6057116320647237254
+    second: 1h_slash_46
+  - first:
+      213: 2446839109213385408
+    second: 1h_slash_47
+  - first:
+      213: 5879836238398523589
+    second: 1h_slash_48
+  - first:
+      213: -10933306795254338
+    second: 1h_slash_49
+  - first:
+      213: 8889213291315413127
+    second: 1h_slash_50
+  - first:
+      213: 5400045907261818905
+    second: 1h_slash_51
+  - first:
+      213: -6714839789395429613
+    second: Slash_r0_c0
+  - first:
+      213: 8858445931528305539
+    second: Slash_r0_c1
+  - first:
+      213: -717277559094427975
+    second: Slash_r0_c2
+  - first:
+      213: -2315659922357443169
+    second: Slash_r0_c3
+  - first:
+      213: -8965084903169759213
+    second: Slash_r0_c4
+  - first:
+      213: 327918827074528034
+    second: Slash_r0_c5
+  - first:
+      213: -3928325662760802013
+    second: Slash_r1_c0
+  - first:
+      213: -2245993592560593825
+    second: Slash_r1_c1
+  - first:
+      213: -6539315800200265158
+    second: Slash_r1_c2
+  - first:
+      213: 4594550421656598122
+    second: Slash_r1_c3
+  - first:
+      213: -30356545096411428
+    second: Slash_r1_c4
+  - first:
+      213: -2566152620002777590
+    second: Slash_r1_c5
+  - first:
+      213: 4762909812120390735
+    second: Slash_r2_c0
+  - first:
+      213: 6532106396091474011
+    second: Slash_r2_c1
+  - first:
+      213: -1994164929241279191
+    second: Slash_r2_c2
+  - first:
+      213: -1723678927209656891
+    second: Slash_r2_c3
+  - first:
+      213: 1619460241390240949
+    second: Slash_r2_c4
+  - first:
+      213: 7186851119727196711
+    second: Slash_r2_c5
+  - first:
+      213: -3997614199548332568
+    second: Slash_r3_c0
+  - first:
+      213: 1259716210798179338
+    second: Slash_r3_c1
+  - first:
+      213: -3578444163869302184
+    second: Slash_r3_c2
+  - first:
+      213: 4912683171314684677
+    second: Slash_r3_c3
+  - first:
+      213: -7820924941409869477
+    second: Slash_r3_c4
+  - first:
+      213: -552288188748566004
+    second: Slash_r3_c5
+  - first:
+      213: -3273416561979999650
+    second: OneHand_Slash_r0_c0
+  - first:
+      213: -6605849812288614622
+    second: OneHand_Slash_r0_c1
+  - first:
+      213: 8038376785127059100
+    second: OneHand_Slash_r0_c2
+  - first:
+      213: 4343852645101844081
+    second: OneHand_Slash_r0_c3
+  - first:
+      213: 1095703400323204785
+    second: OneHand_Slash_r0_c4
+  - first:
+      213: 2594869709150722804
+    second: OneHand_Slash_r0_c5
+  - first:
+      213: -1402388095312522535
+    second: OneHand_Slash_r1_c0
+  - first:
+      213: -2749970509878376248
+    second: OneHand_Slash_r1_c1
+  - first:
+      213: 7460337474850803998
+    second: OneHand_Slash_r1_c2
+  - first:
+      213: -5661870519642265869
+    second: OneHand_Slash_r1_c3
+  - first:
+      213: 9166531186970192103
+    second: OneHand_Slash_r1_c4
+  - first:
+      213: -7536151075343793961
+    second: OneHand_Slash_r1_c5
+  - first:
+      213: 4485648670236352258
+    second: OneHand_Slash_r2_c0
+  - first:
+      213: -366387093953932121
+    second: OneHand_Slash_r2_c1
+  - first:
+      213: -8387130148604231921
+    second: OneHand_Slash_r2_c2
+  - first:
+      213: -6296405703235580338
+    second: OneHand_Slash_r2_c3
+  - first:
+      213: -5348176806953945214
+    second: OneHand_Slash_r2_c4
+  - first:
+      213: 4326124742880076266
+    second: OneHand_Slash_r2_c5
+  - first:
+      213: -2154139849225605161
+    second: OneHand_Slash_r3_c0
+  - first:
+      213: -990199345985509630
+    second: OneHand_Slash_r3_c1
+  - first:
+      213: 5217006685070644233
+    second: OneHand_Slash_r3_c2
+  - first:
+      213: 3501840953810294283
+    second: OneHand_Slash_r3_c3
+  - first:
+      213: 8260054218365557031
+    second: OneHand_Slash_r3_c4
+  - first:
+      213: 4078239940904640762
+    second: OneHand_Slash_r3_c5
+  - first:
+      213: -2261962252188820631
+    second: Slash_r0_c6
+  - first:
+      213: 8079893929410733343
+    second: Slash_r0_c7
+  - first:
+      213: -8900611324151259425
+    second: Slash_r0_c8
+  - first:
+      213: 5045935725088758498
+    second: Slash_r0_c9
+  - first:
+      213: 7039882136491638472
+    second: Slash_r0_c10
+  - first:
+      213: -3721703288112657539
+    second: Slash_r0_c11
+  - first:
+      213: 2873356189568164889
+    second: Slash_r0_c12
+  - first:
+      213: 545198636896451707
+    second: Slash_r0_c13
+  - first:
+      213: 949920801459323023
+    second: Slash_r0_c14
+  - first:
+      213: -7113386585285922821
+    second: Slash_r0_c15
+  - first:
+      213: -6780236504790113429
+    second: Slash_r0_c16
+  - first:
+      213: -759474251432510064
+    second: Slash_r0_c17
+  - first:
+      213: 1502601142720227988
+    second: Slash_r0_c18
+  - first:
+      213: 5839796501262730678
+    second: Slash_r0_c19
+  - first:
+      213: -246184590673752821
+    second: Slash_r1_c6
+  - first:
+      213: 1616533530068245981
+    second: Slash_r1_c7
+  - first:
+      213: 7195783249013154770
+    second: Slash_r1_c8
+  - first:
+      213: -3485691283421560435
+    second: Slash_r1_c9
+  - first:
+      213: 3507676687607927889
+    second: Slash_r1_c10
+  - first:
+      213: 4394591718773327030
+    second: Slash_r1_c11
+  - first:
+      213: -8472630591862406391
+    second: Slash_r1_c12
+  - first:
+      213: 1457757134535726599
+    second: Slash_r1_c13
+  - first:
+      213: 2687291907966988652
+    second: Slash_r1_c14
+  - first:
+      213: 303877128114916232
+    second: Slash_r1_c15
+  - first:
+      213: 8544371027626071362
+    second: Slash_r1_c16
+  - first:
+      213: 6074791930730829116
+    second: Slash_r1_c17
+  - first:
+      213: -8866972088023205142
+    second: Slash_r1_c18
+  - first:
+      213: 6827564677748722953
+    second: Slash_r1_c19
+  - first:
+      213: 6986560494001341993
+    second: Slash_r2_c6
+  - first:
+      213: -5930550300829330316
+    second: Slash_r2_c7
+  - first:
+      213: -6870708773975284830
+    second: Slash_r2_c8
+  - first:
+      213: -8882863522330575576
+    second: Slash_r2_c9
+  - first:
+      213: -202988801289401137
+    second: Slash_r2_c10
+  - first:
+      213: -2600966151783728712
+    second: Slash_r2_c11
+  - first:
+      213: 9151023213525244871
+    second: Slash_r2_c12
+  - first:
+      213: 7800014708800543552
+    second: Slash_r2_c13
+  - first:
+      213: 7493062899730965793
+    second: Slash_r2_c14
+  - first:
+      213: 3699501609589194907
+    second: Slash_r2_c15
+  - first:
+      213: 7980653230231402905
+    second: Slash_r2_c16
+  - first:
+      213: -5640201062945815729
+    second: Slash_r2_c17
+  - first:
+      213: 326817634532046144
+    second: Slash_r2_c18
+  - first:
+      213: 5287555891277248165
+    second: Slash_r2_c19
+  - first:
+      213: -5002224885051353334
+    second: Slash_r3_c6
+  - first:
+      213: 6390238283647578447
+    second: Slash_r3_c7
+  - first:
+      213: 4130070706834681123
+    second: Slash_r3_c8
+  - first:
+      213: 789609983061306361
+    second: Slash_r3_c9
+  - first:
+      213: 4146986240963641521
+    second: Slash_r3_c10
+  - first:
+      213: 8882883281781641507
+    second: Slash_r3_c11
+  - first:
+      213: 4649579497174871465
+    second: Slash_r3_c12
+  - first:
+      213: -3199197783653080296
+    second: Slash_r3_c13
+  - first:
+      213: 4551362603006456433
+    second: Slash_r3_c14
+  - first:
+      213: 6963487536686937802
+    second: Slash_r3_c15
+  - first:
+      213: -7928203309221367060
+    second: Slash_r3_c16
+  - first:
+      213: -9060304821783890528
+    second: Slash_r3_c17
+  - first:
+      213: -2692442321556724171
+    second: Slash_r3_c18
+  - first:
+      213: 7859663629472185825
+    second: Slash_r3_c19
+  - first:
+      213: 6888030352950560395
+    second: Slash_r4_c0
+  - first:
+      213: 7668878008364237245
+    second: Slash_r4_c1
+  - first:
+      213: -3080930868104475508
+    second: Slash_r4_c2
+  - first:
+      213: 133349739056356728
+    second: Slash_r4_c3
+  - first:
+      213: -2699292614978862319
+    second: Slash_r4_c4
+  - first:
+      213: -5013885018597784936
+    second: Slash_r4_c5
+  - first:
+      213: 3266022789231257002
+    second: Slash_r4_c6
+  - first:
+      213: -6038447782435256998
+    second: Slash_r4_c7
+  - first:
+      213: 6642070436944954773
+    second: Slash_r4_c8
+  - first:
+      213: 3984555816139141458
+    second: Slash_r4_c9
+  - first:
+      213: -2407291454588617261
+    second: Slash_r4_c10
+  - first:
+      213: -2561922967815357685
+    second: Slash_r4_c11
+  - first:
+      213: -7163471335018848683
+    second: Slash_r4_c12
+  - first:
+      213: -7659065314711643318
+    second: Slash_r4_c13
+  - first:
+      213: 4309188747447893952
+    second: Slash_r4_c14
+  - first:
+      213: -7751146021833764778
+    second: Slash_r4_c15
+  - first:
+      213: -4347970052442684085
+    second: Slash_r4_c16
+  - first:
+      213: -145696859136605308
+    second: Slash_r4_c17
+  - first:
+      213: -6445496619138813581
+    second: Slash_r4_c18
+  - first:
+      213: -4007509272006726689
+    second: Slash_r4_c19
+  - first:
+      213: 3693729069879014110
+    second: Slash_r5_c0
+  - first:
+      213: -3306034456121867445
+    second: Slash_r5_c1
+  - first:
+      213: 3513890019245021851
+    second: Slash_r5_c2
+  - first:
+      213: 4403092782056539103
+    second: Slash_r5_c3
+  - first:
+      213: 1360877686110839456
+    second: Slash_r5_c4
+  - first:
+      213: -7863707845620775192
+    second: Slash_r5_c5
+  - first:
+      213: -7733866965588270679
+    second: Slash_r5_c6
+  - first:
+      213: -5639551844525574621
+    second: Slash_r5_c7
+  - first:
+      213: -6550731933109801165
+    second: Slash_r5_c8
+  - first:
+      213: 3412842645808885618
+    second: Slash_r5_c9
+  - first:
+      213: 560383057869929814
+    second: Slash_r5_c10
+  - first:
+      213: -6693408013435751418
+    second: Slash_r5_c11
+  - first:
+      213: -5224443140705330968
+    second: Slash_r5_c12
+  - first:
+      213: 6517724636786874026
+    second: Slash_r5_c13
+  - first:
+      213: -1580202654113945353
+    second: Slash_r5_c14
+  - first:
+      213: 3452315555633477776
+    second: Slash_r5_c15
+  - first:
+      213: -7931228946769229504
+    second: Slash_r5_c16
+  - first:
+      213: 7613770646507084749
+    second: Slash_r5_c17
+  - first:
+      213: 8521313207681183143
+    second: Slash_r5_c18
+  - first:
+      213: -1183748139207808157
+    second: Slash_r5_c19
+  - first:
+      213: 7882759120911225269
+    second: Slash_r6_c0
+  - first:
+      213: -779655629360799094
+    second: Slash_r6_c1
+  - first:
+      213: 1829528356010092164
+    second: Slash_r6_c2
+  - first:
+      213: -995401440585882362
+    second: Slash_r6_c3
+  - first:
+      213: -6811564399601217680
+    second: Slash_r6_c4
+  - first:
+      213: -450994268646158844
+    second: Slash_r6_c5
+  - first:
+      213: 9062077872273154025
+    second: Slash_r6_c6
+  - first:
+      213: -1568965202996916599
+    second: Slash_r6_c7
+  - first:
+      213: -8415447118119168038
+    second: Slash_r6_c8
+  - first:
+      213: -7800254082741931638
+    second: Slash_r6_c9
+  - first:
+      213: -776788365451831078
+    second: Slash_r6_c10
+  - first:
+      213: 4764721388714394669
+    second: Slash_r6_c11
+  - first:
+      213: 4804704016593040899
+    second: Slash_r6_c12
+  - first:
+      213: -3744206530202518214
+    second: Slash_r6_c13
+  - first:
+      213: 6458710712312571066
+    second: Slash_r6_c14
+  - first:
+      213: 2167694430083247397
+    second: Slash_r6_c15
+  - first:
+      213: -7514246457641435045
+    second: Slash_r6_c16
+  - first:
+      213: 8269213447554717499
+    second: Slash_r6_c17
+  - first:
+      213: 1533807106220673201
+    second: Slash_r6_c18
+  - first:
+      213: -8237858000792846895
+    second: Slash_r6_c19
+  - first:
+      213: 4791056515624984496
+    second: Slash_r7_c0
+  - first:
+      213: 7385151973071240280
+    second: Slash_r7_c1
+  - first:
+      213: 8811327618540140741
+    second: Slash_r7_c2
+  - first:
+      213: -5373504571889182824
+    second: Slash_r7_c3
+  - first:
+      213: -5252794023737746946
+    second: Slash_r7_c4
+  - first:
+      213: 8969846704377824472
+    second: Slash_r7_c5
+  - first:
+      213: 661045004565550113
+    second: Slash_r7_c6
+  - first:
+      213: -4892762087174500530
+    second: Slash_r7_c7
+  - first:
+      213: 4771219695011090236
+    second: Slash_r7_c8
+  - first:
+      213: -5047373288250266984
+    second: Slash_r7_c9
+  - first:
+      213: -9222907661318224821
+    second: Slash_r7_c10
+  - first:
+      213: 2839076148671737279
+    second: Slash_r7_c11
+  - first:
+      213: 7809730739835468258
+    second: Slash_r7_c12
+  - first:
+      213: 3768190550072676000
+    second: Slash_r7_c13
+  - first:
+      213: -3359163867747421210
+    second: Slash_r7_c14
+  - first:
+      213: -221199502766603142
+    second: Slash_r7_c15
+  - first:
+      213: -8591969903977071943
+    second: Slash_r7_c16
+  - first:
+      213: -4020227669949788944
+    second: Slash_r7_c17
+  - first:
+      213: -294606660023340256
+    second: Slash_r7_c18
+  - first:
+      213: -4709647158539382410
+    second: Slash_r7_c19
+  - first:
+      213: 9034671076102036557
+    second: 1h_Slash_r0_c0
+  - first:
+      213: -2321788082408951289
+    second: 1h_Slash_r0_c1
+  - first:
+      213: -9213674141209501184
+    second: 1h_Slash_r0_c2
+  - first:
+      213: -5136329778242282171
+    second: 1h_Slash_r0_c3
+  - first:
+      213: -528181448274438663
+    second: 1h_Slash_r0_c4
+  - first:
+      213: 1906130880970940983
+    second: 1h_Slash_r0_c5
+  - first:
+      213: -2523914676827240965
+    second: 1h_Slash_r0_c6
+  - first:
+      213: -8681957836579105639
+    second: 1h_Slash_r0_c7
+  - first:
+      213: 6330623869709350255
+    second: 1h_Slash_r0_c8
+  - first:
+      213: -8712567740521866278
+    second: 1h_Slash_r0_c9
+  - first:
+      213: -7479518134143097634
+    second: 1h_Slash_r0_c10
+  - first:
+      213: -6234105650561887221
+    second: 1h_Slash_r0_c11
+  - first:
+      213: 6925420970225250249
+    second: 1h_Slash_r0_c12
+  - first:
+      213: 3690802581532007499
+    second: 1h_Slash_r0_c13
+  - first:
+      213: 553713333891559370
+    second: 1h_Slash_r0_c14
+  - first:
+      213: 3471902600899522560
+    second: 1h_Slash_r0_c15
+  - first:
+      213: 8033748996002416760
+    second: 1h_Slash_r0_c16
+  - first:
+      213: -7696532946614115454
+    second: 1h_Slash_r0_c17
+  - first:
+      213: -2324194852622222435
+    second: 1h_Slash_r0_c18
+  - first:
+      213: 4235024071704013903
+    second: 1h_Slash_r0_c19
+  - first:
+      213: -2499697203782799663
+    second: 1h_Slash_r1_c0
+  - first:
+      213: 897940912328962522
+    second: 1h_Slash_r1_c1
+  - first:
+      213: -7447699136912738739
+    second: 1h_Slash_r1_c2
+  - first:
+      213: 2049545560552944161
+    second: 1h_Slash_r1_c3
+  - first:
+      213: -3368074930045763659
+    second: 1h_Slash_r1_c4
+  - first:
+      213: -1018816216641542341
+    second: 1h_Slash_r1_c5
+  - first:
+      213: -2634838614077682416
+    second: 1h_Slash_r1_c6
+  - first:
+      213: -498398544996925072
+    second: 1h_Slash_r1_c7
+  - first:
+      213: 3041158895917633014
+    second: 1h_Slash_r1_c8
+  - first:
+      213: -7847311922662786340
+    second: 1h_Slash_r1_c9
+  - first:
+      213: -7067922468756652345
+    second: 1h_Slash_r1_c10
+  - first:
+      213: -6494721106568938300
+    second: 1h_Slash_r1_c11
+  - first:
+      213: -1947145566564003684
+    second: 1h_Slash_r1_c12
+  - first:
+      213: -5252264165546976161
+    second: 1h_Slash_r1_c13
+  - first:
+      213: 7867423667629045340
+    second: 1h_Slash_r1_c14
+  - first:
+      213: -3263140565330289714
+    second: 1h_Slash_r1_c15
+  - first:
+      213: 8194815222133831282
+    second: 1h_Slash_r1_c16
+  - first:
+      213: 5471045882614206179
+    second: 1h_Slash_r1_c17
+  - first:
+      213: -5952977509226864088
+    second: 1h_Slash_r1_c18
+  - first:
+      213: 4029587362846654763
+    second: 1h_Slash_r1_c19
+  - first:
+      213: 3978673263372727464
+    second: 1h_Slash_r2_c0
+  - first:
+      213: 595308038779301792
+    second: 1h_Slash_r2_c1
+  - first:
+      213: 3701539279809823073
+    second: 1h_Slash_r2_c2
+  - first:
+      213: -8794845073919163081
+    second: 1h_Slash_r2_c3
+  - first:
+      213: 3711524224300302664
+    second: 1h_Slash_r2_c4
+  - first:
+      213: -2579186635165228682
+    second: 1h_Slash_r2_c5
+  - first:
+      213: -5372778793444901260
+    second: 1h_Slash_r2_c6
+  - first:
+      213: -1268738521831219389
+    second: 1h_Slash_r2_c7
+  - first:
+      213: 6362889613080110972
+    second: 1h_Slash_r2_c8
+  - first:
+      213: -7487434289442047369
+    second: 1h_Slash_r2_c9
+  - first:
+      213: 1761585166168084399
+    second: 1h_Slash_r2_c10
+  - first:
+      213: -2635054737445892597
+    second: 1h_Slash_r2_c11
+  - first:
+      213: 3443718234891124266
+    second: 1h_Slash_r2_c12
+  - first:
+      213: 9194045792605559474
+    second: 1h_Slash_r2_c13
+  - first:
+      213: 3133608585286796078
+    second: 1h_Slash_r2_c14
+  - first:
+      213: -5605859964777018271
+    second: 1h_Slash_r2_c15
+  - first:
+      213: -3710020216800825250
+    second: 1h_Slash_r2_c16
+  - first:
+      213: 2805743489415711001
+    second: 1h_Slash_r2_c17
+  - first:
+      213: 8060342251478492895
+    second: 1h_Slash_r2_c18
+  - first:
+      213: -6928017893437091126
+    second: 1h_Slash_r2_c19
+  - first:
+      213: -3498017801349377222
+    second: 1h_Slash_r3_c0
+  - first:
+      213: 5403267353351860005
+    second: 1h_Slash_r3_c1
+  - first:
+      213: -5612604692567209903
+    second: 1h_Slash_r3_c2
+  - first:
+      213: 6654153709904118190
+    second: 1h_Slash_r3_c3
+  - first:
+      213: -287191738834909035
+    second: 1h_Slash_r3_c4
+  - first:
+      213: 4516359241009793428
+    second: 1h_Slash_r3_c5
+  - first:
+      213: -8252364043311756672
+    second: 1h_Slash_r3_c6
+  - first:
+      213: 3202386638030424179
+    second: 1h_Slash_r3_c7
+  - first:
+      213: -8318982896112027588
+    second: 1h_Slash_r3_c8
+  - first:
+      213: 5002487605424141742
+    second: 1h_Slash_r3_c9
+  - first:
+      213: -4397489699439601078
+    second: 1h_Slash_r3_c10
+  - first:
+      213: -8881374203863572304
+    second: 1h_Slash_r3_c11
+  - first:
+      213: -1727805703179828011
+    second: 1h_Slash_r3_c12
+  - first:
+      213: 1926391447375475060
+    second: 1h_Slash_r3_c13
+  - first:
+      213: 4353384104630233948
+    second: 1h_Slash_r3_c14
+  - first:
+      213: -8341155152189946049
+    second: 1h_Slash_r3_c15
+  - first:
+      213: 3307108332872375382
+    second: 1h_Slash_r3_c16
+  - first:
+      213: -2272688200983446961
+    second: 1h_Slash_r3_c17
+  - first:
+      213: 5940488375648607771
+    second: 1h_Slash_r3_c18
+  - first:
+      213: 102601497033655788
+    second: 1h_Slash_r3_c19
+  - first:
+      213: -3291789469226986244
+    second: 1h_Slash_r4_c0
+  - first:
+      213: -5958171820464531499
+    second: 1h_Slash_r4_c1
+  - first:
+      213: -5218076926667735119
+    second: 1h_Slash_r4_c2
+  - first:
+      213: 961725022091067420
+    second: 1h_Slash_r4_c3
+  - first:
+      213: 8443500849241280909
+    second: 1h_Slash_r4_c4
+  - first:
+      213: 1104207774388487351
+    second: 1h_Slash_r4_c5
+  - first:
+      213: -6557988416921721893
+    second: 1h_Slash_r4_c6
+  - first:
+      213: 2133502066490786896
+    second: 1h_Slash_r4_c7
+  - first:
+      213: -2706464549206591960
+    second: 1h_Slash_r4_c8
+  - first:
+      213: -1527070856358944483
+    second: 1h_Slash_r4_c9
+  - first:
+      213: 9050229461031689813
+    second: 1h_Slash_r4_c10
+  - first:
+      213: 3634568310108006903
+    second: 1h_Slash_r4_c11
+  - first:
+      213: 5956535663551393174
+    second: 1h_Slash_r4_c12
+  - first:
+      213: 5503916219305274002
+    second: 1h_Slash_r4_c13
+  - first:
+      213: -6301750549963456948
+    second: 1h_Slash_r4_c14
+  - first:
+      213: 5263093811514467083
+    second: 1h_Slash_r4_c15
+  - first:
+      213: 2617292101596830373
+    second: 1h_Slash_r4_c16
+  - first:
+      213: -1651530973083596801
+    second: 1h_Slash_r4_c17
+  - first:
+      213: -6226024713233344240
+    second: 1h_Slash_r4_c18
+  - first:
+      213: 1407150441887597201
+    second: 1h_Slash_r4_c19
+  - first:
+      213: -253339631926989488
+    second: 1h_Slash_r5_c0
+  - first:
+      213: 6103312865058334175
+    second: 1h_Slash_r5_c1
+  - first:
+      213: -3744365927335386593
+    second: 1h_Slash_r5_c2
+  - first:
+      213: -6210062100310798816
+    second: 1h_Slash_r5_c3
+  - first:
+      213: -3334535661261292051
+    second: 1h_Slash_r5_c4
+  - first:
+      213: 8264384901478595341
+    second: 1h_Slash_r5_c5
+  - first:
+      213: -1543661227846394842
+    second: 1h_Slash_r5_c6
+  - first:
+      213: 674016234855281967
+    second: 1h_Slash_r5_c7
+  - first:
+      213: 8228189944522506951
+    second: 1h_Slash_r5_c8
+  - first:
+      213: -5918464600645351617
+    second: 1h_Slash_r5_c9
+  - first:
+      213: -2957785964164221324
+    second: 1h_Slash_r5_c10
+  - first:
+      213: -5611080914168392018
+    second: 1h_Slash_r5_c11
+  - first:
+      213: -2477180117146278227
+    second: 1h_Slash_r5_c12
+  - first:
+      213: -3614673255623713349
+    second: 1h_Slash_r5_c13
+  - first:
+      213: -2580986314129713028
+    second: 1h_Slash_r5_c14
+  - first:
+      213: -7370108048025024276
+    second: 1h_Slash_r5_c15
+  - first:
+      213: 3638674496579366131
+    second: 1h_Slash_r5_c16
+  - first:
+      213: -5993329905224900771
+    second: 1h_Slash_r5_c17
+  - first:
+      213: 3426997573739757281
+    second: 1h_Slash_r5_c18
+  - first:
+      213: -3367382543045628083
+    second: 1h_Slash_r5_c19
+  - first:
+      213: 7197872257908535014
+    second: 1h_Slash_r6_c0
+  - first:
+      213: 1066008316047508709
+    second: 1h_Slash_r6_c1
+  - first:
+      213: -6768128085108699685
+    second: 1h_Slash_r6_c2
+  - first:
+      213: 388558147774268929
+    second: 1h_Slash_r6_c3
+  - first:
+      213: -1630418154222288306
+    second: 1h_Slash_r6_c4
+  - first:
+      213: -3430018471728796734
+    second: 1h_Slash_r6_c5
+  - first:
+      213: 4815629440729527852
+    second: 1h_Slash_r6_c6
+  - first:
+      213: 6844678961016861305
+    second: 1h_Slash_r6_c7
+  - first:
+      213: 8659815899088802029
+    second: 1h_Slash_r6_c8
+  - first:
+      213: 2994691383333240353
+    second: 1h_Slash_r6_c9
+  - first:
+      213: -1644085609948428881
+    second: 1h_Slash_r6_c10
+  - first:
+      213: -3566010409039676685
+    second: 1h_Slash_r6_c11
+  - first:
+      213: -7874578346232330000
+    second: 1h_Slash_r6_c12
+  - first:
+      213: -1922547395519909354
+    second: 1h_Slash_r6_c13
+  - first:
+      213: -6649453760445670950
+    second: 1h_Slash_r6_c14
+  - first:
+      213: -4482281444861440773
+    second: 1h_Slash_r6_c15
+  - first:
+      213: 1206863971996856894
+    second: 1h_Slash_r6_c16
+  - first:
+      213: -7401888357343783222
+    second: 1h_Slash_r6_c17
+  - first:
+      213: 9052005723605267160
+    second: 1h_Slash_r6_c18
+  - first:
+      213: -2981984876296166424
+    second: 1h_Slash_r6_c19
+  - first:
+      213: -3362017807218271344
+    second: 1h_Slash_r7_c0
+  - first:
+      213: 4856586070709329480
+    second: 1h_Slash_r7_c1
+  - first:
+      213: 4088087932657478566
+    second: 1h_Slash_r7_c2
+  - first:
+      213: -7191168640854172026
+    second: 1h_Slash_r7_c3
+  - first:
+      213: 4633616254295237641
+    second: 1h_Slash_r7_c4
+  - first:
+      213: -7177507998904189042
+    second: 1h_Slash_r7_c5
+  - first:
+      213: -5639823893919058442
+    second: 1h_Slash_r7_c6
+  - first:
+      213: -7602237621048518945
+    second: 1h_Slash_r7_c7
+  - first:
+      213: 4409769875456213053
+    second: 1h_Slash_r7_c8
+  - first:
+      213: 3785397451689097392
+    second: 1h_Slash_r7_c9
+  - first:
+      213: 212258612043715896
+    second: 1h_Slash_r7_c10
+  - first:
+      213: 8875444217549603348
+    second: 1h_Slash_r7_c11
+  - first:
+      213: 1291312185442801244
+    second: 1h_Slash_r7_c12
+  - first:
+      213: -4679705705509028990
+    second: 1h_Slash_r7_c13
+  - first:
+      213: -8472048939965685239
+    second: 1h_Slash_r7_c14
+  - first:
+      213: 2792451982528230943
+    second: 1h_Slash_r7_c15
+  - first:
+      213: 2570922055729478920
+    second: 1h_Slash_r7_c16
+  - first:
+      213: 6837697279750868629
+    second: 1h_Slash_r7_c17
+  - first:
+      213: -3603028047059580957
+    second: 1h_Slash_r7_c18
+  - first:
+      213: -5016839988626955212
+    second: 1h_Slash_r7_c19
+  - first:
+      213: -8719429011695503142
+    second: 1h_Halfslash_r0_c0
+  - first:
+      213: -5050131038823530804
+    second: 1h_Halfslash_r0_c1
+  - first:
+      213: 953781922128754326
+    second: 1h_Halfslash_r0_c2
+  - first:
+      213: 599697064491052619
+    second: 1h_Halfslash_r0_c3
+  - first:
+      213: 3905246294146173210
+    second: 1h_Halfslash_r0_c4
+  - first:
+      213: -1325788045640876211
+    second: 1h_Halfslash_r0_c5
+  - first:
+      213: -6345713077172959502
+    second: 1h_Halfslash_r0_c6
+  - first:
+      213: -4457690758367326895
+    second: 1h_Halfslash_r0_c7
+  - first:
+      213: -6690012344010972369
+    second: 1h_Halfslash_r0_c8
+  - first:
+      213: -1249875064090091607
+    second: 1h_Halfslash_r0_c9
+  - first:
+      213: 4869093235085951336
+    second: 1h_Halfslash_r0_c10
+  - first:
+      213: -33551074612026460
+    second: 1h_Halfslash_r0_c11
+  - first:
+      213: -5530165279633486033
+    second: 1h_Halfslash_r0_c12
+  - first:
+      213: -5327959695836352582
+    second: 1h_Halfslash_r1_c0
+  - first:
+      213: 4596377347534291031
+    second: 1h_Halfslash_r1_c1
+  - first:
+      213: -3099522882745018243
+    second: 1h_Halfslash_r1_c2
+  - first:
+      213: -1372440189502082432
+    second: 1h_Halfslash_r1_c3
+  - first:
+      213: 139642799917909193
+    second: 1h_Halfslash_r1_c4
+  - first:
+      213: 5424831479414357551
+    second: 1h_Halfslash_r1_c5
+  - first:
+      213: 1631682770825976998
+    second: 1h_Halfslash_r1_c6
+  - first:
+      213: -8191012127054400735
+    second: 1h_Halfslash_r1_c7
+  - first:
+      213: 2569205361055677814
+    second: 1h_Halfslash_r1_c8
+  - first:
+      213: 3384688458785156467
+    second: 1h_Halfslash_r1_c9
+  - first:
+      213: 1702053240672763579
+    second: 1h_Halfslash_r1_c10
+  - first:
+      213: -1432300011479506382
+    second: 1h_Halfslash_r1_c11
+  - first:
+      213: -5513846607943503763
+    second: 1h_Halfslash_r1_c12
+  - first:
+      213: -3598473033756821151
+    second: 1h_Halfslash_r2_c0
+  - first:
+      213: -413409691639956734
+    second: 1h_Halfslash_r2_c1
+  - first:
+      213: 7401221399663198915
+    second: 1h_Halfslash_r2_c2
+  - first:
+      213: 6445890981963394897
+    second: 1h_Halfslash_r2_c3
+  - first:
+      213: -7200056504831088282
+    second: 1h_Halfslash_r2_c4
+  - first:
+      213: -8530328925068760532
+    second: 1h_Halfslash_r2_c5
+  - first:
+      213: -4387635787191958150
+    second: 1h_Halfslash_r2_c6
+  - first:
+      213: -4455688949360991084
+    second: 1h_Halfslash_r2_c7
+  - first:
+      213: -6460448002368676050
+    second: 1h_Halfslash_r2_c8
+  - first:
+      213: 8608952111874347448
+    second: 1h_Halfslash_r2_c9
+  - first:
+      213: 7947763496663395138
+    second: 1h_Halfslash_r2_c10
+  - first:
+      213: -9144357840725075591
+    second: 1h_Halfslash_r2_c11
+  - first:
+      213: -3694615159933138888
+    second: 1h_Halfslash_r2_c12
+  - first:
+      213: 3096858086794959112
+    second: 1h_Halfslash_r3_c0
+  - first:
+      213: -6756068306212945243
+    second: 1h_Halfslash_r3_c1
+  - first:
+      213: -3951033064672142341
+    second: 1h_Halfslash_r3_c2
+  - first:
+      213: -5256589076905394102
+    second: 1h_Halfslash_r3_c3
+  - first:
+      213: -6476425373198419765
+    second: 1h_Halfslash_r3_c4
+  - first:
+      213: 3749089775632777467
+    second: 1h_Halfslash_r3_c5
+  - first:
+      213: -5838199235223215183
+    second: 1h_Halfslash_r3_c6
+  - first:
+      213: -3361701697027220092
+    second: 1h_Halfslash_r3_c7
+  - first:
+      213: 3844869746389706887
+    second: 1h_Halfslash_r3_c8
+  - first:
+      213: 492285854098743122
+    second: 1h_Halfslash_r3_c9
+  - first:
+      213: 4207544636771031319
+    second: 1h_Halfslash_r3_c10
+  - first:
+      213: 7129605867694211801
+    second: 1h_Halfslash_r3_c11
+  - first:
+      213: -38475670535277109
+    second: 1h_Halfslash_r3_c12
+  - first:
+      213: -5532102349237731670
+    second: 1h_slash_r0_c0
+  - first:
+      213: -2617056730293979134
+    second: 1h_slash_r0_c1
+  - first:
+      213: 3406087948705029780
+    second: 1h_slash_r0_c2
+  - first:
+      213: 6143375197934983513
+    second: 1h_slash_r0_c3
+  - first:
+      213: 269707470444759632
+    second: 1h_slash_r0_c4
+  - first:
+      213: 3884116026775681682
+    second: 1h_slash_r0_c5
+  - first:
+      213: -6071984894516701025
+    second: 1h_slash_r0_c6
+  - first:
+      213: 2025377269865071738
+    second: 1h_slash_r0_c7
+  - first:
+      213: -5145244866712907310
+    second: 1h_slash_r0_c8
+  - first:
+      213: 1111619357939581469
+    second: 1h_slash_r0_c9
+  - first:
+      213: -6382505299386023729
+    second: 1h_slash_r0_c10
+  - first:
+      213: -3900447852006117898
+    second: 1h_slash_r0_c11
+  - first:
+      213: -4021886250089312238
+    second: 1h_slash_r0_c12
+  - first:
+      213: 8322789969517555331
+    second: 1h_slash_r1_c0
+  - first:
+      213: -759170239278991081
+    second: 1h_slash_r1_c1
+  - first:
+      213: -8116429746545055368
+    second: 1h_slash_r1_c2
+  - first:
+      213: -3779806574941491292
+    second: 1h_slash_r1_c3
+  - first:
+      213: -5497046279150326881
+    second: 1h_slash_r1_c4
+  - first:
+      213: 8769072125073041790
+    second: 1h_slash_r1_c5
+  - first:
+      213: -1552824371556819648
+    second: 1h_slash_r1_c6
+  - first:
+      213: 1933667313725231729
+    second: 1h_slash_r1_c7
+  - first:
+      213: 2786520881251944220
+    second: 1h_slash_r1_c8
+  - first:
+      213: 6813521693962115458
+    second: 1h_slash_r1_c9
+  - first:
+      213: -2721003866525604387
+    second: 1h_slash_r1_c10
+  - first:
+      213: -5087240078982770007
+    second: 1h_slash_r1_c11
+  - first:
+      213: 7308074840524459980
+    second: 1h_slash_r1_c12
+  - first:
+      213: 4570555197698059288
+    second: 1h_slash_r2_c0
+  - first:
+      213: 8790174430662830186
+    second: 1h_slash_r2_c1
+  - first:
+      213: 5161194374937672812
+    second: 1h_slash_r2_c2
+  - first:
+      213: 6817189056604293203
+    second: 1h_slash_r2_c3
+  - first:
+      213: -3418715673149462582
+    second: 1h_slash_r2_c4
+  - first:
+      213: 6091325461550116027
+    second: 1h_slash_r2_c5
+  - first:
+      213: -5392443436564169754
+    second: 1h_slash_r2_c6
+  - first:
+      213: -5168440983424323183
+    second: 1h_slash_r2_c7
+  - first:
+      213: 6296779827821619467
+    second: 1h_slash_r2_c8
+  - first:
+      213: 5254962368947860440
+    second: 1h_slash_r2_c9
+  - first:
+      213: 4591980866618789913
+    second: 1h_slash_r2_c10
+  - first:
+      213: -1674572374639961845
+    second: 1h_slash_r2_c11
+  - first:
+      213: -3120063912850897652
+    second: 1h_slash_r2_c12
+  - first:
+      213: 7392815361851579810
+    second: 1h_slash_r3_c0
+  - first:
+      213: -2644693582867834963
+    second: 1h_slash_r3_c1
+  - first:
+      213: 6437890510452270477
+    second: 1h_slash_r3_c2
+  - first:
+      213: -1861080039672664741
+    second: 1h_slash_r3_c3
+  - first:
+      213: -8864239460419852384
+    second: 1h_slash_r3_c4
+  - first:
+      213: -2439467963736903207
+    second: 1h_slash_r3_c5
+  - first:
+      213: 5561594885455313986
+    second: 1h_slash_r3_c6
+  - first:
+      213: 9158030333389989813
+    second: 1h_slash_r3_c7
+  - first:
+      213: 782079521874308334
+    second: 1h_slash_r3_c8
+  - first:
+      213: 7539906414127726752
+    second: 1h_slash_r3_c9
+  - first:
+      213: -4192202229400138399
+    second: 1h_slash_r3_c10
+  - first:
+      213: -665823180805914822
+    second: 1h_slash_r3_c11
+  - first:
+      213: 2887393871479499442
+    second: 1h_slash_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1h_slash_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeb49449360a33b0800000000000000
+      internalID: -5532102349237731670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20838c105c85eabd0800000000000000
+      internalID: -2617056730293979134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e5d4071fad44f20800000000000000
+      internalID: 3406087948705029780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9591cda8137a14550800000000000000
+      internalID: 6143375197934983513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a0121f3813eb300800000000000000
+      internalID: 269707470444759632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29abd5a82f627e530800000000000000
+      internalID: 3884116026775681682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f985bc0c8e9fbbba0800000000000000
+      internalID: -6071984894516701025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74457265e59b1c10800000000000000
+      internalID: 2025377269865071738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1dc2ded0b6898b0800000000000000
+      internalID: -5145244866712907310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12cf6b9ae34d6f00800000000000000
+      internalID: 1111619357939581469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04c050f39cc67a0800000000000000
+      internalID: -6382505299386023729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd6d341853ded9c0800000000000000
+      internalID: -3900447852006117898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r0_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2101660b3c36f28c0800000000000000
+      internalID: -4021886250089312238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e2749916d708370800000000000000
+      internalID: 8322789969517555331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7193abb80b2e675f0800000000000000
+      internalID: -759170239278991081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879a4c0f526ac5f80800000000000000
+      internalID: -8116429746545055368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af2de442fd6b8bc0800000000000000
+      internalID: -3779806574941491292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bac51a88196b3b0800000000000000
+      internalID: -5497046279150326881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7922c023a002b970800000000000000
+      internalID: 8769072125073041790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d59c61672437ae0800000000000000
+      internalID: -1552824371556819648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17250644d24c5da10800000000000000
+      internalID: 1933667313725231729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c170b365af5bba620800000000000000
+      internalID: 2786520881251944220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289970e81ed7e8e50800000000000000
+      internalID: 6813521693962115458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e64f566d0d3ad0800000000000000
+      internalID: -2721003866525604387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a21a1df91e7669b0800000000000000
+      internalID: -5087240078982770007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r1_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf0e6df85f7b6560800000000000000
+      internalID: 7308074840524459980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cab198cbfdd6f30800000000000000
+      internalID: 4570555197698059288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6821658219fcf970800000000000000
+      internalID: 8790174430662830186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c77e650fe30a740800000000000000
+      internalID: 5161194374937672812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3584495f3558b9e50800000000000000
+      internalID: 6817189056604293203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7add955384e80d0800000000000000
+      internalID: -3418715673149462582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcacfaeb3cb88450800000000000000
+      internalID: 6091325461550116027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebb43cc3413a25b0800000000000000
+      internalID: -5392443436564169754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1913c642f420648b0800000000000000
+      internalID: -5168440983424323183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09272244e7a26750800000000000000
+      internalID: 6296779827821619467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3be2dbe606de840800000000000000
+      internalID: 5254962368947860440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9101432d44ef9bf30800000000000000
+      internalID: 4591980866618789913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0917ea2c49b2c8e0800000000000000
+      internalID: -1674572374639961845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r2_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05c10ee66e43b4d0800000000000000
+      internalID: -3120063912850897652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2add63d176e889660800000000000000
+      internalID: 7392815361851579810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da75865d2392c4bd0800000000000000
+      internalID: -2644693582867834963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85ad525f4bf75950800000000000000
+      internalID: 6437890510452270477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dadb8709d1c26e0800000000000000
+      internalID: -1861080039672664741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7acadec25ebf480800000000000000
+      internalID: -8864239460419852384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d13484dfc4452ed0800000000000000
+      internalID: -2439467963736903207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c713ce411ce2d40800000000000000
+      internalID: 5561594885455313986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b766ff111cd71f70800000000000000
+      internalID: 9158030333389989813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecec677e218ada00800000000000000
+      internalID: 782079521874308334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0c5cd7fe023a860800000000000000
+      internalID: 7539906414127726752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d010a984e42d5c0800000000000000
+      internalID: -4192202229400138399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fb7d0485582c6f0800000000000000
+      internalID: -665823180805914822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1h_slash_r3_c12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baec249d65121820800000000000000
+      internalID: 2887393871479499442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1h_Halfslash_r0_c0: -8719429011695503142
+      1h_Halfslash_r0_c1: -5050131038823530804
+      1h_Halfslash_r0_c10: 4869093235085951336
+      1h_Halfslash_r0_c11: -33551074612026460
+      1h_Halfslash_r0_c12: -5530165279633486033
+      1h_Halfslash_r0_c2: 953781922128754326
+      1h_Halfslash_r0_c3: 599697064491052619
+      1h_Halfslash_r0_c4: 3905246294146173210
+      1h_Halfslash_r0_c5: -1325788045640876211
+      1h_Halfslash_r0_c6: -6345713077172959502
+      1h_Halfslash_r0_c7: -4457690758367326895
+      1h_Halfslash_r0_c8: -6690012344010972369
+      1h_Halfslash_r0_c9: -1249875064090091607
+      1h_Halfslash_r1_c0: -5327959695836352582
+      1h_Halfslash_r1_c1: 4596377347534291031
+      1h_Halfslash_r1_c10: 1702053240672763579
+      1h_Halfslash_r1_c11: -1432300011479506382
+      1h_Halfslash_r1_c12: -5513846607943503763
+      1h_Halfslash_r1_c2: -3099522882745018243
+      1h_Halfslash_r1_c3: -1372440189502082432
+      1h_Halfslash_r1_c4: 139642799917909193
+      1h_Halfslash_r1_c5: 5424831479414357551
+      1h_Halfslash_r1_c6: 1631682770825976998
+      1h_Halfslash_r1_c7: -8191012127054400735
+      1h_Halfslash_r1_c8: 2569205361055677814
+      1h_Halfslash_r1_c9: 3384688458785156467
+      1h_Halfslash_r2_c0: -3598473033756821151
+      1h_Halfslash_r2_c1: -413409691639956734
+      1h_Halfslash_r2_c10: 7947763496663395138
+      1h_Halfslash_r2_c11: -9144357840725075591
+      1h_Halfslash_r2_c12: -3694615159933138888
+      1h_Halfslash_r2_c2: 7401221399663198915
+      1h_Halfslash_r2_c3: 6445890981963394897
+      1h_Halfslash_r2_c4: -7200056504831088282
+      1h_Halfslash_r2_c5: -8530328925068760532
+      1h_Halfslash_r2_c6: -4387635787191958150
+      1h_Halfslash_r2_c7: -4455688949360991084
+      1h_Halfslash_r2_c8: -6460448002368676050
+      1h_Halfslash_r2_c9: 8608952111874347448
+      1h_Halfslash_r3_c0: 3096858086794959112
+      1h_Halfslash_r3_c1: -6756068306212945243
+      1h_Halfslash_r3_c10: 4207544636771031319
+      1h_Halfslash_r3_c11: 7129605867694211801
+      1h_Halfslash_r3_c12: -38475670535277109
+      1h_Halfslash_r3_c2: -3951033064672142341
+      1h_Halfslash_r3_c3: -5256589076905394102
+      1h_Halfslash_r3_c4: -6476425373198419765
+      1h_Halfslash_r3_c5: 3749089775632777467
+      1h_Halfslash_r3_c6: -5838199235223215183
+      1h_Halfslash_r3_c7: -3361701697027220092
+      1h_Halfslash_r3_c8: 3844869746389706887
+      1h_Halfslash_r3_c9: 492285854098743122
+      1h_Slash_r0_c0: 9034671076102036557
+      1h_Slash_r0_c1: -2321788082408951289
+      1h_Slash_r0_c10: -7479518134143097634
+      1h_Slash_r0_c11: -6234105650561887221
+      1h_Slash_r0_c12: 6925420970225250249
+      1h_Slash_r0_c13: 3690802581532007499
+      1h_Slash_r0_c14: 553713333891559370
+      1h_Slash_r0_c15: 3471902600899522560
+      1h_Slash_r0_c16: 8033748996002416760
+      1h_Slash_r0_c17: -7696532946614115454
+      1h_Slash_r0_c18: -2324194852622222435
+      1h_Slash_r0_c19: 4235024071704013903
+      1h_Slash_r0_c2: -9213674141209501184
+      1h_Slash_r0_c3: -5136329778242282171
+      1h_Slash_r0_c4: -528181448274438663
+      1h_Slash_r0_c5: 1906130880970940983
+      1h_Slash_r0_c6: -2523914676827240965
+      1h_Slash_r0_c7: -8681957836579105639
+      1h_Slash_r0_c8: 6330623869709350255
+      1h_Slash_r0_c9: -8712567740521866278
+      1h_Slash_r1_c0: -2499697203782799663
+      1h_Slash_r1_c1: 897940912328962522
+      1h_Slash_r1_c10: -7067922468756652345
+      1h_Slash_r1_c11: -6494721106568938300
+      1h_Slash_r1_c12: -1947145566564003684
+      1h_Slash_r1_c13: -5252264165546976161
+      1h_Slash_r1_c14: 7867423667629045340
+      1h_Slash_r1_c15: -3263140565330289714
+      1h_Slash_r1_c16: 8194815222133831282
+      1h_Slash_r1_c17: 5471045882614206179
+      1h_Slash_r1_c18: -5952977509226864088
+      1h_Slash_r1_c19: 4029587362846654763
+      1h_Slash_r1_c2: -7447699136912738739
+      1h_Slash_r1_c3: 2049545560552944161
+      1h_Slash_r1_c4: -3368074930045763659
+      1h_Slash_r1_c5: -1018816216641542341
+      1h_Slash_r1_c6: -2634838614077682416
+      1h_Slash_r1_c7: -498398544996925072
+      1h_Slash_r1_c8: 3041158895917633014
+      1h_Slash_r1_c9: -7847311922662786340
+      1h_Slash_r2_c0: 3978673263372727464
+      1h_Slash_r2_c1: 595308038779301792
+      1h_Slash_r2_c10: 1761585166168084399
+      1h_Slash_r2_c11: -2635054737445892597
+      1h_Slash_r2_c12: 3443718234891124266
+      1h_Slash_r2_c13: 9194045792605559474
+      1h_Slash_r2_c14: 3133608585286796078
+      1h_Slash_r2_c15: -5605859964777018271
+      1h_Slash_r2_c16: -3710020216800825250
+      1h_Slash_r2_c17: 2805743489415711001
+      1h_Slash_r2_c18: 8060342251478492895
+      1h_Slash_r2_c19: -6928017893437091126
+      1h_Slash_r2_c2: 3701539279809823073
+      1h_Slash_r2_c3: -8794845073919163081
+      1h_Slash_r2_c4: 3711524224300302664
+      1h_Slash_r2_c5: -2579186635165228682
+      1h_Slash_r2_c6: -5372778793444901260
+      1h_Slash_r2_c7: -1268738521831219389
+      1h_Slash_r2_c8: 6362889613080110972
+      1h_Slash_r2_c9: -7487434289442047369
+      1h_Slash_r3_c0: -3498017801349377222
+      1h_Slash_r3_c1: 5403267353351860005
+      1h_Slash_r3_c10: -4397489699439601078
+      1h_Slash_r3_c11: -8881374203863572304
+      1h_Slash_r3_c12: -1727805703179828011
+      1h_Slash_r3_c13: 1926391447375475060
+      1h_Slash_r3_c14: 4353384104630233948
+      1h_Slash_r3_c15: -8341155152189946049
+      1h_Slash_r3_c16: 3307108332872375382
+      1h_Slash_r3_c17: -2272688200983446961
+      1h_Slash_r3_c18: 5940488375648607771
+      1h_Slash_r3_c19: 102601497033655788
+      1h_Slash_r3_c2: -5612604692567209903
+      1h_Slash_r3_c3: 6654153709904118190
+      1h_Slash_r3_c4: -287191738834909035
+      1h_Slash_r3_c5: 4516359241009793428
+      1h_Slash_r3_c6: -8252364043311756672
+      1h_Slash_r3_c7: 3202386638030424179
+      1h_Slash_r3_c8: -8318982896112027588
+      1h_Slash_r3_c9: 5002487605424141742
+      1h_Slash_r4_c0: -3291789469226986244
+      1h_Slash_r4_c1: -5958171820464531499
+      1h_Slash_r4_c10: 9050229461031689813
+      1h_Slash_r4_c11: 3634568310108006903
+      1h_Slash_r4_c12: 5956535663551393174
+      1h_Slash_r4_c13: 5503916219305274002
+      1h_Slash_r4_c14: -6301750549963456948
+      1h_Slash_r4_c15: 5263093811514467083
+      1h_Slash_r4_c16: 2617292101596830373
+      1h_Slash_r4_c17: -1651530973083596801
+      1h_Slash_r4_c18: -6226024713233344240
+      1h_Slash_r4_c19: 1407150441887597201
+      1h_Slash_r4_c2: -5218076926667735119
+      1h_Slash_r4_c3: 961725022091067420
+      1h_Slash_r4_c4: 8443500849241280909
+      1h_Slash_r4_c5: 1104207774388487351
+      1h_Slash_r4_c6: -6557988416921721893
+      1h_Slash_r4_c7: 2133502066490786896
+      1h_Slash_r4_c8: -2706464549206591960
+      1h_Slash_r4_c9: -1527070856358944483
+      1h_Slash_r5_c0: -253339631926989488
+      1h_Slash_r5_c1: 6103312865058334175
+      1h_Slash_r5_c10: -2957785964164221324
+      1h_Slash_r5_c11: -5611080914168392018
+      1h_Slash_r5_c12: -2477180117146278227
+      1h_Slash_r5_c13: -3614673255623713349
+      1h_Slash_r5_c14: -2580986314129713028
+      1h_Slash_r5_c15: -7370108048025024276
+      1h_Slash_r5_c16: 3638674496579366131
+      1h_Slash_r5_c17: -5993329905224900771
+      1h_Slash_r5_c18: 3426997573739757281
+      1h_Slash_r5_c19: -3367382543045628083
+      1h_Slash_r5_c2: -3744365927335386593
+      1h_Slash_r5_c3: -6210062100310798816
+      1h_Slash_r5_c4: -3334535661261292051
+      1h_Slash_r5_c5: 8264384901478595341
+      1h_Slash_r5_c6: -1543661227846394842
+      1h_Slash_r5_c7: 674016234855281967
+      1h_Slash_r5_c8: 8228189944522506951
+      1h_Slash_r5_c9: -5918464600645351617
+      1h_Slash_r6_c0: 7197872257908535014
+      1h_Slash_r6_c1: 1066008316047508709
+      1h_Slash_r6_c10: -1644085609948428881
+      1h_Slash_r6_c11: -3566010409039676685
+      1h_Slash_r6_c12: -7874578346232330000
+      1h_Slash_r6_c13: -1922547395519909354
+      1h_Slash_r6_c14: -6649453760445670950
+      1h_Slash_r6_c15: -4482281444861440773
+      1h_Slash_r6_c16: 1206863971996856894
+      1h_Slash_r6_c17: -7401888357343783222
+      1h_Slash_r6_c18: 9052005723605267160
+      1h_Slash_r6_c19: -2981984876296166424
+      1h_Slash_r6_c2: -6768128085108699685
+      1h_Slash_r6_c3: 388558147774268929
+      1h_Slash_r6_c4: -1630418154222288306
+      1h_Slash_r6_c5: -3430018471728796734
+      1h_Slash_r6_c6: 4815629440729527852
+      1h_Slash_r6_c7: 6844678961016861305
+      1h_Slash_r6_c8: 8659815899088802029
+      1h_Slash_r6_c9: 2994691383333240353
+      1h_Slash_r7_c0: -3362017807218271344
+      1h_Slash_r7_c1: 4856586070709329480
+      1h_Slash_r7_c10: 212258612043715896
+      1h_Slash_r7_c11: 8875444217549603348
+      1h_Slash_r7_c12: 1291312185442801244
+      1h_Slash_r7_c13: -4679705705509028990
+      1h_Slash_r7_c14: -8472048939965685239
+      1h_Slash_r7_c15: 2792451982528230943
+      1h_Slash_r7_c16: 2570922055729478920
+      1h_Slash_r7_c17: 6837697279750868629
+      1h_Slash_r7_c18: -3603028047059580957
+      1h_Slash_r7_c19: -5016839988626955212
+      1h_Slash_r7_c2: 4088087932657478566
+      1h_Slash_r7_c3: -7191168640854172026
+      1h_Slash_r7_c4: 4633616254295237641
+      1h_Slash_r7_c5: -7177507998904189042
+      1h_Slash_r7_c6: -5639823893919058442
+      1h_Slash_r7_c7: -7602237621048518945
+      1h_Slash_r7_c8: 4409769875456213053
+      1h_Slash_r7_c9: 3785397451689097392
+      1h_slash_0: -2976809424792804738
+      1h_slash_1: -8549015514766193940
+      1h_slash_10: -2503593402664738672
+      1h_slash_11: 6148107967135007200
+      1h_slash_12: -1088278059375063707
+      1h_slash_13: 2096465970921280745
+      1h_slash_14: -2791514409768476196
+      1h_slash_15: -3887118715243638120
+      1h_slash_16: -7833901053572105356
+      1h_slash_17: 3749346760146695138
+      1h_slash_18: -8283626442758754486
+      1h_slash_19: 4093253554265516904
+      1h_slash_2: 4097623633645533737
+      1h_slash_20: 2198275625763195566
+      1h_slash_21: 3459357178904074411
+      1h_slash_22: -7517688053126318733
+      1h_slash_23: 959607905271187648
+      1h_slash_24: -2805865641183910863
+      1h_slash_25: 2995072698915998371
+      1h_slash_26: -2697283890196939392
+      1h_slash_27: -2508415250802703922
+      1h_slash_28: 7972414674777859550
+      1h_slash_29: 6782821341168735608
+      1h_slash_3: 8699867919373242019
+      1h_slash_30: -4008126080607324020
+      1h_slash_31: 3243260040531054866
+      1h_slash_32: 5353520203357085478
+      1h_slash_33: 6929464785824152399
+      1h_slash_34: 4712389625578942751
+      1h_slash_35: -5005647440119424498
+      1h_slash_36: 8543397964561584022
+      1h_slash_37: 6641169278886452616
+      1h_slash_38: -6878181219817794480
+      1h_slash_39: 6112432488751370540
+      1h_slash_4: -8788247942564379520
+      1h_slash_40: 6042165193790750961
+      1h_slash_41: -2974242877788785514
+      1h_slash_42: -8784601582737130024
+      1h_slash_43: 4977564131697389199
+      1h_slash_44: -4862916376220292116
+      1h_slash_45: 5584087909890386351
+      1h_slash_46: 6057116320647237254
+      1h_slash_47: 2446839109213385408
+      1h_slash_48: 5879836238398523589
+      1h_slash_49: -10933306795254338
+      1h_slash_5: -5176937538569838466
+      1h_slash_50: 8889213291315413127
+      1h_slash_51: 5400045907261818905
+      1h_slash_6: -5081035946277562071
+      1h_slash_7: -8836000149118356289
+      1h_slash_8: 5436647338758782867
+      1h_slash_9: -1774579422762394692
+      1h_slash_r0_c0: -5532102349237731670
+      1h_slash_r0_c1: -2617056730293979134
+      1h_slash_r0_c10: -6382505299386023729
+      1h_slash_r0_c11: -3900447852006117898
+      1h_slash_r0_c12: -4021886250089312238
+      1h_slash_r0_c2: 3406087948705029780
+      1h_slash_r0_c3: 6143375197934983513
+      1h_slash_r0_c4: 269707470444759632
+      1h_slash_r0_c5: 3884116026775681682
+      1h_slash_r0_c6: -6071984894516701025
+      1h_slash_r0_c7: 2025377269865071738
+      1h_slash_r0_c8: -5145244866712907310
+      1h_slash_r0_c9: 1111619357939581469
+      1h_slash_r1_c0: 8322789969517555331
+      1h_slash_r1_c1: -759170239278991081
+      1h_slash_r1_c10: -2721003866525604387
+      1h_slash_r1_c11: -5087240078982770007
+      1h_slash_r1_c12: 7308074840524459980
+      1h_slash_r1_c2: -8116429746545055368
+      1h_slash_r1_c3: -3779806574941491292
+      1h_slash_r1_c4: -5497046279150326881
+      1h_slash_r1_c5: 8769072125073041790
+      1h_slash_r1_c6: -1552824371556819648
+      1h_slash_r1_c7: 1933667313725231729
+      1h_slash_r1_c8: 2786520881251944220
+      1h_slash_r1_c9: 6813521693962115458
+      1h_slash_r2_c0: 4570555197698059288
+      1h_slash_r2_c1: 8790174430662830186
+      1h_slash_r2_c10: 4591980866618789913
+      1h_slash_r2_c11: -1674572374639961845
+      1h_slash_r2_c12: -3120063912850897652
+      1h_slash_r2_c2: 5161194374937672812
+      1h_slash_r2_c3: 6817189056604293203
+      1h_slash_r2_c4: -3418715673149462582
+      1h_slash_r2_c5: 6091325461550116027
+      1h_slash_r2_c6: -5392443436564169754
+      1h_slash_r2_c7: -5168440983424323183
+      1h_slash_r2_c8: 6296779827821619467
+      1h_slash_r2_c9: 5254962368947860440
+      1h_slash_r3_c0: 7392815361851579810
+      1h_slash_r3_c1: -2644693582867834963
+      1h_slash_r3_c10: -4192202229400138399
+      1h_slash_r3_c11: -665823180805914822
+      1h_slash_r3_c12: 2887393871479499442
+      1h_slash_r3_c2: 6437890510452270477
+      1h_slash_r3_c3: -1861080039672664741
+      1h_slash_r3_c4: -8864239460419852384
+      1h_slash_r3_c5: -2439467963736903207
+      1h_slash_r3_c6: 5561594885455313986
+      1h_slash_r3_c7: 9158030333389989813
+      1h_slash_r3_c8: 782079521874308334
+      1h_slash_r3_c9: 7539906414127726752
+      OneHand_Slash_r0_c0: -3273416561979999650
+      OneHand_Slash_r0_c1: -6605849812288614622
+      OneHand_Slash_r0_c2: 8038376785127059100
+      OneHand_Slash_r0_c3: 4343852645101844081
+      OneHand_Slash_r0_c4: 1095703400323204785
+      OneHand_Slash_r0_c5: 2594869709150722804
+      OneHand_Slash_r1_c0: -1402388095312522535
+      OneHand_Slash_r1_c1: -2749970509878376248
+      OneHand_Slash_r1_c2: 7460337474850803998
+      OneHand_Slash_r1_c3: -5661870519642265869
+      OneHand_Slash_r1_c4: 9166531186970192103
+      OneHand_Slash_r1_c5: -7536151075343793961
+      OneHand_Slash_r2_c0: 4485648670236352258
+      OneHand_Slash_r2_c1: -366387093953932121
+      OneHand_Slash_r2_c2: -8387130148604231921
+      OneHand_Slash_r2_c3: -6296405703235580338
+      OneHand_Slash_r2_c4: -5348176806953945214
+      OneHand_Slash_r2_c5: 4326124742880076266
+      OneHand_Slash_r3_c0: -2154139849225605161
+      OneHand_Slash_r3_c1: -990199345985509630
+      OneHand_Slash_r3_c2: 5217006685070644233
+      OneHand_Slash_r3_c3: 3501840953810294283
+      OneHand_Slash_r3_c4: 8260054218365557031
+      OneHand_Slash_r3_c5: 4078239940904640762
+      Slash_r0_c0: -6714839789395429613
+      Slash_r0_c1: 8858445931528305539
+      Slash_r0_c10: 7039882136491638472
+      Slash_r0_c11: -3721703288112657539
+      Slash_r0_c12: 2873356189568164889
+      Slash_r0_c13: 545198636896451707
+      Slash_r0_c14: 949920801459323023
+      Slash_r0_c15: -7113386585285922821
+      Slash_r0_c16: -6780236504790113429
+      Slash_r0_c17: -759474251432510064
+      Slash_r0_c18: 1502601142720227988
+      Slash_r0_c19: 5839796501262730678
+      Slash_r0_c2: -717277559094427975
+      Slash_r0_c3: -2315659922357443169
+      Slash_r0_c4: -8965084903169759213
+      Slash_r0_c5: 327918827074528034
+      Slash_r0_c6: -2261962252188820631
+      Slash_r0_c7: 8079893929410733343
+      Slash_r0_c8: -8900611324151259425
+      Slash_r0_c9: 5045935725088758498
+      Slash_r1_c0: -3928325662760802013
+      Slash_r1_c1: -2245993592560593825
+      Slash_r1_c10: 3507676687607927889
+      Slash_r1_c11: 4394591718773327030
+      Slash_r1_c12: -8472630591862406391
+      Slash_r1_c13: 1457757134535726599
+      Slash_r1_c14: 2687291907966988652
+      Slash_r1_c15: 303877128114916232
+      Slash_r1_c16: 8544371027626071362
+      Slash_r1_c17: 6074791930730829116
+      Slash_r1_c18: -8866972088023205142
+      Slash_r1_c19: 6827564677748722953
+      Slash_r1_c2: -6539315800200265158
+      Slash_r1_c3: 4594550421656598122
+      Slash_r1_c4: -30356545096411428
+      Slash_r1_c5: -2566152620002777590
+      Slash_r1_c6: -246184590673752821
+      Slash_r1_c7: 1616533530068245981
+      Slash_r1_c8: 7195783249013154770
+      Slash_r1_c9: -3485691283421560435
+      Slash_r2_c0: 4762909812120390735
+      Slash_r2_c1: 6532106396091474011
+      Slash_r2_c10: -202988801289401137
+      Slash_r2_c11: -2600966151783728712
+      Slash_r2_c12: 9151023213525244871
+      Slash_r2_c13: 7800014708800543552
+      Slash_r2_c14: 7493062899730965793
+      Slash_r2_c15: 3699501609589194907
+      Slash_r2_c16: 7980653230231402905
+      Slash_r2_c17: -5640201062945815729
+      Slash_r2_c18: 326817634532046144
+      Slash_r2_c19: 5287555891277248165
+      Slash_r2_c2: -1994164929241279191
+      Slash_r2_c3: -1723678927209656891
+      Slash_r2_c4: 1619460241390240949
+      Slash_r2_c5: 7186851119727196711
+      Slash_r2_c6: 6986560494001341993
+      Slash_r2_c7: -5930550300829330316
+      Slash_r2_c8: -6870708773975284830
+      Slash_r2_c9: -8882863522330575576
+      Slash_r3_c0: -3997614199548332568
+      Slash_r3_c1: 1259716210798179338
+      Slash_r3_c10: 4146986240963641521
+      Slash_r3_c11: 8882883281781641507
+      Slash_r3_c12: 4649579497174871465
+      Slash_r3_c13: -3199197783653080296
+      Slash_r3_c14: 4551362603006456433
+      Slash_r3_c15: 6963487536686937802
+      Slash_r3_c16: -7928203309221367060
+      Slash_r3_c17: -9060304821783890528
+      Slash_r3_c18: -2692442321556724171
+      Slash_r3_c19: 7859663629472185825
+      Slash_r3_c2: -3578444163869302184
+      Slash_r3_c3: 4912683171314684677
+      Slash_r3_c4: -7820924941409869477
+      Slash_r3_c5: -552288188748566004
+      Slash_r3_c6: -5002224885051353334
+      Slash_r3_c7: 6390238283647578447
+      Slash_r3_c8: 4130070706834681123
+      Slash_r3_c9: 789609983061306361
+      Slash_r4_c0: 6888030352950560395
+      Slash_r4_c1: 7668878008364237245
+      Slash_r4_c10: -2407291454588617261
+      Slash_r4_c11: -2561922967815357685
+      Slash_r4_c12: -7163471335018848683
+      Slash_r4_c13: -7659065314711643318
+      Slash_r4_c14: 4309188747447893952
+      Slash_r4_c15: -7751146021833764778
+      Slash_r4_c16: -4347970052442684085
+      Slash_r4_c17: -145696859136605308
+      Slash_r4_c18: -6445496619138813581
+      Slash_r4_c19: -4007509272006726689
+      Slash_r4_c2: -3080930868104475508
+      Slash_r4_c3: 133349739056356728
+      Slash_r4_c4: -2699292614978862319
+      Slash_r4_c5: -5013885018597784936
+      Slash_r4_c6: 3266022789231257002
+      Slash_r4_c7: -6038447782435256998
+      Slash_r4_c8: 6642070436944954773
+      Slash_r4_c9: 3984555816139141458
+      Slash_r5_c0: 3693729069879014110
+      Slash_r5_c1: -3306034456121867445
+      Slash_r5_c10: 560383057869929814
+      Slash_r5_c11: -6693408013435751418
+      Slash_r5_c12: -5224443140705330968
+      Slash_r5_c13: 6517724636786874026
+      Slash_r5_c14: -1580202654113945353
+      Slash_r5_c15: 3452315555633477776
+      Slash_r5_c16: -7931228946769229504
+      Slash_r5_c17: 7613770646507084749
+      Slash_r5_c18: 8521313207681183143
+      Slash_r5_c19: -1183748139207808157
+      Slash_r5_c2: 3513890019245021851
+      Slash_r5_c3: 4403092782056539103
+      Slash_r5_c4: 1360877686110839456
+      Slash_r5_c5: -7863707845620775192
+      Slash_r5_c6: -7733866965588270679
+      Slash_r5_c7: -5639551844525574621
+      Slash_r5_c8: -6550731933109801165
+      Slash_r5_c9: 3412842645808885618
+      Slash_r6_c0: 7882759120911225269
+      Slash_r6_c1: -779655629360799094
+      Slash_r6_c10: -776788365451831078
+      Slash_r6_c11: 4764721388714394669
+      Slash_r6_c12: 4804704016593040899
+      Slash_r6_c13: -3744206530202518214
+      Slash_r6_c14: 6458710712312571066
+      Slash_r6_c15: 2167694430083247397
+      Slash_r6_c16: -7514246457641435045
+      Slash_r6_c17: 8269213447554717499
+      Slash_r6_c18: 1533807106220673201
+      Slash_r6_c19: -8237858000792846895
+      Slash_r6_c2: 1829528356010092164
+      Slash_r6_c3: -995401440585882362
+      Slash_r6_c4: -6811564399601217680
+      Slash_r6_c5: -450994268646158844
+      Slash_r6_c6: 9062077872273154025
+      Slash_r6_c7: -1568965202996916599
+      Slash_r6_c8: -8415447118119168038
+      Slash_r6_c9: -7800254082741931638
+      Slash_r7_c0: 4791056515624984496
+      Slash_r7_c1: 7385151973071240280
+      Slash_r7_c10: -9222907661318224821
+      Slash_r7_c11: 2839076148671737279
+      Slash_r7_c12: 7809730739835468258
+      Slash_r7_c13: 3768190550072676000
+      Slash_r7_c14: -3359163867747421210
+      Slash_r7_c15: -221199502766603142
+      Slash_r7_c16: -8591969903977071943
+      Slash_r7_c17: -4020227669949788944
+      Slash_r7_c18: -294606660023340256
+      Slash_r7_c19: -4709647158539382410
+      Slash_r7_c2: 8811327618540140741
+      Slash_r7_c3: -5373504571889182824
+      Slash_r7_c4: -5252794023737746946
+      Slash_r7_c5: 8969846704377824472
+      Slash_r7_c6: 661045004565550113
+      Slash_r7_c7: -4892762087174500530
+      Slash_r7_c8: 4771219695011090236
+      Slash_r7_c9: -5047373288250266984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 1f06fe09e7e1fd74b85b5416fd18e823
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3582916166963785052
+    second: hurt_0
+  - first:
+      213: 1642290761556927327
+    second: hurt_1
+  - first:
+      213: 6819390902422994280
+    second: hurt_2
+  - first:
+      213: 6079887152930431857
+    second: hurt_3
+  - first:
+      213: 6351682349791027127
+    second: hurt_4
+  - first:
+      213: 5358323396425395704
+    second: Hurt_r0_c0
+  - first:
+      213: 3854140964030242118
+    second: Hurt_r0_c1
+  - first:
+      213: 5115382195527513417
+    second: Hurt_r0_c2
+  - first:
+      213: -1806559437954956244
+    second: Hurt_r0_c3
+  - first:
+      213: 3230141933915081203
+    second: Hurt_r0_c4
+  - first:
+      213: -1817933785558979618
+    second: Hurt_r0_c5
+  - first:
+      213: 6856908332099703237
+    second: Hurt_r0_c6
+  - first:
+      213: 7100374748952760597
+    second: Hurt_r0_c7
+  - first:
+      213: -2348793346854703890
+    second: Hurt_r0_c8
+  - first:
+      213: 6094846067824358740
+    second: Hurt_r0_c9
+  - first:
+      213: 3756507163927201739
+    second: Hurt_r0_c10
+  - first:
+      213: -29363642307262150
+    second: Hurt_r0_c11
+  - first:
+      213: -4159129743997646721
+    second: Hurt_r0_c12
+  - first:
+      213: 5270206811555374144
+    second: quan_Hurt_r0_c0
+  - first:
+      213: 7777750255701903733
+    second: quan_Hurt_r0_c1
+  - first:
+      213: -4015504208946004104
+    second: quan_Hurt_r0_c2
+  - first:
+      213: -4486595698103067312
+    second: quan_Hurt_r0_c3
+  - first:
+      213: 166361562547673120
+    second: quan_Hurt_r0_c4
+  - first:
+      213: -66944615500078830
+    second: quan_Hurt_r0_c5
+  - first:
+      213: 5980430488212859541
+    second: Legs_Hurt_r0_c0
+  - first:
+      213: 7642766548371676422
+    second: Legs_Hurt_r0_c1
+  - first:
+      213: -655130540011374822
+    second: Legs_Hurt_r0_c2
+  - first:
+      213: 7760773617227663995
+    second: Legs_Hurt_r0_c3
+  - first:
+      213: -1455635836874701689
+    second: Legs_Hurt_r0_c4
+  - first:
+      213: 5731819638380268415
+    second: Legs_Hurt_r0_c5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ae7d5e7d1cef250800000000000000
+      internalID: 5980430488212859541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d9ee0ceaf801a60800000000000000
+      internalID: 7642766548371676422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17bc11be3288e6f0800000000000000
+      internalID: -655130540011374822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a041d8c7ec3bb60800000000000000
+      internalID: 7760773617227663995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78441cc2bea8ccbe0800000000000000
+      internalID: -1455635836874701689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_Hurt_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8346b7938b8f40800000000000000
+      internalID: 5731819638380268415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hurt_r0_c0: 5358323396425395704
+      Hurt_r0_c1: 3854140964030242118
+      Hurt_r0_c10: 3756507163927201739
+      Hurt_r0_c11: -29363642307262150
+      Hurt_r0_c12: -4159129743997646721
+      Hurt_r0_c2: 5115382195527513417
+      Hurt_r0_c3: -1806559437954956244
+      Hurt_r0_c4: 3230141933915081203
+      Hurt_r0_c5: -1817933785558979618
+      Hurt_r0_c6: 6856908332099703237
+      Hurt_r0_c7: 7100374748952760597
+      Hurt_r0_c8: -2348793346854703890
+      Hurt_r0_c9: 6094846067824358740
+      Legs_Hurt_r0_c0: 5980430488212859541
+      Legs_Hurt_r0_c1: 7642766548371676422
+      Legs_Hurt_r0_c2: -655130540011374822
+      Legs_Hurt_r0_c3: 7760773617227663995
+      Legs_Hurt_r0_c4: -1455635836874701689
+      Legs_Hurt_r0_c5: 5731819638380268415
+      hurt_0: -3582916166963785052
+      hurt_1: 1642290761556927327
+      hurt_2: 6819390902422994280
+      hurt_3: 6079887152930431857
+      hurt_4: 6351682349791027127
+      quan_Hurt_r0_c0: 5270206811555374144
+      quan_Hurt_r0_c1: 7777750255701903733
+      quan_Hurt_r0_c2: -4015504208946004104
+      quan_Hurt_r0_c3: -4486595698103067312
+      quan_Hurt_r0_c4: 166361562547673120
+      quan_Hurt_r0_c5: -66944615500078830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

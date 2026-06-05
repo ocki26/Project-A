@@ -1,0 +1,378 @@
+/* ══════════════════════════════════════════════════════════════════
+   LPC_HUD.uss — Premium Gothic Dark Dungeon HUD UI Skin
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ─── ROOT — anchor bottom-right ───────────────────────────────── */
+.hud-root {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ─── GOLD ROW ──────────────────────────────────────────────────── */
+.hud-gold-row {
+    flex-direction: row;
+    align-items: center;
+    background-color: #101216; /* Hộp tiền sắt tối màu */
+    border-width: 2.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 10px;
+}
+
+.hud-gold-icon {
+    font-size: 13px;
+    margin-right: 5px;
+    color: #C5A059; /* Vàng rỉ cổ kính */
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.hud-gold-value {
+    color: #C5A059;
+    font-size: 14px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+}
+
+/* ─── BUTTON WRAPPER ────────────────────────────────────────────── */
+.hud-btn-wrap {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ─── HOTKEY HINT ───────────────────────────────────────────────── */
+.hud-hotkey-hint {
+    color: #8C95A5;
+    font-size: 9px;
+    -unity-text-align: middle-center;
+    width: 52px;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}
+
+/* ─── INVENTORY BUTTON ──────────────────────────────────────────── */
+.hud-inv-btn {
+    width: 52px;
+    height: 52px;
+    background-color: #181A1F; /* Nút sắt rèn ngục tối */
+    border-width: 2.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition-duration: 0.15s;
+    transition-property: background-color, border-color, scale;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hud-inv-btn:hover {
+    background-color: #23272F;
+    border-color: #A30000; /* Bừng đỏ máu khi hover */
+    scale: 1.08;
+    box-shadow: 0 0 8px rgba(163, 0, 0, 0.7);
+}
+
+.hud-inv-btn:active {
+    scale: 0.94;
+    background-color: #0E0F12;
+}
+
+.hud-inv-btn-text {
+    font-size: 10px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: #8C95A5;
+}
+
+.hud-inv-btn:hover .hud-inv-btn-text {
+    color: white;
+}
+
+.hud-inv-btn--notify {
+    border-color: #A30000;
+}
+
+.hud-inv-btn--notify .hud-inv-btn-text {
+    color: #FF4D4D;
+}
+
+/* ─── STATS ROOT — anchor bottom-left ──────────────────────────── */
+.hud-stats-root {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    flex-direction: column;
+}
+
+/* ─── STAT ROWS & BARS ─────────────────────────────────────────── */
+.hud-stat-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hud-hearts-container {
+    flex-direction: row;
+    align-items: center;
+    min-height: 24px;
+}
+
+.hud-heart-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    -unity-text-align: middle-center;
+    font-size: 18px;
+    text-shadow: 2px 2px 0 #0E0F12;
+}
+
+.hud-stat-text-hearts {
+    color: #A5B8D0;
+    font-size: 11px;
+    -unity-font-style: bold;
+    margin-left: 8px;
+    text-shadow: 1px 1px 0 #0E0F12;
+}
+
+/* Các trạng thái màu sắc tim Gothic */
+.heart--full {
+    color: #D32F2F; /* Đỏ rực Gothic */
+}
+
+.heart--broken {
+    color: #5C0000; /* Đỏ sẫm màu máu đông */
+}
+
+.heart--empty {
+    color: #3D4148; /* Sắt rỉ / đá obsidian tối */
+}
+
+.heart--shield {
+    color: #C5A059; /* Vàng kim cổ kính */
+}
+
+.hud-stat-icon-bg {
+    width: 32px;
+    height: 32px;
+    background-color: #101216; /* Khung sắt icon */
+    border-width: 2.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    margin-right: -8px;
+    z-index: 2;
+}
+
+.hud-stat-icon {
+    font-size: 14px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding-bottom: 2px;
+}
+
+.hud-stat-bar-bg {
+    width: 220px;
+    height: 18px;
+    background-color: #101216; /* Bể chứa sắt rỗng đen */
+    border-width: 2.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
+.hud-stat-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    -unity-text-align: middle-center;
+    color: #E2E8F0;
+    font-size: 10px;
+    -unity-font-style: bold;
+    text-shadow: 1px 1px 0 #0E0F12;
+}
+
+.hud-stat-bar-fill {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition-duration: 0.25s;
+    transition-property: width;
+}
+.fill-health {
+    background-color: #B21C1C; /* Đỏ sẫm màu máu crypt Gothic */
+}
+
+.fill-mana {
+    background-color: #1F6AA5; /* Xanh Void linh hồn huyền bí */
+}
+
+.fill-stamina {
+    background-color: #248A3D; /* Xanh sinh mệnh rực rỡ */
+}
+
+.fill-stamina-lau {
+    background-color: #144C22; /* Ngưỡng thể lực lâu phai màu rêu tối */
+}
+
+.fill-shield {
+    background-color: rgba(226, 232, 240, 0.4); /* Lá chắn thép xám bạc mờ */
+}
+
+.fill-hunger {
+    background-color: #D35400; /* Màu cam đói hoang dã */
+}
+
+.fill-thirst {
+    background-color: #16A085; /* Màu xanh nước biển hầm ngục */
+}
+
+/* ─── BUFF CONTAINER & ICONS ────────────────────────────────────── */
+.hud-buff-container {
+    flex-direction: row;
+    margin-top: 12px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.hud-buff-icon-bg {
+    width: 26px;
+    height: 26px;
+    background-color: #181A1F; /* Hộp sắt */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    scale: 1.0;
+    transition-duration: 0.15s;
+    transition-property: scale;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hud-buff-icon-bg:hover {
+    scale: 1.15;
+}
+
+.hud-buff-icon {
+    font-size: 12px;
+    -unity-text-align: middle-center;
+}
+
+.hud-buff-timer {
+    position: absolute;
+    bottom: -6px;
+    right: -4px;
+    color: #E2E8F0;
+    font-size: 8px;
+    -unity-font-style: bold;
+    text-shadow: 1px 1px 0 #0E0F12;
+}
+
+.buff-border-burn { border-color: #FF4D4D; }
+.buff-border-freeze { border-color: #339AF0; }
+.buff-border-bleed { border-color: #A30000; }
+.buff-border-regen { border-color: #10B981; }
+.buff-border-shield { border-color: #C5A059; }
+
+/* ─── SKILL HOTBAR ─────────────────────────────────────────────── */
+.hud-skill-hotbar {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    translate: -50% 0;
+    flex-direction: row;
+    background-color: #181A1F; /* Tấm kim loại rèn lớn */
+    border-width: 2.5px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+}
+
+.hud-skill-slot {
+    width: 42px;
+    height: 42px;
+    background-color: #101216; /* Rãnh thép đúc tối tăm */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    margin: 0 3px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: 0.15s;
+    transition-property: scale, border-color, background-color;
+}
+
+.hud-skill-slot:hover {
+    scale: 1.1;
+    border-color: #A30000; /* Ánh sáng đỏ hung hăng khi hover */
+    background-color: #1F2228;
+    box-shadow: 0 0 10px rgba(163, 0, 0, 0.7);
+}
+
+.hud-skill-key {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 7px;
+    color: #8C95A5;
+    -unity-font-style: bold;
+}
+
+.hud-skill-icon {
+    font-size: 16px;
+    -unity-text-align: middle-center;
+}
+
+.hud-skill-cooldown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    background-color: rgba(16, 18, 22, 0.85); /* Bóng mờ bóng thép crypt */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.hud-skill-cd-text {
+    position: absolute;
+    font-size: 12px;
+    color: #FF4D4D;
+    -unity-font-style: bold;
+    text-shadow: 1px 1px 0 #0E0F12;
+    -unity-text-align: middle-center;
+}
+
+/* ─── SURVIVAL INDICATORS LAYOUT ─── */
+.hud-survival-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.hud-survival-item {
+    margin-bottom: 0;
+}
+.hud-survival-bar {
+    width: 92px; /* aligns exactly with 220px main bars */
+}

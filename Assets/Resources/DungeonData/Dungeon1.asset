@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99945e793e36e714fa27580b42552e58, type: 3}
+  m_Name: Dungeon1
+  m_EditorClassIdentifier: DungeonSystem.Runtime::DungeonSystem.Generation.DungeonConfig
+  developerNotes: 
+  seed: 1337
+  useRandomSeed: 1
+  cellSize: 20
+  mapBounds: {x: 100, y: 100}
+  minRooms: 15
+  maxRooms: 17
+  maxTreasureRooms: 1
+  maxShopRooms: 1
+  maxSecretRooms: 1
+  normalRooms:
+  - {fileID: 6912637447737404433, guid: cdea495147b6d8e4fa85731aa07da908, type: 3}
+  - {fileID: 8500866086507485196, guid: b013f27a8990a5f4d83834a5ebcd784d, type: 3}
+  - {fileID: 5902164337819970130, guid: e1cbd464e46b4ab49929bdfbe42151be, type: 3}
+  treasureRooms: []
+  bossRooms: []
+  shopRooms: []
+  secretRooms: []
+  corridors: []
+  startRooms:
+  - {fileID: 2364796533016022225, guid: 581c608eac7c29640b1d3f14a819a329, type: 3}

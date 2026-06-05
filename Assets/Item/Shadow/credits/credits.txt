@@ -1,0 +1,8 @@
+shadow/adult/shoot/shadow.png
+	- Licenses:
+		- CC0
+	- Authors:
+		- drjamgo@hotmail.com
+	- Links:
+		- https://opengameart.org/content/shadow-for-lpc-sprite
+

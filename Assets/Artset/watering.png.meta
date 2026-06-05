@@ -1,0 +1,1797 @@
+fileFormatVersion: 2
+guid: ea86a8d48e63b4548a11c71a7344747f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 839453171164832311
+    second: watering_0
+  - first:
+      213: 8650567833414567933
+    second: watering_1
+  - first:
+      213: 4110465116182613876
+    second: watering_2
+  - first:
+      213: 2394584386409037260
+    second: watering_3
+  - first:
+      213: -6649510211020555980
+    second: watering_4
+  - first:
+      213: 6696945401145681192
+    second: watering_5
+  - first:
+      213: -5491724536247040597
+    second: watering_6
+  - first:
+      213: 3401540205996777781
+    second: watering_7
+  - first:
+      213: 3838495996091141006
+    second: watering_8
+  - first:
+      213: -8814071213789748014
+    second: watering_9
+  - first:
+      213: 2655080406607544896
+    second: watering_10
+  - first:
+      213: 4622589194935733775
+    second: watering_11
+  - first:
+      213: -1060810848916843536
+    second: watering_12
+  - first:
+      213: -5057054101863997656
+    second: watering_13
+  - first:
+      213: 4491376618079989827
+    second: watering_14
+  - first:
+      213: 6710720373731990973
+    second: watering_15
+  - first:
+      213: 4777900200072879098
+    second: watering_16
+  - first:
+      213: -8900421646168507504
+    second: watering_17
+  - first:
+      213: 6573854083483702305
+    second: watering_18
+  - first:
+      213: -5287857094193268575
+    second: watering_19
+  - first:
+      213: 6069290253426858719
+    second: watering_20
+  - first:
+      213: 7962501708540687181
+    second: watering_21
+  - first:
+      213: 8147170922921142233
+    second: watering_22
+  - first:
+      213: 3658194033795394863
+    second: watering_23
+  - first:
+      213: 7730837498960883514
+    second: watering_24
+  - first:
+      213: -4844267234726921919
+    second: watering_25
+  - first:
+      213: -104083034174262327
+    second: watering_26
+  - first:
+      213: 8725372031047108779
+    second: watering_27
+  - first:
+      213: 3093277543513057260
+    second: watering_28
+  - first:
+      213: 5831413225817121926
+    second: watering_29
+  - first:
+      213: -6093597640780515739
+    second: watering_30
+  - first:
+      213: 7726477950131462177
+    second: watering_31
+  - first:
+      213: 2381384490528267249
+    second: Watering_r0_c0
+  - first:
+      213: 327708457905618994
+    second: Watering_r0_c1
+  - first:
+      213: -3791169374964283986
+    second: Watering_r0_c2
+  - first:
+      213: -343668249375766118
+    second: Watering_r0_c3
+  - first:
+      213: -2648196061913586833
+    second: Watering_r0_c4
+  - first:
+      213: -345807740507801225
+    second: Watering_r0_c5
+  - first:
+      213: 7327793660302853319
+    second: Watering_r1_c0
+  - first:
+      213: 6056499241708832901
+    second: Watering_r1_c1
+  - first:
+      213: 9110348442911279184
+    second: Watering_r1_c2
+  - first:
+      213: -7942271935091602693
+    second: Watering_r1_c3
+  - first:
+      213: 3428361482415274528
+    second: Watering_r1_c4
+  - first:
+      213: -5126595947042002398
+    second: Watering_r1_c5
+  - first:
+      213: 5385772071069180983
+    second: Watering_r2_c0
+  - first:
+      213: -6702594894040729493
+    second: Watering_r2_c1
+  - first:
+      213: 2583701969789438003
+    second: Watering_r2_c2
+  - first:
+      213: -5712131119234902656
+    second: Watering_r2_c3
+  - first:
+      213: 3497710581903717646
+    second: Watering_r2_c4
+  - first:
+      213: 8460036022557144971
+    second: Watering_r2_c5
+  - first:
+      213: 7385971709954977664
+    second: Watering_r3_c0
+  - first:
+      213: 217548293458937115
+    second: Watering_r3_c1
+  - first:
+      213: -40177572126077158
+    second: Watering_r3_c2
+  - first:
+      213: 6679781441200277911
+    second: Watering_r3_c3
+  - first:
+      213: 2669521120622440158
+    second: Watering_r3_c4
+  - first:
+      213: 5163175807673363337
+    second: Watering_r3_c5
+  - first:
+      213: 1884271670109170395
+    second: Watering_r0_c6
+  - first:
+      213: 8581634383418833313
+    second: Watering_r0_c7
+  - first:
+      213: -3556147810823949560
+    second: Watering_r0_c8
+  - first:
+      213: -8783200051013936383
+    second: Watering_r0_c9
+  - first:
+      213: 8149205956782644912
+    second: Watering_r0_c10
+  - first:
+      213: -1014687959243897816
+    second: Watering_r0_c11
+  - first:
+      213: 522075456652035633
+    second: Watering_r0_c12
+  - first:
+      213: -666157021132352961
+    second: Watering_r0_c13
+  - first:
+      213: 1673864820966173919
+    second: Watering_r0_c14
+  - first:
+      213: -4472159386912739542
+    second: Watering_r0_c15
+  - first:
+      213: -8293570797527117270
+    second: Watering_r0_c16
+  - first:
+      213: 7073677249021473502
+    second: Watering_r0_c17
+  - first:
+      213: 1352348925810861256
+    second: Watering_r0_c18
+  - first:
+      213: 175503907024559495
+    second: Watering_r0_c19
+  - first:
+      213: 3547202379114176741
+    second: Watering_r1_c6
+  - first:
+      213: 193331706563862016
+    second: Watering_r1_c7
+  - first:
+      213: -7505582463722378120
+    second: Watering_r1_c8
+  - first:
+      213: -4524955039513643715
+    second: Watering_r1_c9
+  - first:
+      213: -4626908257695966292
+    second: Watering_r1_c10
+  - first:
+      213: -4396386908303261657
+    second: Watering_r1_c11
+  - first:
+      213: 7562771876126906113
+    second: Watering_r1_c12
+  - first:
+      213: 6075651144048098334
+    second: Watering_r1_c13
+  - first:
+      213: 187518020677472899
+    second: Watering_r1_c14
+  - first:
+      213: -6799577003441835771
+    second: Watering_r1_c15
+  - first:
+      213: -7218939139293946861
+    second: Watering_r1_c16
+  - first:
+      213: -2792400056851231639
+    second: Watering_r1_c17
+  - first:
+      213: 3826860695143889609
+    second: Watering_r1_c18
+  - first:
+      213: 1197205004758788600
+    second: Watering_r1_c19
+  - first:
+      213: 6568914879971409304
+    second: Watering_r2_c6
+  - first:
+      213: 6325143377462349297
+    second: Watering_r2_c7
+  - first:
+      213: -885746128773815448
+    second: Watering_r2_c8
+  - first:
+      213: 1342720846575142019
+    second: Watering_r2_c9
+  - first:
+      213: 7806177879867848041
+    second: Watering_r2_c10
+  - first:
+      213: 6111204543280933180
+    second: Watering_r2_c11
+  - first:
+      213: -2634265295845017628
+    second: Watering_r2_c12
+  - first:
+      213: -3375470502921258292
+    second: Watering_r2_c13
+  - first:
+      213: -7432156135823723967
+    second: Watering_r2_c14
+  - first:
+      213: -8454397387499004101
+    second: Watering_r2_c15
+  - first:
+      213: -7397320843002087072
+    second: Watering_r2_c16
+  - first:
+      213: -9109748812728538043
+    second: Watering_r2_c17
+  - first:
+      213: -2553881616452092833
+    second: Watering_r2_c18
+  - first:
+      213: 1260598360665390008
+    second: Watering_r2_c19
+  - first:
+      213: -7471683137681501404
+    second: Watering_r3_c6
+  - first:
+      213: 6899581313827832520
+    second: Watering_r3_c7
+  - first:
+      213: -6019961491312044372
+    second: Watering_r3_c8
+  - first:
+      213: 2003346994661075448
+    second: Watering_r3_c9
+  - first:
+      213: 7356216652603296255
+    second: Watering_r3_c10
+  - first:
+      213: 8414556098377868128
+    second: Watering_r3_c11
+  - first:
+      213: -4202021752148089916
+    second: Watering_r3_c12
+  - first:
+      213: 3546849704961045849
+    second: Watering_r3_c13
+  - first:
+      213: -1599907390839880028
+    second: Watering_r3_c14
+  - first:
+      213: -458966441620034253
+    second: Watering_r3_c15
+  - first:
+      213: -2192939589729582703
+    second: Watering_r3_c16
+  - first:
+      213: -6080861081366985993
+    second: Watering_r3_c17
+  - first:
+      213: 5208625911372822262
+    second: Watering_r3_c18
+  - first:
+      213: 2402885147895678756
+    second: Watering_r3_c19
+  - first:
+      213: -5808499761372439488
+    second: Watering_r4_c0
+  - first:
+      213: -5768687138579932658
+    second: Watering_r4_c1
+  - first:
+      213: 7305103809514626781
+    second: Watering_r4_c2
+  - first:
+      213: 4108200499976960266
+    second: Watering_r4_c3
+  - first:
+      213: 9012029494169969457
+    second: Watering_r4_c4
+  - first:
+      213: 2621705489184164165
+    second: Watering_r4_c5
+  - first:
+      213: 7002437045485606626
+    second: Watering_r4_c6
+  - first:
+      213: 3735474097751192069
+    second: Watering_r4_c7
+  - first:
+      213: 97878750631249570
+    second: Watering_r4_c8
+  - first:
+      213: 5222391740027115834
+    second: Watering_r4_c9
+  - first:
+      213: -3061765424858262461
+    second: Watering_r4_c10
+  - first:
+      213: 2296955027899093572
+    second: Watering_r4_c11
+  - first:
+      213: 3109229443144850964
+    second: Watering_r4_c12
+  - first:
+      213: 6661632109348759982
+    second: Watering_r4_c13
+  - first:
+      213: -552561716276192913
+    second: Watering_r4_c14
+  - first:
+      213: -8104868656607636878
+    second: Watering_r4_c15
+  - first:
+      213: -8242621445841460524
+    second: Watering_r4_c16
+  - first:
+      213: -4397098081035691106
+    second: Watering_r4_c17
+  - first:
+      213: -7555138932090924673
+    second: Watering_r4_c18
+  - first:
+      213: 6836278641606653778
+    second: Watering_r4_c19
+  - first:
+      213: 8839364162283731200
+    second: Watering_r5_c0
+  - first:
+      213: -505797660077170988
+    second: Watering_r5_c1
+  - first:
+      213: 3068366366811828224
+    second: Watering_r5_c2
+  - first:
+      213: 8458255534479112859
+    second: Watering_r5_c3
+  - first:
+      213: 7512878754225393087
+    second: Watering_r5_c4
+  - first:
+      213: -8164181625225193436
+    second: Watering_r5_c5
+  - first:
+      213: 3563903697904418457
+    second: Watering_r5_c6
+  - first:
+      213: 8974826624546778297
+    second: Watering_r5_c7
+  - first:
+      213: -4624306636729874630
+    second: Watering_r5_c8
+  - first:
+      213: -6475893707264675360
+    second: Watering_r5_c9
+  - first:
+      213: 5502804563665365002
+    second: Watering_r5_c10
+  - first:
+      213: -2819735110681982161
+    second: Watering_r5_c11
+  - first:
+      213: 3678781650175718084
+    second: Watering_r5_c12
+  - first:
+      213: 1135700498064492419
+    second: Watering_r5_c13
+  - first:
+      213: 4029490958934169490
+    second: Watering_r5_c14
+  - first:
+      213: -5604348859169029181
+    second: Watering_r5_c15
+  - first:
+      213: -8701738072655838909
+    second: Watering_r5_c16
+  - first:
+      213: 444897818659363756
+    second: Watering_r5_c17
+  - first:
+      213: -7164471005163655692
+    second: Watering_r5_c18
+  - first:
+      213: -1389749967945321745
+    second: Watering_r5_c19
+  - first:
+      213: 942519971538637121
+    second: Watering_r6_c0
+  - first:
+      213: -7032232046193523997
+    second: Watering_r6_c1
+  - first:
+      213: 1574231999672341481
+    second: Watering_r6_c2
+  - first:
+      213: 1981707365309275160
+    second: Watering_r6_c3
+  - first:
+      213: -5481517210041458365
+    second: Watering_r6_c4
+  - first:
+      213: -7283993033110543289
+    second: Watering_r6_c5
+  - first:
+      213: 8707311876851318749
+    second: Watering_r6_c6
+  - first:
+      213: 1580772846473310258
+    second: Watering_r6_c7
+  - first:
+      213: 7681397120699316622
+    second: Watering_r6_c8
+  - first:
+      213: 618280579745657879
+    second: Watering_r6_c9
+  - first:
+      213: 8705366495733705367
+    second: Watering_r6_c10
+  - first:
+      213: 7041885326200859779
+    second: Watering_r6_c11
+  - first:
+      213: -4987160369537490445
+    second: Watering_r6_c12
+  - first:
+      213: -6197297605360882396
+    second: Watering_r6_c13
+  - first:
+      213: 3748796801858176896
+    second: Watering_r6_c14
+  - first:
+      213: 8807448896712090894
+    second: Watering_r6_c15
+  - first:
+      213: -4063069580289335312
+    second: Watering_r6_c16
+  - first:
+      213: -5409190280079036073
+    second: Watering_r6_c17
+  - first:
+      213: -4191459010716108717
+    second: Watering_r6_c18
+  - first:
+      213: 2119997193033044348
+    second: Watering_r6_c19
+  - first:
+      213: -7783209151445058656
+    second: Watering_r7_c0
+  - first:
+      213: 5135253156328761882
+    second: Watering_r7_c1
+  - first:
+      213: -5072140007429553217
+    second: Watering_r7_c2
+  - first:
+      213: 1297300710371517438
+    second: Watering_r7_c3
+  - first:
+      213: -3794741017677938874
+    second: Watering_r7_c4
+  - first:
+      213: 5500729851605389636
+    second: Watering_r7_c5
+  - first:
+      213: -7412982087781334027
+    second: Watering_r7_c6
+  - first:
+      213: 1448379338710244225
+    second: Watering_r7_c7
+  - first:
+      213: -6247992858145801639
+    second: Watering_r7_c8
+  - first:
+      213: -3221523461375658846
+    second: Watering_r7_c9
+  - first:
+      213: 7168231551432183540
+    second: Watering_r7_c10
+  - first:
+      213: 1837495886231431659
+    second: Watering_r7_c11
+  - first:
+      213: 3252543065820823210
+    second: Watering_r7_c12
+  - first:
+      213: -4573692120910350153
+    second: Watering_r7_c13
+  - first:
+      213: 7932355807867187468
+    second: Watering_r7_c14
+  - first:
+      213: -5402648857636295392
+    second: Watering_r7_c15
+  - first:
+      213: -6446130964830302385
+    second: Watering_r7_c16
+  - first:
+      213: -7053422952757986934
+    second: Watering_r7_c17
+  - first:
+      213: 2647504683188574295
+    second: Watering_r7_c18
+  - first:
+      213: 8306097030623301420
+    second: Watering_r7_c19
+  - first:
+      213: 3222023567037397929
+    second: watering_r0_c0
+  - first:
+      213: -1569200344558532051
+    second: watering_r0_c1
+  - first:
+      213: 8989541421966601241
+    second: watering_r0_c2
+  - first:
+      213: 2948225480228658229
+    second: watering_r0_c3
+  - first:
+      213: -8486724672481099094
+    second: watering_r0_c4
+  - first:
+      213: -3104496012407284531
+    second: watering_r0_c5
+  - first:
+      213: 1977987485223512302
+    second: watering_r0_c6
+  - first:
+      213: 1346936542697539780
+    second: watering_r0_c7
+  - first:
+      213: -702770623337665031
+    second: watering_r0_c8
+  - first:
+      213: 8731467001593433941
+    second: watering_r0_c9
+  - first:
+      213: 4972634845593700632
+    second: watering_r0_c10
+  - first:
+      213: -871057572627506014
+    second: watering_r0_c11
+  - first:
+      213: -1474750706772674424
+    second: watering_r0_c12
+  - first:
+      213: -42016464962959709
+    second: watering_r1_c0
+  - first:
+      213: 1002039964400216465
+    second: watering_r1_c1
+  - first:
+      213: -4591403588173248489
+    second: watering_r1_c2
+  - first:
+      213: 2187817098922551397
+    second: watering_r1_c3
+  - first:
+      213: 7632727025801473620
+    second: watering_r1_c4
+  - first:
+      213: -4203398062213904993
+    second: watering_r1_c5
+  - first:
+      213: -8010546562853039511
+    second: watering_r1_c6
+  - first:
+      213: 6417078396353476004
+    second: watering_r1_c7
+  - first:
+      213: -5122694352039789709
+    second: watering_r1_c8
+  - first:
+      213: -1890066955429618257
+    second: watering_r1_c9
+  - first:
+      213: -7393507157254424572
+    second: watering_r1_c10
+  - first:
+      213: -3085285199623564395
+    second: watering_r1_c11
+  - first:
+      213: -8770556498753959076
+    second: watering_r1_c12
+  - first:
+      213: 3494659966694865309
+    second: watering_r2_c0
+  - first:
+      213: 2718938460719251689
+    second: watering_r2_c1
+  - first:
+      213: -5085737925309590940
+    second: watering_r2_c2
+  - first:
+      213: -1454306777648465110
+    second: watering_r2_c3
+  - first:
+      213: -3712777448679497767
+    second: watering_r2_c4
+  - first:
+      213: 3505685620873183402
+    second: watering_r2_c5
+  - first:
+      213: 3432811920946020911
+    second: watering_r2_c6
+  - first:
+      213: -7369533759793784925
+    second: watering_r2_c7
+  - first:
+      213: -8724728913222186297
+    second: watering_r2_c8
+  - first:
+      213: 1642157941533697005
+    second: watering_r2_c9
+  - first:
+      213: 2106680182831407217
+    second: watering_r2_c10
+  - first:
+      213: 5408164908351405129
+    second: watering_r2_c11
+  - first:
+      213: -5305078605986598999
+    second: watering_r2_c12
+  - first:
+      213: 7961942240737201443
+    second: watering_r3_c0
+  - first:
+      213: -7560509022601830840
+    second: watering_r3_c1
+  - first:
+      213: 4743965292253583974
+    second: watering_r3_c2
+  - first:
+      213: -4567651395931534966
+    second: watering_r3_c3
+  - first:
+      213: -3045489509193217066
+    second: watering_r3_c4
+  - first:
+      213: 4325542618803919032
+    second: watering_r3_c5
+  - first:
+      213: 8360737274128349398
+    second: watering_r3_c6
+  - first:
+      213: -5243928287522933694
+    second: watering_r3_c7
+  - first:
+      213: 1551120068016856944
+    second: watering_r3_c8
+  - first:
+      213: 8913518434291605120
+    second: watering_r3_c9
+  - first:
+      213: -225404190649286709
+    second: watering_r3_c10
+  - first:
+      213: 7539845593220574136
+    second: watering_r3_c11
+  - first:
+      213: -2207448087368501792
+    second: watering_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Watering_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbdf87b3906c0120800000000000000
+      internalID: 2381384490528267249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2300b5f2b114c8400800000000000000
+      internalID: 327708457905618994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea50ae93a8f036bc0800000000000000
+      internalID: -3791169374964283986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99806b4c8b0b3bf0800000000000000
+      internalID: -343668249375766118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f636d0266b7bf3bd0800000000000000
+      internalID: -2648196061913586833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779b37231b1733bf0800000000000000
+      internalID: -345807740507801225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda6035c917462a10800000000000000
+      internalID: 1884271670109170395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r0_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a935f71107181770800000000000000
+      internalID: 8581634383418833313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c406bd728d81b560800000000000000
+      internalID: 7327793660302853319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884a7cb8f10d0450800000000000000
+      internalID: 6056499241708832901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05882cfd3a57e6e70800000000000000
+      internalID: 9110348442911279184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa8f4741c167c190800000000000000
+      internalID: -7942271935091602693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7ef0aa9cf39f20800000000000000
+      internalID: 3428361482415274528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aaa95e52caad8b0800000000000000
+      internalID: -5126595947042002398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0658915c13a3130800000000000000
+      internalID: 3547202379114176741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r1_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e1f8da92adea200800000000000000
+      internalID: 193331706563862016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7346c41e92b1eba40800000000000000
+      internalID: 5385772071069180983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68fa5ba4799bf2a0800000000000000
+      internalID: -6702594894040729493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338c6c2a0472bd320800000000000000
+      internalID: 2583701969789438003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0859c8fd20f6ab0b0800000000000000
+      internalID: -5712131119234902656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05fe791e3d5a8030800000000000000
+      internalID: 3497710581903717646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87f68770f5186570800000000000000
+      internalID: 8460036022557144971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d397c9749792b50800000000000000
+      internalID: 6568914879971409304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r2_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdce07c36c67c750800000000000000
+      internalID: 6325143377462349297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f63fc332e308660800000000000000
+      internalID: 7385971709954977664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15cc113503e40300800000000000000
+      internalID: 217548293458937115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fcc7506b2417ff0800000000000000
+      internalID: -40177572126077158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7994dfb64d953bc50800000000000000
+      internalID: 6679781441200277911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede6a13c05b0c0520800000000000000
+      internalID: 2669521120622440158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98be2499a0947a740800000000000000
+      internalID: 5163175807673363337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423d730e5cf3f4890800000000000000
+      internalID: -7471683137681501404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Watering_r3_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c281ad36ac30cf50800000000000000
+      internalID: 6899581313827832520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Watering_r0_c0: 2381384490528267249
+      Watering_r0_c1: 327708457905618994
+      Watering_r0_c10: 8149205956782644912
+      Watering_r0_c11: -1014687959243897816
+      Watering_r0_c12: 522075456652035633
+      Watering_r0_c13: -666157021132352961
+      Watering_r0_c14: 1673864820966173919
+      Watering_r0_c15: -4472159386912739542
+      Watering_r0_c16: -8293570797527117270
+      Watering_r0_c17: 7073677249021473502
+      Watering_r0_c18: 1352348925810861256
+      Watering_r0_c19: 175503907024559495
+      Watering_r0_c2: -3791169374964283986
+      Watering_r0_c3: -343668249375766118
+      Watering_r0_c4: -2648196061913586833
+      Watering_r0_c5: -345807740507801225
+      Watering_r0_c6: 1884271670109170395
+      Watering_r0_c7: 8581634383418833313
+      Watering_r0_c8: -3556147810823949560
+      Watering_r0_c9: -8783200051013936383
+      Watering_r1_c0: 7327793660302853319
+      Watering_r1_c1: 6056499241708832901
+      Watering_r1_c10: -4626908257695966292
+      Watering_r1_c11: -4396386908303261657
+      Watering_r1_c12: 7562771876126906113
+      Watering_r1_c13: 6075651144048098334
+      Watering_r1_c14: 187518020677472899
+      Watering_r1_c15: -6799577003441835771
+      Watering_r1_c16: -7218939139293946861
+      Watering_r1_c17: -2792400056851231639
+      Watering_r1_c18: 3826860695143889609
+      Watering_r1_c19: 1197205004758788600
+      Watering_r1_c2: 9110348442911279184
+      Watering_r1_c3: -7942271935091602693
+      Watering_r1_c4: 3428361482415274528
+      Watering_r1_c5: -5126595947042002398
+      Watering_r1_c6: 3547202379114176741
+      Watering_r1_c7: 193331706563862016
+      Watering_r1_c8: -7505582463722378120
+      Watering_r1_c9: -4524955039513643715
+      Watering_r2_c0: 5385772071069180983
+      Watering_r2_c1: -6702594894040729493
+      Watering_r2_c10: 7806177879867848041
+      Watering_r2_c11: 6111204543280933180
+      Watering_r2_c12: -2634265295845017628
+      Watering_r2_c13: -3375470502921258292
+      Watering_r2_c14: -7432156135823723967
+      Watering_r2_c15: -8454397387499004101
+      Watering_r2_c16: -7397320843002087072
+      Watering_r2_c17: -9109748812728538043
+      Watering_r2_c18: -2553881616452092833
+      Watering_r2_c19: 1260598360665390008
+      Watering_r2_c2: 2583701969789438003
+      Watering_r2_c3: -5712131119234902656
+      Watering_r2_c4: 3497710581903717646
+      Watering_r2_c5: 8460036022557144971
+      Watering_r2_c6: 6568914879971409304
+      Watering_r2_c7: 6325143377462349297
+      Watering_r2_c8: -885746128773815448
+      Watering_r2_c9: 1342720846575142019
+      Watering_r3_c0: 7385971709954977664
+      Watering_r3_c1: 217548293458937115
+      Watering_r3_c10: 7356216652603296255
+      Watering_r3_c11: 8414556098377868128
+      Watering_r3_c12: -4202021752148089916
+      Watering_r3_c13: 3546849704961045849
+      Watering_r3_c14: -1599907390839880028
+      Watering_r3_c15: -458966441620034253
+      Watering_r3_c16: -2192939589729582703
+      Watering_r3_c17: -6080861081366985993
+      Watering_r3_c18: 5208625911372822262
+      Watering_r3_c19: 2402885147895678756
+      Watering_r3_c2: -40177572126077158
+      Watering_r3_c3: 6679781441200277911
+      Watering_r3_c4: 2669521120622440158
+      Watering_r3_c5: 5163175807673363337
+      Watering_r3_c6: -7471683137681501404
+      Watering_r3_c7: 6899581313827832520
+      Watering_r3_c8: -6019961491312044372
+      Watering_r3_c9: 2003346994661075448
+      Watering_r4_c0: -5808499761372439488
+      Watering_r4_c1: -5768687138579932658
+      Watering_r4_c10: -3061765424858262461
+      Watering_r4_c11: 2296955027899093572
+      Watering_r4_c12: 3109229443144850964
+      Watering_r4_c13: 6661632109348759982
+      Watering_r4_c14: -552561716276192913
+      Watering_r4_c15: -8104868656607636878
+      Watering_r4_c16: -8242621445841460524
+      Watering_r4_c17: -4397098081035691106
+      Watering_r4_c18: -7555138932090924673
+      Watering_r4_c19: 6836278641606653778
+      Watering_r4_c2: 7305103809514626781
+      Watering_r4_c3: 4108200499976960266
+      Watering_r4_c4: 9012029494169969457
+      Watering_r4_c5: 2621705489184164165
+      Watering_r4_c6: 7002437045485606626
+      Watering_r4_c7: 3735474097751192069
+      Watering_r4_c8: 97878750631249570
+      Watering_r4_c9: 5222391740027115834
+      Watering_r5_c0: 8839364162283731200
+      Watering_r5_c1: -505797660077170988
+      Watering_r5_c10: 5502804563665365002
+      Watering_r5_c11: -2819735110681982161
+      Watering_r5_c12: 3678781650175718084
+      Watering_r5_c13: 1135700498064492419
+      Watering_r5_c14: 4029490958934169490
+      Watering_r5_c15: -5604348859169029181
+      Watering_r5_c16: -8701738072655838909
+      Watering_r5_c17: 444897818659363756
+      Watering_r5_c18: -7164471005163655692
+      Watering_r5_c19: -1389749967945321745
+      Watering_r5_c2: 3068366366811828224
+      Watering_r5_c3: 8458255534479112859
+      Watering_r5_c4: 7512878754225393087
+      Watering_r5_c5: -8164181625225193436
+      Watering_r5_c6: 3563903697904418457
+      Watering_r5_c7: 8974826624546778297
+      Watering_r5_c8: -4624306636729874630
+      Watering_r5_c9: -6475893707264675360
+      Watering_r6_c0: 942519971538637121
+      Watering_r6_c1: -7032232046193523997
+      Watering_r6_c10: 8705366495733705367
+      Watering_r6_c11: 7041885326200859779
+      Watering_r6_c12: -4987160369537490445
+      Watering_r6_c13: -6197297605360882396
+      Watering_r6_c14: 3748796801858176896
+      Watering_r6_c15: 8807448896712090894
+      Watering_r6_c16: -4063069580289335312
+      Watering_r6_c17: -5409190280079036073
+      Watering_r6_c18: -4191459010716108717
+      Watering_r6_c19: 2119997193033044348
+      Watering_r6_c2: 1574231999672341481
+      Watering_r6_c3: 1981707365309275160
+      Watering_r6_c4: -5481517210041458365
+      Watering_r6_c5: -7283993033110543289
+      Watering_r6_c6: 8707311876851318749
+      Watering_r6_c7: 1580772846473310258
+      Watering_r6_c8: 7681397120699316622
+      Watering_r6_c9: 618280579745657879
+      Watering_r7_c0: -7783209151445058656
+      Watering_r7_c1: 5135253156328761882
+      Watering_r7_c10: 7168231551432183540
+      Watering_r7_c11: 1837495886231431659
+      Watering_r7_c12: 3252543065820823210
+      Watering_r7_c13: -4573692120910350153
+      Watering_r7_c14: 7932355807867187468
+      Watering_r7_c15: -5402648857636295392
+      Watering_r7_c16: -6446130964830302385
+      Watering_r7_c17: -7053422952757986934
+      Watering_r7_c18: 2647504683188574295
+      Watering_r7_c19: 8306097030623301420
+      Watering_r7_c2: -5072140007429553217
+      Watering_r7_c3: 1297300710371517438
+      Watering_r7_c4: -3794741017677938874
+      Watering_r7_c5: 5500729851605389636
+      Watering_r7_c6: -7412982087781334027
+      Watering_r7_c7: 1448379338710244225
+      Watering_r7_c8: -6247992858145801639
+      Watering_r7_c9: -3221523461375658846
+      watering_0: 839453171164832311
+      watering_1: 8650567833414567933
+      watering_10: 2655080406607544896
+      watering_11: 4622589194935733775
+      watering_12: -1060810848916843536
+      watering_13: -5057054101863997656
+      watering_14: 4491376618079989827
+      watering_15: 6710720373731990973
+      watering_16: 4777900200072879098
+      watering_17: -8900421646168507504
+      watering_18: 6573854083483702305
+      watering_19: -5287857094193268575
+      watering_2: 4110465116182613876
+      watering_20: 6069290253426858719
+      watering_21: 7962501708540687181
+      watering_22: 8147170922921142233
+      watering_23: 3658194033795394863
+      watering_24: 7730837498960883514
+      watering_25: -4844267234726921919
+      watering_26: -104083034174262327
+      watering_27: 8725372031047108779
+      watering_28: 3093277543513057260
+      watering_29: 5831413225817121926
+      watering_3: 2394584386409037260
+      watering_30: -6093597640780515739
+      watering_31: 7726477950131462177
+      watering_4: -6649510211020555980
+      watering_5: 6696945401145681192
+      watering_6: -5491724536247040597
+      watering_7: 3401540205996777781
+      watering_8: 3838495996091141006
+      watering_9: -8814071213789748014
+      watering_r0_c0: 3222023567037397929
+      watering_r0_c1: -1569200344558532051
+      watering_r0_c10: 4972634845593700632
+      watering_r0_c11: -871057572627506014
+      watering_r0_c12: -1474750706772674424
+      watering_r0_c2: 8989541421966601241
+      watering_r0_c3: 2948225480228658229
+      watering_r0_c4: -8486724672481099094
+      watering_r0_c5: -3104496012407284531
+      watering_r0_c6: 1977987485223512302
+      watering_r0_c7: 1346936542697539780
+      watering_r0_c8: -702770623337665031
+      watering_r0_c9: 8731467001593433941
+      watering_r1_c0: -42016464962959709
+      watering_r1_c1: 1002039964400216465
+      watering_r1_c10: -7393507157254424572
+      watering_r1_c11: -3085285199623564395
+      watering_r1_c12: -8770556498753959076
+      watering_r1_c2: -4591403588173248489
+      watering_r1_c3: 2187817098922551397
+      watering_r1_c4: 7632727025801473620
+      watering_r1_c5: -4203398062213904993
+      watering_r1_c6: -8010546562853039511
+      watering_r1_c7: 6417078396353476004
+      watering_r1_c8: -5122694352039789709
+      watering_r1_c9: -1890066955429618257
+      watering_r2_c0: 3494659966694865309
+      watering_r2_c1: 2718938460719251689
+      watering_r2_c10: 2106680182831407217
+      watering_r2_c11: 5408164908351405129
+      watering_r2_c12: -5305078605986598999
+      watering_r2_c2: -5085737925309590940
+      watering_r2_c3: -1454306777648465110
+      watering_r2_c4: -3712777448679497767
+      watering_r2_c5: 3505685620873183402
+      watering_r2_c6: 3432811920946020911
+      watering_r2_c7: -7369533759793784925
+      watering_r2_c8: -8724728913222186297
+      watering_r2_c9: 1642157941533697005
+      watering_r3_c0: 7961942240737201443
+      watering_r3_c1: -7560509022601830840
+      watering_r3_c10: -225404190649286709
+      watering_r3_c11: 7539845593220574136
+      watering_r3_c12: -2207448087368501792
+      watering_r3_c2: 4743965292253583974
+      watering_r3_c3: -4567651395931534966
+      watering_r3_c4: -3045489509193217066
+      watering_r3_c5: 4325542618803919032
+      watering_r3_c6: 8360737274128349398
+      watering_r3_c7: -5243928287522933694
+      watering_r3_c8: 1551120068016856944
+      watering_r3_c9: 8913518434291605120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

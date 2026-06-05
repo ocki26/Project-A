@@ -1,0 +1,20 @@
+fileFormatVersion: 2guid: 31a262a3c26ac044eb9be53542d017abTextureImporter:  internalIDToNameTable:
+  - first:
+      213: 1976256844
+    second: Shadow_Hurt_r0_c0
+  - first:
+      213: -23246090
+    second: Shadow_Hurt_r0_c1
+  - first:
+      213: 1471850018
+    second: Shadow_Hurt_r0_c2
+  - first:
+      213: -149037804
+    second: Shadow_Hurt_r0_c3
+  - first:
+      213: -1706195018
+    second: Shadow_Hurt_r0_c4
+  - first:
+      213: 899074394
+    second: Shadow_Hurt_r0_c5
+  mipmapLimitGroupName:   pSDRemoveMatte: 0  userData:   assetBundleName:   assetBundleVariant: 

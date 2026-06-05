@@ -1,0 +1,1797 @@
+fileFormatVersion: 2
+guid: a02e6b8f0d5ff144995e0dd39fd34d88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1882347247711912902
+    second: run_0
+  - first:
+      213: 7439426567979852956
+    second: run_1
+  - first:
+      213: -2673560216460186399
+    second: run_2
+  - first:
+      213: -5822559823783948592
+    second: run_3
+  - first:
+      213: -4997308686002322044
+    second: run_4
+  - first:
+      213: -7808277857516635856
+    second: run_5
+  - first:
+      213: 2102408166121253023
+    second: run_6
+  - first:
+      213: -828024806730890176
+    second: run_7
+  - first:
+      213: 7319402618797355783
+    second: run_8
+  - first:
+      213: -5877058464083753606
+    second: run_9
+  - first:
+      213: 3003789169655790119
+    second: run_10
+  - first:
+      213: -6092536456907055262
+    second: run_11
+  - first:
+      213: -1445699202850245649
+    second: run_12
+  - first:
+      213: 907984458040544535
+    second: run_13
+  - first:
+      213: -4766322925986528201
+    second: run_14
+  - first:
+      213: -6854862752865071187
+    second: run_15
+  - first:
+      213: 3879836991898358431
+    second: run_16
+  - first:
+      213: 9202457461379119610
+    second: run_17
+  - first:
+      213: -1754890470619349162
+    second: run_18
+  - first:
+      213: 648780840753495446
+    second: run_19
+  - first:
+      213: 8627970810205435543
+    second: run_20
+  - first:
+      213: -7909159425575924447
+    second: run_21
+  - first:
+      213: 7513681151204646855
+    second: run_22
+  - first:
+      213: -7229719848496543997
+    second: run_23
+  - first:
+      213: -1095120907898008938
+    second: run_24
+  - first:
+      213: 5009934392725751624
+    second: run_25
+  - first:
+      213: -4387630390007428758
+    second: run_26
+  - first:
+      213: 2200832529092513949
+    second: run_27
+  - first:
+      213: -8813461055207606912
+    second: run_28
+  - first:
+      213: -3092210466297149792
+    second: run_29
+  - first:
+      213: 2864760106744397359
+    second: run_30
+  - first:
+      213: 6989817996749610671
+    second: run_31
+  - first:
+      213: 5024508040213362957
+    second: Run_r0_c0
+  - first:
+      213: 7394996426491915248
+    second: Run_r0_c1
+  - first:
+      213: 4599045355071147247
+    second: Run_r0_c2
+  - first:
+      213: -7251281578568188336
+    second: Run_r0_c3
+  - first:
+      213: -2519260965160360490
+    second: Run_r0_c4
+  - first:
+      213: -8247255944699469996
+    second: Run_r0_c5
+  - first:
+      213: 3785185642855554973
+    second: Run_r0_c6
+  - first:
+      213: -5910220596690933261
+    second: Run_r0_c7
+  - first:
+      213: 6582003176564794999
+    second: Run_r0_c8
+  - first:
+      213: 8844703346462938633
+    second: Run_r1_c0
+  - first:
+      213: -1449034020147096249
+    second: Run_r1_c1
+  - first:
+      213: 4248282466609540780
+    second: Run_r1_c2
+  - first:
+      213: 7965950183847089402
+    second: Run_r1_c3
+  - first:
+      213: 7873405047999166829
+    second: Run_r1_c4
+  - first:
+      213: -417333069715245712
+    second: Run_r1_c5
+  - first:
+      213: -2050954246015027789
+    second: Run_r1_c6
+  - first:
+      213: 4680889641221930523
+    second: Run_r1_c7
+  - first:
+      213: 1583307034740404489
+    second: Run_r1_c8
+  - first:
+      213: -5492884679436092565
+    second: Run_r2_c0
+  - first:
+      213: 6960542481818605283
+    second: Run_r2_c1
+  - first:
+      213: 605201010496152400
+    second: Run_r2_c2
+  - first:
+      213: -1167499627258061867
+    second: Run_r2_c3
+  - first:
+      213: -7889914537961648010
+    second: Run_r2_c4
+  - first:
+      213: 6451878531652860796
+    second: Run_r2_c5
+  - first:
+      213: 1930701301206116889
+    second: Run_r2_c6
+  - first:
+      213: -8402077036822186279
+    second: Run_r2_c7
+  - first:
+      213: -5271291799945224637
+    second: Run_r2_c8
+  - first:
+      213: -854999444885580732
+    second: Run_r3_c0
+  - first:
+      213: 3993973072158759140
+    second: Run_r3_c1
+  - first:
+      213: 3472975376025913865
+    second: Run_r3_c2
+  - first:
+      213: 8757184829549959069
+    second: Run_r3_c3
+  - first:
+      213: -3989888953663914691
+    second: Run_r3_c4
+  - first:
+      213: -2134600655508487693
+    second: Run_r3_c5
+  - first:
+      213: -5855144200582922717
+    second: Run_r3_c6
+  - first:
+      213: -3821685205514946185
+    second: Run_r3_c7
+  - first:
+      213: -2892069861891316214
+    second: Run_r3_c8
+  - first:
+      213: -6656732623114359266
+    second: Run_r0_c9
+  - first:
+      213: 142269096737970585
+    second: Run_r0_c10
+  - first:
+      213: -4704330166159402753
+    second: Run_r0_c11
+  - first:
+      213: 4152976037763354316
+    second: Run_r0_c12
+  - first:
+      213: 3458993893595303563
+    second: Run_r0_c13
+  - first:
+      213: -5887373138441193425
+    second: Run_r0_c14
+  - first:
+      213: 861096582280564867
+    second: Run_r0_c15
+  - first:
+      213: 611801397037962437
+    second: Run_r0_c16
+  - first:
+      213: -6407789447112944841
+    second: Run_r0_c17
+  - first:
+      213: -3025865263658889714
+    second: Run_r0_c18
+  - first:
+      213: 4374295932107809160
+    second: Run_r0_c19
+  - first:
+      213: 6608912712854835209
+    second: Run_r1_c9
+  - first:
+      213: -2903792738284975269
+    second: Run_r1_c10
+  - first:
+      213: 8428481037188829173
+    second: Run_r1_c11
+  - first:
+      213: -2472641114285235315
+    second: Run_r1_c12
+  - first:
+      213: 4435221133723021380
+    second: Run_r1_c13
+  - first:
+      213: -4577184745748316218
+    second: Run_r1_c14
+  - first:
+      213: -2445446714435732264
+    second: Run_r1_c15
+  - first:
+      213: -7248901730017225988
+    second: Run_r1_c16
+  - first:
+      213: -8112791608762962922
+    second: Run_r1_c17
+  - first:
+      213: 1566368279585957859
+    second: Run_r1_c18
+  - first:
+      213: 9013179334854953171
+    second: Run_r1_c19
+  - first:
+      213: -5290062586175212181
+    second: Run_r2_c9
+  - first:
+      213: 7565775425508895663
+    second: Run_r2_c10
+  - first:
+      213: 4763690659293394181
+    second: Run_r2_c11
+  - first:
+      213: -7000490716739994433
+    second: Run_r2_c12
+  - first:
+      213: -6705513458905687977
+    second: Run_r2_c13
+  - first:
+      213: -4143929391108203538
+    second: Run_r2_c14
+  - first:
+      213: 8033320305918339597
+    second: Run_r2_c15
+  - first:
+      213: -7676299504558701822
+    second: Run_r2_c16
+  - first:
+      213: 2662279848921921768
+    second: Run_r2_c17
+  - first:
+      213: -7196794525342195223
+    second: Run_r2_c18
+  - first:
+      213: 6614796263840661736
+    second: Run_r2_c19
+  - first:
+      213: -4899056106305931408
+    second: Run_r3_c9
+  - first:
+      213: 759874462577642134
+    second: Run_r3_c10
+  - first:
+      213: 3098501124452240980
+    second: Run_r3_c11
+  - first:
+      213: 873087087461768237
+    second: Run_r3_c12
+  - first:
+      213: 1550968725359615724
+    second: Run_r3_c13
+  - first:
+      213: -7871722715318551482
+    second: Run_r3_c14
+  - first:
+      213: 521028474535999074
+    second: Run_r3_c15
+  - first:
+      213: 1475629655530391055
+    second: Run_r3_c16
+  - first:
+      213: -1752316283300650670
+    second: Run_r3_c17
+  - first:
+      213: -6078511372994303113
+    second: Run_r3_c18
+  - first:
+      213: 9074103101300814585
+    second: Run_r3_c19
+  - first:
+      213: 8665501004389428467
+    second: Run_r4_c0
+  - first:
+      213: 6684758884071010309
+    second: Run_r4_c1
+  - first:
+      213: -7116350520533296448
+    second: Run_r4_c2
+  - first:
+      213: -6541613506704597676
+    second: Run_r4_c3
+  - first:
+      213: -4314267322582457037
+    second: Run_r4_c4
+  - first:
+      213: 5065336456349553661
+    second: Run_r4_c5
+  - first:
+      213: 8017791949135924903
+    second: Run_r4_c6
+  - first:
+      213: 517587933428268387
+    second: Run_r4_c7
+  - first:
+      213: -8570371221955331009
+    second: Run_r4_c8
+  - first:
+      213: -5805460181682223052
+    second: Run_r4_c9
+  - first:
+      213: -940851852431848783
+    second: Run_r4_c10
+  - first:
+      213: -4953925073448367191
+    second: Run_r4_c11
+  - first:
+      213: 8564262077483255473
+    second: Run_r4_c12
+  - first:
+      213: 1818822196386797388
+    second: Run_r4_c13
+  - first:
+      213: 8689743517082006484
+    second: Run_r4_c14
+  - first:
+      213: 7148539591377872298
+    second: Run_r4_c15
+  - first:
+      213: -4436101813437553159
+    second: Run_r4_c16
+  - first:
+      213: 973602473542575438
+    second: Run_r4_c17
+  - first:
+      213: 7888057171229786797
+    second: Run_r4_c18
+  - first:
+      213: -767254795734695007
+    second: Run_r4_c19
+  - first:
+      213: 2816687866118094604
+    second: Run_r5_c0
+  - first:
+      213: 7482912016085453032
+    second: Run_r5_c1
+  - first:
+      213: -4094678571991476034
+    second: Run_r5_c2
+  - first:
+      213: 2086890246774276845
+    second: Run_r5_c3
+  - first:
+      213: 705086331144551642
+    second: Run_r5_c4
+  - first:
+      213: 1791596984717572012
+    second: Run_r5_c5
+  - first:
+      213: -2882899741363944220
+    second: Run_r5_c6
+  - first:
+      213: 489135497976366669
+    second: Run_r5_c7
+  - first:
+      213: 2447490964382124730
+    second: Run_r5_c8
+  - first:
+      213: 4914845165616037588
+    second: Run_r5_c9
+  - first:
+      213: -4317181242369584589
+    second: Run_r5_c10
+  - first:
+      213: -8091175993743261357
+    second: Run_r5_c11
+  - first:
+      213: 3543293955151559423
+    second: Run_r5_c12
+  - first:
+      213: -368811838908784793
+    second: Run_r5_c13
+  - first:
+      213: -5363185875118993316
+    second: Run_r5_c14
+  - first:
+      213: 32786851166303730
+    second: Run_r5_c15
+  - first:
+      213: 4369901892464373528
+    second: Run_r5_c16
+  - first:
+      213: 6818443921811307639
+    second: Run_r5_c17
+  - first:
+      213: 3539520587516969989
+    second: Run_r5_c18
+  - first:
+      213: -4839577202494391280
+    second: Run_r5_c19
+  - first:
+      213: 4915654350512852
+    second: Run_r6_c0
+  - first:
+      213: 2487791248448220954
+    second: Run_r6_c1
+  - first:
+      213: -2163799106552530542
+    second: Run_r6_c2
+  - first:
+      213: 4120044935528868842
+    second: Run_r6_c3
+  - first:
+      213: 2222781871262529833
+    second: Run_r6_c4
+  - first:
+      213: -6572658558061020434
+    second: Run_r6_c5
+  - first:
+      213: -2742138019895568111
+    second: Run_r6_c6
+  - first:
+      213: 6946555503815440902
+    second: Run_r6_c7
+  - first:
+      213: 1188813711711590824
+    second: Run_r6_c8
+  - first:
+      213: 7916625271791280803
+    second: Run_r6_c9
+  - first:
+      213: -1552840771478534785
+    second: Run_r6_c10
+  - first:
+      213: -5839761972415982167
+    second: Run_r6_c11
+  - first:
+      213: 5335507180464021230
+    second: Run_r6_c12
+  - first:
+      213: 1615069181834923659
+    second: Run_r6_c13
+  - first:
+      213: -5739250958666531080
+    second: Run_r6_c14
+  - first:
+      213: 82989973416631025
+    second: Run_r6_c15
+  - first:
+      213: -3650260724452272562
+    second: Run_r6_c16
+  - first:
+      213: 8496532570305725697
+    second: Run_r6_c17
+  - first:
+      213: 4002260939563173271
+    second: Run_r6_c18
+  - first:
+      213: -3784306131063631226
+    second: Run_r6_c19
+  - first:
+      213: -1792914924097829454
+    second: Run_r7_c0
+  - first:
+      213: -7024906707288583494
+    second: Run_r7_c1
+  - first:
+      213: 6901571110512942434
+    second: Run_r7_c2
+  - first:
+      213: 7612306649021084737
+    second: Run_r7_c3
+  - first:
+      213: 6385198010733000111
+    second: Run_r7_c4
+  - first:
+      213: 9057135097796944361
+    second: Run_r7_c5
+  - first:
+      213: -7677916563707241416
+    second: Run_r7_c6
+  - first:
+      213: 7493891624803323988
+    second: Run_r7_c7
+  - first:
+      213: 5684904920400562106
+    second: Run_r7_c8
+  - first:
+      213: -1524083909494627819
+    second: Run_r7_c9
+  - first:
+      213: 9121937325422086432
+    second: Run_r7_c10
+  - first:
+      213: 5178893642532266589
+    second: Run_r7_c11
+  - first:
+      213: 7464021308989534854
+    second: Run_r7_c12
+  - first:
+      213: 1474491495487892328
+    second: Run_r7_c13
+  - first:
+      213: 438618733559896930
+    second: Run_r7_c14
+  - first:
+      213: -6224981679129914005
+    second: Run_r7_c15
+  - first:
+      213: -7298486271084619724
+    second: Run_r7_c16
+  - first:
+      213: -5432889684438344238
+    second: Run_r7_c17
+  - first:
+      213: 2715072447560858448
+    second: Run_r7_c18
+  - first:
+      213: 324269879730241923
+    second: Run_r7_c19
+  - first:
+      213: -1254171645289034810
+    second: run_r0_c0
+  - first:
+      213: 1893818077480735695
+    second: run_r0_c1
+  - first:
+      213: 7708029916361978720
+    second: run_r0_c2
+  - first:
+      213: -730193621930649463
+    second: run_r0_c3
+  - first:
+      213: 2832811302758514635
+    second: run_r0_c4
+  - first:
+      213: -536172234078668223
+    second: run_r0_c5
+  - first:
+      213: 2447393847923079046
+    second: run_r0_c6
+  - first:
+      213: 6887204464363349642
+    second: run_r0_c7
+  - first:
+      213: -258508217059809922
+    second: run_r0_c8
+  - first:
+      213: 5950164843822615376
+    second: run_r0_c9
+  - first:
+      213: 3939910355108426665
+    second: run_r0_c10
+  - first:
+      213: 2575371975196237797
+    second: run_r0_c11
+  - first:
+      213: 7225886257006334369
+    second: run_r0_c12
+  - first:
+      213: 7099005042037267458
+    second: run_r1_c0
+  - first:
+      213: 4248925194402423759
+    second: run_r1_c1
+  - first:
+      213: 5009399243686888035
+    second: run_r1_c2
+  - first:
+      213: 7465152273149645897
+    second: run_r1_c3
+  - first:
+      213: -8982508887825581783
+    second: run_r1_c4
+  - first:
+      213: -7978163260013800862
+    second: run_r1_c5
+  - first:
+      213: -6003898262631994079
+    second: run_r1_c6
+  - first:
+      213: -553876609846763387
+    second: run_r1_c7
+  - first:
+      213: -555698114218851801
+    second: run_r1_c8
+  - first:
+      213: 4917103921985365603
+    second: run_r1_c9
+  - first:
+      213: -7939055091078151444
+    second: run_r1_c10
+  - first:
+      213: 2703881647981260781
+    second: run_r1_c11
+  - first:
+      213: 6613808805183478590
+    second: run_r1_c12
+  - first:
+      213: 6222479672112725864
+    second: run_r2_c0
+  - first:
+      213: 6692279433616408988
+    second: run_r2_c1
+  - first:
+      213: -6560455539660712535
+    second: run_r2_c2
+  - first:
+      213: 4981509770118531323
+    second: run_r2_c3
+  - first:
+      213: -121777074884169990
+    second: run_r2_c4
+  - first:
+      213: 1394555145130019484
+    second: run_r2_c5
+  - first:
+      213: -233751065142913890
+    second: run_r2_c6
+  - first:
+      213: -6815265052912331487
+    second: run_r2_c7
+  - first:
+      213: 4126870933556086453
+    second: run_r2_c8
+  - first:
+      213: -6673949310216142473
+    second: run_r2_c9
+  - first:
+      213: 6030857025842573744
+    second: run_r2_c10
+  - first:
+      213: 6388723831120814062
+    second: run_r2_c11
+  - first:
+      213: 7605480744972699792
+    second: run_r2_c12
+  - first:
+      213: -6387005572780169474
+    second: run_r3_c0
+  - first:
+      213: 4028712784966858485
+    second: run_r3_c1
+  - first:
+      213: 7990606345945267195
+    second: run_r3_c2
+  - first:
+      213: 7308740699098017477
+    second: run_r3_c3
+  - first:
+      213: -5546258939659668433
+    second: run_r3_c4
+  - first:
+      213: -5830462640793693297
+    second: run_r3_c5
+  - first:
+      213: -3212428485619397665
+    second: run_r3_c6
+  - first:
+      213: 8597390716395917071
+    second: run_r3_c7
+  - first:
+      213: -6630895819888652860
+    second: run_r3_c8
+  - first:
+      213: -7230686895320195009
+    second: run_r3_c9
+  - first:
+      213: -7662719681299434928
+    second: run_r3_c10
+  - first:
+      213: -5877674647237638863
+    second: run_r3_c11
+  - first:
+      213: 8085722351584073222
+    second: run_r3_c12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run_r0_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09f20c0173aab540800000000000000
+      internalID: 5024508040213362957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb655cc11e40a660800000000000000
+      internalID: 7394996426491915248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec0de6326713df30800000000000000
+      internalID: 4599045355071147247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05efb1fb2d54e5b90800000000000000
+      internalID: -7251281578568188336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5eb13ff79c90dd0800000000000000
+      internalID: -2519260965160360490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f95740a6cdb8d80800000000000000
+      internalID: -8247255944699469996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f5053994ea78430800000000000000
+      internalID: 3785185642855554973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r0_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f92a065eadaafda0800000000000000
+      internalID: -5910220596690933261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906d1a515d2beba70800000000000000
+      internalID: 8844703346462938633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7451da96c3ff3ebe0800000000000000
+      internalID: -1449034020147096249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae28cf156ee4fa30800000000000000
+      internalID: 4248282466609540780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4d9ae9c7dbc8e60800000000000000
+      internalID: 7965950183847089402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69f1c21d24f34d60800000000000000
+      internalID: 7873405047999166829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0757992c8c5553af0800000000000000
+      internalID: -417333069715245712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5f1bbcafb8983e0800000000000000
+      internalID: -2050954246015027789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r1_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb6d9045cd5f040800000000000000
+      internalID: 4680889641221930523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bb6029c7a55c3b0800000000000000
+      internalID: -5492884679436092565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e650d83280d89060800000000000000
+      internalID: 6960542481818605283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053a450dc1b166800800000000000000
+      internalID: 605201010496152400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbd1e156453ccfe0800000000000000
+      internalID: -1167499627258061867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701b90c784618290800000000000000
+      internalID: -7889914537961648010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b332d475da98950800000000000000
+      internalID: 6451878531652860796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a66c9aa9a3bca10800000000000000
+      internalID: 1930701301206116889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r2_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d63fbc7373d56b80800000000000000
+      internalID: -8402077036822186279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444507ce88e6224f0800000000000000
+      internalID: -854999444885580732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e89f7029517d6730800000000000000
+      internalID: 3993973072158759140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a04b134bc723030800000000000000
+      internalID: 3472975376025913865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97d3c57435c78970800000000000000
+      internalID: 8757184829549959069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d7b9fc22111a8c0800000000000000
+      internalID: -3989888953663914691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1c91f63006062e0800000000000000
+      internalID: -2134600655508487693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ef0971f595ebea0800000000000000
+      internalID: -5855144200582922717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_r3_c7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797ae1cd85a6fac0800000000000000
+      internalID: -3821685205514946185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Run_r0_c0: 5024508040213362957
+      Run_r0_c1: 7394996426491915248
+      Run_r0_c10: 142269096737970585
+      Run_r0_c11: -4704330166159402753
+      Run_r0_c12: 4152976037763354316
+      Run_r0_c13: 3458993893595303563
+      Run_r0_c14: -5887373138441193425
+      Run_r0_c15: 861096582280564867
+      Run_r0_c16: 611801397037962437
+      Run_r0_c17: -6407789447112944841
+      Run_r0_c18: -3025865263658889714
+      Run_r0_c19: 4374295932107809160
+      Run_r0_c2: 4599045355071147247
+      Run_r0_c3: -7251281578568188336
+      Run_r0_c4: -2519260965160360490
+      Run_r0_c5: -8247255944699469996
+      Run_r0_c6: 3785185642855554973
+      Run_r0_c7: -5910220596690933261
+      Run_r0_c8: 6582003176564794999
+      Run_r0_c9: -6656732623114359266
+      Run_r1_c0: 8844703346462938633
+      Run_r1_c1: -1449034020147096249
+      Run_r1_c10: -2903792738284975269
+      Run_r1_c11: 8428481037188829173
+      Run_r1_c12: -2472641114285235315
+      Run_r1_c13: 4435221133723021380
+      Run_r1_c14: -4577184745748316218
+      Run_r1_c15: -2445446714435732264
+      Run_r1_c16: -7248901730017225988
+      Run_r1_c17: -8112791608762962922
+      Run_r1_c18: 1566368279585957859
+      Run_r1_c19: 9013179334854953171
+      Run_r1_c2: 4248282466609540780
+      Run_r1_c3: 7965950183847089402
+      Run_r1_c4: 7873405047999166829
+      Run_r1_c5: -417333069715245712
+      Run_r1_c6: -2050954246015027789
+      Run_r1_c7: 4680889641221930523
+      Run_r1_c8: 1583307034740404489
+      Run_r1_c9: 6608912712854835209
+      Run_r2_c0: -5492884679436092565
+      Run_r2_c1: 6960542481818605283
+      Run_r2_c10: 7565775425508895663
+      Run_r2_c11: 4763690659293394181
+      Run_r2_c12: -7000490716739994433
+      Run_r2_c13: -6705513458905687977
+      Run_r2_c14: -4143929391108203538
+      Run_r2_c15: 8033320305918339597
+      Run_r2_c16: -7676299504558701822
+      Run_r2_c17: 2662279848921921768
+      Run_r2_c18: -7196794525342195223
+      Run_r2_c19: 6614796263840661736
+      Run_r2_c2: 605201010496152400
+      Run_r2_c3: -1167499627258061867
+      Run_r2_c4: -7889914537961648010
+      Run_r2_c5: 6451878531652860796
+      Run_r2_c6: 1930701301206116889
+      Run_r2_c7: -8402077036822186279
+      Run_r2_c8: -5271291799945224637
+      Run_r2_c9: -5290062586175212181
+      Run_r3_c0: -854999444885580732
+      Run_r3_c1: 3993973072158759140
+      Run_r3_c10: 759874462577642134
+      Run_r3_c11: 3098501124452240980
+      Run_r3_c12: 873087087461768237
+      Run_r3_c13: 1550968725359615724
+      Run_r3_c14: -7871722715318551482
+      Run_r3_c15: 521028474535999074
+      Run_r3_c16: 1475629655530391055
+      Run_r3_c17: -1752316283300650670
+      Run_r3_c18: -6078511372994303113
+      Run_r3_c19: 9074103101300814585
+      Run_r3_c2: 3472975376025913865
+      Run_r3_c3: 8757184829549959069
+      Run_r3_c4: -3989888953663914691
+      Run_r3_c5: -2134600655508487693
+      Run_r3_c6: -5855144200582922717
+      Run_r3_c7: -3821685205514946185
+      Run_r3_c8: -2892069861891316214
+      Run_r3_c9: -4899056106305931408
+      Run_r4_c0: 8665501004389428467
+      Run_r4_c1: 6684758884071010309
+      Run_r4_c10: -940851852431848783
+      Run_r4_c11: -4953925073448367191
+      Run_r4_c12: 8564262077483255473
+      Run_r4_c13: 1818822196386797388
+      Run_r4_c14: 8689743517082006484
+      Run_r4_c15: 7148539591377872298
+      Run_r4_c16: -4436101813437553159
+      Run_r4_c17: 973602473542575438
+      Run_r4_c18: 7888057171229786797
+      Run_r4_c19: -767254795734695007
+      Run_r4_c2: -7116350520533296448
+      Run_r4_c3: -6541613506704597676
+      Run_r4_c4: -4314267322582457037
+      Run_r4_c5: 5065336456349553661
+      Run_r4_c6: 8017791949135924903
+      Run_r4_c7: 517587933428268387
+      Run_r4_c8: -8570371221955331009
+      Run_r4_c9: -5805460181682223052
+      Run_r5_c0: 2816687866118094604
+      Run_r5_c1: 7482912016085453032
+      Run_r5_c10: -4317181242369584589
+      Run_r5_c11: -8091175993743261357
+      Run_r5_c12: 3543293955151559423
+      Run_r5_c13: -368811838908784793
+      Run_r5_c14: -5363185875118993316
+      Run_r5_c15: 32786851166303730
+      Run_r5_c16: 4369901892464373528
+      Run_r5_c17: 6818443921811307639
+      Run_r5_c18: 3539520587516969989
+      Run_r5_c19: -4839577202494391280
+      Run_r5_c2: -4094678571991476034
+      Run_r5_c3: 2086890246774276845
+      Run_r5_c4: 705086331144551642
+      Run_r5_c5: 1791596984717572012
+      Run_r5_c6: -2882899741363944220
+      Run_r5_c7: 489135497976366669
+      Run_r5_c8: 2447490964382124730
+      Run_r5_c9: 4914845165616037588
+      Run_r6_c0: 4915654350512852
+      Run_r6_c1: 2487791248448220954
+      Run_r6_c10: -1552840771478534785
+      Run_r6_c11: -5839761972415982167
+      Run_r6_c12: 5335507180464021230
+      Run_r6_c13: 1615069181834923659
+      Run_r6_c14: -5739250958666531080
+      Run_r6_c15: 82989973416631025
+      Run_r6_c16: -3650260724452272562
+      Run_r6_c17: 8496532570305725697
+      Run_r6_c18: 4002260939563173271
+      Run_r6_c19: -3784306131063631226
+      Run_r6_c2: -2163799106552530542
+      Run_r6_c3: 4120044935528868842
+      Run_r6_c4: 2222781871262529833
+      Run_r6_c5: -6572658558061020434
+      Run_r6_c6: -2742138019895568111
+      Run_r6_c7: 6946555503815440902
+      Run_r6_c8: 1188813711711590824
+      Run_r6_c9: 7916625271791280803
+      Run_r7_c0: -1792914924097829454
+      Run_r7_c1: -7024906707288583494
+      Run_r7_c10: 9121937325422086432
+      Run_r7_c11: 5178893642532266589
+      Run_r7_c12: 7464021308989534854
+      Run_r7_c13: 1474491495487892328
+      Run_r7_c14: 438618733559896930
+      Run_r7_c15: -6224981679129914005
+      Run_r7_c16: -7298486271084619724
+      Run_r7_c17: -5432889684438344238
+      Run_r7_c18: 2715072447560858448
+      Run_r7_c19: 324269879730241923
+      Run_r7_c2: 6901571110512942434
+      Run_r7_c3: 7612306649021084737
+      Run_r7_c4: 6385198010733000111
+      Run_r7_c5: 9057135097796944361
+      Run_r7_c6: -7677916563707241416
+      Run_r7_c7: 7493891624803323988
+      Run_r7_c8: 5684904920400562106
+      Run_r7_c9: -1524083909494627819
+      run_0: -1882347247711912902
+      run_1: 7439426567979852956
+      run_10: 3003789169655790119
+      run_11: -6092536456907055262
+      run_12: -1445699202850245649
+      run_13: 907984458040544535
+      run_14: -4766322925986528201
+      run_15: -6854862752865071187
+      run_16: 3879836991898358431
+      run_17: 9202457461379119610
+      run_18: -1754890470619349162
+      run_19: 648780840753495446
+      run_2: -2673560216460186399
+      run_20: 8627970810205435543
+      run_21: -7909159425575924447
+      run_22: 7513681151204646855
+      run_23: -7229719848496543997
+      run_24: -1095120907898008938
+      run_25: 5009934392725751624
+      run_26: -4387630390007428758
+      run_27: 2200832529092513949
+      run_28: -8813461055207606912
+      run_29: -3092210466297149792
+      run_3: -5822559823783948592
+      run_30: 2864760106744397359
+      run_31: 6989817996749610671
+      run_4: -4997308686002322044
+      run_5: -7808277857516635856
+      run_6: 2102408166121253023
+      run_7: -828024806730890176
+      run_8: 7319402618797355783
+      run_9: -5877058464083753606
+      run_r0_c0: -1254171645289034810
+      run_r0_c1: 1893818077480735695
+      run_r0_c10: 3939910355108426665
+      run_r0_c11: 2575371975196237797
+      run_r0_c12: 7225886257006334369
+      run_r0_c2: 7708029916361978720
+      run_r0_c3: -730193621930649463
+      run_r0_c4: 2832811302758514635
+      run_r0_c5: -536172234078668223
+      run_r0_c6: 2447393847923079046
+      run_r0_c7: 6887204464363349642
+      run_r0_c8: -258508217059809922
+      run_r0_c9: 5950164843822615376
+      run_r1_c0: 7099005042037267458
+      run_r1_c1: 4248925194402423759
+      run_r1_c10: -7939055091078151444
+      run_r1_c11: 2703881647981260781
+      run_r1_c12: 6613808805183478590
+      run_r1_c2: 5009399243686888035
+      run_r1_c3: 7465152273149645897
+      run_r1_c4: -8982508887825581783
+      run_r1_c5: -7978163260013800862
+      run_r1_c6: -6003898262631994079
+      run_r1_c7: -553876609846763387
+      run_r1_c8: -555698114218851801
+      run_r1_c9: 4917103921985365603
+      run_r2_c0: 6222479672112725864
+      run_r2_c1: 6692279433616408988
+      run_r2_c10: 6030857025842573744
+      run_r2_c11: 6388723831120814062
+      run_r2_c12: 7605480744972699792
+      run_r2_c2: -6560455539660712535
+      run_r2_c3: 4981509770118531323
+      run_r2_c4: -121777074884169990
+      run_r2_c5: 1394555145130019484
+      run_r2_c6: -233751065142913890
+      run_r2_c7: -6815265052912331487
+      run_r2_c8: 4126870933556086453
+      run_r2_c9: -6673949310216142473
+      run_r3_c0: -6387005572780169474
+      run_r3_c1: 4028712784966858485
+      run_r3_c10: -7662719681299434928
+      run_r3_c11: -5877674647237638863
+      run_r3_c12: 8085722351584073222
+      run_r3_c2: 7990606345945267195
+      run_r3_c3: 7308740699098017477
+      run_r3_c4: -5546258939659668433
+      run_r3_c5: -5830462640793693297
+      run_r3_c6: -3212428485619397665
+      run_r3_c7: 8597390716395917071
+      run_r3_c8: -6630895819888652860
+      run_r3_c9: -7230686895320195009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

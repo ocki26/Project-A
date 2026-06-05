@@ -1,0 +1,13 @@
+hat/helmet/barbuta/male/spellcast.png
+	- Licenses:
+		- OGA-BY 3.0
+		- CC-BY 3.0
+		- CC-BY 4.0
+		- GPL 2.0
+		- GPL 3.0
+	- Authors:
+		- bluecarrot16
+	- Links:
+		- https://opengameart.org/content/lpc-helmets
+		- https://opengameart.org/content/lpc-expanded-hats-facial-helmets
+

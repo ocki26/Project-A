@@ -1,0 +1,27 @@
+# Rules and Guidelines for "Tool Tự Động Animation" Project
+
+You are Antigravity, a coding assistant working on this Unity 2D Top-Down game project. Follow these rules strictly for all file creations, edits, and Unity architecture designs:
+
+## 1. 2D Top-Down Y-Sorting
+- **Sorting Axis**: The project uses custom axis sorting (`Y: 1`, i.e., `new Vector3(0f, 1f, 0f)`) to handle rendering depth.
+- **Pivots**: All environment sprites (trees, grass, rocks) and entity sprites (player, enemies) must have their pivots set to the bottom (`Bottom` or `Bottom Center`, `Y: 0` or custom `Y: 0.05f` to align feet correctly with the ground).
+- **Sorting Script**: If sorting fails in a scene, ensure `LPC_ForceYSorting` is attached to the active `Main Camera`.
+- **Multi-Sprite Characters**: Use `Sorting Group` on the root GameObject of multi-sprite characters to prevent sorting breakdown of child body parts.
+
+## 2. Unity 6 Tileset Workflow
+- **No Legacy Grid Tiles**: Do not create separate `.asset` files for every single tile in new biomes.
+- **Tileset Asset**: For any new map packs or biomes, use the new Unity 6 `.tileset` asset.
+- **Folder Structure**:
+  - Store art packs under `Assets/Arsetmap/[Pack_Name]/`
+  - Sprites go under `Assets/Arsetmap/[Pack_Name]/Sprites/` (or raw inside folder)
+  - The `.tileset` asset must be created inside `Assets/Arsetmap/[Pack_Name]/Tilesets/[Sanitized_Pack_Name]_TileSet.tileset`
+- **Performance Settings**:
+  - Always check/enable **Create Atlas** in the `.tileset` settings.
+  - Set **Filter Mode** to `Point (no filter)` and **Compression** to `None` for crisp pixel art.
+
+## 3. Enemy AI & Damage Loops
+- Avoid endless animation stun-locks. During damage reactions, ensure enemies cannot get stun-locked by DoT (Damage over Time) attacks. A cooldown or state flag (like `isHurt` check) must protect state transitions.
+
+## 4. Code Quality & Integration
+- Maintain all existing Unity editor extensions (`LPCAnimationImporter.cs`, `LPCBatchSpriteSlicer.cs`, `UnityMCPBridge.cs`).
+- Always check the `Temp/unity-mcp-port.txt` if communicating manually, or use `codegraph_*` / `unity` MCP tools when available.

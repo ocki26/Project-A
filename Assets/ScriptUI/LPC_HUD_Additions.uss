@@ -1,0 +1,271 @@
+/* ══════════════════════════════════════════════════════════════════
+   LPC_HUD_Additions.uss — Premium Gothic Dark Dungeon UI Skin
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ─── HUD INVENTORY BUTTON ─────────────────────────────────────── */
+#HUD_InventoryBtn {
+    width: 52px;
+    height: 52px;
+    background-color: #181A1F; /* Tấm thép rèn tối */
+    border-width: 2px;
+    border-color: #3D4148; /* Viền sắt mài mòn */
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.12s;
+    transition-property: background-color, border-color, scale;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+#HUD_InventoryBtn:hover {
+    background-color: #23272F;
+    border-color: #A30000; /* Viền rực sắc đỏ máu khi rà chuột */
+    scale: 1.08;
+    box-shadow: 0 0 8px rgba(163, 0, 0, 0.6);
+}
+
+#HUD_InventoryBtn:active {
+    scale: 0.94;
+    background-color: #0E0F12;
+}
+
+#HUD_InventoryBtn.has-new-item {
+    border-color: #A30000;
+}
+
+/* ─── HUD GOLD ROW ──────────────────────────────────────────────── */
+#HUD_GoldRow {
+    flex-direction: row;
+    align-items: center;
+    background-color: #101216; /* Hộp sắt tối màu đựng tiền */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 6px 14px;
+}
+
+/* ─── WEIGHT BAR OVERLOAD STATES ────────────────────────────────── */
+.weight-bar-fill--warning {
+    background-color: #C5A059;
+}
+.weight-bar-fill--overload {
+    background-color: #A30000;
+}
+
+/* ─── INVENTORY GRID EMPTY STATE ────────────────────────────────── */
+.inv-empty-label {
+    color: #4D535E; /* Màu sắt rỉ sét mờ */
+    font-size: 13px;
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    align-self: center;
+}
+
+/* ─── DETAIL PANEL — BUTTON STATES ─────────────────────────────── */
+.action-btn--disabled {
+    opacity: 0.35;
+}
+
+/* ─── FILTER TAB ANIMATION ──────────────────────────────────────── */
+.filter-tab {
+    transition-duration: 0.12s;
+    transition-property: color, border-bottom-color, background-color;
+}
+
+.filter-active {
+    background-color: rgba(163, 0, 0, 0.12); /* Ánh đỏ ngục tối khi kích hoạt */
+}
+
+.equip-slot:hover .slot-type {
+    color: #A5B8D0;
+}
+
+.inv-item:hover .inv-item-name {
+    color: #FFF3E0;
+}
+
+/* ─── DETAILED RPG STATS PANEL STYLING ──────────────────────────── */
+.stats-scroll-container {
+    height: 180px;
+    margin-top: 10px;
+    background-color: #101216; /* Hộp sắt đen chứa chỉ số */
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 8px;
+}
+
+.stats-group-header {
+    font-size: 10px;
+    color: #C5A059; /* Vàng cổ kính, sờn cũ */
+    -unity-font-style: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+    border-bottom-width: 2px;
+    border-bottom-color: #272A30;
+    padding-bottom: 2px;
+}
+
+.stat-detail-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.stat-detail-name {
+    font-size: 10px;
+    color: #8C95A5; /* Chữ xám thép lạnh */
+}
+
+.stat-detail-value {
+    font-size: 11px;
+    -unity-font-style: bold;
+    color: #E2E8F0;
+}
+
+.stat-detail-value.str { color: #E84A5F; }
+.stat-detail-value.dex { color: #4EA8DE; }
+.stat-detail-value.int { color: #A06AF9; }
+.stat-detail-value.vit { color: #FF8A5C; }
+.stat-detail-value.agi { color: #FFD166; }
+.stat-detail-value.luk { color: #FF758F; }
+
+.stat-detail-value.atk { color: #A30000; -unity-font-style: bold; } /* Đỏ máu hiểm họa */
+.stat-detail-value.matk { color: #3b82f6; -unity-font-style: bold; }
+.stat-detail-value.def { color: #8C95A5; }
+.stat-detail-value.mdef { color: #D0C0D0; }
+.stat-detail-value.spd { color: #10B981; }
+
+.stat-detail-value.crit { color: #F59E0B; }
+.stat-detail-value.pen { color: #8B5CF6; }
+.stat-detail-value.heal { color: #10B981; }
+.stat-detail-value.dodge { color: #06B6D4; }
+
+/* ─── OBSIDIAN PANEL FOR MAIN WINDOW ───────────────────────────── */
+.main-window {
+    background-color: #0E0F12; /* Màu obsidian/sắt nguội đen kịt */
+    border-width: 4px; /* Viền sắt dày dặn */
+    border-color: #3D4148; /* Viền xám sắt sần sùi */
+    border-radius: 0;
+    transition-duration: 0.25s;
+    transition-property: scale;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.95);
+}
+
+/* ─── CUSTOM RETRO SLATE SCROLLBAR ──────────────────────────────── */
+.unity-scroller .unity-slider__tracker {
+    background-color: #101216;
+    border-radius: 0;
+}
+
+.unity-scroller .unity-slider__dragger {
+    background-color: #A30000; /* Khối màu đỏ máu Gothic làm thanh trượt */
+    border-radius: 0;
+    box-shadow: 0 0 6px rgba(163, 0, 0, 0.8);
+}
+
+/* ─── STAT POINTS & DISTRIBUTION BUTTONS ─── */
+.stat-points-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0E0F12;
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+.stat-points-label {
+    color: #C5A059;
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+.stat-points-value {
+    color: #FFD700;
+    font-size: 11px;
+    -unity-font-style: bold;
+}
+.stat-add-btn {
+    width: 16px;
+    height: 16px;
+    background-color: #1B4D3E; /* Tông đồng xanh lá thẫm */
+    border-width: 1px;
+    border-color: #3D4148;
+    border-radius: 0;
+    color: #FFF3E0;
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-left: 6px;
+    padding: 0;
+    transition-duration: 0.1s;
+}
+.stat-add-btn:hover {
+    background-color: #276E59;
+    border-color: #A30000;
+    scale: 1.1;
+}
+.stat-add-btn:active {
+    background-color: #0E3025;
+    scale: 0.9;
+}
+
+/* ─── SAVE SLOT POPUP ─── */
+.save-slot-popup {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background-color: rgba(6, 7, 9, 0.85);
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.save-slot-window {
+    width: 320px;
+    background-color: #16181F;
+    border-width: 3px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 20px;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.95);
+}
+.slot-btn {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #101216;
+    border-width: 2px;
+    border-color: #3D4148;
+    border-radius: 0;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    height: 48px;
+    transition-duration: 0.1s;
+}
+.slot-btn:hover {
+    background-color: #1F2228;
+    border-color: #A30000;
+    scale: 1.02;
+}
+.slot-btn:active {
+    scale: 0.98;
+}
+.slot-btn-title {
+    color: #C5A059;
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: middle-center;
+}
+.slot-btn-info {
+    color: #8C95A5;
+    font-size: 9px;
+    -unity-text-align: middle-center;
+}

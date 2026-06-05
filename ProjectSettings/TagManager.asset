@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Wall
+  - Water
+  - UI
+  - Enemy
+  - RoomTrigger
+  - player
+  - emnermy
+  - Environment
+  - ShadowProxy
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map_Floor
+    uniqueID: 2090264917
+    locked: 0
+  - name: Map_FloorDetail
+    uniqueID: 654387151
+    locked: 0
+  - name: Map_Walls
+    uniqueID: 1938585937
+    locked: 0
+  - name: Shadow
+    uniqueID: 644468131
+    locked: 0
+  - name: Loot_Items
+    uniqueID: 2508129497
+    locked: 0
+  - name: Entities
+    uniqueID: 1711183247
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2234137293
+    locked: 0
+  - name: Map_Foreground
+    uniqueID: 163168999
+    locked: 0
+  - name: Weather_Effects
+    uniqueID: 561810757
+    locked: 0
+  - name: UI
+    uniqueID: 1872988487
+    locked: 0
+  m_RenderingLayers:
+  - Default

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f95bf822059ead44281fcacd551c208b, type: 3}
+  m_Name: MyCharacterAnimConfig
+  m_EditorClassIdentifier: Assembly-CSharp::LPCAnimationConfig
+  animations:
+  - name: Spellcast_Up
+    row: 0
+    startCol: 0
+    frameCount: 7
+    loop: 0
+  - name: Spellcast_Left
+    row: 1
+    startCol: 0
+    frameCount: 7
+    loop: 0
+  - name: Spellcast_Down
+    row: 2
+    startCol: 0
+    frameCount: 7
+    loop: 0
+  - name: Spellcast_Right
+    row: 3
+    startCol: 0
+    frameCount: 7
+    loop: 0
+  - name: Thrust_Up
+    row: 4
+    startCol: 0
+    frameCount: 8
+    loop: 0
+  - name: Thrust_Left
+    row: 5
+    startCol: 0
+    frameCount: 8
+    loop: 0
+  - name: Thrust_Down
+    row: 6
+    startCol: 0
+    frameCount: 8
+    loop: 0
+  - name: Thrust_Right
+    row: 7
+    startCol: 0
+    frameCount: 8
+    loop: 0
+  - name: Walk_Up
+    row: 8
+    startCol: 0
+    frameCount: 9
+    loop: 1
+  - name: Walk_Left
+    row: 9
+    startCol: 0
+    frameCount: 9
+    loop: 1
+  - name: Walk_Down
+    row: 10
+    startCol: 0
+    frameCount: 9
+    loop: 1
+  - name: Walk_Right
+    row: 11
+    startCol: 0
+    frameCount: 9
+    loop: 1
+  - name: Slash_Up
+    row: 12
+    startCol: 0
+    frameCount: 6
+    loop: 0
+  - name: Slash_Left
+    row: 13
+    startCol: 0
+    frameCount: 6
+    loop: 0
+  - name: Slash_Down
+    row: 14
+    startCol: 0
+    frameCount: 6
+    loop: 0
+  - name: Slash_Right
+    row: 15
+    startCol: 0
+    frameCount: 6
+    loop: 0
+  - name: Shoot_Up
+    row: 16
+    startCol: 0
+    frameCount: 13
+    loop: 0
+  - name: Shoot_Left
+    row: 17
+    startCol: 0
+    frameCount: 13
+    loop: 0
+  - name: Shoot_Down
+    row: 18
+    startCol: 0
+    frameCount: 13
+    loop: 0
+  - name: Shoot_Right
+    row: 19
+    startCol: 0
+    frameCount: 13
+    loop: 0
+  - name: Hurt
+    row: 20
+    startCol: 0
+    frameCount: 6
+    loop: 0
